@@ -5,6 +5,7 @@ import CSDView from '../partials/CSDView';
 import Footer from '../partials/Footer';
 import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
+import Stack from '../partials/Stack';
 
 function CSD() {
   return (
@@ -18,8 +19,10 @@ function CSD() {
 
         {/*  Page sections */}
         <CSDView />
+        <Stack/>
         <Testimonials/>
         <Newsletter/>
+
 
 
       </main>
