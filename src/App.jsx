@@ -18,6 +18,8 @@ import CSD from './pages/CSD';
 import WebDev from './pages/WebDev';
 import ProductDev from './pages/ProductDev';
 import QA from './pages/QA';
+import Consult from './pages/Consultation';
+import Contact from './pages/Contact';
 import SoftwareDevPage from './pages/sub_pages/SoftwareDevPage'
 
 function App() {
@@ -51,7 +53,9 @@ function App() {
         <Route exact path="softwaredev" element={<SoftwareDevPage />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="book" element={<Consult/>} />
         <Route path="/reset-password" element={<ResetPassword />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   );

@@ -7,6 +7,7 @@ import FeaturesBlocks from '../partials/FeaturesBlocks';
 import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
+import Us from '../partials/Us';
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
         <HeroHome />
         <FeaturesHome />
         <FeaturesBlocks />
+        <Us/>
         <Testimonials />
         <Newsletter />
 

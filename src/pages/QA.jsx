@@ -3,6 +3,10 @@ import React from 'react';
 import Header from '../partials/Header';
 import QAView from '../partials/QAView';
 import Footer from '../partials/Footer';
+import Testimonials from '../partials/Testimonials';
+import Newsletter from '../partials/Newsletter';
+import Stack from '../partials/Stack';
+import QAProcess from '../partials/QAprocess';
 
 function QA() {
   return (
@@ -16,6 +20,10 @@ function QA() {
 
         {/*  Page sections */}
         <QAView />
+        <Stack/>
+        <Testimonials/>
+        <Newsletter/>
+
 
 
       </main>

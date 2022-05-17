@@ -3,6 +3,9 @@ import React from 'react';
 import Header from '../partials/Header';
 import ProductDevView from '../partials/ProductDevView';
 import Footer from '../partials/Footer';
+import Testimonials from '../partials/Testimonials';
+import Newsletter from '../partials/Newsletter';
+import Stack from '../partials/Stack';
 
 function ProductDev() {
   return (
@@ -16,6 +19,9 @@ function ProductDev() {
 
         {/*  Page sections */}
         <ProductDevView />
+        <Stack/>
+        <Testimonials/>
+        <Newsletter/>
 
 
       </main>

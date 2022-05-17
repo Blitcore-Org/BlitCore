@@ -1,16 +1,17 @@
+
+
 import React from 'react';
 
 import Header from '../partials/Header';
-import WebDevView from '../partials/WebDevView';
+import ContactView from '../partials/ContactView';
 import Footer from '../partials/Footer';
 import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Stack from '../partials/Stack';
-import Us from '../partials/Us';
 
-function WebDev() {
+function Contact() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden">
+    <div>
 
       {/*  Site header */}
       <Header />
@@ -19,11 +20,11 @@ function WebDev() {
       <main className="flex-grow">
 
         {/*  Page sections */}
-        <WebDevView />
-
+        <ContactView />
         <Stack/>
         <Testimonials/>
         <Newsletter/>
+
 
 
       </main>
@@ -35,4 +36,4 @@ function WebDev() {
   );
 }
 
-export default WebDev;
+export default Contact;

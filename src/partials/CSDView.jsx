@@ -4,6 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import FeaturesBg from "../images/50.png";
 import FeaturesElement from "../images/image123.jpg";
+import management from "../images/management.png";
+import progress from "../images/progress.png";
+import flexible from "../images/flexible.png";
 
 function CSDView() {
   return (
@@ -67,22 +70,15 @@ function CSDView() {
 
                 <div className="relative inline-flex flex-col">
                   <div className="font-bold leading-snug tracking-tight text-left mb-1">
-                    <h1 className="font-bold text-2xl">Lorem Ipsum</h1>
+                    <h1 className="font-bold text-2xl">Every Business Needs a Custom Software</h1>
                   </div>
                   <br></br>
                   <div className="relative inline-flex flex-col text-left">
                     <p className="text-gray-600 leading-relaxed">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries, but also the leap into electronic typesetting,
-                      remaining essentially unchanged. It was popularised in the
-                      1960s with the release of Letraset sheets containing Lorem
-                      Ipsum passages, and more recently with desktop publishing
-                      software like Aldus PageMaker including versions of Lorem
-                      Ipsum.
+                    Achieve a competitive edge for your unique and complex business needs with SourceFull. Harness our
+                    capability to develop agile and reliable custom software applications & solutions that expedite the digital
+                    transformation journey of businesses with technology innovation,scalability,and agility.
+                                                                                               
                     </p>
                   </div>
                   <br></br>
@@ -120,7 +116,7 @@ function CSDView() {
             <div className="mb-8 md:mb-0">
               <div>
                 <div className="font-bold leading-snug tracking-tight text-left mb-1">
-                  <h1 className="font-bold text-2xl">Lorem Ipsum</h1>
+                  <h1 className="font-bold text-2xl">What We Offer</h1>
                 </div>
                 <p className="text-gray-600 mt-5 leading-relaxed">
                   Every corporate organization requires multi-level enterprise
@@ -192,89 +188,71 @@ function CSDView() {
 
         <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
           <h1 className="h4 mt-6 mb-4">
-            Beauty of Custom Software Development
+          Why choose Custom Software Development with us?
           </h1>
         </div>
 
         <div className="grid lg:grid-cols-3">
-          <div class="rounded overflow-hidden shadow-lg">
+          <div class="border-4 border-indigo-00 border-t-indigo-500 rounded overflow-hidden shadow-lg">
             <img
-              class="w-full"
-              src={FeaturesElement}
+              class="mx-auto"
+              src={progress}
               alt="Sunset in the mountains"
             />
             <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Software Development</div>
+              <div class="font-bold text-xl mb-2">Progressive Roadmap</div>
               <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
+              We explore the client's business and
+              portfolio deeply and recommenda
+              strategic digital transformation plan
+              considering multiple aspects in
+              mind.
               </p>
             </div>
             <div class="px-6 pt-4 pb-2">
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                #photography
-              </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                #travel
-              </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                #winter
-              </span>
+
             </div>
           </div>
 
-          <div class="rounded overflow-hidden shadow-lg">
+          <div class="border-4 border-indigo-00 border-t-indigo-500 rounded overflow-hidden shadow-lg">
             <img
-              class="w-full"
-              src={FeaturesElement}
+              class="mx-auto"
+              src={management}
               alt="Sunset in the mountains"
             />
             <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Application Migration</div>
+              <div class="font-bold text-xl mb-2">Efficient Software Project Management</div>
               <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
+              Our holistic project management
+              approach offers timely response to
+              proposals,on-time schedules,
+              meeting project deadlines,and
+              fulfilling end-user expectations.
               </p>
             </div>
             <div class="px-6 pt-4 pb-2">
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                #photography
-              </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                #travel
-              </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                #winter
-              </span>
+
             </div>
           </div>
 
-          <div class="rounded overflow-hidden shadow-lg">
+          <div class="border-4 border-indigo-00 border-t-indigo-500 rounded overflow-hidden shadow-lg">
             <img
-              class="w-full"
-              src={FeaturesElement}
+              class="mx-auto"
+              src={flexible}
               alt="Sunset in the mountains"
             />
             <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">SASS Applications</div>
+              <div class="font-bold text-xl mb-2">Flexible Engagement Model</div>
               <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
+              Withaunique amalgamation of
+              skilled developers and cutting-edge
+              technologies,we enable
+              transparency and scalability at all
+              engagement levels.
               </p>
             </div>
             <div class="px-6 pt-4 pb-2">
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                #photography
-              </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                #travel
-              </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                #winter
-              </span>
+
             </div>
           </div>
         </div>
