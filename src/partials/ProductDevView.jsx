@@ -178,59 +178,66 @@ function CSDView() {
           </h1>
         </div>
 
-        <div className="grid lg:grid-cols-3">
-          <div class="border-4 border-indigo-00 border-t-indigo-500 rounded overflow-hidden shadow-lg">
-            <img
-              class="mx-auto"
-              src={faster}
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Faster Onboarding</div>
-              <p class="text-gray-700 text-base">
-              We hold an upper hand in
-              diversified projects of any
-              technology or industry or size of the
-              project and make solutions
-              imperceptible in regards to time,
-              culture and location.
-              </p>
+        <div className="grid lg:grid-cols-3 space-x-4 align-items-center" >
+          <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <div class="flex justify-end px-4 pt-4">
+              <button
+                id="dropdownButton"
+                data-dropdown-toggle="dropdown"
+                class="hidden sm:inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                type="button"
+              >
+                <svg
+                  class="w-6 h-6"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"></path>
+                </svg>
+              </button>
+              <div
+                id="dropdown"
+                class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+              >
+                <ul class="py-1" aria-labelledby="dropdownButton">
+                  <li>
+                    <a
+                      href="#"
+                      class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                    >
+                      Edit
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                    >
+                      Export Data
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                    >
+                      Delete
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="px-6 pt-4 pb-2">
-
-            </div>
-          </div>
-
-          <div class="border-4 border-indigo-00 border-t-indigo-500 rounded overflow-hidden shadow-lg">
-            <img
-              class="mx-auto"
-              src={db}
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Database Decision Making</div>
-              <p class="text-gray-700 text-base">
-              We haveaknack of business
-              knowledge and can convert your
-              business objectives into reality with
-              our tech-enabled and data-driven
-              customized solutions.
-              </p>
-            </div>
-            <div class="px-6 pt-4 pb-2">
-
-            </div>
-          </div>
-
-          <div class="border-4 border-indigo-00 border-t-indigo-500 rounded overflow-hidden shadow-lg">
-            <img
-              class="mx-auto"
-              src={goals}
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Business Goals & Insights</div>
-              <p class="text-gray-700 text-base">
+            <div class="flex flex-col items-center pb-10">
+              <img
+                class="mb-3 w-24 h-24 rounded-full shadow-lg"
+                src={goals}
+                alt="Bonnie image"
+              />
+              <h5 class="mb-1 text-l font-medium text-gray-900 dark:text-white">
+              Business Goals & Insights
+              </h5>
+              <p class="text-sm text-gray-500 dark:text-gray-400 text-center">
               We dive deeper into short-term
               and long-term vision of the project
               and after getting acquainted with
@@ -239,11 +246,149 @@ function CSDView() {
               customized software solution.
               </p>
             </div>
-            <div class="px-6 pt-4 pb-2">
+          </div>
 
+
+          <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <div class="flex justify-end px-4 pt-4">
+              <button
+                id="dropdownButton"
+                data-dropdown-toggle="dropdown"
+                class="hidden sm:inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                type="button"
+              >
+                <svg
+                  class="w-6 h-6"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"></path>
+                </svg>
+              </button>
+              <div
+                id="dropdown"
+                class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+              >
+                <ul class="py-1" aria-labelledby="dropdownButton">
+                  <li>
+                    <a
+                      href="#"
+                      class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                    >
+                      Edit
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                    >
+                      Export Data
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                    >
+                      Delete
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="flex flex-col items-center pb-10">
+              <img
+                class="mb-3 w-24 h-24 rounded-full shadow-lg"
+                src={db}
+                alt="Bonnie image"
+              />
+              <h5 class="mb-1 text-l font-medium text-gray-900 dark:text-white">
+              Database Decision Making
+              </h5>
+              <p class="text-sm text-gray-500 dark:text-gray-400 text-center">
+              We haveaknack of business
+              knowledge and can convert your
+              business objectives into reality with
+              our tech-enabled and data-driven
+              customized solutions.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
+            <div class="flex justify-end px-4 pt-4">
+              <button
+                id="dropdownButton"
+                data-dropdown-toggle="dropdown"
+                class="hidden sm:inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                type="button"
+              >
+                <svg
+                  class="w-6 h-6"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"></path>
+                </svg>
+              </button>
+              <div
+                id="dropdown"
+                class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+              >
+                <ul class="py-1" aria-labelledby="dropdownButton">
+                  <li>
+                    <a
+                      href="#"
+                      class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                    >
+                      Edit
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                    >
+                      Export Data
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                    >
+                      Delete
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="flex flex-col items-center pb-10">
+              <img
+                class="mb-3 w-24 h-24 rounded-full shadow-lg"
+                src={faster}
+                alt="Bonnie image"
+              />
+              <h5 class="mb-1 text-l font-medium text-gray-900 dark:text-white">
+              Faster Onboarding
+              </h5>
+              <p class="text-sm text-gray-500 dark:text-gray-400 text-center">
+              We hold an upper hand in
+              diversified projects of any
+              technology or industry or size of the
+              project and make solutions
+              imperceptible in regards to time,
+              culture and location.
+              </p>
             </div>
           </div>
         </div>
+
+
         {/* End of Section Three */}
 
         {/* Section Four */}
