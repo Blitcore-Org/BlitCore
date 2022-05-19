@@ -25,7 +25,7 @@ function Features() {
   return (
     <section className="relative">
 
-      {/* Section background (needs .relative class on parent and next sibling elements) */}
+      {/* Section background (needs .relative className on parent and next sibling elements) */}
       <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
       <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
@@ -43,7 +43,7 @@ function Features() {
 
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
-              <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
+              <div className="max-w-3xl mx-auto lg:text-left md:text-left sm:text-center pb-12 md:pb-16">
                 <h3 className="h3 mb-3">Powerful suite of tools</h3>
                 <p className="text-xl text-gray-600">We develop custom software development and use the latest technolgies in the market</p>
               </div>
@@ -154,7 +154,7 @@ function Features() {
                     <br></br>
 
                     <div className="relative inline-flex flex-col text-left">
-                    <ul class="list-disc relative">
+                    <ul className="list-disc relative">
                       <Link to="softwaredev" ><li className=" relative w-full left-10 text-blue-600 ">Software Development</li></Link>
                       <li className=" relative w-full left-10 text-blue-600">Application Migration and Re-engineering</li>
                       <li className=" relative w-full left-10 text-blue-600">Software Application Development</li>
@@ -206,7 +206,7 @@ function Features() {
                     <br></br>
 
                     <div className="relative inline-flex flex-col text-left">
-                    <ul class="list-disc relative">
+                    <ul className="list-disc relative">
                       <li className=" relative w-full left-10 text-blue-600 ">Front-End Web Development</li>
                       <li className=" relative w-full left-10 text-blue-600">Back-End Web Development</li>
                       <li className=" relative w-full left-10 text-blue-600">Progressive Web Applications</li>
@@ -254,7 +254,7 @@ function Features() {
                     <br></br>
 
                     <div className="relative inline-flex flex-col text-left">
-                    <ul class="list-disc relative">
+                    <ul className="list-disc relative">
                       <li className=" relative w-full left-10 text-blue-600 ">MVP and Prototyping</li>
                       <li className=" relative w-full left-10 text-blue-600">Product Architecture</li>
                       <li className=" relative w-full left-10 text-blue-600">Product Development and Deployment</li>
@@ -302,7 +302,7 @@ function Features() {
                     <br></br>
 
                   <div className="relative inline-flex flex-col text-left">
-                  <ul class="list-disc relative">
+                  <ul className="list-disc relative">
                     <li className=" relative w-full left-10 text-blue-600 ">Performance Testing</li>
                     <li className=" relative w-full left-10 text-blue-600">Security Testing</li>
                     <li className=" relative w-full left-10 text-blue-600">Compatibilty Testing</li>

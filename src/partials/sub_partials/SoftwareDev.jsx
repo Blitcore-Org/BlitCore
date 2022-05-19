@@ -24,7 +24,7 @@ function SoftwareDev() {
   return (
     <section className="relative">
 
-      {/* Section background (needs .relative class on parent and next sibling elements) */}
+      {/* Section background (needs .relative className on parent and next sibling elements) */}
       <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
       <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
@@ -153,7 +153,7 @@ function SoftwareDev() {
                     <br></br>
 
                     <div className="relative inline-flex flex-col text-left">
-                    <ul class="list-disc relative">
+                    <ul className="list-disc relative">
                       <li className=" relative w-full left-10 text-blue-600 ">Software Development</li>
                       <li className=" relative w-full left-10 text-blue-600">Application Migration and Re-engineering</li>
                       <li className=" relative w-full left-10 text-blue-600">Software Application Development</li>
@@ -205,7 +205,7 @@ function SoftwareDev() {
                     <br></br>
 
                     <div className="relative inline-flex flex-col text-left">
-                    <ul class="list-disc relative">
+                    <ul className="list-disc relative">
                       <li className=" relative w-full left-10 text-blue-600 ">Front-End Web Development</li>
                       <li className=" relative w-full left-10 text-blue-600">Back-End Web Development</li>
                       <li className=" relative w-full left-10 text-blue-600">Progressive Web Applications</li>
@@ -253,7 +253,7 @@ function SoftwareDev() {
                     <br></br>
 
                     <div className="relative inline-flex flex-col text-left">
-                    <ul class="list-disc relative">
+                    <ul className="list-disc relative">
                       <li className=" relative w-full left-10 text-blue-600 ">MVP and Prototyping</li>
                       <li className=" relative w-full left-10 text-blue-600">Product Architecture</li>
                       <li className=" relative w-full left-10 text-blue-600">Product Development and Deployment</li>
@@ -301,7 +301,7 @@ function SoftwareDev() {
                     <br></br>
 
                   <div className="relative inline-flex flex-col text-left">
-                  <ul class="list-disc relative">
+                  <ul className="list-disc relative">
                     <li className=" relative w-full left-10 text-blue-600 ">Performance Testing</li>
                     <li className=" relative w-full left-10 text-blue-600">Security Testing</li>
                     <li className=" relative w-full left-10 text-blue-600">Compatibilty Testing</li>

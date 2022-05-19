@@ -21,7 +21,6 @@ function Contact() {
 
         {/*  Page sections */}
         <ContactView />
-        <Stack/>
         <Testimonials/>
         <Newsletter/>
 
