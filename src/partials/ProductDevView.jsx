@@ -74,7 +74,7 @@ function CSDView() {
                   <div className="relative inline-flex flex-col text-left">
                     <p className="text-gray-600 leading-relaxed">
 
-                  Give your business visionalife, turn it intoareality. SourceFull offers an intuitive and design-led software
+                  Give your business visionalife, turn it intoareality. BlitCore offers an intuitive and design-led software
                   product development services to accelerate software product innovation, deliverasuperior customer
                     experience and give competitive edge to your software products.
                                                                                                

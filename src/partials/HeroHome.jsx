@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
+import { Link } from 'react-router-dom';
 
 import HeroImage from '../images/hero-image.png';
 
@@ -42,7 +43,7 @@ function HeroHome() {
                   <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
                 </div> */}
                 <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
+                  <Link className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" to="contact">Contact Us</Link>
                 </div>
               </div>
             </div>

@@ -20,7 +20,8 @@ import ProductDev from './pages/ProductDev';
 import QA from './pages/QA';
 import Consult from './pages/Consultation';
 import Contact from './pages/Contact';
-import SoftwareDevPage from './pages/sub_pages/SoftwareDevPage'
+import SoftwareDevPage from './pages/sub_pages/SoftwareDevPage';
+import Term from './pages/Term';
 
 function App() {
 
@@ -56,6 +57,7 @@ function App() {
         <Route path="book" element={<Consult/>} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/terms" element={<Term />} />
       </Routes>
     </>
   );

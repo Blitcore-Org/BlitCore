@@ -13,7 +13,7 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">How SourceFull Works</h2>
+            <h2 className="h2 mb-4">How BlitCore Works</h2>
             <p className="text-xl text-gray-600">We Apply Design Thinking and Practical Creativity.</p>
           </div>
 

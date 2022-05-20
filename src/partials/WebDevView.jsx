@@ -128,7 +128,7 @@ function WebDevView() {
                 </div>
                 <p className="text-gray-600 mt-5 leading-relaxed">
                   We specialize in turning your unique business ideas into
-                  cutting-edge next-generation web applications. SourceFull meets
+                  cutting-edge next-generation web applications. BlitCore meets
                   client objectives at scale and provides high-quality web
                   development tailored business solutions, with proven successes
                   and promising qualitative deliverables across numerous tech

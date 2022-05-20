@@ -19,7 +19,7 @@ function Us() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 mt-20">
       <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
           <h1 className="h4 mt-6 mb-4">
-           Why choose SourceFull?
+           Why choose BlitCore?
           </h1>
         </div>
 
@@ -47,7 +47,7 @@ function Us() {
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">Over 10+ Years of Experience</div>
               <p class="text-gray-700 text-base">
-              With 10+ years of success and experience in the BPO industry, SourceFull is a well known name in the industry
+              With 10+ years of success and experience in the BPO industry, BlitCore is a well known name in the industry
               </p>
             </div>
           </div>

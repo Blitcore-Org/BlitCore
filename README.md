@@ -1,4 +1,4 @@
-# SourceFull Site
+# BlitCore Site
 
 
 ## Table of contents

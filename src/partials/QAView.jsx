@@ -73,7 +73,7 @@ function CSDView() {
                   <div className="relative inline-flex flex-col text-left">
                     <p className="text-gray-600 leading-relaxed">
 
-                    Experience Next-Gen software testing and Quality Assurance services with SourceFull. We guarantee
+                    Experience Next-Gen software testing and Quality Assurance services with BlitCore. We guarantee
                     significant boost in deploying codes, improved Software development life cycle and cost-effectiveness at an
                     unparalleled speed and quality.
                                                                                                

@@ -59,9 +59,9 @@ function Footer() {
               </Link>
             </div>
             <div className="text-sm text-gray-600">
-              <h1 className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">SourceFull</h1>
+              <h1 className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">BlitCore</h1>
               <br></br>
-              <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</Link> · <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
+              <Link to="terms" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</Link> · <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
             </div>
           </div>
 
@@ -92,7 +92,7 @@ function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Software Outsourcing</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Why SourceFull?</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Why BlitCore?</Link>
               </li>
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Offshore Outsourcing</Link>

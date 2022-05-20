@@ -75,7 +75,7 @@ function CSDView() {
                   <br></br>
                   <div className="relative inline-flex flex-col text-left">
                     <p className="text-gray-600 leading-relaxed">
-                    Achieve a competitive edge for your unique and complex business needs with SourceFull. Harness our
+                    Achieve a competitive edge for your unique and complex business needs with BlitCore. Harness our
                     capability to develop agile and reliable custom software applications & solutions that expedite the digital
                     transformation journey of businesses with technology innovation,scalability,and agility.
                                                                                                
