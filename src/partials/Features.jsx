@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 
 import FeaturesBg from '../images/50.png';
 import FeaturesElement from '../images/50.png';;
+import csd1 from '../images/CSD/csd1.jpg'
+import qatesting from '../images/QA/qatesting.jpg';
+import webdev from '../images/Web/webdev.jpg';
+import productdev from '../images/Product/productdev.png'
 
 function Features() {
 
@@ -43,10 +47,11 @@ function Features() {
 
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
-              <div className="max-w-3xl mx-auto lg:text-left md:text-left sm:text-center pb-12 md:pb-16">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-600">We develop custom software development and use the latest technolgies in the market</p>
+              <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+                <h3 className="h3 mb-3 lg:text-left md:text-left">Powerful suite of tools</h3>
+                <p className="text-xl text-gray-600 lg:text-left md:text-left">We develop custom software development and use the latest technolgies in the market</p>
               </div>
+
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
@@ -129,17 +134,10 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <div className="font-bold leading-snug tracking-tight text-left mb-1">
+                  <img src={csd1}  class="max-w-full h-auto rounded-full transform animate-float "/>
+                    <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
                       <h1 className="font-bold text-2xl">Custom Software Development</h1>
                     </div>
-                    <br></br>
                     <div className="relative inline-flex flex-col text-left">
                     The custom software development process encompasses designing, developing, 
                     deploying, and maintaining custom software solutions and services. 
@@ -164,7 +162,6 @@ function Features() {
                     </div>
 
                     <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none absolute w-full right-10 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
                   </div>
                   </div>
 
@@ -185,17 +182,10 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <div className="font-bold leading-snug tracking-tight text-left mb-1">
+                  <img src={webdev}  class="max-w-full h-auto rounded-full transform animate-float "/>
+                    <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
                       <h1 className="font-bold text-2xl">Web Development</h1>
                     </div>
-                    <br></br>
                     <div className="relative inline-flex flex-col text-left">
                     We bring revolution to reality. Transforming your custom business ideas into an innovative next-gen web app is our forte. With proven
                     results and promising qualitative deliverables across multiple tech markets, TatvaSoft endures their client demands at scale and offers
@@ -215,7 +205,6 @@ function Features() {
                     </ul>
                     </div>
                     <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none absolute w-full right-10 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
                   </div>
                   </div>
                 </Transition>
@@ -232,17 +221,10 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <div className="font-bold leading-snug tracking-tight text-left mb-1">
+                  <img src={productdev}  class="max-w-full h-auto rounded-full transform animate-float "/>
+                    <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
                       <h1 className="font-bold text-2xl">Product Development</h1>
                     </div>
-                    <br></br>
                     <div className="relative inline-flex flex-col text-left">
                     To convert your vision into reality, we assist you from software product ideation to design, development, release, and maintenance.
                     Every successful product is unique in its market and with its uniqueness, it brings risk and uncertainties during the software product
@@ -263,7 +245,6 @@ function Features() {
                     </ul>
                     </div>
                     <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none absolute w-full right-10 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
                   </div>
                   </div>
                 </Transition>
@@ -281,17 +262,10 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <div className="font-bold leading-snug tracking-tight text-left mb-1">
+                  <img src={qatesting}  class="max-w-full h-auto rounded-full transform animate-float "/>
+                    <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
                       <h1 className="font-bold text-2xl">Quality Assurance</h1>
                     </div>
-                    <br></br>
                     <div className="relative inline-flex flex-col text-left">
                     Empower your business for Next-Gen applications by implementing the best software testing methodologies and tools. Our innovative
                     and forward-thinking approach eliminates errors, reduces overall cycle time and minimizes bugs. Keeping clients' customized
@@ -311,7 +285,6 @@ function Features() {
                   </ul>
                   </div>
                     <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none absolute w-full right-10 transform animate-float" src={FeaturesElement} width="500" height="44" alt="Element" style={{ top: '30%' }} />
                   </div>
                   </div>
                 </Transition>

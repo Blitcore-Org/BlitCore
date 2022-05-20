@@ -166,11 +166,11 @@ function Header() {
 
                 <Link
                   to="/book"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium flex"
+                  className="text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium flex"
                 >
                   <span>Free Consultaion</span>
                   <svg
-                    className="w-3 h-3 fill-current text-gray-400 flex-shrink-0 ml-2 -mr-1 mt-1.5"
+                    className="w-3 h-3 fill-current text-black flex-shrink-0 ml-2 -mr-1 mt-1.5"
                     viewBox="0 0 12 12"
                     xmlns="http://www.w3.org/2000/svg"
                   >
