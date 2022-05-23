@@ -178,7 +178,7 @@ function CSDView() {
           </h1>
         </div>
 
-        <div className="grid lg:grid-cols-3 space-x-4 align-items-center" >
+        <div className="max-w-sm mx-auto grid gap-6  lg:grid-cols-3 items-start lg:max-w-none flex" >
           <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="flex justify-end px-4 pt-4">
               <button
@@ -241,9 +241,7 @@ function CSDView() {
               We dive deeper into short-term
               and long-term vision of the project
               and after getting acquainted with
-              client's goals, we leverage our
-              domain knowledge to drafta
-              customized software solution.
+              client's goals.
               </p>
             </div>
           </div>
@@ -367,7 +365,7 @@ function CSDView() {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-col items-center pb-10">
+            <div className="flex flex-col items-center pb-10 p-1">
               <img
                 className="mb-3 w-auto h-auto shadow-lg"
                 src={faster}
@@ -380,9 +378,7 @@ function CSDView() {
               We hold an upper hand in
               diversified projects of any
               technology or industry or size of the
-              project and make solutions
-              imperceptible in regards to time,
-              culture and location.
+              project and make imperceptible solutions.
               </p>
             </div>
           </div>

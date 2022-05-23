@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Transition } from "@headlessui/react";
+import logo from '../images/bc_logo.png'
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ function Header() {
               <div className="flex-shrink-0">
                 <img
                   className="h-8 w-8"
-                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                  src={logo}
                   alt="Workflow"
                 />
               </div>

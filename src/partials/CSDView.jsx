@@ -192,7 +192,7 @@ function CSDView() {
           </h1>
         </div>
 
-        <div className="grid lg:grid-cols-3 space-x-4 align-items-center" >
+        <div className="max-w-sm mx-auto grid gap-6  lg:grid-cols-3 items-start lg:max-w-none flex" >
           <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="flex justify-end px-4 pt-4">
               <button
@@ -319,8 +319,8 @@ function CSDView() {
               Software Project Management
               </h5>
               <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
-              Our holistic project management approach offers timely response
-                to proposals,on-time schedules, meeting project deadlines,and
+                Our holistic project management approach offers timely response
+                to proposals and
                 fulfilling end-user expectations.
               </p>
             </div>
