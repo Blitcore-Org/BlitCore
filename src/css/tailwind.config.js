@@ -6,6 +6,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        purple: {
+          100: '#332576',
+        },
         gray: {
           100: '#FBFBFB',
           200: '#EAEAEA',
@@ -16,6 +19,12 @@ module.exports = {
           700: '#4C4C4C',
           800: '#333333',
           900: '#191919',
+        }, 
+        blitblue: 
+        {
+          100: '#31518D',
+          200: '#30BCC6',
+          300: '#317EA5',
         },
         blue: {
           100: '#E6F0FD',
