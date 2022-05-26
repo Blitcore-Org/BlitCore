@@ -18,7 +18,7 @@ function Us() {
       {/* Illustration behind content */}
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 mt-20">
       <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
-          <h1 className="h4 mt-6 mb-4">
+          <h1 className="h2 mt-6 mb-4">
            Why choose BlitCore?
           </h1>
         </div>
