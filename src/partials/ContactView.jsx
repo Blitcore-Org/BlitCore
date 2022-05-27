@@ -124,6 +124,13 @@ function ContactView() {
               </p> */}
             </div>
           </div>
+          <div className="md:flex md:items-center mb-5">
+
+          <div  className="md:w-1/3">
+            <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" required/>
+            <label for="default-checkbox" class="text-sm ml-3 font-medium text-gray-900">I agree to the <a href="#" class="text-blue-600 hover:underline">terms and conditions</a></label>
+        </div>
+          </div>
           <div className="md:flex md:items-center">
             <div className="md:w-1/3">
               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" type="submit">
