@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import FeaturesBg from '../images/50.png';
 import FeaturesElement from '../images/50.png';;
-import csd1 from '../images/CSD/csd1.jpg'
+import csd1 from '../images/CSD/csdi.png'
 import qatesting from '../images/QA/qatesting.jpg';
 import webdev from '../images/Web/webdev.jpg';
 import productdev from '../images/Product/productdev.png'
@@ -151,13 +151,7 @@ function Features() {
                     <br></br>
 
                     <div className="relative inline-flex flex-col text-left">
-                    <ul className="list-disc relative">
-                      <Link to="softwaredev" ><li className=" relative w-full left-10 text-blue-600 ">Software Development</li></Link>
-                      <li className=" relative w-full left-10 text-blue-600">Application Migration and Re-engineering</li>
-                      <li className=" relative w-full left-10 text-blue-600">Software Application Development</li>
-                      <li className=" relative w-full left-10 text-blue-600">SASS Applications</li>
-                      <li className=" relative w-full left-10 text-blue-600">Application Integration</li>
-                    </ul>
+                        <Link to="customsoftwaredev" class="text-white text-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg items-center justify-center text-base px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"> Read More </Link>
                     </div>
 
                     <div className="relative inline-flex flex-col">
@@ -195,13 +189,7 @@ function Features() {
                     <br></br>
 
                     <div className="relative inline-flex flex-col text-left">
-                    <ul className="list-disc relative">
-                      <li className=" relative w-full left-10 text-blue-600 ">Front-End Web Development</li>
-                      <li className=" relative w-full left-10 text-blue-600">Back-End Web Development</li>
-                      <li className=" relative w-full left-10 text-blue-600">Progressive Web Applications</li>
-                      <li className=" relative w-full left-10 text-blue-600">SASS Applications</li>
-                      <li className=" relative w-full left-10 text-blue-600">Custom Web Application Services</li>
-                    </ul>
+                        <Link to="webdev" class="text-white text-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg items-center justify-center text-base px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"> Read More </Link>
                     </div>
                     <div className="relative inline-flex flex-col">
                   </div>
@@ -235,13 +223,7 @@ function Features() {
                     <br></br>
 
                     <div className="relative inline-flex flex-col text-left">
-                    <ul className="list-disc relative">
-                      <li className=" relative w-full left-10 text-blue-600 ">MVP and Prototyping</li>
-                      <li className=" relative w-full left-10 text-blue-600">Product Architecture</li>
-                      <li className=" relative w-full left-10 text-blue-600">Product Development and Deployment</li>
-                      <li className=" relative w-full left-10 text-blue-600">Product Testing</li>
-                      <li className=" relative w-full left-10 text-blue-600">UX/UI Services</li>
-                    </ul>
+                        <Link to="productdev" class="text-white text-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg items-center justify-center text-base px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"> Read More </Link>
                     </div>
                     <div className="relative inline-flex flex-col">
                   </div>
@@ -274,15 +256,9 @@ function Features() {
                     </div>
                     <br></br>
 
-                  <div className="relative inline-flex flex-col text-left">
-                  <ul className="list-disc relative">
-                    <li className=" relative w-full left-10 text-blue-600 ">Performance Testing</li>
-                    <li className=" relative w-full left-10 text-blue-600">Security Testing</li>
-                    <li className=" relative w-full left-10 text-blue-600">Compatibilty Testing</li>
-                    <li className=" relative w-full left-10 text-blue-600">Mobile App Testing</li>
-                    <li className=" relative w-full left-10 text-blue-600">Functional Testing</li>
-                  </ul>
-                  </div>
+                    <div className="relative inline-flex flex-col text-left">
+                        <Link to="qa" class="text-white text-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg items-center justify-center text-base px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"> Read More </Link>
+                    </div> 
                     <div className="relative inline-flex flex-col">
                   </div>
                   </div>

@@ -7,6 +7,8 @@ import FeaturesElement from "../images/image123.jpg";
 import management from "../images/CSD/management.png";
 import progress from "../images/CSD/progress.png";
 import flexible from "../images/CSD/flexible.png";
+import csd from "../images/CSD/csdi.png";
+import csdtop from "../images/CSD/csdtop.png";
 
 function CSDView() {
   return (
@@ -52,7 +54,7 @@ function CSDView() {
                 <div>
                   <img
                     className=" w-full"
-                    src={FeaturesElement}
+                    src={csdtop}
                     width="300"
                     height="44"
                     alt="Element"
@@ -93,7 +95,7 @@ function CSDView() {
         {/* End of Section One */}
 
         {/* Section Two */}
-        <div>
+        <div className="mt-10">
           <p className="text-xl mt-20 text-gray-600 text-center">
             World Class Team In Creating Customized Software
           </p>
@@ -167,7 +169,7 @@ function CSDView() {
                 <div className="relative inline-flex flex-col text-left">
                   <img
                     className=" w-full"
-                    src={FeaturesElement}
+                    src={csd}
                     width="300"
                     height="44"
                     alt="Element"
