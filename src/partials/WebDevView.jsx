@@ -8,6 +8,8 @@ import tool from "../images/tool.png";
 import demand from "../images/Web/demand.png";
 import delivey from "../images/Web/delivery.png";
 import flexible from "../images/Web/flexible.png";
+import webdev from "../images/Web/webdev.jpg"
+import webdevtop from "../images/Web/webdevtop.png";
 
 function WebDevView() {
   return (
@@ -53,7 +55,7 @@ function WebDevView() {
                 <div>
                   <img
                     className=" w-full"
-                    src={FeaturesElement}
+                    src={webdevtop}
                     width="300"
                     height="44"
                     alt="Element"
@@ -101,15 +103,15 @@ function WebDevView() {
         {/* End of Section One */}
 
         {/* Section Two */}
-        <div>
+        <div className="mt-20">
           <p className="text-xl mt-20 text-gray-600 text-center">
-            World Class Team In Creating Customized Software
+            World Class Team In Creating Custom Web Designs
           </p>
         </div>
 
         <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
           <h1 className="h4 mt-6 mb-4">
-            Beauty of Custom Software Development
+            Beauty of Creating Web Development 
           </h1>
         </div>
 
@@ -164,7 +166,7 @@ function WebDevView() {
                 <div className="relative inline-flex flex-col text-left">
                   <img
                     className=" w-full"
-                    src={FeaturesElement}
+                    src={webdev}
                     width="300"
                     height="44"
                     alt="Element"
@@ -310,7 +312,7 @@ function WebDevView() {
             </div>
             <div className="flex flex-col items-center pb-10">
               <img
-                className="mb-3 w-auto h-auto  shadow-lg"
+                className="mb-3 w-auto h-auto shadow-lg"
                 src={demand}
                 alt="Bonnie image"
               />

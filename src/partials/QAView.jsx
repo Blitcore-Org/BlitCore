@@ -6,6 +6,8 @@ import FeaturesElement from "../images/image123.jpg";
 import quality from "../images/QA/quality.png";
 import time from "../images/QA/fast.png";
 import cost from "../images/QA/cost.png";
+import qa from "../images/QA/qatesting.jpg"
+import qatop from "../images/QA/qatop.png"
 
 function CSDView() {
   return (
@@ -49,7 +51,7 @@ function CSDView() {
                 <div>
                   <img
                     className=" w-full"
-                    src={FeaturesElement}
+                    src={qatop}
                     width="300"
                     height="44"
                     alt="Element"
@@ -99,15 +101,15 @@ function CSDView() {
         {/* End of Section One */}
 
         {/* Section Two */}
-        <div>
+        <div className="mt-20">
           <p className="text-xl mt-20 text-gray-600 text-center">
-            World Class Team In Creating Customized Software
+            World Class Team In Testing Software 
           </p>
         </div>
 
         <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
           <h1 className="h4 mt-6 mb-4">
-            Beauty of Custom Software Development
+            The Perks of QA Testing
           </h1>
         </div>
 
@@ -160,7 +162,7 @@ function CSDView() {
                 <div className="relative inline-flex flex-col text-left">
                   <img
                     className=" w-full"
-                    src={FeaturesElement}
+                    src={qa}
                     width="300"
                     height="44"
                     alt="Element"
