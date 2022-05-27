@@ -89,8 +89,8 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <Link to="productdev" className="font-bold leading-snug tracking-tight mb-1 hover:text-blue-600">Product Development</Link>
-                    <div className="text-gray-600">We comprehend clients business ideas and develop innovative software soultions with scalable product architecture</div>
+                    <Link to="productdev" className="font-bold leading-snug tracking-tight mb-1 hover:text-blue-600">UI/UX Design</Link>
+                    <div className="text-gray-600">We comprehend clients business ideas and develop innovative software soultions with next gen design</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
