@@ -22,9 +22,10 @@ module.exports = {
         }, 
         blitblue: 
         {
-          100: '#31518D',
-          200: '#30BCC6',
-          300: '#317EA5',
+          100: '#0D182E',
+          200: '#4186EC',
+          300: '#348FF3',
+          400: '#2C5AA0',
         },
         blue: {
           100: '#E6F0FD',
@@ -47,6 +48,9 @@ module.exports = {
           700: '#2C7A7B',
           800: '#285E61',
           900: '#234E52',
+        },
+        blittext:{
+          100: '#FFFFFF',
         },
       },
       boxShadow: {
@@ -78,8 +82,8 @@ module.exports = {
         '2xl': '1.5rem',
         '3xl': '2rem',
         '4xl': '2.625rem',
-        '5xl': '3.25rem',
-        '6xl': '5.5rem',
+        '5xl': '5.25rem',
+        '6xl': '11.25rem',
       },
       inset: {
         '1/2': '50%',
@@ -132,6 +136,7 @@ module.exports = {
       zIndex: {
         '-1': '-1',
       },
+
     },
   },
   variants: {

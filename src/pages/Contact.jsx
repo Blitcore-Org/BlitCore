@@ -8,6 +8,7 @@ import Footer from '../partials/Footer';
 import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Stack from '../partials/Stack';
+import Join from '../partials/Join';
 
 function Contact() {
   return (
@@ -18,6 +19,7 @@ function Contact() {
 
       {/*  Page content */}
       <main className="flex-grow mt-20">
+        <Join/>
 
         {/*  Page sections */}
         <ContactView />

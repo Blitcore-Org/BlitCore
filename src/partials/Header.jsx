@@ -7,7 +7,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-gray-200">
+      <nav className="bg-blitblue-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -22,25 +22,25 @@ function Header() {
                 <div className="ml-10 flex items-baseline space-x-24">
                   <Link
                     to="/"
-                    className="hover:bg-gray-700 text-black block px-3 py-2 rounded-md text-base font-medium"
+                    className="hover:bg-gray-700 text-blittext-100 block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Home
                   </Link>
                   <Link
                     to="/about"
-                    className="text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className="text-blittext-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     About Us
                   </Link>
                   <Link
                     to="#0"
-                    className="text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className="text-blittext-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Pricing
                   </Link>
                   <Link
                     to="/contact"
-                    className="text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className="text-blittext-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Contact Us
                   </Link>
@@ -53,7 +53,7 @@ function Header() {
               </Link> */}
                   <Link
                     to="/book"
-                    className="text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium flex"
+                    className="text-blittext-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium flex"
                   >
                     <span>Free Consultaion</span>
                     <svg
@@ -131,25 +131,25 @@ function Header() {
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <Link
                   to="/"
-                  className="hover:bg-gray-700 text-black block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:bg-gray-700 text-blittext-100 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Home
                 </Link>
                 <Link
                   to="/about"
-                  className="text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-blittext-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About Us
                 </Link>
                 <Link
                   to="#0"
-                  className="text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-blittext-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Pricing
                 </Link>
                 <Link
                   to="/contact"
-                  className="text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-blittext-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact Us
                 </Link>
@@ -167,11 +167,11 @@ function Header() {
 
                 <Link
                   to="/book"
-                  className="text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium flex"
+                  className="text-blittext-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium flex"
                 >
                   <span>Free Consultaion</span>
                   <svg
-                    className="w-3 h-3 fill-current text-black flex-shrink-0 ml-2 -mr-1 mt-1.5"
+                    className="w-3 h-3 fill-current text-blittext-100 flex-shrink-0 ml-2 -mr-1 mt-1.5"
                     viewBox="0 0 12 12"
                     xmlns="http://www.w3.org/2000/svg"
                   >
