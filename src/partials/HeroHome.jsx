@@ -3,8 +3,6 @@ import Modal from '../utils/Modal';
 import { Link } from 'react-router-dom';
 
 import HeroImage from '../images/hero-image.png';
-import image1 from '../images/illustration1.png'
-import image2 from '../images/illustration2.png'
 
 function HeroHome() {
 
