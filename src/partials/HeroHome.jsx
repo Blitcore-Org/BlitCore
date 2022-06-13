@@ -1,14 +1,10 @@
 import React, { useState } from 'react';
-import Modal from '../utils/Modal';
 import { Link } from 'react-router-dom';
-
-import HeroImage from '../images/hero-image.png';
-import image1 from '../images/illustration1.png'
-import image2 from '../images/illustration2.png'
+import image1 from '../images/blitcore1.png';
+import image2 from '../images/blitcore2.png';
 
 function HeroHome() {
 
-  const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   return (
     <section className="relative bg-blitblue-100">
