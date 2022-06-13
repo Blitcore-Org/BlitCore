@@ -3,6 +3,8 @@ import Modal from '../utils/Modal';
 import { Link } from 'react-router-dom';
 
 import HeroImage from '../images/hero-image.png';
+import image1 from '../images/illustration1.png'
+import image2 from '../images/illustration2.png'
 
 function HeroHome() {
 
@@ -11,13 +13,13 @@ function HeroHome() {
   return (
     <section className="relative bg-blitblue-100">
 
-{/* <div className="md:absolute left-3/4 transform -translate-x-3/4 bottom-30 pointer-events-none" aria-hidden="true">
+<div className="md:absolute right-20 transform top-10 pointer-events-none" aria-hidden="true">
 <img src={image1} /> 
       </div>
 
-      <div className="md:absolute right-3/4 transform -translate-x-1 top-100 pointer-events-none" aria-hidden="true">
+      <div className="md:absolute left-20 transform -bottom-0 pointer-events-none" aria-hidden="true">
 <img src={image2} /> 
-      </div> */}
+      </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 ">
 

@@ -14,7 +14,7 @@ function CSDView() {
     <section className="relative">
       {/* Section background (needs .relative className on parent and next sibling elements) */}
       <div
-        className="absolute inset-0 bg-gray-100 pointer-events-none mb-16"
+        className="absolute inset-0 bg-blitblue-100 pointer-events-none mb-16"
         aria-hidden="true"
       ></div>
 
@@ -22,11 +22,11 @@ function CSDView() {
         <div className="pt-12 md:pt-20">
           {/* Section One */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mt-12">Quality Assurance and Testing</h1>
+            <h1 className="h2 mt-12 text-blitblue-300">Quality Assurance and Testing</h1>
           </div>
 
           <div>
-            <p className="text-xl mt-6 text-gray-600 text-center">
+            <p className="text-xl mt-6 text-blittext-100 text-center">
               Changing Dreams Into Reality
             </p>
           </div>
@@ -69,11 +69,11 @@ function CSDView() {
 
                 <div className="relative inline-flex flex-col">
                   <div className="font-bold leading-snug tracking-tight text-left mb-1">
-                    <h1 className="font-bold text-2xl">Turn Your Dream to Reality</h1>
+                    <h1 className="font-bold text-2xl text-blittext-100">Turn Your Dream to Reality</h1>
                   </div>
                   <br></br>
                   <div className="relative inline-flex flex-col text-left">
-                    <p className="text-gray-600 leading-relaxed">
+                    <p className="text-blittext-100 leading-relaxed">
 
                     Experience Next-Gen software testing and Quality Assurance services with BlitCore. We guarantee
                     significant boost in deploying codes, improved Software development life cycle and cost-effectiveness at an
@@ -81,7 +81,7 @@ function CSDView() {
                                                                                                
                     </p>
 
-                    <p className="text-gray-600 leading-relaxed mt-5">
+                    <p className="text-blittext-100 leading-relaxed mt-5">
                     Quality Assurance to ensure high quality and reliability
                       of software products using multitude of software
                       testing methods from unit testing to overall regression
@@ -102,13 +102,13 @@ function CSDView() {
 
         {/* Section Two */}
         <div className="mt-20">
-          <p className="text-xl mt-20 text-gray-600 text-center">
+          <p className="text-xl mt-20 text-blittext-100 text-center">
             World Class Team In Testing Software 
           </p>
         </div>
 
         <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
-          <h1 className="h4 mt-6 mb-4">
+          <h1 className="h4 mt-6 mb-4 text-blittext-100">
             The Perks of QA Testing
           </h1>
         </div>
@@ -124,9 +124,9 @@ function CSDView() {
             <div className="mb-8 md:mb-0">
               <div>
                 <div className="font-bold leading-snug tracking-tight text-left mb-1">
-                  <h1 className="font-bold text-2xl">What We Offer</h1>
+                  <h1 className="font-bold text-2xl text-blitblue-300">What We Offer</h1>
                 </div>
-                <p className="text-gray-600 mt-5 leading-relaxed">
+                <p className="text-blittext-100 mt-5 leading-relaxed">
                 Empower your business for Next-Gen applications by implementing the best software testing methodologies and tools.Our innovative
                 and forward-thinking approach eliminates errors,reduces overall cycle time and minimizes bugs.Keeping clients'customized
                 requirements at the center,we offeracomprehensive set of manual and automated testing services adhering to standard quality
@@ -134,12 +134,12 @@ function CSDView() {
                 reliable,scalable and robust software solutions.
                 </p>
 
-                <p className="text-gray-600 mt-5 leading-relaxed">
+                <p className="text-blittext-100 mt-5 leading-relaxed">
                 Our dedicated team of resourceful QA engineers perform high-quality QA testing to provide
                 reliable,scalable and robust software solutions.
                 </p>
 
-                <ul className="text-gray-600 mt-5 leading-relaxed list-disc">
+                <ul className="text-blittext-100 mt-5 leading-relaxed list-disc">
                   <li>Functional Testing</li>
                   <li>Perforamnce Testing</li>
                   <li>Security Testing</li>
@@ -180,11 +180,11 @@ function CSDView() {
 
         <div className="relative max-w-screen-xl mt-20 mx-auto px-4 sm:px-6 lg:px-8">
     <div className="pricing-box max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
-        <div className="bg-white dark:bg-gray-800 px-6 py-8 lg:flex-shrink-1 lg:p-12">
-            <h3 className="text-2xl leading-8 font-extrabold text-gray-900 sm:text-3xl sm:leading-9 dark:text-white">
+        <div className="bg-blitblue-300 px-6 py-8 lg:flex-shrink-1 lg:p-12">
+            <h3 className="text-2xl leading-8 font-extrabold text-blittext-100 sm:text-3xl sm:leading-9 dark:text-white">
                 Our QA Automation Process
             </h3>
-            <p className="mt-6 text-base leading-6 text-gray-500 dark:text-gray-200">
+            <p className="mt-6 text-base leading-6 text-blittext-100">
             Our Automation Testing experts strategizearoadmap for your organizational needs and recommend
             technology solutions to cut cost, accelerate time to market and dramatically improve end-product
               quality. Our diversified experience in using multiple test automation tools that can assist your
@@ -192,7 +192,7 @@ function CSDView() {
             </p>
             <div className="mt-8">
                 <div className="flex items-center">
-                    <h4 className="flex-shrink-0 pr-4 bg-white dark:bg-gray-800 text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">
+                    <h4 className="flex-shrink-0 pr-4 bg-blitblue-300 text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">
                         Our Testing Process
                     </h4>
                     <div className="flex-1 border-t-2 border-gray-200">
@@ -206,7 +206,7 @@ function CSDView() {
                                 </path>
                             </svg>
                         </div>
-                        <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                        <p className="ml-3 text-sm leading-5 text-blittext-100">
                         Evaluate automation
                         needs and expandability 
                         </p>
@@ -218,7 +218,7 @@ function CSDView() {
                                 </path>
                             </svg>
                         </div>
-                        <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                        <p className="ml-3 text-sm leading-5 text-blittext-100">
                         Define the automation
                         scope and level to
                             employ
@@ -231,7 +231,7 @@ function CSDView() {
                                 </path>
                             </svg>
                         </div>
-                        <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                        <p className="ml-3 text-sm leading-5 text-blittext-100">
                         Tools selection and
                         Automation architecture
                             design
@@ -244,7 +244,7 @@ function CSDView() {
                                 </path>
                             </svg>
                         </div>
-                        <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                        <p className="ml-3 text-sm leading-5 text-blittext-100">
                         Automated test script
                         and test data creation
                         </p>
@@ -256,7 +256,7 @@ function CSDView() {
                                 </path>
                             </svg>
                         </div>
-                        <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                        <p className="ml-3 text-sm leading-5 text-blittext-100">
                         Appropriate Test
                         environment setup and
                         configuration
@@ -269,7 +269,7 @@ function CSDView() {
                                 </path>
                             </svg>
                         </div>
-                        <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                        <p className="ml-3 text-sm leading-5 text-blittext-100">
                         Executing test
                         automation script and
                         data validation
@@ -282,7 +282,7 @@ function CSDView() {
                                 </path>
                             </svg>
                         </div>
-                        <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                        <p className="ml-3 text-sm leading-5 text-blittext-100">
                         Automated performance
                         test for scalable backend
                         </p>
@@ -291,14 +291,14 @@ function CSDView() {
             </div>
 
         </div>
-        <div className="py-8 px-6 text-center bg-gray-50 dark:bg-gray-700 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
-            <div className="mt-4 flex items-center justify-center text-5xl leading-none font-extrabold text-gray-900 dark:text-white">
+        <div className="py-8 px-6 text-center bg-blitblue-300 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
+            <div className="mt-4 flex items-center justify-center text-5xl leading-none font-extrabold text-blittext-100 dark:text-white">
                 <span>
                     Flexible
                 </span>
             </div>
             <p className="mt-4 text-sm leading-5">
-                <span className="block font-medium text-gray-500 dark:text-gray-400">
+                <span className="block font-medium text-blittext-100">
                     Business Models
                 </span>
             </p>
@@ -317,19 +317,19 @@ function CSDView() {
         <div className="mt-20 "></div>
 
         <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
-          <h1 className="h4 mt-6 mb-4">
+          <h1 className="h4 mt-6 mb-4 text-blitblue-300">
           Why choose Quality Assurance and Testing with Us?
           </h1>
         </div>
 
 
         <div className="max-w-sm mx-auto grid gap-6  lg:grid-cols-3 items-start lg:max-w-none flex" >
-          <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -379,10 +379,10 @@ function CSDView() {
                 src={time}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-gray-900 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
               Accelerated Deliverables
               </h5>
-              <p className="text-sm text-gray-500 dark:text-gray-400 text-center p-2">
+              <p className="text-sm text-blittext-100 text-center p-2">
               Achieve accelerated application delivery cycles
               without compromising code quality with the help
               of quicker testing and wider coverage provided
@@ -393,12 +393,12 @@ function CSDView() {
           </div>
 
 
-          <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -448,10 +448,10 @@ function CSDView() {
                 src={cost}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-gray-900 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
               Cost Effectiveness
               </h5>
-              <p className="text-sm text-gray-500 dark:text-gray-400 text-center p-2">
+              <p className="text-sm text-blittext-100 text-center p-2">
               Identification of errors at the right time can save
               man hours, reduce cost and fix problems faster.
               With test automation, you can perform different
@@ -462,12 +462,12 @@ function CSDView() {
           </div>
 
 
-          <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
+          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -517,10 +517,10 @@ function CSDView() {
                 src={quality}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-gray-900 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
               Enhanced Quality
               </h5>
-              <p className="text-sm text-gray-500 dark:text-gray-400 text-center p-2">
+              <p className="text-sm text-blittext-100 text-center p-2">
               Reduce manual workforce that performs
               repetitive testing and prone to errors. Employ
               humans in more strategic tasks and adopt test

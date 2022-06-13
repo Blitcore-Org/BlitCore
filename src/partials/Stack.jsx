@@ -11,7 +11,7 @@ function Stack() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
 
           <div className="max-w-1xl mx-auto mt-20 text-center pb-12 md:pb-16">
-          <h1 className="h4 mt-20 mb-4">Our Technology Stack</h1>
+          <h1 className="h4 mt-20 mb-4 text-blitblue-300">Our Technology Stack</h1>
         </div>
 
         {/* Section content */}
@@ -22,16 +22,16 @@ function Stack() {
 
 
     <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none flex">
-        <div className="p-4 max-w-md bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-100 dark:border-gray-700">
+        <div className="p-4 max-w-md bg-blitblue-300 rounded-lg border-black shadow-md sm:p-8 dark:bg-gray-100 dark:border-gray-700">
           <div className="flex justify-between items-center mb-4">
-            <h5 className="text-l font-bold leading-none text-gray-900 dark:text-black">
+            <h5 className="text-l font-bold leading-none text-blittext-100 dark:text-black">
               Back End Development
             </h5>
           </div>
           <div className="flow-root">
             <ul
               role="list"
-              className="divide-y divide-gray-200 dark:divide-gray-700"
+              className="divide-y divide-black dark:divide-gray-700"
             >
               <li className="py-3 sm:py-4">
                 <div className="flex items-center space-x-4">
@@ -43,13 +43,13 @@ function Stack() {
                     />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       Python Development
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -63,13 +63,13 @@ function Stack() {
                     />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       PHP
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -79,13 +79,13 @@ function Stack() {
                     <img className="w-8 h-8 rounded-full" alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjRjQ0MzM2IiBkPSJNMjMuNjUsMjQuODk4Yy0wLjk5OC0xLjYwOS0xLjcyMi0yLjk0My0yLjcyNS01LjQ1NUMxOS4yMjksMTUuMiwzMS4yNCwxMS4zNjYsMjYuMzcsMy45OTljMi4xMTEsNS4wODktNy41NzcsOC4yMzUtOC40NzcsMTIuNDczQzE3LjA3LDIwLjM3LDIzLjY0NSwyNC44OTgsMjMuNjUsMjQuODk4eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNGNDQzMzYiIGQ9Ik0yMy44NzgsMTcuMjdjLTAuMTkyLDIuNTE2LDIuMjI5LDMuODU3LDIuMjk5LDUuNjk1YzAuMDU2LDEuNDk2LTEuNDQ3LDIuNzQzLTEuNDQ3LDIuNzQzczIuNzI4LTAuNTM2LDMuNTc5LTIuODE4YzAuOTQ1LTIuNTM0LTEuODM0LTQuMjY5LTEuNTQ4LTYuMjk4YzAuMjY3LTEuOTM4LDYuMDMxLTUuNTQzLDYuMDMxLTUuNTQzUzI0LjMxMSwxMS42MTEsMjMuODc4LDE3LjI3eiI+PC9wYXRoPjxnPjxwYXRoIGZpbGw9IiMxNTY1QzAiIGQ9Ik0zMi4wODQgMjUuMDU1YzEuNzU0LS4zOTQgMy4yMzMuNzIzIDMuMjMzIDIuMDEgMCAyLjkwMS00LjAyMSA1LjY0My00LjAyMSA1LjY0M3M2LjIyNS0uNzQyIDYuMjI1LTUuNTA1QzM3LjUyMSAyNC4wNTMgMzQuNDY0IDIzLjI2NiAzMi4wODQgMjUuMDU1ek0yOS4xMjkgMjcuMzk1YzAgMCAxLjk0MS0xLjM4MyAyLjQ1OC0xLjkwMi00Ljc2MyAxLjAxMS0xNS42MzggMS4xNDctMTUuNjM4LjI2OSAwLS44MDkgMy41MDctMS42MzggMy41MDctMS42MzhzLTcuNzczLS4xMTItNy43NzMgMi4xODFDMTEuNjgzIDI4LjY5NSAyMS44NTggMjguODY2IDI5LjEyOSAyNy4zOTV6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzE1NjVDMCIgZD0iTTI3LjkzNSwyOS41NzFjLTQuNTA5LDEuNDk5LTEyLjgxNCwxLjAyLTEwLjM1NC0wLjk5M2MtMS4xOTgsMC0yLjk3NCwwLjk2My0yLjk3NCwxLjg4OWMwLDEuODU3LDguOTgyLDMuMjkxLDE1LjYzLDAuNTcyTDI3LjkzNSwyOS41NzF6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzE1NjVDMCIgZD0iTTE4LjY4NiwzMi43MzljLTEuNjM2LDAtMi42OTUsMS4wNTQtMi42OTUsMS44MjJjMCwyLjM5MSw5Ljc2LDIuNjMyLDEzLjYyNywwLjIwNWwtMi40NTgtMS42MzJDMjQuMjcxLDM0LjQwNCwxNy4wMTQsMzQuNTc5LDE4LjY4NiwzMi43Mzl6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzE1NjVDMCIgZD0iTTM2LjI4MSwzNi42MzJjMC0wLjkzNi0xLjA1NS0xLjM3Ny0xLjQzMy0xLjU4OGMyLjIyOCw1LjM3My0yMi4zMTcsNC45NTYtMjIuMzE3LDEuNzg0YzAtMC43MjEsMS44MDctMS40MjcsMy40NzctMS4wOTNsLTEuNDItMC44MzlDMTEuMjYsMzQuMzc0LDksMzUuODM3LDksMzcuMDE3QzksNDIuNTIsMzYuMjgxLDQyLjI1NSwzNi4yODEsMzYuNjMyeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMxNTY1QzAiIGQ9Ik0zOSwzOC42MDRjLTQuMTQ2LDQuMDk1LTE0LjY1OSw1LjU4Ny0yNS4yMzEsMy4wNTdDMjQuMzQxLDQ2LjE2NCwzOC45NSw0My42MjgsMzksMzguNjA0eiI+PC9wYXRoPjwvZz48L3N2Zz4="/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       Java
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -95,13 +95,13 @@ function Stack() {
                     <img alt="svgImg" className="w-8 h-8 rounded-full" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMzg4ZTNjIiBkPSJNMTcuMjA0IDE5LjEyMmwtNC45MDcgMi43MTVDMTIuMTEzIDIxLjkzOCAxMiAyMi4xMjYgMTIgMjIuMzI5djUuNDMzYzAgLjIwMy4xMTMuMzkuMjk3LjQ5Mmw0LjkwOCAyLjcxN2MuMTgzLjEwMS40MS4xMDEuNTkzIDBsNC45MDctMi43MTdDMjIuODg3IDI4LjE1MiAyMyAyNy45NjUgMjMgMjcuNzYydi01LjQzM2MwLS4yMDMtLjExMy0uMzktLjI5Ny0uNDkybC00LjkwNi0yLjcxNWMtLjA5Mi0uMDUxLS4xOTUtLjA3Ni0uMjk3LS4wNzYtLjEwMyAwLS4yMDUuMDI1LS4yOTcuMDc2TTQyLjQ1MSAyNC4wMTNsLS44MTguNDUyYy0uMDMxLjAxNy0uMDQ5LjA0OC0uMDQ5LjA4MnYuOTA2YzAgLjAzNC4wMTkuMDY1LjA0OS4wODJsLjgxOC40NTNjLjAzMS4wMTcuMDY4LjAxNy4wOTkgMGwuODE4LS40NTNjLjAzLS4wMTcuMDQ5LS4wNDguMDQ5LS4wODJ2LS45MDZjMC0uMDM0LS4wMTktLjA2NS0uMDUtLjA4MmwtLjgxOC0uNDUyQzQyLjUzNCAyNC4wMDQgNDIuNTE3IDI0IDQyLjUgMjRTNDIuNDY2IDI0LjAwNCA0Mi40NTEgMjQuMDEzIj48L3BhdGg+PHBhdGggZmlsbD0iIzM3NDc0ZiIgZD0iTTM1Ljc1MSwxMy4zNjRsLTIuMzg5LTEuMzMzYy0wLjA3NS0wLjA0Mi0wLjE2Ny0wLjA0MS0wLjI0MSwwLjAwMyBjLTAuMDc0LDAuMDQ0LTAuMTIsMC4xMjMtMC4xMiwwLjIwOUwzMywyMC4yOTVsLTIuMjAzLTEuMjE5QzMwLjcwNSwxOS4wMjUsMzAuNjAyLDE5LDMwLjUsMTljLTAuMTAyLDAtMC4yMDUsMC4wMjUtMC4yOTcsMC4wNzYgaDAuMDAxbC00LjkwNywyLjcxNUMyNS4xMTMsMjEuODkyLDI1LDIyLjA4LDI1LDIyLjI4MnY1LjQzM2MwLDAuMjAzLDAuMTEzLDAuMzksMC4yOTcsMC40OTJsNC45MDgsMi43MTcgYzAuMTgzLDAuMTAxLDAuNDEsMC4xMDEsMC41OTMsMGw0LjkwNy0yLjcxN0MzNS44ODcsMjguMTA2LDM2LDI3LjkxOCwzNiwyNy43MTVWMTMuNzg4QzM2LDEzLjYxMiwzNS45MDQsMTMuNDUsMzUuNzUxLDEzLjM2NHogTTMyLjg2NiwyNi40NThsLTIuMjMsMS4yMzVjLTAuMDgzLDAuMDQ2LTAuMTg2LDAuMDQ2LTAuMjY5LDBsLTIuMjMxLTEuMjM1QzI4LjA1MSwyNi40MTIsMjgsMjYuMzI2LDI4LDI2LjIzNHYtMi40NyBjMC0wLjA5MiwwLjA1MS0wLjE3NywwLjEzNS0wLjIyNGwyLjIzMS0xLjIzNGgtMC4wMDFjMC4wNDItMC4wMjMsMC4wODgtMC4wMzQsMC4xMzUtMC4wMzRjMC4wNDcsMCwwLjA5MywwLjAxMiwwLjEzNSwwLjAzNCBsMi4yMywxLjIzNEMzMi45NDksMjMuNTg3LDMzLDIzLjY3MywzMywyMy43NjV2Mi40N0MzMywyNi4zMjYsMzIuOTQ5LDI2LjQxMiwzMi44NjYsMjYuNDU4eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMyZTdkMzIiIGQ9Ik0xNy4yMDQsMTkuMTIyTDEyLDI3Ljc2MmMwLDAuMjAzLDAuMTEzLDAuMzksMC4yOTcsMC40OTJsNC45MDgsMi43MTcgYzAuMTgzLDAuMTAxLDAuNDEsMC4xMDEsMC41OTMsMEwyMywyMi4zMjljMC0wLjIwMy0wLjExMy0wLjM5LTAuMjk3LTAuNDkybC00LjkwNi0yLjcxNWMtMC4wOTItMC4wNTEtMC4xOTUtMC4wNzYtMC4yOTctMC4wNzYgYy0wLjEwMywwLTAuMjA1LDAuMDI1LTAuMjk3LDAuMDc2Ij48L3BhdGg+PHBhdGggZmlsbD0iIzRjYWY1MCIgZD0iTTE3LjIwNCwxOS4xMjJsLTQuOTA3LDIuNzE1QzEyLjExMywyMS45MzgsMTIsMjIuMTI2LDEyLDIyLjMyOWw1LjIwNCw4LjY0MiBjMC4xODMsMC4xMDEsMC40MSwwLjEwMSwwLjU5MywwbDQuOTA3LTIuNzE3QzIyLjg4NywyOC4xNTIsMjMsMjcuOTY1LDIzLDI3Ljc2MmwtNS4yMDMtOC42NGMtMC4wOTItMC4wNTEtMC4xOTUtMC4wNzYtMC4yOTctMC4wNzYgYy0wLjEwMywwLTAuMjA1LDAuMDI1LTAuMjk3LDAuMDc2Ij48L3BhdGg+PHBhdGggZmlsbD0iIzM3NDc0ZiIgZD0iTTQ3LjcwMyAyMS43OTFsLTQuOTA2LTIuNzE1QzQyLjcwNSAxOS4wMjUgNDIuNjAyIDE5IDQyLjUgMTljLS4xMDIgMC0uMjA1LjAyNS0uMjk3LjA3NmguMDAxbC00LjkwNyAyLjcxNUMzNy4xMTQgMjEuODkyIDM3IDIyLjA4NCAzNyAyMi4yOTR2NS40MTFjMCAuMjA5LjExNC40MDIuMjk3LjUwM2w0LjkwOCAyLjcxN2MuMTg0LjEwMi40MDkuMTAyLjU5MyAwbDIuMjYzLTEuMjUzYy4yMDctLjExNS4yMDYtLjQxMi0uMDAyLS41MjZsLTQuOTI0LTIuNjg3QzQwLjA1MiAyNi40MTIgNDAgMjYuMzI1IDQwIDI2LjIzMXYtMi40NjZjMC0uMDkyLjA1LS4xNzcuMTMtLjIyMWwyLjIzNS0xLjIzNmgtLjAwMWMuMDQyLS4wMjMuMDg4LS4wMzQuMTM1LS4wMzQuMDQ3IDAgLjA5My4wMTIuMTM1LjAzNGwyLjIzNSAxLjIzN2MuMDguMDQ0LjEzLjEyOS4xMy4yMjF2Mi4wMTJjMCAuMDg2LjA0Ni4xNjYuMTIxLjIwOS4wNzUuMDQyLjE2Ny4wNDIuMjQyLS4wMDFsMi4zOTgtMS4zOTNjLjE0OC0uMDg2LjI0LS4yNDUuMjQtLjQxN3YtMS44OEM0OCAyMi4wODUgNDcuODg2IDIxLjg5MiA0Ny43MDMgMjEuNzkxek0xMC43MDMgMjEuNzkxbC00LjkwNi0yLjcxNUM1LjcwNSAxOS4wMjUgNS42MDIgMTkgNS41IDE5Yy0uMTAyIDAtLjIwNS4wMjUtLjI5Ny4wNzZoLjAwMWwtNC45MDcgMi43MTVDLjExNCAyMS44OTIgMCAyMi4wODQgMCAyMi4yOTR2Ny40NjVjMCAuMDg2LjA0Ni4xNjYuMTIxLjIwOS4wNzUuMDQyLjE2Ny4wNDIuMjQyLS4wMDFsMi4zOTgtMS4zOTNDMi45MDkgMjguNDg4IDMgMjguMzI5IDMgMjguMTU3di00LjM5M2MwLS4wOTIuMDUtLjE3Ny4xMy0uMjIxbDIuMjM1LTEuMjM2SDUuMzY1Yy4wNDItLjAyMy4wODgtLjAzNC4xMzUtLjAzNC4wNDcgMCAuMDkzLjAxMi4xMzUuMDM0bDIuMjM1IDEuMjM3QzcuOTUgMjMuNTg4IDggMjMuNjczIDggMjMuNzY1djQuMzkzYzAgLjE3Mi4wOTEuMzMxLjI0LjQxN2wyLjM5OCAxLjM5M2MuMDc1LjA0My4xNjcuMDQzLjI0Mi4wMDFDMTAuOTU0IDI5LjkyNSAxMSAyOS44NDUgMTEgMjkuNzU5di03LjQ2NEMxMSAyMi4wODUgMTAuODg2IDIxLjg5MiAxMC43MDMgMjEuNzkxeiI+PC9wYXRoPjwvc3ZnPg=="/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                      Node JS
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -111,13 +111,13 @@ function Stack() {
                     <img alt="svgImg" className="w-8 h-8 rounded-full" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjZmZjYzgwIiBkPSJNMzUuNTQ3IDQyLjQzMWwtMy4xODItMy4xODItMi4xMjEgMi4xMjEgMy4xODIgMy4xODJjLjU4Ni41ODYgMS41MzYuNTg2IDIuMTIxIDBTMzYuMTMzIDQzLjAxNyAzNS41NDcgNDIuNDMxek0zOC41NDcgMjQuNDMxbC0zLjE4Mi0zLjE4Mi0yLjEyMSAyLjEyMSAzLjE4MiAzLjE4MmMuNTg2LjU4NiAxLjUzNi41ODYgMi4xMjEgMFMzOS4xMzMgMjUuMDE3IDM4LjU0NyAyNC40MzF6TTEyLjY4MyA0Mi40MzFsMy4xODItMy4xODIgMi4xMjEgMi4xMjEtMy4xODIgMy4xODJjLS41ODYuNTg2LTEuNTM2LjU4Ni0yLjEyMSAwUzEyLjA5NyA0My4wMTcgMTIuNjgzIDQyLjQzMXpNOS40MzMgMjQuNDMxbDMuMTgyLTMuMTgyIDIuMTIxIDIuMTIxLTMuMTgyIDMuMTgyYy0uNTg2LjU4Ni0xLjUzNi41ODYtMi4xMjEgMFM4Ljg0NyAyNS4wMTcgOS40MzMgMjQuNDMxeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM0ZGQwZTEiIGQ9Ik0zOCA4YzAtMS45MzMtMS4xNDktMy0zLjIzMS0zUzMxIDcuNTY3IDMxIDkuNWMwIDEgMS45MjMgMS41IDMgMS41QzM2LjA4MiAxMSAzOCA5LjkzMyAzOCA4ek0xMCA4YzAtMS45MzMgMS4xNDktMyAzLjIzMS0zUzE3IDcuNTY3IDE3IDkuNWMwIDEtMS45MjMgMS41LTMgMS41QzExLjkxOCAxMSAxMCA5LjkzMyAxMCA4eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM0MjQyNDIiIGQ9Ik0zNSA3QTEgMSAwIDEgMCAzNSA5IDEgMSAwIDEgMCAzNSA3ek0xMyA3QTEgMSAwIDEgMCAxMyA5IDEgMSAwIDEgMCAxMyA3eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM0ZGQwZTEiIGQ9Ik0zNywzNGMwLDQuNzc0LTMuMjE5LDEwLTEzLjMxLDEwQzE1LjU2OCw0NCwxMSwzOC43NzQsMTEsMzRjMC01LDEtNS44MDYsMS0xMGMwLTQuNjg4LDAtNywwLTEwIGMwLTQuNzc0LDMuMDc2LTExLDExLjY5LTExUzM2LDYuOTkxLDM2LDEzYzAsMy0wLjIzNyw1LjQ1MywwLDEwQzM2LjE4NiwyNi41NjIsMzcsMzEsMzcsMzR6Ij48L3BhdGg+PGc+PHBhdGggZmlsbD0iI2Y1ZjVmNSIgZD0iTTI5IDZBNCA0IDAgMSAwIDI5IDE0IDQgNCAwIDEgMCAyOSA2ek0xOSA2QTQgNCAwIDEgMCAxOSAxNCA0IDQgMCAxIDAgMTkgNnoiPjwvcGF0aD48L2c+PGc+PHBhdGggZmlsbD0iI2VlZSIgZD0iTTI0IDIwYzAgLjU1Mi40NDggMSAxIDFzMS0uNDQ4IDEtMXYtM2gtMlYyMHpNMjIgMjBjMCAuNTUyLjQ0OCAxIDEgMXMxLS40NDggMS0xdi0zaC0yVjIweiI+PC9wYXRoPjwvZz48cGF0aCBmaWxsPSIjZmZjYzgwIiBkPSJNMjYuNSwxOGMtMC40MTIsMC0wLjY1My0wLjA4NS0xLjAxMS0wLjIwNWMtMC45NzUtMC4zMjgtMi4wMjEtMC4zMjYtMi45OTYsMC4wMDIgQzIyLjEzOCwxNy45MTYsMjEuOTEsMTgsMjEuNSwxOGMtMS4zMzQsMC0xLjUtMS0xLjUtMS41YzAtMS41LDEuNS0yLjUsMy0yLjVjMC44MzUsMCwxLjE2NSwwLDIsMGMxLjUsMCwzLDEsMywyLjUgQzI4LDE3LDI3LjgzNCwxOCwyNi41LDE4eiI+PC9wYXRoPjxnPjxwYXRoIGZpbGw9IiM0MjQyNDIiIGQ9Ik0yNyA5QTEgMSAwIDEgMCAyNyAxMSAxIDEgMCAxIDAgMjcgOXpNMTcgOUExIDEgMCAxIDAgMTcgMTEgMSAxIDAgMSAwIDE3IDl6TTI0IDEzQTIgMSAwIDEgMCAyNCAxNSAyIDEgMCAxIDAgMjQgMTN6Ij48L3BhdGg+PC9nPjwvc3ZnPg=="/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       GoLang
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -127,16 +127,16 @@ function Stack() {
 
 
 
-        <div className="p-4 max-w-md bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-100 dark:border-gray-700">
+        <div className="p-4 max-w-md bg-blitblue-300 rounded-lg border-black shadow-md sm:p-8 dark:bg-gray-100 dark:border-gray-700">
           <div className="flex justify-between items-center mb-4">
-            <h5 className="text-l font-bold leading-none text-gray-900 dark:text-black">
+            <h5 className="text-l font-bold leading-none text-blittext-100 dark:text-black">
               Front End Developmenet
             </h5>
           </div>
           <div className="flow-root">
             <ul
               role="list"
-              className="divide-y divide-gray-200 dark:divide-gray-700"
+              className="divide-y divide-black dark:divide-gray-700"
             >
               <li className="py-3 sm:py-4">
                 <div className="flex items-center space-x-4">
@@ -144,13 +144,13 @@ function Stack() {
           <img alt="svgImg" className="w-8 h-8 rounded-full" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDAiIGhlaWdodD0iNDAiCnZpZXdCb3g9IjAgMCA0MCA0MCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjOThjY2ZkIiBkPSJNMjMuNSwyMGMwLDEuOTM1LTEuNTY1LDMuNS0zLjUsMy41cy0zLjUtMS41NjUtMy41LTMuNXMxLjU2NS0zLjUsMy41LTMuNVMyMy41LDE4LjA2NSwyMy41LDIweiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM0Nzg4YzciIGQ9Ik0yMCwyNGMtMi4yMDYsMC00LTEuNzk0LTQtNHMxLjc5NC00LDQtNHM0LDEuNzk0LDQsNFMyMi4yMDYsMjQsMjAsMjR6IE0yMCwxN2MtMS42NTQsMC0zLDEuMzQ2LTMsMyBzMS4zNDYsMywzLDNzMy0xLjM0NiwzLTNTMjEuNjU0LDE3LDIwLDE3eiI+PC9wYXRoPjxnPjxwYXRoIGZpbGw9IiM5OGNjZmQiIGQ9Ik0zOS41LDIwYzAtMi43OTYtMi45MTItNS4yMzItNy40OTItNi43ODdjMC41NzYtMi42NzEsMC42NTUtNS4wNTUsMC4xNjYtNi44ODEgYy0wLjQwOC0xLjUyMi0xLjE4MS0yLjYxNy0yLjI5Ni0zLjI1M2MtMC42NzEtMC4zODItMS40MzgtMC41NzctMi4yNzktMC41NzdjLTIuMjA3LDAtNC44OTMsMS40MDEtNy41OTcsMy43OTEgQzE3LjI5NiwzLjkwMiwxNC42MDksMi41LDEyLjQsMi41Yy0wLjg0MiwwLTEuNjA4LDAuMTk0LTIuMjc5LDAuNTc3QzkuMDA2LDMuNzE0LDguMjMyLDQuODEsNy44MjUsNi4zMzMgYy0wLjQ4OSwxLjgyNi0wLjQxLDQuMjEsMC4xNjUsNi44OEMzLjQxMiwxNC43NjgsMC41LDE3LjIwNSwwLjUsMjBzMi45MTIsNS4yMzIsNy40OTEsNi43ODZjLTAuNTc2LDIuNjctMC42NTUsNS4wNTQtMC4xNjUsNi44OCBjMC40MDcsMS41MjQsMS4xODEsMi42MTksMi4yOTcsMy4yNTdjMC42NzEsMC4zODIsMS40MzgsMC41NzcsMi4yNzksMC41NzdjMC4wMDEsMCwwLDAsMC4wMDEsMGMyLjIwOCwwLDQuODk0LTEuNDAxLDcuNTk4LTMuNzkzIGMyLjcwNCwyLjM4OSw1LjM5LDMuNzg5LDcuNTk3LDMuNzljMC4wMDEsMCwwLjAwMSwwLDAuMDAxLDBjMC44NDIsMCwxLjYwOC0wLjE5NCwyLjI4LTAuNTc3YzEuMTE0LTAuNjM2LDEuODg3LTEuNzMxLDIuMjk0LTMuMjUzIGMwLjQ4OS0xLjgyNiwwLjQxLTQuMjEtMC4xNjUtNi44OEMzNi41ODcsMjUuMjMzLDM5LjUsMjIuNzk2LDM5LjUsMjB6IE0yOC44ODgsNC44MTdjMC42MzQsMC4zNjIsMS4wOSwxLjA0NiwxLjM1NCwyLjAzMyBjMC40MDEsMS40OTYsMC4zMjIsMy41MDktMC4xNTgsNS43OWMtMS41OTYtMC40MTctMy4zNDMtMC43MzQtNS4yMDgtMC45MzhjLTEuMTEtMS41MDItMi4yNjktMi44NTUtMy40NC00LjA0MSBjMi4zOTctMi4wODcsNC41OTgtMy4xNTgsNi4xNjMtMy4xNThDMjguMDg5LDQuNTAzLDI4LjUyMiw0LjYwOSwyOC44ODgsNC44MTd6IE0yNS43ODQsMjMuMjg3IGMtMC42NTMsMS4xMTctMS4zMjQsMi4xNTItMi4wMDMsMy4xMTljLTEuMjA1LDAuMTA1LTIuNDY3LDAuMTYyLTMuNzgyLDAuMTYyYy0xLjMxNiwwLTIuNTc4LTAuMDU4LTMuNzg0LTAuMTYyIGMtMC42NzktMC45NjctMS4zNS0yLjAwMi0yLjAwMy0zLjExOUMxMy41NzYsMjIuMTk3LDEzLDIxLjA5NiwxMi40ODEsMjBjMC41MTktMS4wOTUsMS4wOTUtMi4xOTcsMS43MzItMy4yODcgYzAuNjUzLTEuMTE3LDEuMzI1LTIuMTUyLDIuMDA0LTMuMTJjMS4yMDUtMC4xMDUsMi40NjgtMC4xNjIsMy43ODMtMC4xNjJjMS4zMTUsMCwyLjU3NywwLjA1NywzLjc4MSwwLjE2MiBjMC42NzksMC45NjgsMS4zNSwyLjAwMiwyLjAwMywzLjExOWMwLjYzNywxLjA5LDEuMjE0LDIuMTkyLDEuNzMzLDMuMjg3QzI2Ljk5OCwyMS4wOTYsMjYuNDIxLDIyLjE5NywyNS43ODQsMjMuMjg3eiBNMjguNTU4LDIyLjM5MmMwLjQxLDEuMDM2LDAuNzU2LDIuMDUyLDEuMDQxLDMuMDM1Yy0wLjk5LDAuMjU4LTIuMDU3LDAuNDc4LTMuMTk0LDAuNjU1YzAuMzc3LTAuNTgyLDAuNzQ4LTEuMTc0LDEuMTA2LTEuNzg3IEMyNy44ODEsMjMuNjYzLDI4LjIyNiwyMy4wMjgsMjguNTU4LDIyLjM5MnogTTIwLDMwLjk4M2MtMC43MjktMC43MzgtMS40NjctMS41NTYtMi4yMDUtMi40N2MwLjcyNCwwLjAzNCwxLjQ1NywwLjA1NSwyLjIwNSwwLjA1NSBjMC43NDcsMCwxLjQ4LTAuMDIxLDIuMjAzLTAuMDU1QzIxLjQ2NiwyOS40MjcsMjAuNzI5LDMwLjI0NiwyMCwzMC45ODN6IE0xMy41OTMsMjYuMDgyYy0xLjEzNi0wLjE3Ny0yLjIwMy0wLjM5Ny0zLjE5My0wLjY1NSBjMC4yODUtMC45ODMsMC42My0xLjk5OCwxLjA0LTMuMDM0YzAuMzMyLDAuNjM1LDAuNjc3LDEuMjcxLDEuMDQ2LDEuOTAzQzEyLjg0NCwyNC45MDgsMTMuMjE2LDI1LjUsMTMuNTkzLDI2LjA4MnogTTExLjQ0LDE3LjYwNyBjLTAuNDEtMS4wMzYtMC43NTUtMi4wNTEtMS4wNC0zLjAzNGMwLjk5LTAuMjU4LDIuMDU3LTAuNDc4LDMuMTk0LTAuNjU1Yy0wLjM3NywwLjU4Mi0wLjc0OSwxLjE3NC0xLjEwNywxLjc4NiBDMTIuMTE3LDE2LjMzNywxMS43NzIsMTYuOTcyLDExLjQ0LDE3LjYwN3ogTTIwLjAwMSw5LjAxOGMwLjcyOSwwLjczNywxLjQ2NiwxLjU1NSwyLjIwMiwyLjQ2OSBjLTAuNzIzLTAuMDM0LTEuNDU2LTAuMDU1LTIuMjAzLTAuMDU1cy0xLjQ4LDAuMDIxLTIuMjAzLDAuMDU1QzE4LjUzNCwxMC41NzMsMTkuMjcyLDkuNzU1LDIwLjAwMSw5LjAxOHogTTI3LjUxMSwxNS43MDQgYy0wLjM1OC0wLjYxMy0wLjcyOS0xLjIwNS0xLjEwNi0xLjc4N2MxLjEzNywwLjE3NywyLjIwNCwwLjM5NywzLjE5NCwwLjY1NWMtMC4yODUsMC45ODQtMC42MzEsMS45OTktMS4wNDEsMy4wMzYgQzI4LjIyNiwxNi45NzMsMjcuODgxLDE2LjMzNywyNy41MTEsMTUuNzA0eiBNOS43NTcsNi44NTFjMC4yNjUtMC45ODksMC43MjEtMS42NzQsMS4zNTUtMi4wMzdDMTEuNDc4LDQuNjA2LDExLjkxMSw0LjUsMTIuNCw0LjUgYzEuNTY3LDAsMy43NjgsMS4wNzIsNi4xNjYsMy4xNjFjLTEuMTcyLDEuMTg3LTIuMzMyLDIuNTM5LTMuNDQzLDQuMDQyYy0xLjg2NSwwLjIwNC0zLjYxMiwwLjUyMi01LjIwOCwwLjkzOSBDOS40MzUsMTAuMzU5LDkuMzU2LDguMzQ2LDkuNzU3LDYuODUxeiBNMi41LDIwYzAtMS43MjksMi4yMzEtMy41NjYsNS45ODMtNC44NTdDOC45MzUsMTYuNzA4LDkuNTM4LDE4LjM0MiwxMC4yOCwyMCBjLTAuNzQyLDEuNjU4LTEuMzQ1LDMuMjkyLTEuNzk3LDQuODU3QzQuNzMxLDIzLjU2NiwyLjUsMjEuNzI5LDIuNSwyMHogTTEyLjQwMSwzNS41Yy0wLjQ5LDAtMC45MjQtMC4xMDYtMS4yODgtMC4zMTMgYy0wLjYzNi0wLjM2My0xLjA5Mi0xLjA0OC0xLjM1Ni0yLjAzN2MtMC40MDEtMS40OTYtMC4zMjItMy41MDksMC4xNTgtNS43OWMxLjU5NiwwLjQxNywzLjM0MiwwLjczNCw1LjIwNywwLjkzOCBjMS4xMTEsMS41MDMsMi4yNzEsMi44NTYsMy40NDQsNC4wNDNDMTYuMTY4LDM0LjQyOSwxMy45NjcsMzUuNSwxMi40MDEsMzUuNXogTTMwLjI0MSwzMy4xNWMtMC4yNjUsMC45ODctMC43MiwxLjY3MS0xLjM1NCwyLjAzMyBjLTAuMzY1LDAuMjA4LTAuNzk5LDAuMzE0LTEuMjg5LDAuMzE0Yy0xLjU2NiwwLTMuNzY3LTEuMDcxLTYuMTY0LTMuMTU3YzEuMTcyLTEuMTg3LDIuMzMxLTIuNTQsMy40NDEtNC4wNDIgYzEuODY1LTAuMjA0LDMuNjExLTAuNTIyLDUuMjA3LTAuOTM4QzMwLjU2MywyOS42NDEsMzAuNjQyLDMxLjY1NCwzMC4yNDEsMzMuMTV6IE0zMS41MTUsMjQuODU4IGMtMC40NTItMS41NjUtMS4wNTUtMy4xOTktMS43OTctNC44NThjMC43NDItMS42NTksMS4zNDUtMy4yOTMsMS43OTctNC44NThDMzUuMjY4LDE2LjQzMywzNy41LDE4LjI3MSwzNy41LDIwIEMzNy41LDIxLjcyOSwzNS4yNjgsMjMuNTY3LDMxLjUxNSwyNC44NTh6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzQ3ODhjNyIgZD0iTTEyLjQwMiwzOGMtMC45MywwLTEuNzgtMC4yMTYtMi41MjgtMC42NDJjLTEuMjM3LTAuNzA4LTIuMDg5LTEuOTA2LTIuNTMyLTMuNTYzIGMtMC40NzItMS43NjItMC40NDYtNC4wNjQsMC4wNy02LjY4MkMyLjY5NCwyNS40MiwwLDIyLjg0MiwwLDIwczIuNjk0LTUuNDIsNy40MTItNy4xMTRjLTAuNTE3LTIuNjE3LTAuNTQyLTQuOTItMC4wNy02LjY4MiBDNy43ODUsNC41NDgsOC42MzcsMy4zNSw5Ljg3MywyLjY0M2MyLjUyLTEuNDM4LDYuMTc4LTAuMzkzLDEwLjEyOCwyLjk4OGMzLjk0OS0zLjM3OCw3LjYwNC00LjQyMiwxMC4xMjUtMi45ODYgYzEuMjM1LDAuNzA1LDIuMDg3LDEuOTAyLDIuNTMxLDMuNTU4YzAuNDcyLDEuNzYzLDAuNDQ2LDQuMDY2LTAuMDcxLDYuNjgzQzM3LjMwNSwxNC41NzksNDAsMTcuMTU4LDQwLDIwIGMwLDIuODQyLTIuNjk1LDUuNDIxLTcuNDE0LDcuMTE1YzAuNTE4LDIuNjE3LDAuNTQyLDQuOTE5LDAuMDcsNi42ODJjLTAuNDQzLDEuNjU2LTEuMjk0LDIuODUzLTIuNTI5LDMuNTU4IEMyNy42MDQsMzguNzkzLDIzLjk0NiwzNy43NDYsMjAsMzQuMzdDMTcuMjI0LDM2Ljc0NywxNC42MDQsMzgsMTIuNDAyLDM4eiBNMTIuNCwzYy0wLjc1MywwLTEuNDM3LDAuMTcyLTIuMDMxLDAuNTExIEM5LjM3Myw0LjA4MSw4LjY4LDUuMDc0LDguMzA5LDYuNDYyYy0wLjQ1OCwxLjcwNy0wLjM5OCw0LjAwNSwwLjE3MSw2LjY0NmwwLjA5NCwwLjQzNmwtMC40MjIsMC4xNDRDMy42MDYsMTUuMjMsMSwxNy41MzEsMSwyMCBzMi42MDYsNC43Nyw3LjE1MSw2LjMxM2wwLjQyMiwwLjE0NGwtMC4wOTQsMC40MzZjLTAuNTY5LDIuNjQxLTAuNjI5LDQuOTM5LTAuMTcxLDYuNjQ2YzAuMzcxLDEuMzg5LDEuMDY0LDIuMzgyLDIuMDYyLDIuOTUyIEMxMC45NjUsMzYuODI4LDExLjY0OCwzNywxMi40MDEsMzdoMC4wMDFjMi4wMTIsMCw0LjU5Mi0xLjMwMiw3LjI2Ny0zLjY2N0wyMCwzMy4wNGwwLjMzMSwwLjI5MyBjMi42NzQsMi4zNjIsNS4yNTUsMy42NjQsNy4yNjcsMy42NjRjMC43NTQsMCwxLjQzOC0wLjE3MiwyLjAzNC0wLjUxMWMwLjk5NC0wLjU2OCwxLjY4Ny0xLjU2LDIuMDU4LTIuOTQ4IGMwLjQ1OC0xLjcwNywwLjM5OC00LjAwNC0wLjE3MS02LjY0NWwtMC4wOTQtMC40MzZsMC40MjItMC4xNDRDMzYuMzkzLDI0Ljc3MSwzOSwyMi40NjksMzksMjBjMC0yLjQ3LTIuNjA3LTQuNzcxLTcuMTUzLTYuMzEzIGwtMC40MjItMC4xNDRsMC4wOTUtMC40MzZjMC41NjktMi42NDEsMC42MjktNC45MzksMC4xNzEtNi42NDZjLTAuMzcyLTEuMzg5LTEuMDY1LTIuMzgtMi4wNjEtMi45NDggYy0wLjU5NS0wLjMzOS0xLjI3OC0wLjUxMS0yLjAzMS0wLjUxMWMtMi4wMTEsMC00LjU5MSwxLjMwMi03LjI2NywzLjY2NmwtMC4zMzEsMC4yOTNMMTkuNjcsNi42NjhDMTYuOTk0LDQuMzAzLDE0LjQxMywzLDEyLjQsM3ogTTEyLjQwMSwzNmMtMC41NzcsMC0xLjA5NC0wLjEyNy0xLjUzNS0wLjM3OWMtMC43NTYtMC40MzItMS4yOTItMS4yMi0xLjU5My0yLjM0MmMtMC40MDgtMS41MjctMC4zNTUtMy42MSwwLjE1Mi02LjAyMiBsMC4xMDgtMC41MTNsMC41MDcsMC4xMzJjMS41OTEsMC40MTUsMy4zMTcsMC43MjcsNS4xMzUsMC45MjVsMC4yMTcsMC4wMjRMMTUuNTIzLDI4YzEuMDczLDEuNDUxLDIuMjE3LDIuNzkzLDMuMzk3LDMuOTg5IGwwLjM3NCwwLjM3OWwtMC40MDEsMC4zNUMxNi40NjQsMzQuODM0LDE0LjE1OCwzNiwxMi40MDEsMzZ6IE0xMC4zMDMsMjcuOTczYy0wLjQ2OCwyLjA0LTAuNDgyLDMuNzc3LTAuMDYzLDUuMDQ3IGMwLjI3OCwwLjg0MSwwLjYwNSwxLjQzOCwxLjEyMSwxLjczMmMxLjI5NCwwLjczOSwzLjgxMy0wLjIzNyw2LjQ3My0yLjQ0NmMtMS4wMzMtMS4wOC0yLjAzNS0yLjI2Ny0yLjk4NC0zLjUzNiBDMTMuMjU3LDI4LjU4OCwxMS43MywyOC4zMiwxMC4zMDMsMjcuOTczeiBNMjcuNTk5LDM1Ljk5N2MtMS43NTcsMC00LjA2My0xLjE2NS02LjQ5MS0zLjI4bC0wLjQwMS0wLjM0OWwwLjM3NC0wLjM3OSBjMS4xODUtMS4yMDIsMi4zMjctMi41NDMsMy4zOTQtMy45ODhsMC4xMy0wLjE3NmwwLjIxOC0wLjAyNGMxLjgxOS0wLjE5OSwzLjU0OC0wLjUxLDUuMTM3LTAuOTI1bDAuNTA4LTAuMTMybDAuMTA3LDAuNTEzIGMwLjUwNywyLjQxNCwwLjU2LDQuNDk2LDAuMTUxLDYuMDIyYy0wLjMwMSwxLjEyMS0wLjgzNiwxLjkwOC0xLjU4OSwyLjMzOEMyOC42OTMsMzUuODcsMjguMTc2LDM1Ljk5NywyNy41OTksMzUuOTk3eiBNMjIuMTY2LDMyLjMwNmMyLjY2LDIuMjA3LDUuMTcxLDMuMTg0LDYuNDc1LDIuNDQzYzAuNTEzLTAuMjkyLDAuODM5LTAuODg5LDEuMTE3LTEuNzI4YzAuNDIyLTEuMjcxLDAuNDA1LTMuMDA4LTAuMDYyLTUuMDQ3IGMtMS40MjcsMC4zNDctMi45NTQsMC42MTQtNC41NDksMC43OTdDMjQuMjA0LDMwLjAzNSwyMy4yMDMsMzEuMjIxLDIyLjE2NiwzMi4zMDZ6IE0yMCwzMS42OTVsLTAuMzU1LTAuMzYgYy0wLjc3My0wLjc4Mi0xLjUyNi0xLjYyNS0yLjIzOC0yLjUwOGwtMC43LTAuODY3bDEuMTEyLDAuMDUzYzEuNDMxLDAuMDY4LDIuOTMxLDAuMDY4LDQuMzYxLDBsMS4xMTEtMC4wNTNsLTAuNjk4LDAuODY2IGMtMC43MSwwLjg3OS0xLjQ2MiwxLjcyMy0yLjIzNywyLjUwN0wyMCwzMS42OTV6IE0xOC44OTgsMjkuMDU0YzAuMzU5LDAuNDE3LDAuNzI4LDAuODIyLDEuMTAyLDEuMjEyIGMwLjM3NC0wLjM5MiwwLjc0MS0wLjc5NiwxLjEwMS0xLjIxMkMyMC4zNzIsMjkuMDczLDE5LjYyNywyOS4wNzMsMTguODk4LDI5LjA1NHogTTIwLDI3LjA2OGMtMS4yODQsMC0yLjU3MS0wLjA1NS0zLjgyNy0wLjE2NCBsLTAuMjMyLTAuMDJsLTAuMTM0LTAuMTkxYy0wLjcyMS0xLjAyNy0xLjQwMi0yLjA4OS0yLjAyNS0zLjE1NGMtMC42MTktMS4wNjEtMS4yMDktMi4xNzktMS43NTMtMy4zMjVMMTEuOTI3LDIwbDAuMTAyLTAuMjE0IGMwLjU0NC0xLjE0NiwxLjEzNC0yLjI2NSwxLjc1My0zLjMyNWMwLjYzLTEuMDc4LDEuMjkzLTIuMTA5LDIuMDI3LTMuMTU1bDAuMTM0LTAuMTlsMC4yMzItMC4wMmMyLjUwOC0wLjIxOCw1LjE0Mi0wLjIxOCw3LjY0OSwwIGwwLjIzMiwwLjAybDAuMTM0LDAuMTkxYzAuNzM2LDEuMDUsMS4zOTksMi4wODIsMi4wMjUsMy4xNTRjMC42MjUsMS4wNywxLjIxNSwyLjE4OCwxLjc1MywzLjMyNkwyOC4wNjksMjBsLTAuMTAxLDAuMjE0IGMtMC41MzgsMS4xMzctMS4xMjgsMi4yNTYtMS43NTMsMy4zMjZjLTAuNjI2LDEuMDcyLTEuMjg5LDIuMTA0LTIuMDI1LDMuMTU0bC0wLjEzNCwwLjE5MWwtMC4yMzIsMC4wMiBDMjIuNTcsMjcuMDEzLDIxLjI4NCwyNy4wNjgsMjAsMjcuMDY4eiBNMTYuNDkxLDI1LjkyOGMyLjMwOSwwLjE4Nyw0LjcxLDAuMTg3LDcuMDE1LDBjMC42NjctMC45NjEsMS4yNzItMS45MSwxLjg0Ny0yLjg5MyBjMC41NzEtMC45NzcsMS4xMTItMS45OTcsMS42MS0zLjAzNWMtMC40OTgtMS4wMzgtMS4wMzktMi4wNTgtMS42MS0zLjAzNWMtMC41NzQtMC45ODMtMS4xOC0xLjkzMi0xLjg0Ny0yLjg5MyBjLTIuMzA2LTAuMTg3LTQuNzExLTAuMTg3LTcuMDEzLDBjLTAuNjY1LDAuOTU4LTEuMjcxLDEuOTA2LTEuODQ5LDIuODk0Yy0wLjU2NSwwLjk2OC0xLjEwNywxLjk4OC0xLjYxLDMuMDM0IGMwLjUwMywxLjA0NSwxLjA0NCwyLjA2NSwxLjYxLDMuMDM1QzE1LjIxNSwyNC4wMSwxNS44MzYsMjQuOTgyLDE2LjQ5MSwyNS45Mjh6IE0yNS4zNzcsMjYuNzQ5bDAuNjA3LTAuOTM4IGMwLjM3My0wLjU3NiwwLjc0LTEuMTYyLDEuMDk1LTEuNzY3YzAuMzY2LTAuNjI2LDAuNzA3LTEuMjU1LDEuMDM1LTEuODgzbDAuNTA2LTAuOTY4bDAuNDAyLDEuMDE2IGMwLjQwNSwxLjAyMywwLjc2MSwyLjA2LDEuMDU3LDMuMDgxbDAuMTQzLDAuNDk0bC0wLjQ5NywwLjEyOWMtMS4wMTcsMC4yNjQtMi4xMDcsMC40ODgtMy4yNDMsMC42NjVMMjUuMzc3LDI2Ljc0OXogTTI4LjQ3OSwyMy42IGMtMC4xNzQsMC4zMTYtMC4zNTMsMC42MzMtMC41MzcsMC45NDljLTAuMTY4LDAuMjg4LTAuMzQsMC41NzEtMC41MTMsMC44NTFjMC41MjgtMC4xLDEuMDQyLTAuMjA5LDEuNTQtMC4zMjkgQzI4LjgxOSwyNC41ODEsMjguNjU1LDI0LjA5LDI4LjQ3OSwyMy42eiBNMTQuNjIxLDI2Ljc0OWwtMS4xMDUtMC4xNzJjLTEuMTM2LTAuMTc3LTIuMjI3LTAuNDAxLTMuMjQxLTAuNjY1bC0wLjQ5Ny0wLjEyOSBsMC4xNDMtMC40OTNjMC4yOTQtMS4wMTcsMC42NDktMi4wNTMsMS4wNTYtMy4wOGwwLjQwMi0xLjAxN2wwLjUwNiwwLjk3YzAuMzI3LDAuNjI4LDAuNjY4LDEuMjU2LDEuMDM0LDEuODgyIGMwLjM1NCwwLjYwNSwwLjcyMiwxLjE5MSwxLjA5NSwxLjc2N0wxNC42MjEsMjYuNzQ5eiBNMTEuMDI5LDI1LjA2OWMwLjQ5NiwwLjExOSwxLjAxLDAuMjI5LDEuNTM3LDAuMzI5IGMtMC4xNzMtMC4yNzktMC4zNDQtMC41NjItMC41MTItMC44NWMtMC4xODUtMC4zMTUtMC4zNjItMC42MzEtMC41MzYtMC45NDhDMTEuMzQyLDI0LjA5MiwxMS4xNzksMjQuNTgyLDExLjAyOSwyNS4wNjl6IE0zMS4xOCwyNS41MDJsLTAuMTQ2LTAuNTA1Yy0wLjQ0Ni0xLjU0OC0xLjA0My0zLjE2LTEuNzcyLTQuNzkyTDI5LjE3LDIwbDAuMDkyLTAuMjA0YzAuNzI5LTEuNjMsMS4zMjYtMy4yNDMsMS43NzMtNC43OTIgbDAuMTQ2LTAuNTA1bDAuNDk4LDAuMTcxQzM1LjYzNywxNi4wMzEsMzgsMTguMDI0LDM4LDIwYzAsMS45NzctMi4zNjMsMy45NjktNi4zMjIsNS4zMzFMMzEuMTgsMjUuNTAyeiBNMzAuMjY1LDIwIGMwLjYzLDEuNDI3LDEuMTU5LDIuODQsMS41NzksNC4yMDlDMzQuOTkzLDIzLjAzOSwzNywyMS40MTIsMzcsMjBzLTIuMDA3LTMuMDM5LTUuMTU2LTQuMjA5IEMzMS40MjQsMTcuMTYyLDMwLjg5NCwxOC41NzQsMzAuMjY1LDIweiBNOC44MTcsMjUuNTAxTDguMzIsMjUuMzNDNC4zNjMsMjMuOTY4LDIsMjEuOTc2LDIsMjBzMi4zNjMtMy45NjgsNi4zMi01LjMzbDAuNDk3LTAuMTcxIGwwLjE0NiwwLjUwNWMwLjQ0OSwxLjU1NCwxLjA0NSwzLjE2NywxLjc3Miw0Ljc5MkwxMC44MjgsMjBsLTAuMDkyLDAuMjA0Yy0wLjcyOCwxLjYyNS0xLjMyMywzLjIzOC0xLjc3Miw0Ljc5Mkw4LjgxNywyNS41MDF6IE04LjE1NSwxNS43OTFDNS4wMDYsMTYuOTYyLDMsMTguNTg5LDMsMjBzMi4wMDYsMy4wMzgsNS4xNTUsNC4yMDljMC40MjEtMS4zNzUsMC45NS0yLjc4NywxLjU3OC00LjIwOSBDOS4xMDUsMTguNTc4LDguNTc2LDE3LjE2Niw4LjE1NSwxNS43OTF6IE0xMS4zNzgsMTguODA5bC0wLjQwMi0xLjAxN2MtMC40MDYtMS4wMjctMC43NjItMi4wNjMtMS4wNTYtMy4wOGwtMC4xNDMtMC40OTMgbDAuNDk3LTAuMTI5YzEuMDE2LTAuMjY0LDIuMTA2LTAuNDg4LDMuMjQyLTAuNjY1bDEuMTA2LTAuMTcybC0wLjYxLDAuOTM5Yy0wLjM3MywwLjU3NS0wLjc0LDEuMTYxLTEuMDk1LDEuNzY2IGMtMC4zNjYsMC42MjUtMC43MDcsMS4yNTQtMS4wMzQsMS44ODJMMTEuMzc4LDE4LjgwOXogTTExLjAyOSwxNC45MzFjMC4xNDksMC40ODcsMC4zMTMsMC45NzgsMC40ODksMS40NjkgYzAuMTc0LTAuMzE2LDAuMzUyLTAuNjMyLDAuNTM2LTAuOTQ4YzAuMTY4LTAuMjg3LDAuMzM5LTAuNTcsMC41MTItMC44NUMxMi4wMzksMTQuNzAxLDExLjUyNSwxNC44MTIsMTEuMDI5LDE0LjkzMXogTTI4LjYyLDE4LjgwOWwtMC41MDYtMC45NjljLTAuMzI4LTAuNjI5LTAuNjY5LTEuMjU3LTEuMDM1LTEuODgzYy0wLjM1NC0wLjYwNS0wLjcyMi0xLjE5MS0xLjA5NS0xLjc2N2wtMC42MDctMC45MzhsMS4xMDQsMC4xNzIgYzEuMTM3LDAuMTc3LDIuMjI5LDAuNDAxLDMuMjQzLDAuNjY2bDAuNDk3LDAuMTI5bC0wLjE0MywwLjQ5NGMtMC4yOTYsMS4wMi0wLjY1MSwyLjA1Ny0xLjA1NywzLjA4MUwyOC42MiwxOC44MDl6IE0yNy40MywxNC42MDEgYzAuMTczLDAuMjgsMC4zNDUsMC41NjMsMC41MTMsMC44NTFjMC4xODUsMC4zMTYsMC4zNjMsMC42MzIsMC41MzcsMC45NDljMC4xNzYtMC40OTEsMC4zNC0wLjk4MiwwLjQ5LTEuNDcgQzI4LjQ3MywxNC44MTEsMjcuOTU4LDE0LjcwMSwyNy40MywxNC42MDF6IE0zMC40NjUsMTMuMjU3bC0wLjUwNy0wLjEzMmMtMS41ODctMC40MTUtMy4zMTUtMC43MjYtNS4xMzctMC45MjVsLTAuMjE4LTAuMDI0IGwtMC4xMy0wLjE3NmMtMS4wNy0xLjQ0OS0yLjIxMi0yLjc5MS0zLjM5NC0zLjk4N2wtMC4zNzQtMC4zNzlsMC40MDEtMC4zNWMzLjIyOS0yLjgxMSw2LjI0My0zLjkxOSw4LjAyNy0yLjkwMSBjMC43NTUsMC40MzEsMS4yOSwxLjIxOCwxLjU5MSwyLjMzOGMwLjQwOCwxLjUyNywwLjM1NSwzLjYxLTAuMTUyLDYuMDIzTDMwLjQ2NSwxMy4yNTd6IE0yNS4xNDcsMTEuMjI5IGMxLjU5NywwLjE4MywzLjEyMywwLjQ1MSw0LjU0OSwwLjc5OGMwLjUxNy0xLjkwNywwLjU5LTMuNTk1LDAuMDYzLTUuMDQ4Yy0wLjMwMi0wLjgzLTAuNjA0LTEuNDM1LTEuMTE5LTEuNzI5IGMtMS4yOTgtMC43NC0zLjgxMiwwLjIzNi02LjQ3MywyLjQ0NEMyMy4yLDguNzc1LDI0LjIwMSw5Ljk2MiwyNS4xNDcsMTEuMjI5eiBNOS41MzQsMTMuMjU3bC0wLjEwOC0wLjUxMyBjLTAuNTA4LTIuNDEzLTAuNTYxLTQuNDk1LTAuMTUyLTYuMDIyYzAuMzAxLTEuMTIzLDAuODM2LTEuOTExLDEuNTkxLTIuMzQxYzEuNzg5LTEuMDIsNC44MDEsMC4wOTEsOC4wMywyLjkwNGwwLjQwMiwwLjM1IGwtMC4zNzUsMC4zNzljLTEuMTg0LDEuMTk3LTIuMzI2LDIuNTM5LTMuMzk2LDMuOTg3bC0wLjEzLDAuMTc2bC0wLjIxOCwwLjAyNGMtMS44MTgsMC4xOTktMy41NDcsMC41MS01LjEzNywwLjkyNUw5LjUzNCwxMy4yNTd6IE0xMi40LDVjLTAuNDAxLDAtMC43NTEsMC4wODMtMS4wNDEsMC4yNDljLTAuNTE0LDAuMjkzLTAuNzc0LDAuOTE2LTEuMTE5LDEuNzMxYy0wLjU0LDEuMjc1LTAuNDQ5LDMuMDExLDAuMDYzLDUuMDQ3IGMxLjQyOC0wLjM0NywyLjk1NC0wLjYxNSw0LjU0OS0wLjc5OGMwLjk0Ni0xLjI2NywxLjk0OC0yLjQ1MywyLjk4My0zLjUzNEMxNS43NjYsNS45NzcsMTMuODAzLDUsMTIuNCw1eiBNMTYuNzA5LDEyLjAzOSBsMC42OTktMC44NjZjMC43MS0wLjg4LDEuNDYzLTEuNzIzLDIuMjM3LTIuNTA3bDAuMzU1LTAuMzZsMC4zNTUsMC4zNmMwLjc3NywwLjc4NywxLjUyOSwxLjYzLDIuMjM2LDIuNTA2bDAuNjk3LDAuODY2IGwtMS4xMS0wLjA1MmMtMS40My0wLjA2Ny0yLjkzLTAuMDY3LTQuMzU5LDBMMTYuNzA5LDEyLjAzOXogTTIwLDEwLjkzMmMwLjM3LDAsMC43MzcsMC4wMDUsMS4xMDEsMC4wMTQgYy0wLjM1Ny0wLjQxNS0wLjcyNi0wLjgxOS0xLjEtMS4yMTFjLTAuMzc0LDAuMzkxLTAuNzQyLDAuNzk1LTEuMTAxLDEuMjExQzE5LjI2NCwxMC45MzcsMTkuNjMsMTAuOTMyLDIwLDEwLjkzMnoiPjwvcGF0aD48L2c+PC9zdmc+"/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       ReactJS
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -160,13 +160,13 @@ function Stack() {
                   <img alt="svgImg" className="w-8 h-8 rounded-full" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjYmRiZGJkIiBkPSJNMjMuOTMzIDJMMyA5LjI4NSA2LjMwOCAzNi40MDggMjMuOTU1IDQ2IDQxLjY5MyAzNi4yNzggNDUgOS4xNTZ6Ij48L3BhdGg+PHBhdGggZmlsbD0iI2I3MWMxYyIgZD0iTTQyLjgxOCAxMC41MjdMMjQgNC4xMzUgMjQgNDMuNjk1IDM5LjgzMiAzNS4wMTd6Ij48L3BhdGg+PHBhdGggZmlsbD0iI2RkMmMwMCIgZD0iTTIzLjk0MSA0LjExNUw1LjE4MSAxMC42NDQgOC4xNjggMzUuMTQzIDIzLjk1MSA0My43MjEgMjQgNDMuNjk1IDI0IDQuMTM1eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNiZGJkYmQiIGQ9Ik0yNCA1Ljk5NkwyNCAxNS41MDQgMzIuNTc4IDM0IDM2Ljk4NyAzNHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjZWVlIiBkPSJNMTEuMDEzIDM0TDE1LjQyMiAzNCAyNCAxNS41MDQgMjQgNS45OTZ6Ij48L3BhdGg+PHBhdGggZmlsbD0iI2JkYmRiZCIgZD0iTTI0IDI0SDMwVjI4SDI0eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNlZWUiIGQ9Ik0xOCAyNEgyNFYyOEgxOHoiPjwvcGF0aD48L3N2Zz4="/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       Angular JS
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -176,13 +176,13 @@ function Stack() {
                   <img alt="svgImg" className="w-8 h-8 rounded-full" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzIiIGhlaWdodD0iMzIiCnZpZXdCb3g9IjAgMCAzMiAzMiIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDMgNiBMIDE2IDI4IEwgMjkgNiBMIDE5IDYgTCAxNiAxMS4zMDA3ODEgTCAxMyA2IEwgMyA2IHogTSA2LjUgOCBMIDEwLjI3MTQ4NCA4IEwgMTYgMTggTCAyMS43Mjg1MTYgOCBMIDI1LjUgOCBMIDE2IDI0LjA5OTYwOSBMIDYuNSA4IHoiPjwvcGF0aD48L3N2Zz4="/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       Vue JS
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -192,13 +192,13 @@ function Stack() {
                     <img alt="svgImg" className="w-8 h-8 rounded-full" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjQgNC4wNTAwMDAwMDAwMDAwMDFBMTkuOTUgMTkuOTUgMCAxIDAgMjQgNDMuOTVBMTkuOTUgMTkuOTUgMCAxIDAgMjQgNC4wNTAwMDAwMDAwMDAwMDFaIj48L3BhdGg+PHBhdGggZmlsbD0iIzAxNTc5YiIgZD0iTTguMDAxLDI0YzAsNi4zMzYsMy42OCwxMS44MDYsOS4wMTgsMTQuNEw5LjM4NSwxNy40ODhDOC40OTgsMTkuNDc5LDguMDAxLDIxLjY3Niw4LjAwMSwyNHogTTM0LjgwNCwyMy4xOTRjMC0xLjk3Ny0xLjA2My0zLjM1LTEuNjctNC40MTJjLTAuODEzLTEuMzI5LTEuNTc2LTIuNDM3LTEuNTc2LTMuNzUyYzAtMS40NjUsMS40NzEtMi44NCwzLjA0MS0yLjg0IGMwLjA3MSwwLDAuMTM1LDAuMDA2LDAuMjA2LDAuMDA4QzMxLjk2MSw5LjU4NCwyOC4xNjgsOCwyNC4wMDEsOGMtNS4zODksMC0xMC4xNTMsMi42NjYtMTMuMDUyLDYuNzQ5IGMwLjIyOCwwLjA3NCwwLjMwNywwLjAzOSwwLjYxMSwwLjAzOWMxLjY2OSwwLDQuMjY0LTAuMiw0LjI2NC0wLjJjMC44Ni0wLjA1NywwLjk2NSwxLjIxMiwwLjA5OSwxLjMxNmMwLDAtMC44NjQsMC4xMDUtMS44MjgsMC4xNTIgbDUuOTMxLDE3Ljc3OGwzLjUtMTAuNTAxbC0yLjYwMy03LjI0OGMtMC44NjEtMC4wNDYtMS42NzktMC4xNTItMS42NzktMC4xNTJjLTAuODYyLTAuMDU2LTAuNzYyLTEuMzc1LDAuMDk4LTEuMzE2IGMwLDAsMi42NDgsMC4yLDQuMjE3LDAuMmMxLjY3NSwwLDQuMjY0LTAuMiw0LjI2NC0wLjJjMC44NjEtMC4wNTcsMC45NjUsMS4yMTIsMC4xMDQsMS4zMTZjMCwwLTAuODcsMC4xMDUtMS44MzIsMC4xNTJsNS44OTEsMTcuNjEgbDEuNTk5LTUuMzI2QzM0LjM5OSwyNi4yODksMzQuODA0LDI0LjU2OSwzNC44MDQsMjMuMTk0eiBNMjQuMjgxLDI1LjM5NmwtNC44LDEzLjk1MmMxLjQzNiwwLjQyNiwyLjk1LDAuNjUyLDQuNTIsMC42NTIgYzEuODYxLDAsMy42NDktMC4zMjQsNS4zMTYtMC45MDdjLTAuMDQtMC4wNzEtMC4wODUtMC4xNDMtMC4xMTgtMC4yMkwyNC4yODEsMjUuMzk2eiBNMzguMDQzLDE2LjMxOCBjMC4wNzEsMC41MSwwLjEwOCwxLjA1OSwwLjEwOCwxLjY0NWMwLDEuNjI4LTAuMzA2LDMuNDUxLTEuMjE5LDUuNzM3bC00Ljg4NSwxNC4xMzVDMzYuODA1LDM1LjA2Myw0MCwyOS45MDIsNDAsMjQgQzQwLDIxLjIxOSwzOS4yODksMTguNjA0LDM4LjA0MywxNi4zMTh6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzAxNTc5YiIgZD0iTTQsMjRjMCwxMS4wMjQsOC45NywyMCwxOS45OTksMjBDMzUuMDMsNDQsNDQsMzUuMDI0LDQ0LDI0UzM1LjAzLDQsMjQsNFM0LDEyLjk3Niw0LDI0eiBNNS45OTUsMjQgYzAtOS45MjQsOC4wNzQtMTcuOTk5LDE4LjAwNC0xNy45OTlTNDIuMDA1LDE0LjA3Niw0Mi4wMDUsMjRTMzMuOTI5LDQyLjAwMSwyNCw0Mi4wMDFDMTQuMDcyLDQyLjAwMSw1Ljk5NSwzMy45MjQsNS45OTUsMjR6Ij48L3BhdGg+PC9zdmc+"/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                      Wordpress
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -208,13 +208,13 @@ function Stack() {
                   <img alt="svgImg" className="w-8 h-8 rounded-full" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjNjczYWI3IiBkPSJNNDIsMzdjMCwyLjc2Mi0yLjIzOCw1LTUsNUgxMWMtMi43NjEsMC01LTIuMjM4LTUtNVYxMWMwLTIuNzYyLDIuMjM5LTUsNS01aDI2YzIuNzYyLDAsNSwyLjIzOCw1LDUgVjM3eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0zMy4wMywyNS42Yy0wLjY1LTAuOS0xLjU5LTEuNTItMi44LTEuODVjMCwwLDEuMDItMC4zNywxLjk0LTEuNzVjMC41NS0wLjg4LDAuODMtMS45NCwwLjgzLTMuMTggYzAtMi4xNS0wLjc4LTMuOC0yLjM0LTQuOTNDMjkuMSwxMi43NiwyNy4zNCwxMiwyNC4zNSwxMkgxNXYyNGgxMC40M2MyLjgzLTAuMDIsNC45Ni0wLjYzLDYuNDEtMS44YzEuNDQtMS4xOSwyLjE2LTIuOTUsMi4xNi01LjMgQzM0LDI3LjYsMzMuNjgsMjYuNSwzMy4wMywyNS42eiBNMjEsMTZjMCwwLDQuMTcsMCw0LjI1LDBjMS41MiwwLDIuNzUsMS4yMywyLjc1LDIuNzVjMCwxLjUyLTEuMjMsMi43NS0yLjc1LDIuNzUgYy0wLjA4LDAtNC4yNSwwLTQuMjUsMFYxNnogTTI2LDMyaC01di02aDVjMS42NiwwLDMsMS4zNCwzLDNDMjksMzAuNjYsMjcuNjYsMzIsMjYsMzJ6Ij48L3BhdGg+PC9zdmc+"/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       Bootstrap
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -224,16 +224,16 @@ function Stack() {
 
 
 
-        <div className="p-4 max-w-md bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-100 dark:border-gray-700">
+        <div className="p-4 max-w-md bg-blitblue-300 rounded-lg border-black shadow-md sm:p-8 dark:bg-gray-100 dark:border-gray-700">
           <div className="flex justify-between items-center mb-4">
-            <h5 className="text-l font-bold leading-none text-gray-900 dark:text-black">
+            <h5 className="text-l font-bold leading-none text-blittext-100 dark:text-black">
               Cloud and DevOps
             </h5>
           </div>
           <div className="flow-root">
             <ul
               role="list"
-              className="divide-y divide-gray-200 dark:divide-gray-700"
+              className="divide-y divide-black dark:divide-gray-700"
             >
               <li className="py-3 sm:py-4">
                 <div className="flex items-center space-x-4">
@@ -241,13 +241,13 @@ function Stack() {
                     <img alt="svgImg" className="w-8 h-8 rounded-full" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMjUyZjNlIiBkPSJNMTMuNTI3LDIxLjUyOWMwLDAuNTk3LDAuMDY0LDEuMDgsMC4xNzYsMS40MzVjMC4xMjgsMC4zNTUsMC4yODcsMC43NDIsMC41MTEsMS4xNjEgYzAuMDgsMC4xMjksMC4xMTIsMC4yNTgsMC4xMTIsMC4zNzFjMCwwLjE2MS0wLjA5NiwwLjMyMi0wLjMwMywwLjQ4NGwtMS4wMDYsMC42NzdjLTAuMTQ0LDAuMDk3LTAuMjg3LDAuMTQ1LTAuNDE1LDAuMTQ1IGMtMC4xNiwwLTAuMzE5LTAuMDgxLTAuNDc5LTAuMjI2Yy0wLjIyNC0wLjI0Mi0wLjQxNS0wLjUtMC41NzUtMC43NThjLTAuMTYtMC4yNzQtMC4zMTktMC41OC0wLjQ5NS0wLjk1MSBjLTEuMjQ1LDEuNDgzLTIuODEsMi4yMjUtNC42OTQsMi4yMjVjLTEuMzQxLDAtMi40MTEtMC4zODctMy4xOTMtMS4xNjFzLTEuMTgxLTEuODA2LTEuMTgxLTMuMDk2YzAtMS4zNywwLjQ3OS0yLjQ4MywxLjQ1My0zLjMyMSBzMi4yNjctMS4yNTgsMy45MTEtMS4yNThjMC41NDMsMCwxLjEwMiwwLjA0OCwxLjY5MiwwLjEyOXMxLjE5NywwLjIxLDEuODM2LDAuMzU1di0xLjE3N2MwLTEuMjI1LTAuMjU1LTIuMDgtMC43NS0yLjU4IGMtMC41MTEtMC41LTEuMzczLTAuNzQyLTIuNjAyLTAuNzQyYy0wLjU1OSwwLTEuMTMzLDAuMDY0LTEuNzI0LDAuMjFjLTAuNTkxLDAuMTQ1LTEuMTY1LDAuMzIyLTEuNzI0LDAuNTQ4IGMtMC4yNTUsMC4xMTMtMC40NDcsMC4xNzctMC41NTksMC4yMWMtMC4xMTIsMC4wMzItMC4xOTIsMC4wNDgtMC4yNTUsMC4wNDhjLTAuMjI0LDAtMC4zMzUtMC4xNjEtMC4zMzUtMC41di0wLjc5IGMwLTAuMjU4LDAuMDMyLTAuNDUxLDAuMTEyLTAuNTY0YzAuMDgtMC4xMTMsMC4yMjQtMC4yMjYsMC40NDctMC4zMzljMC41NTktMC4yOSwxLjIyOS0wLjUzMiwyLjAxMi0wLjcyNiBjMC43ODItMC4yMSwxLjYxMi0wLjMwNiwyLjQ5LTAuMzA2YzEuOSwwLDMuMjg5LDAuNDM1LDQuMTgzLDEuMzA2YzAuODc4LDAuODcxLDEuMzI1LDIuMTkzLDEuMzI1LDMuOTY2djUuMjI0SDEzLjUyN3ogTTcuMDQ1LDIzLjk3OWMwLjUyNywwLDEuMDctMC4wOTcsMS42NDQtMC4yOWMwLjU3NS0wLjE5MywxLjA4Ni0wLjU0OCwxLjUxNy0xLjAzMmMwLjI1NS0wLjMwNiwwLjQ0Ny0wLjY0NSwwLjU0My0xLjAzMiBjMC4wOTYtMC4zODcsMC4xNi0wLjg1NSwwLjE2LTEuNDAzdi0wLjY3N2MtMC40NjMtMC4xMTMtMC45NTgtMC4yMS0xLjQ2OS0wLjI3NGMtMC41MTEtMC4wNjQtMS4wMDYtMC4wOTctMS41MDEtMC4wOTcgYy0xLjA3LDAtMS44NTIsMC4yMS0yLjM3OSwwLjY0NXMtMC43ODIsMS4wNDgtMC43ODIsMS44NTRjMCwwLjc1OCwwLjE5MiwxLjMyMiwwLjU5MSwxLjcwOSBDNS43NTIsMjMuNzg2LDYuMzExLDIzLjk3OSw3LjA0NSwyMy45Nzl6IE0xOS44NjUsMjUuNzIxYy0wLjI4NywwLTAuNDc5LTAuMDQ4LTAuNjA3LTAuMTYxYy0wLjEyOC0wLjA5Ny0wLjIzOS0wLjMyMi0wLjMzNS0wLjYyOSBsLTMuNzUyLTEyLjQ2M2MtMC4wOTYtMC4zMjItMC4xNDQtMC41MzItMC4xNDQtMC42NDVjMC0wLjI1OCwwLjEyOC0wLjQwMywwLjM4My0wLjQwM2gxLjU2NWMwLjMwMywwLDAuNTExLDAuMDQ4LDAuNjIzLDAuMTYxIGMwLjEyOCwwLjA5NywwLjIyMywwLjMyMiwwLjMxOSwwLjYyOWwyLjY4MiwxMC42NzRsMi40OS0xMC42NzRjMC4wOC0wLjMyMiwwLjE3Ni0wLjUzMiwwLjMwMy0wLjYyOSBjMC4xMjgtMC4wOTcsMC4zNTEtMC4xNjEsMC42MzktMC4xNjFoMS4yNzdjMC4zMDMsMCwwLjUxMSwwLjA0OCwwLjYzOSwwLjE2MWMwLjEyOCwwLjA5NywwLjIzOSwwLjMyMiwwLjMwMywwLjYyOWwyLjUyMiwxMC44MDMgbDIuNzYyLTEwLjgwM2MwLjA5Ni0wLjMyMiwwLjIwOC0wLjUzMiwwLjMxOS0wLjYyOWMwLjEyOC0wLjA5NywwLjMzNS0wLjE2MSwwLjYyMy0wLjE2MWgxLjQ4NWMwLjI1NSwwLDAuMzk5LDAuMTI5LDAuMzk5LDAuNDAzIGMwLDAuMDgxLTAuMDE2LDAuMTYxLTAuMDMyLDAuMjU4cy0wLjA0OCwwLjIyNi0wLjExMiwwLjQwM2wtMy44NDcsMTIuNDYzYy0wLjA5NiwwLjMyMi0wLjIwOCwwLjUzMi0wLjMzNSwwLjYyOSBzLTAuMzM1LDAuMTYxLTAuNjA3LDAuMTYxaC0xLjM3M2MtMC4zMDMsMC0wLjUxMS0wLjA0OC0wLjYzOS0wLjE2MWMtMC4xMjgtMC4xMTMtMC4yMzktMC4zMjItMC4zMDMtMC42NDVsLTIuNDc0LTEwLjQgTDIyLjE4LDI0LjkxNWMtMC4wOCwwLjMyMi0wLjE3NiwwLjUzMi0wLjMwMywwLjY0NWMtMC4xMjgsMC4xMTMtMC4zNTEsMC4xNjEtMC42MzksMC4xNjFIMTkuODY1eiBNNDAuMzc5LDI2LjE1NiBjLTAuODMsMC0xLjY2LTAuMDk3LTIuNDU4LTAuMjljLTAuNzk4LTAuMTkzLTEuNDIxLTAuNDAzLTEuODM2LTAuNjQ1Yy0wLjI1NS0wLjE0NS0wLjQzMS0wLjMwNi0wLjQ5NS0wLjQ1MSBjLTAuMDY0LTAuMTQ1LTAuMDk2LTAuMzA2LTAuMDk2LTAuNDUxdi0wLjgyMmMwLTAuMzM5LDAuMTI4LTAuNSwwLjM2Ny0wLjVjMC4wOTYsMCwwLjE5MiwwLjAxNiwwLjI4NywwLjA0OCBjMC4wOTYsMC4wMzIsMC4yMzksMC4wOTcsMC4zOTksMC4xNjFjMC41NDMsMC4yNDIsMS4xMzMsMC40MzUsMS43NTYsMC41NjRjMC42MzksMC4xMjksMS4yNjEsMC4xOTMsMS45LDAuMTkzIGMxLjAwNiwwLDEuNzg4LTAuMTc3LDIuMzMxLTAuNTMyYzAuNTQzLTAuMzU1LDAuODMtMC44NzEsMC44My0xLjUzMmMwLTAuNDUxLTAuMTQ0LTAuODIyLTAuNDMxLTEuMTI5IGMtMC4yODctMC4zMDYtMC44My0wLjU4LTEuNjEyLTAuODM4bC0yLjMxNS0wLjcyNmMtMS4xNjUtMC4zNzEtMi4wMjctMC45MTktMi41NTQtMS42NDVjLTAuNTI3LTAuNzA5LTAuNzk4LTEuNDk5LTAuNzk4LTIuMzM4IGMwLTAuNjc3LDAuMTQ0LTEuMjc0LDAuNDMxLTEuNzlzMC42NzEtMC45NjcsMS4xNDktMS4zMjJjMC40NzktMC4zNzEsMS4wMjItMC42NDUsMS42Ni0wLjgzOEMzOS41MzMsMTEuMDgxLDQwLjIwMywxMSw0MC45MDYsMTEgYzAuMzUxLDAsMC43MTgsMC4wMTYsMS4wNywwLjA2NGMwLjM2NywwLjA0OCwwLjcwMiwwLjExMywxLjAzOCwwLjE3N2MwLjMxOSwwLjA4MSwwLjYyMywwLjE2MSwwLjkxLDAuMjU4czAuNTExLDAuMTkzLDAuNjcxLDAuMjkgYzAuMjI0LDAuMTI5LDAuMzgzLDAuMjU4LDAuNDc5LDAuNDAzYzAuMDk2LDAuMTI5LDAuMTQ0LDAuMzA2LDAuMTQ0LDAuNTMydjAuNzU4YzAsMC4zMzktMC4xMjgsMC41MTYtMC4zNjcsMC41MTYgYy0wLjEyOCwwLTAuMzM1LTAuMDY0LTAuNjA3LTAuMTkzYy0wLjkxLTAuNDE5LTEuOTMyLTAuNjI5LTMuMDY1LTAuNjI5Yy0wLjkxLDAtMS42MjgsMC4xNDUtMi4xMjMsMC40NTEgYy0wLjQ5NSwwLjMwNi0wLjc1LDAuNzc0LTAuNzUsMS40MzVjMCwwLjQ1MSwwLjE2LDAuODM4LDAuNDc5LDEuMTQ1YzAuMzE5LDAuMzA2LDAuOTEsMC42MTMsMS43NTYsMC44ODdsMi4yNjcsMC43MjYgYzEuMTQ5LDAuMzcxLDEuOTgsMC44ODcsMi40NzQsMS41NDhzMC43MzQsMS40MTksMC43MzQsMi4yNTdjMCwwLjY5My0wLjE0NCwxLjMyMi0wLjQxNSwxLjg3IGMtMC4yODcsMC41NDgtMC42NzEsMS4wMzItMS4xNjUsMS40MTljLTAuNDk1LDAuNDAzLTEuMDg2LDAuNjkzLTEuNzcyLDAuOTAzQzQxLjk0MywyNi4wNDMsNDEuMTkzLDI2LjE1Niw0MC4zNzksMjYuMTU2eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmOTAiIGQ9Ik00My4zOTYsMzMuOTkyYy01LjI1MiwzLjkxOC0xMi44ODMsNS45OTgtMTkuNDQ1LDUuOTk4Yy05LjE5NSwwLTE3LjQ4MS0zLjQzNC0yMy43MzktOS4xNDIgYy0wLjQ5NS0wLjQ1MS0wLjA0OC0xLjA2NCwwLjU0My0wLjcwOWM2Ljc2OSwzLjk2NiwxNS4xMTgsNi4zNjksMjMuNzU1LDYuMzY5YzUuODI3LDAsMTIuMjI5LTEuMjI1LDE4LjExOS0zLjc0MSBDNDMuNTA4LDMyLjM2NCw0NC4yNTgsMzMuMzQ3LDQzLjM5NiwzMy45OTJ6IE00NS41ODMsMzEuNDc3Yy0wLjY3MS0wLjg3MS00LjQzOC0wLjQxOS02LjE0Ni0wLjIxIGMtMC41MTEsMC4wNjQtMC41OTEtMC4zODctMC4xMjgtMC43MjZjMy4wMDEtMi4xMjgsNy45MzQtMS41MTYsOC41MDktMC44MDZjMC41NzUsMC43MjYtMC4xNiw1LjcwOC0yLjk2OSw4LjA5NCBjLTAuNDMxLDAuMzcxLTAuODQ2LDAuMTc3LTAuNjU1LTAuMzA2QzQ0LjgzMywzNS45MjcsNDYuMjU0LDMyLjMzMSw0NS41ODMsMzEuNDc3eiI+PC9wYXRoPjwvc3ZnPg=="/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       AWS
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -257,13 +257,13 @@ function Stack() {
                     <img alt="svgImg" className="w-8 h-8 rounded-full" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48bGluZWFyR3JhZGllbnQgaWQ9Ims4eWw3fmhEYXR+RmFvV3E4V2pONmFfVkxLYWZPa2szc0JYX2dyMSIgeDE9Ii0xMjU0LjM5NyIgeDI9Ii0xMjYxLjkxMSIgeTE9Ijg3Ny4yNjgiIHkyPSI4OTkuNDY2IiBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKDE5ODEuNzUgLTEzNjIuMDYzKSBzY2FsZSgxLjU2MjUpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMTE0YThiIj48L3N0b3A+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDY2OWJjIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48cGF0aCBmaWxsPSJ1cmwoI2s4eWw3fmhEYXR+RmFvV3E4V2pONmFfVkxLYWZPa2szc0JYX2dyMSkiIGQ9Ik0xNy42MzQsNmgxMS4zMDVMMTcuMjAzLDQwLjc3M2MtMC4yNDcsMC43MzMtMC45MzQsMS4yMjYtMS43MDgsMS4yMjZINi42OTcgYy0wLjk5NCwwLTEuOC0wLjgwNi0xLjgtMS44YzAtMC4xOTYsMC4wMzItMC4zOSwwLjA5NC0wLjU3NkwxNS45MjYsNy4yMjdDMTYuMTczLDYuNDk0LDE2Ljg2LDYsMTcuNjM0LDZMMTcuNjM0LDZ6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzAwNzhkNCIgZD0iTTM0LjA2MiwyOS4zMjRIMTYuMTM1Yy0wLjQ1OC0wLjAwMS0wLjgzLDAuMzcxLTAuODMxLDAuODI5YzAsMC4yMzEsMC4wOTUsMC40NTEsMC4yNjQsMC42MDggbDExLjUyLDEwLjc1MkMyNy40MjMsNDEuODI2LDI3Ljg2NSw0MiwyOC4zMjQsNDJoMTAuMTUxTDM0LjA2MiwyOS4zMjR6Ij48L3BhdGg+PGxpbmVhckdyYWRpZW50IGlkPSJrOHlsN35oRGF0fkZhb1dxOFdqTjZiX1ZMS2FmT2trM3NCWF9ncjIiIHgxPSItMTI1Mi4wNSIgeDI9Ii0xMjUzLjc4OCIgeTE9Ijg4Ny42MTIiIHkyPSI4ODguMiIgZ3JhZGllbnRUcmFuc2Zvcm09InRyYW5zbGF0ZSgxOTgxLjc1IC0xMzYyLjA2Mykgc2NhbGUoMS41NjI1KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1vcGFjaXR5PSIuMyI+PC9zdG9wPjxzdG9wIG9mZnNldD0iLjA3MSIgc3RvcC1vcGFjaXR5PSIuMiI+PC9zdG9wPjxzdG9wIG9mZnNldD0iLjMyMSIgc3RvcC1vcGFjaXR5PSIuMSI+PC9zdG9wPjxzdG9wIG9mZnNldD0iLjYyMyIgc3RvcC1vcGFjaXR5PSIuMDUiPjwvc3RvcD48c3RvcCBvZmZzZXQ9IjEiIHN0b3Atb3BhY2l0eT0iMCI+PC9zdG9wPjwvbGluZWFyR3JhZGllbnQ+PHBhdGggZmlsbD0idXJsKCNrOHlsN35oRGF0fkZhb1dxOFdqTjZiX1ZMS2FmT2trM3NCWF9ncjIpIiBkPSJNMTcuNjM0LDZjLTAuNzgzLTAuMDAzLTEuNDc2LDAuNTA0LTEuNzEyLDEuMjVMNS4wMDUsMzkuNTk1IGMtMC4zMzUsMC45MzQsMC4xNTEsMS45NjQsMS4wODUsMi4yOTlDNi4yODYsNDEuOTY0LDYuNDkzLDQyLDYuNzAyLDQyaDkuMDI2YzAuNjg0LTAuMTIyLDEuMjUtMC42MDMsMS40ODEtMS4yNTlsMi4xNzctNi40MTYgbDcuNzc2LDcuMjUzYzAuMzI2LDAuMjcsMC43MzUsMC40MTksMS4xNTgsMC40MjJoMTAuMTE0bC00LjQzNi0xMi42NzZsLTEyLjkzMSwwLjAwM0wyOC45OCw2SDE3LjYzNHoiPjwvcGF0aD48bGluZWFyR3JhZGllbnQgaWQ9Ims4eWw3fmhEYXR+RmFvV3E4V2pONmNfVkxLYWZPa2szc0JYX2dyMyIgeDE9Ii0xMjUyLjk1MiIgeDI9Ii0xMjQ0LjcwNCIgeTE9Ijg3Ni42IiB5Mj0iODk4LjU3NSIgZ3JhZGllbnRUcmFuc2Zvcm09InRyYW5zbGF0ZSgxOTgxLjc1IC0xMzYyLjA2Mykgc2NhbGUoMS41NjI1KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzNjY2JmNCI+PC9zdG9wPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI4OTJkZiI+PC9zdG9wPjwvbGluZWFyR3JhZGllbnQ+PHBhdGggZmlsbD0idXJsKCNrOHlsN35oRGF0fkZhb1dxOFdqTjZjX1ZMS2FmT2trM3NCWF9ncjMpIiBkPSJNMzIuMDc0LDcuMjI1QzMxLjgyNyw2LjQ5MywzMS4xNDEsNiwzMC4zNjgsNmgtMTIuNmMwLjc3MiwwLDEuNDU5LDAuNDkzLDEuNzA1LDEuMjI0IGwxMC45MzUsMzIuMzk5YzAuMzE4LDAuOTQyLTAuMTg4LDEuOTYzLTEuMTMsMi4yODFDMjkuMDkzLDQxLjk2OCwyOC44OTksNDIsMjguNzAzLDQyaDEyLjZjMC45OTQsMCwxLjgtMC44MDYsMS44LTEuODAxIGMwLTAuMTk2LTAuMDMyLTAuMzktMC4wOTUtMC41NzVMMzIuMDc0LDcuMjI1eiI+PC9wYXRoPjwvc3ZnPg=="/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       Azure
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -273,13 +273,13 @@ function Stack() {
                    <img alt="svgImg" className="w-8 h-8 rounded-full" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMTk3NmQyIiBkPSJNMzguMTkzLDE4LjM1OWMtMC43NzEtMi43NTMtMi4zMTktNS4xNzctNC4zOTctNy4wM2wtNC41OTgsNC41OTgJYzEuNjc3LDEuMzY1LDIuODA4LDMuMzc0LDMuMDE0LDUuNjQ4djEuNTA4YzAuMDI2LDAsMC4wNS0wLjAwOCwwLjA3Ni0wLjAwOGMyLjMyMiwwLDQuMjEyLDEuODksNC4yMTIsNC4yMTJTMzQuNjEsMzEuNSwzMi4yODgsMzEuNQljLTAuMDI2LDAtMC4wNS0wLjAwNy0wLjA3Ni0wLjAwOFYzMS41aC02LjY2NkgyNFYzOGg4LjIxMnYtMC4wMDRjMC4wMjYsMCwwLjA1LDAuMDA0LDAuMDc2LDAuMDA0QzM4LjE5NSwzOCw0MywzMy4xOTQsNDMsMjcuMjg4CUM0MywyMy41NjMsNDEuMDg2LDIwLjI3OSwzOC4xOTMsMTguMzU5eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmZmUwODIiIGQ9Ik0xOS41NiwyNS41OWw0LjcyLTQuNzJjLTAuMDA0LTAuMDA1LTAuMDA4LTAuMDA5LTAuMDExLTAuMDEzbC00LjcxNyw0LjcxNwlDMTkuNTU0LDI1LjU3OSwxOS41NTcsMjUuNTg0LDE5LjU2LDI1LjU5eiIgb3BhY2l0eT0iLjUiPjwvcGF0aD48cGF0aCBmaWxsPSIjOTBjYWY5IiBkPSJNMTkuNTYsMjUuNTlsNC43Mi00LjcyYy0wLjAwNC0wLjAwNS0wLjAwOC0wLjAwOS0wLjAxMS0wLjAxM2wtNC43MTcsNC43MTcJQzE5LjU1NCwyNS41NzksMTkuNTU3LDI1LjU4NCwxOS41NiwyNS41OXoiIG9wYWNpdHk9Ii41Ij48L3BhdGg+PHBhdGggZmlsbD0iI2ZmM2QwMCIgZD0iTTI0LDcuNTc2Yy04LjEzMywwLTE0Ljc1LDYuNjE3LTE0Ljc1LDE0Ljc1YzAsMC4yMzMsMC4wMjQsMC40NiwwLjAzNSwwLjY5aDYuNQljLTAuMDE5LTAuMjI4LTAuMDM1LTAuNDU3LTAuMDM1LTAuNjljMC00LjU0OSwzLjcwMS04LjI1LDguMjUtOC4yNWMxLjk2OSwwLDMuNzc4LDAuNjk2LDUuMTk4LDEuODUxbDQuNTk4LTQuNTk4CUMzMS4xODgsOS4wMDMsMjcuNzYxLDcuNTc2LDI0LDcuNTc2eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM5MGNhZjkiIGQ9Ik0xNS43MTIsMzEuNUwxNS43MTIsMzEuNWMtMC4wMDEsMC0wLjAwMSwwLTAuMDAyLDBjLTAuNjExLDAtMS4xODgtMC4xMzctMS43MTItMC4zNzMJbC00LjcxLDQuNzFDMTEuMDgxLDM3LjE4OCwxMy4zMDEsMzgsMTUuNzEsMzhjMC4wMDEsMCwwLjAwMSwwLDAuMDAyLDB2MEgyNHYtNi41SDE1LjcxMnoiIG9wYWNpdHk9Ii41Ij48L3BhdGg+PHBhdGggZmlsbD0iIzRjYWY1MCIgZD0iTTE1LjcxMiwzMS41TDE1LjcxMiwzMS41Yy0wLjAwMSwwLTAuMDAxLDAtMC4wMDIsMGMtMC42MTEsMC0xLjE4OC0wLjEzNy0xLjcxMi0wLjM3M2wtNC43MSw0LjcxCUMxMS4wODEsMzcuMTg4LDEzLjMwMSwzOCwxNS43MSwzOGMwLjAwMSwwLDAuMDAxLDAsMC4wMDIsMHYwSDI0di02LjVIMTUuNzEyeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmZmMxMDciIGQ9Ik0xMS41LDI3LjI5YzAtMi4zMiwxLjg5LTQuMjEsNC4yMS00LjIxYzEuNzAzLDAsMy4xNzgsMS4wMjMsMy44NDEsMi40OTRsNC43MTctNC43MTcJYy0xLjk2MS0yLjYwMi01LjA2NS00LjI3Ny04LjU1OS00LjI3N0M5LjgxLDE2LjU4LDUsMjEuMzgsNSwyNy4yOWMwLDMuNDkxLDEuNjkxLDYuNTksNC4yODgsOC41NDdsNC43MS00LjcxCUMxMi41MywzMC40NjksMTEuNSwyOC45OTksMTEuNSwyNy4yOXoiPjwvcGF0aD48L3N2Zz4="/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       Google Cloud
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -289,13 +289,13 @@ function Stack() {
                     <img alt="svgImg" className="w-8 h-8 rounded-full" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjZmZlMGIyIiBkPSJNMTUuMiwzMy41Yy0wLjUsMC4zLTguMiw1LjItOC4yLDUuNWMwLDAuNCwwLDAuNCwwLDAuNEw4LjQsNDNoMzEuMmMwLDAsMS41LTQuOCwxLjQtNiBjMC0wLjYtNS0zLjktNS0zLjlzMy45LTMuOSw0LTEyLjRjMC0wLjgsMC0xLjYtMC4xLTIuNEMzOS4yLDguNywzMy4xLDUuMywyNi43LDVjLTYuNS0wLjItMTAuMSwyLjgtMTAuMSwyLjhzLTQuMSwxLjQtNC41LDQuNyBjMCwwLTMuMiwwLjYtMS41LDcuMUM5LjMsMjAuNiw5LDIyLDksMjNjMCwxLjMsMC40LDIuOCwxLjIsMy43YzEuNywxLjgsMy4xLDEuNCwzLjEsMS40UzEzLjksMzEuMywxNS4yLDMzLjV6Ij48L3BhdGg+PHBhdGggZmlsbD0iI2Y0NDMzNiIgZD0iTTM2LjgsMzYuOUMzNi42LDM1LjYsMzYsMzUsMzQuNywzNWgtMC4xbC0wLjEsMGMtMC40LDAuMS0xLDAuMy0yLjcsMS41bC0xLDAuNyBDMzAuNiwzNy4xLDMwLjMsMzcsMzAsMzdjLTAuNSwwLTAuOSwwLjItMS4zLDAuNWwtMS0wLjVMMjYsMzYuMWMtMC45LTAuNC0xLjgtMC43LTIuNS0wLjdjLTAuNSwwLTAuOSwwLjEtMS4zLDAuMyBjLTAuNSwwLjQtMC43LDEtMC42LDEuOGMwLDAuNCwwLjEsMC45LDAuMSwxLjNjMC4yLDIuMSwwLjMsMy42LDIuMywzLjdjMC4xLDAsMC4yLDAsMC4zLDBjMS4xLDAsMi40LTAuNCwzLjYtMS4zbDAuOS0wLjYgYzAuMywwLjIsMC43LDAuNCwxLjEsMC40YzAuNSwwLDAuOS0wLjIsMS4yLTAuNGwxLjQsMC4zYzAuNiwwLjEsMS4xLDAuMiwxLjYsMC4ybDAuNCwwYzAuNSwwLDEsMCwxLjUtMC4zYzAuNi0wLjMsMC45LTEsMC45LTIuMSBjMC0wLjUtMC4xLTEtMC4xLTEuNEwzNi44LDM2Ljl6Ij48L3BhdGg+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIxLjcsMzguOWMwLTAuNC0wLjEtMC44LTAuMS0xLjNjLTAuMS0wLjYsMC0xLDAuMi0xLjRjLTUtMC4xLTYuNi0yLjctNi42LTIuN3MtMC4zLDEuNiwxLjEsMy40IGMyLjEsMi41LDUuMywyLjgsNS4zLDIuOGgwLjJDMjEuOCwzOS41LDIxLjgsMzkuMiwyMS43LDM4Ljl6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzU0NmU3YSIgZD0iTTIyLjksNDNsLTAuNy0xLjRjLTAuMS0wLjMtMC4yLTAuNi0wLjMtMS4xbC0wLjEtMC43bC0wLjctMC4xYy0wLjktMC4yLTMuMS0wLjgtNC43LTIuNyBjLTAuNS0wLjYtMC44LTEuMy0xLTJMMTUsMzMuN2wtMS4xLDAuN2MtMiwxLjMtNS4zLDMuNC02LjQsNC4zbC0wLjYsMC41TDguNCw0M0wyMi45LDQzTDIyLjksNDN6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzQ1NWE2NCIgZD0iTTEyLjIsNDNoMTAuN2wtMC43LTEuNGMtMC4xLTAuMy0wLjItMC42LTAuMy0xLjFsLTAuMS0wLjdsLTAuNy0wLjFjLTAuOS0wLjItMy4xLTAuOC00LjctMi43IGMtMC4xLTAuMS0wLjItMC4zLTAuMy0wLjRMMTEsNDBMMTIuMiw0M3oiPjwvcGF0aD48cGF0aCBmaWxsPSIjNTQ2ZTdhIiBkPSJNNDAuNywzNi41Yy0wLjYtMC42LTIuNC0xLjktMy4xLTIuNGwtMC43LTAuNWMtMC4yLDAuMi0wLjYsMC43LTEuMywxLjJsMC43LDAuNyBjMC4zLDAuMywwLjUsMC44LDAuNiwxLjNsMCwwLjNjMC4xLDAuNCwwLjEsMC45LDAuMSwxLjRjMCwxLjctMC42LDItMC45LDIuMWMtMC4yLDAuMS0wLjUsMC4yLTAuOCwwLjJsMC4xLDJoNC4xbDAuMi0wLjcgYzAuNS0xLjYsMS4xLTMuOSwxLjItNC45bDAtMC41TDQwLjcsMzYuNXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjNDU1YTY0IiBkPSJNMzkuNiw0M2wwLjItMC43YzAuMy0wLjgsMC41LTEuOSwwLjgtMi44bC0zLjctMmMwLDAuMywwLjEsMC43LDAuMSwxLjFjMCwxLjctMC42LDItMC45LDIuMSBjLTAuMiwwLjEtMC41LDAuMi0wLjgsMC4ybDAuMSwyTDM5LjYsNDNMMzkuNiw0M3oiPjwvcGF0aD48cGF0aCBmaWxsPSIjNjE2MTYxIiBkPSJNMTAuMywxOS44QzEwLjMsMTkuOCwxMC40LDE5LjcsMTAuMywxOS44TDEwLjMsMTkuOGwwLjEtMC4xYzAuNS0wLjQsMS4yLTAuNywxLjgtMC43IGMwLjYsMCwwLjksMC4yLDEuMiwwLjNjMS4zLDAuNywxLjYsMiwxLjcsMi45bDAsMGwwLDAuMWwwLDAuMWMwLjYtMC4yLDEuMi0wLjQsMS40LTAuNWMwLTAuMSwwLTAuMy0wLjEtMC42IGMtMC4xLTAuNC0wLjItMC45LTAuNC0xLjRjLTAuNC0xLjEtMC4zLTIuNSwwLjMtNC4zbDAuMS0wLjJjMC4xLTAuNCwwLjMtMC44LDAuMy0xLjFjMC0wLjMsMC4xLTAuNiwwLjEtMC43YzAtMC4zLTAuMS0wLjUtMC4yLTAuOCBsLTAuMi0wLjVsMC4zLTAuNWMwLjktMS41LDQuMi02LjUsMTAuOS02LjVjMC4yLDAsMC40LDAsMC43LDBsLTAuMiwwQzI3LjcsNS4xLDI3LjIsNSwyNi43LDVjLTAuMiwwLTAuNSwwLTAuNywwbDAsMCBjLTUuNCwwLTguNywyLjMtOS4zLDIuN2wtMC4xLDAuMWwtMC4xLDAuMWMtMC42LDAuMi0zLjcsMS41LTQuMyw0LjJMMTIsMTIuNGwtMC40LDAuMmMtMC40LDAuMi0wLjcsMC41LTAuOSwwLjkgYy0wLjcsMS4yLTAuOCwzLTAuMyw1LjVsMC4xLDAuNUwxMC4xLDIwYzAsMC0wLjEsMC4xLTAuMSwwLjFDMTAuMSwyMCwxMC4yLDE5LjksMTAuMywxOS44eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMyNjMyMzgiIGQ9Ik0yOCA0MUgzNFY0M0gyOHpNMTQuMiAyMi40Yy0uMS0uOS0uNC0xLjctMS4xLTIuMS0uMy0uMS0uNS0uMi0uOC0uMi0uNSAwLTEuMS4yLTEuNi45bC0uNy0yYy45LS41IDEuNy0uOCAyLjUtLjguNSAwIDEgLjEgMS41LjMuNC4yLjguNSAxLjEuOC0uMi0xLjQuMS0yLjkuNS00LjEuMi0uNS4zLTEgLjQtMS4zLjEtLjYgMC0uNy0uMi0xLTEuOS4yLTMuNS43LTMuNS43bC0uNS0xLjljLjEgMCAyLjEtLjYgNC40LS44bC43LS4xLjMuNmMwIDAgLjEuMS4xLjIuMy4zLjcuOS44IDEuOSAwIC4yIDAgLjYtLjEuOS0uMS41LS4zLjktLjQgMS41LS40IDEuMi0uNyAyLjYtLjMgMy42LjIuNi4zIDEuMi40IDEuNi4xLjQuMiAxLjMtLjIgMS42LS40LjMtMi43IDEtMi43IDFTMTQuMyAyMy4zIDE0LjIgMjIuNHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMjYzMjM4IiBkPSJNMTcuNSwxMi42bC0xLjgtMC44YzAtMC4xLDMuNy04LjIsMTMtNy42bC0wLjEsMkMyMC42LDUuOCwxNy41LDEyLjYsMTcuNSwxMi42eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yMiwzNi4yYy01LjEsMC02LjgtMi43LTYuOC0yLjdzLTAuMywxLjYsMS4xLDMuNGMyLjEsMi41LDUuMywyLjgsNS4zLDIuOCI+PC9wYXRoPjxwYXRoIGZpbGw9IiMyNjMyMzgiIGQ9Ik0yMS41IDQwLjdjLS4xIDAtMy42LS40LTUuOS0zLjItMS43LTIuMi0xLjQtNC0xLjMtNC4ybC41LTIuNiAxLjQgMi4zYy4xLjEgMS41IDIuMiA1LjkgMi4ydjJjLTIuMSAwLTMuNy0uNC00LjktMSAwIDAgMCAwIDAgLjEgMS44IDIuMSA0LjUgMi40IDQuNiAyLjRMMjEuNSA0MC43ek0zNC43IDQyYy0uMSAwLS4yIDAtLjMgMC0xLjggMC0zLjUtLjYtMy42LS42bC43LTEuOWMwIDAgMS40LjUgMi44LjVsLjEgMGMuNSAwIDEgMCAxLjMtLjFDMzYgMzkuNyAzNiAzOSAzNiAzOC42YzAtLjQtLjEtLjktLjEtMS4zbDAtLjNjLS4xLS44LS40LTEuMS0xLjItMS4xLS42LjEtMi41IDEuNS0zLjIgMkwzMSAzOC4zbC0xLjItMS42LjQtLjNjMS45LTEuNCAzLjQtMi40IDQuNC0yLjQgMS44IDAgMi45IDEgMy4yIDIuOGwwIC4zYy4xLjQuMSAxIC4yIDEuNSAwIDEuNS0uNCAyLjYtMS40IDNDMzUuOSA0MiAzNS4zIDQyIDM0LjcgNDJ6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzI2MzIzOCIgZD0iTTI0LjMgNDMuNmMtLjEgMC0uMiAwLS4zIDAtMi45LS4yLTMuMS0yLjUtMy4yLTQuNiAwLS40LS4xLS44LS4xLTEuMi0uMi0xLjYuNS0yLjQgMS0yLjggMS4zLS45IDMuMy0uNSA0LjguMmwzIDEuNi0uOSAxLjgtMy0xLjZjLTEuMi0uNi0yLjQtLjctMi43LS40LS4yLjItLjIuNi0uMi45LjEuNC4xLjkuMSAxLjMuMiAyLjQuNCAyLjcgMS40IDIuOCAyLjEuMiA0LjItMS44IDQuMi0xLjlsMS40IDEuNEMyOS42IDQxLjMgMjcuMiA0My42IDI0LjMgNDMuNnpNMjEgMTUuNGMwIDAtLjIuNi0uNi42LS4yIDAtLjQtLjQtLjQtLjggMC0xLjIuOC0yLjcgMS42LTMuNC42LS41IDEuNC0uOCAyLjMtLjguNCAwIC45IDAgMS4zLjIuNS4yLjguNi44IDEuNCAwIDAgMCAuNC0xLjMuNC0uOCAwLTEuOC4xLTIuMi41QzIyLjEgMTMuOSAyMS41IDE0LjMgMjEgMTUuNHpNMjYuNCAyMWMtLjUgMC0xLjEtLjEtMS42LS4yLS42LS4xLS45LS43LS43LTEuMmwuMi0uM2MuMS0uMi4zLS4zLjUtLjMuMSAwIC4yIDAgLjMgMCAuOC4yIDIgLjIgMi40LjItLjUtMS45LS40LTMuMy0uMS0zLjNzMS4xIDIuMyAxLjUgMi44Yy40LjUuMyAxLjEtLjEgMS41QzI4LjEgMjAuOCAyNy4zIDIxIDI2LjQgMjF6TTM2LjQgMjFjLS4yIDAtLjMgMC0uNSAwLS42LS4xLS45LS41LS45LTEuMSAwIDAgLjEtLjkuNi0uOS40IDAgLjkuMiAxLjEuMkMzNi41IDE4IDM2LjIgMTYgMzYuNSAxNmMuMyAwIDEgMi40IDIuNCAzLjMuNC4zLjQuOS0uMiAxLjNDMzcuOSAyMC45IDM3LjIgMjEgMzYuNCAyMXpNMzguMyAxNC41Yy0uMi0uOC0xLjEtMS41LTIuMS0xLjhDMzQuOSAxMi40IDM0IDEzIDM0IDEzYzAtLjkuNy0xLjYgMS0xLjcuNC0uMi42LS4zIDEtLjMgMi4xIDAgMi45IDEuMyAzLjYgMi42TDM4LjMgMTQuNXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMjYzMjM4IiBkPSJNMzEuOSAyN2MtLjEgMC0uMyAwLS40IDAgMCAwIDAgMCAwIDAtLjcgMC0xLjMtLjItMS43LS43LS44LS45LS45LTIuMS0uNi0yLjMuMy0uMi41LjUgMS41LjggMCAwIC43LjEuOS4xLjIgMCAuMyAwIC41IDAgMS4zIDAgMi40LS4zIDIuOC0uNkMzNSAyNC4yIDM1IDI0IDM1IDI0YzAgMCAwLS4zLTEuMy0xLjUtMS4zLTEuMi0xLjctMi43LTEuNy00IDAtMS41LjItMi41LjQtMi41LjMgMCAuNiAzLjIgMi43IDUgMS41IDEuMyAxLjkgMi4yIDEuOSAzLjEgMCAuOS0uNSAxLjQtLjggMS43QzM1LjEgMjYuOCAzMy4zIDI3IDMxLjkgMjd6TTMxLjQgMzBjLTMuMS0uMS00LjctMi00LjctMnMzLjUuMyA1LjguM1YzMEgzMS40ek0zMy42IDMwdi0uOS0uOWMuMi0uMSAxLjguMSAzLjYtLjZDMzYuOCAyOS43IDMzLjcgMzAgMzMuNiAzMHpNMjkuMSAzM2MtMi4yIDAtMy4zLS42LTQuMS0zLjIgMCAwLS4xLS4yLjItLjNzLjQuMS40LjFjLjQgMS4xIDIuMSAxLjQgNC4yIDEuNC4xIDAgLjIgMCAuMyAwIDEgMCAzIDAgMyAwcy0uNCAyLTIuNSAyQzMwLjMgMzMgMjkuMyAzMyAyOS4xIDMzeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMyNjMyMzgiIGQ9Ik0yOSAzN2MtMy4yIDAtNS43LTEtOC40LTMuOS0xLjUtMS42LTEuNS0zLjctMS4zLTMuOXMuNSAxLjIgMS43IDIuNWMyLjQgMi42IDUuOCAzLjQgOC43IDMuMiAzLjgtLjMgNS40LTIuNSA1LjctMi43bDEuNyAxLjJjLS4xLjEtMi40IDMuMS03LjIgMy41QzI5LjUgMzcgMjkuMyAzNyAyOSAzN3pNMTMuNCAyOWwtLjEtMS0uMS0xYzAgMCAuMi0uMS42LS40LjMtLjIuNi0uMi45IDBsLjUuNGMuMy4zLjMuOCAwIDEuMUMxNC4zIDI4LjkgMTMuNSAyOSAxMy40IDI5ek0xMyAyM2wxLjYuNmMtLjEtLjQtLjYtMi4yLTItMi42LS40LS4xLTEuMS4yLTEuMi45IDAgMCAwIC4yIDAgLjMgMCAwIDAgLjEgMCAuMUMxMS41IDI0IDEzIDI1IDEzIDI1VjIzeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMyNjMyMzgiIGQ9Ik0zMCw0MmMtMS43LDAtMy0xLjMtMy0zczEuMy0zLDMtM3MzLDEuMywzLDNTMzEuNyw0MiwzMCw0MnogTTMwLDM4Yy0wLjUsMC0xLDAuNC0xLDFzMC40LDEsMSwxIHMxLTAuNCwxLTFTMzAuNiwzOCwzMCwzOHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMjYzMjM4IiBkPSJNMzkuNiw0NEg4LjRjLTAuNCwwLTAuOC0wLjItMC45LTAuNmwtMS40LTMuNUM2LDM5LjYsNiwzOS41LDYsMzkuM2wwLTAuNGMwLjEtMSw1LjctNC41LDcuOS01LjggYy0wLjctMS41LTEuMi0zLjEtMS40LTQuMWMtMC44LTAuMS0xLjgtMC41LTMtMS43QzguNCwyNi4yLDgsMjQuMyw4LDIzYzAtMC45LDAuMi0yLjQsMS40LTMuN2MtMC42LTIuNy0wLjUtNC44LDAuNC02LjIgYzAuNC0wLjcsMC45LTEsMS4zLTEuM2MwLjgtMy4xLDQuMS00LjUsNC45LTQuOWMwLjgtMC42LDQuNS0zLjEsMTAuNy0yLjljOC40LDAuMywxMy42LDUuNSwxNC4yLDE0LjJDNDEsMTksNDEsMTkuOCw0MSwyMC42IGMwLDYuNS0yLjMsMTAuNS0zLjUsMTIuMWM0LjUsMy4xLDQuNSwzLjYsNC41LDQuMWMwLjEsMS4zLTEuMSw1LjItMS41LDYuNEM0MC40LDQzLjcsNDAsNDQsMzkuNiw0NHogTTkuMSw0MmgyOS43IGMwLjYtMS45LDEuMS0zLjksMS4yLTQuN2MtMC42LTAuNi0yLjctMi4yLTQuNi0zLjRjLTAuMi0wLjItMC40LTAuNC0wLjQtMC43czAuMS0wLjYsMC4zLTAuOGMwLDAsMy42LTMuNywzLjctMTEuNyBjMC0wLjcsMC0xLjUtMC4xLTIuM0MzOC4yLDgsMzAuOSw2LjIsMjYuNiw2Yy02LTAuMi05LjQsMi41LTkuNSwyLjZjLTAuMSwwLjEtMC4yLDAuMS0wLjMsMC4yYzAsMC0zLjUsMS4yLTMuOCwzLjkgYy0wLjEsMC40LTAuNCwwLjgtMC44LDAuOWMtMC43LDAuMi0xLjgsMS43LTAuNyw1LjljMC4xLDAuNCwwLDAuOC0wLjMsMWMtMSwwLjgtMS4xLDItMS4xLDIuNmMwLDEuMiwwLjQsMi40LDEsMyBjMS4yLDEuMywyLjEsMS4xLDIuMSwxLjFjMC4zLTAuMSwwLjYsMCwwLjgsMC4xYzAuMiwwLjIsMC40LDAuNCwwLjQsMC43YzAsMCwwLjUsMy4xLDEuOCw1LjFjMC4xLDAuMiwwLjIsMC41LDAuMSwwLjggYy0wLjEsMC4zLTAuMiwwLjUtMC41LDAuNmMtMC43LDAuNC02LjMsNC03LjcsNUw5LjEsNDJ6IE00MC4xLDM3LjRMNDAuMSwzNy40TDQwLjEsMzcuNHoiPjwvcGF0aD48L3N2Zz4="/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                      Jenkins
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -305,13 +305,13 @@ function Stack() {
                     <img alt="svgImg" className="w-8 h-8 rounded-full" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDI1IDIuMjc3MzQzOCBDIDI0LjQ3NzIxOCAyLjI3NzUyODggMjMuOTU0OTc1IDIuMzkzODIwOCAyMy40NzI2NTYgMi42MjY5NTMxIEwgOC4wMTE3MTg4IDEwLjA5MTc5NyBDIDcuMDQ5OTczOCAxMC41NTU4OTUgNi4zNTA2NDYyIDExLjQzNDk1IDYuMTEzMjgxMiAxMi40NzY1NjIgTCAyLjI5Mjk2ODggMjkuMjU5NzY2IEMgMi4wNTY4ODc4IDMwLjI5OTA4IDIuMzA1Njc5OCAzMS4zOTE3OTIgMi45Njg3NSAzMi4yMjY1NjIgTCAxMy42NzE4NzUgNDUuNjgzNTk0IEMgMTQuMzM4MDY2IDQ2LjUyMTU2OSAxNS4zNTIxMzMgNDcuMDA5NzY2IDE2LjQyMTg3NSA0Ny4wMDk3NjYgTCAzMy41NzgxMjUgNDcuMDA5NzY2IEMgMzQuNjQ3ODY3IDQ3LjAwOTc2NiAzNS42NjE5MzQgNDYuNTIxNTY5IDM2LjMyODEyNSA0NS42ODM1OTQgTCA0Ny4wMzEyNSAzMi4yMjg1MTYgTCA0Ny4wMzEyNSAzMi4yMjY1NjIgQyA0Ny42OTQxODUgMzEuMzkyNDggNDcuOTQ0NzIxIDMwLjMwMDkxMSA0Ny43MDg5ODQgMjkuMjYxNzE5IEEgMS4wMDAxIDEuMDAwMSAwIDAgMCA0Ny43MDg5ODQgMjkuMjU5NzY2IEwgNDMuODg2NzE5IDEyLjQ3NjU2MiBBIDEuMDAwMSAxLjAwMDEgMCAwIDAgNDMuODg2NzE5IDEyLjQ3NDYwOSBDIDQzLjY0OTQxMiAxMS40MzQ2NDcgNDIuOTUwNDY0IDEwLjU1NjgyOSA0MS45ODgyODEgMTAuMDkxNzk3IEwgMjYuNTI5Mjk3IDIuNjI2OTUzMSBBIDEuMDAwMSAxLjAwMDEgMCAwIDAgMjYuNTI3MzQ0IDIuNjI1IEMgMjYuMDQ0OTg2IDIuMzkyODgyOCAyNS41MjI3ODIgMi4yNzcxNTg3IDI1IDIuMjc3MzQzOCB6IE0gMjUgNC4yNzczNDM4IEMgMjUuMjI0NjUzIDQuMjc3NDE0NyAyNS40NDg3OCA0LjMyNzI5OTkgMjUuNjU4MjAzIDQuNDI3NzM0NCBMIDQxLjExOTE0MSAxMS44OTI1NzggQyA0MS41MzQ5NTggMTIuMDkzNTQ2IDQxLjgzNDgwNyAxMi40Njk4ODUgNDEuOTM3NSAxMi45MTk5MjIgTCA0NS43NTc4MTIgMjkuNzAzMTI1IEMgNDUuODU5OTQzIDMwLjE1MzM0NiA0NS43NTMwMTIgMzAuNjIyNjg0IDQ1LjQ2Njc5NyAzMC45ODI0MjIgTCAzNC43NjM2NzIgNDQuNDM5NDUzIEMgMzQuNDc1ODYzIDQ0LjgwMTQ3NyAzNC4wNDAzODMgNDUuMDA5NzY2IDMzLjU3ODEyNSA0NS4wMDk3NjYgTCAxNi40MjE4NzUgNDUuMDA5NzY2IEMgMTUuOTU5NjE3IDQ1LjAwOTc2NiAxNS41MjYwOTEgNDQuODAxNDc3IDE1LjIzODI4MSA0NC40Mzk0NTMgTCA0LjUzNTE1NjIgMzAuOTgyNDIyIEMgNC4yNDgyMjY2IDMwLjYyMTE5MyA0LjE0MDI2ODMgMzAuMTUxODExIDQuMjQyMTg3NSAyOS43MDMxMjUgTCA4LjA2NDQ1MzEgMTIuOTIxODc1IEMgOC4xNjcwODgyIDEyLjQ3MTQ4OCA4LjQ2NjYwNDMgMTIuMDk0NDMzIDguODgwODU5NCAxMS44OTQ1MzEgQSAxLjAwMDEgMS4wMDAxIDAgMCAwIDguODgwODU5NCAxMS44OTI1NzggTCAyNC4zNDE3OTcgNC40Mjc3MzQ0IEMgMjQuNTUwMTY5IDQuMzI3MDE2MSAyNC43NzUzNDcgNC4yNzcyNzI4IDI1IDQuMjc3MzQzOCB6IE0gMjQuOTkyMTg4IDguNDg0Mzc1IEMgMjQuODUxMDk0IDguNDg0Njg3NSAyNC43MDc4MTIgOC41MTI4MTI1IDI0LjU3MDMxMiA4LjU3MDMxMjUgQyAyNC4wMjAzMTIgOC44MTAzMTI1IDIzLjc2IDkuNDUgMjQgMTAgQyAyNC4yMyAxMC41NCAyNC4zMDkxNDEgMTEuMDc5MTQxIDI0LjM2OTE0MSAxMS42MTkxNDEgQyAyNC4zODkxNDEgMTEuODk5MTQxIDI0LjQwMDYyNSAxMi4xNjk0NTMgMjQuMzkwNjI1IDEyLjQzOTQ1MyBDIDI0LjQyMDYyNSAxMi43MDk0NTMgMjQuMjgwMDc4IDEyLjk4IDI0LjA4MDA3OCAxMy4yNSBDIDIzLjg3MDA3OCAxMy41MiAyMy44NTAzMTIgMTMuNzkwNTQ3IDIzLjgyMDMxMiAxNC4wNjA1NDcgQyAyMS4wNzYwOTEgMTQuMzI5OTA0IDE4LjYwNTYxOCAxNS41MzI1MSAxNi43MTY3OTcgMTcuMzM5ODQ0IEwgMTYuNjk5MjE5IDE3LjMzMDA3OCBDIDE2LjQ2OTIxOSAxNy4xODAwNzggMTYuMjUwMzkxIDE3LjAyOTUzMSAxNS45MDAzOTEgMTcuMDE5NTMxIEMgMTUuNTcwMzkxIDE2Ljk5OTUzMSAxNS4yNzAwNzggMTYuOTQwMjM0IDE1LjA4MDA3OCAxNi43NDAyMzQgQyAxNC44NzAwNzggMTYuNTgwMjM0IDE0LjY2MDcwMyAxNi40MDA5MzggMTQuNDcwNzAzIDE2LjIxMDkzOCBDIDE0LjA4MDcwMyAxNS44MzA5MzcgMTMuNzA5NDUzIDE1LjQyMDM5MSAxMy40Mzk0NTMgMTQuOTAwMzkxIEMgMTMuMzA5NDUzIDE0LjY1MDM5MSAxMy4wNjkyOTcgMTQuNDQ5Mzc1IDEyLjc3OTI5NyAxNC4zNTkzNzUgQyAxMi4xOTkyOTcgMTQuMTk5Mzc1IDExLjU5OTY4OCAxNC41MjkzNzUgMTEuNDI5Njg4IDE1LjEwOTM3NSBDIDExLjI1OTY4OCAxNS42NzkzNzUgMTEuNTk5Njg3IDE2LjI4OTIxOSAxMi4xNzk2ODggMTYuNDQ5MjE5IEMgMTIuNzM5Njg4IDE2LjYxOTIxOSAxMy4yMDk5MjIgMTYuODk5MjE5IDEzLjY2OTkyMiAxNy4xOTkyMTkgQyAxMy44ODk5MjIgMTcuMzQ5MjE5IDE0LjEwMDU0NyAxNy41MDk0NTMgMTQuMzEwNTQ3IDE3LjY4OTQ1MyBDIDE0LjU0MDU0NyAxNy44Mzk0NTMgMTQuNjYgMTguMTE5NDUzIDE0Ljc1IDE4LjQzOTQ1MyBDIDE0LjgxNTk5MiAxOC43NTk5ODQgMTQuOTk5OTIxIDE4Ljk0NTQxNiAxNS4xNzk2ODggMTkuMTI1IEMgMTMuODEwODggMjEuMDc0MjY5IDEzIDIzLjQ0MzE1NyAxMyAyNiBDIDEzIDI2LjQyMjk2NCAxMy4wMjM0NzIgMjYuODQwMTM5IDEzLjA2NjQwNiAyNy4yNTE5NTMgQyAxMi44NDIwNzMgMjcuMzMwNDc4IDEyLjYyMDA0IDI3LjQxNTY2MyAxMi40Mjk2ODggMjcuNjQwNjI1IEMgMTIuMjA5Njg3IDI3Ljg5MDYyNSAxMS45NjkyMTkgMjguMDg5Mzc1IDExLjY5OTIxOSAyOC4xMDkzNzUgQyAxMS40MzkyMTkgMjguMTc5Mzc1IDExLjE3MDM5MSAyOC4yMjk3NjYgMTAuOTAwMzkxIDI4LjI1OTc2NiBDIDEwLjM2MDM5MSAyOC4zMjk3NjYgOS44MTAyMzQ0IDI4LjM3IDkuMjQwMjM0NCAyOC4yNSBDIDguOTYwMjM0NCAyOC4yIDguNjUwMzkwNiAyOC4yNTk0NTMgOC40MDAzOTA2IDI4LjQzOTQ1MyBDIDcuOTEwMzkwNiAyOC43Nzk0NTMgNy44MDA2MjUgMjkuNDU5MjE5IDguMTQwNjI1IDI5Ljk0OTIxOSBDIDguNDkwNjI1IDMwLjQzOTIxOSA5LjE3MDE1NjIgMzAuNTYwOTM3IDkuNjYwMTU2MiAzMC4yMTA5MzggQyAxMC4xNDAxNTYgMjkuODcwOTM4IDEwLjY0OTkyMiAyOS42Nzk3NjYgMTEuMTY5OTIyIDI5LjUwOTc2NiBDIDExLjQyOTkyMiAyOS40Mjk3NjYgMTEuNjkwOTM4IDI5LjM2MDU0NyAxMS45NjA5MzggMjkuMzEwNTQ3IEMgMTIuMjIwOTM3IDI5LjIyMDU0NyAxMi41MTAzMTMgMjkuMjk5Njg4IDEyLjgyMDMxMiAyOS40Mjk2ODggQyAxMy4wNzc4OTUgMjkuNTYyNjMzIDEzLjMwNTk1NCAyOS41NTIwNDUgMTMuNTMxMjUgMjkuNTI5Mjk3IEMgMTQuNDExNDc3IDMyLjM4MzA4NyAxNi4zMzYxNTUgMzQuNzczOTI2IDE4Ljg0OTYwOSAzNi4yODMyMDMgQyAxOC43NjM3MzMgMzYuNTIzNDg1IDE4LjY4MzE2OSAzNi43NzM4ODQgMTguNzU5NzY2IDM3LjA4OTg0NCBDIDE4LjgxOTc2NiAzNy40MTk4NDQgMTguODI5NDUzIDM3LjczMDkzOCAxOC42ODk0NTMgMzcuOTYwOTM4IEMgMTguNTc5NDUzIDM4LjIxMDkzOCAxOC40NjAwNzggMzguNDQ5NDUzIDE4LjMzMDA3OCAzOC42ODk0NTMgQyAxOC4wNTAwNzggMzkuMTQ5NDUzIDE3Ljc1MDU0NyAzOS42MDk3NjYgMTcuMzEwNTQ3IDQwLjAwOTc2NiBDIDE3LjEwMDU0NyA0MC4xOTk3NjYgMTYuOTU5MjE5IDQwLjQ2OTI5NyAxNi45NDkyMTkgNDAuNzc5Mjk3IEMgMTYuOTI5MjE5IDQxLjM3OTI5NyAxNy40IDQxLjg4MDM5MSAxOCA0MS45MDAzOTEgQyAxOC42IDQxLjkyMDM5MSAxOS4xMTA4NTkgNDEuNDQ5NjA5IDE5LjEzMDg1OSA0MC44NDk2MDkgQyAxOS4xNDA4NTkgNDAuMjU5NjA5IDE5LjMwMDQ2OSAzOS43NDA3MDMgMTkuNDgwNDY5IDM5LjIyMDcwMyBDIDE5LjU3MDQ2OSAzOC45NzA3MDMgMTkuNjgwNzgxIDM4LjcyMDQ2OSAxOS44MDA3ODEgMzguNDgwNDY5IEMgMTkuODkwNzgxIDM4LjIyMDQ2OSAyMC4xMjk5MjIgMzguMDI5MTQxIDIwLjQxOTkyMiAzNy44NjkxNDEgQyAyMC43MDg3OTYgMzcuNzIwMDQ0IDIwLjgzODczOSAzNy41MDkyMjQgMjAuOTY4NzUgMzcuMjg3MTA5IEMgMjIuMjMwOTkxIDM3LjczOTU1NiAyMy41ODQzIDM4IDI1IDM4IEMgMjYuNDM5ODY3IDM4IDI3LjgxNTI5OCAzNy43MzA5NzkgMjkuMDk1NzAzIDM3LjI2MzY3MiBDIDI5LjIzMTEzNSAzNy40OTQ4MTUgMjkuMzcwMzI2IDM3LjcxNDU2NCAyOS42NjAxNTYgMzcuODY5MTQxIEMgMjkuOTUwMTU2IDM4LjAzOTE0MSAzMC4xODkyOTcgMzguMjIwNDY5IDMwLjI3OTI5NyAzOC40ODA0NjkgQyAzMC4zOTkyOTcgMzguNzMwNDY5IDMwLjQ5OTg0NCAzOC45ODA0NjkgMzAuNTg5ODQ0IDM5LjIzMDQ2OSBDIDMwLjc2OTg0NCAzOS43NTA0NjkgMzAuOTE5NDUzIDQwLjI2OTM3NSAzMC45Mzk0NTMgNDAuODU5Mzc1IEMgMzAuOTM5NDUzIDQxLjE0OTM3NSAzMS4wNTkwNjIgNDEuNDMwNjI1IDMxLjI4OTA2MiA0MS42NDA2MjUgQyAzMS43MzkwNjIgNDIuMDQwNjI1IDMyLjQyMDA3OCA0Mi4wMTAzMTIgMzIuODMwMDc4IDQxLjU3MDMxMiBDIDMzLjIzMDA3OCA0MS4xMjAzMTIgMzMuMTk5NzY2IDQwLjQzOTI5NyAzMi43NTk3NjYgNDAuMDI5Mjk3IEMgMzIuMzE5NzY2IDM5LjYzOTI5NyAzMi4wMiAzOS4xNjkyMTkgMzEuNzUgMzguNjk5MjE5IEMgMzEuNjIgMzguNDY5MjE5IDMxLjUwMDYyNSAzOC4yMjA0NjkgMzEuMzkwNjI1IDM3Ljk4MDQ2OSBDIDMxLjI1MDYyNSAzNy43NDA0NjkgMzEuMjYwMDc4IDM3LjQzOTM3NSAzMS4zMzAwNzggMzcuMTA5Mzc1IEMgMzEuNDEwMDc4IDM2Ljc2OTM3NSAzMS4zMjAyMzQgMzYuNTE5NzY2IDMxLjI0MDIzNCAzNi4yNTk3NjYgTCAzMS4yMzI0MjIgMzYuMjM0Mzc1IEMgMzMuNzI1ODYzIDM0LjcxMDA1MSAzNS42MjUyNTMgMzIuMzExOTI2IDM2LjQ4NjMyOCAyOS40NTg5ODQgTCAzNi41MTk1MzEgMjkuNDYwOTM4IEMgMzYuNzk5NTMxIDI5LjQ4MDkzNyAzNy4wNjkxNDEgMjkuNTA5ODQ0IDM3LjM2OTE0MSAyOS4zMzk4NDQgQyAzNy42NjkxNDEgMjkuMTk5ODQ0IDM3Ljk3MDQ2OSAyOS4xMTkyMTkgMzguMjMwNDY5IDI5LjE5OTIxOSBDIDM4LjQ5MDQ2OSAyOS4yMzkyMTkgMzguNzU5NTMxIDI5LjI5OTE0MSAzOS4wMTk1MzEgMjkuMzY5MTQxIEMgMzkuNTM5NTMxIDI5LjUxOTE0MSA0MC4wNjA3ODEgMjkuNjk5Mjk3IDQwLjU1MDc4MSAzMC4wMjkyOTcgQyA0MC43OTA3ODEgMzAuMTc5Mjk3IDQxLjA5MDYyNSAzMC4yNDk2ODcgNDEuMzkwNjI1IDMwLjE3OTY4OCBDIDQxLjk4MDYyNSAzMC4wNDk2ODggNDIuMzUwNzAzIDI5LjQ3MDYyNSA0Mi4yMjA3MDMgMjguODkwNjI1IEMgNDIuMDkwNzAzIDI4LjMwMDYyNSA0MS41MDk5MjIgMjcuOTMwNTQ3IDQwLjkxOTkyMiAyOC4wNjA1NDcgQyA0MC4zMzk5MjIgMjguMTkwNTQ3IDM5LjggMjguMTY5MTQxIDM5LjI1IDI4LjExOTE0MSBDIDM4Ljk4IDI4LjA4OTE0MSAzOC43MTkyMTkgMjguMDUwMjM0IDM4LjQ0OTIxOSAyNy45OTAyMzQgQyAzOC4xNzkyMTkgMjcuOTcwMjM0IDM3Ljk0MDkzOCAyNy43OTA3ODEgMzcuNzEwOTM4IDI3LjU1MDc4MSBDIDM3LjQ4MDkzOCAyNy4yODA3ODEgMzcuMjIwOTM3IDI3LjIxMDg1OSAzNi45NjA5MzggMjcuMTMwODU5IEwgMzYuOTQzMzU5IDI3LjEyNSBDIDM2Ljk3ODA3MiAyNi43NTQwNzUgMzcgMjYuMzc5ODI4IDM3IDI2IEMgMzcgMjMuNTIwNzE0IDM2LjI0MzA4MyAyMS4yMTM2NzkgMzQuOTQ5MjE5IDE5LjI5ODgyOCBDIDM1LjEzODg4IDE5LjA5OTIxOSAzNS4zMzA1MTUgMTguOTA5NzA3IDM1LjQwMDM5MSAxOC41NzAzMTIgQyAzNS40OTAzOTEgMTguMjUwMzEyIDM1LjYwOTg0NCAxNy45NzAzMTIgMzUuODM5ODQ0IDE3LjgyMDMxMiBDIDM2LjAzOTg0NCAxNy42NDAzMTMgMzYuMjYwNDY5IDE3LjQ4MDMxMiAzNi40ODA0NjkgMTcuMzIwMzEyIEMgMzYuOTMwNDY5IDE3LjAyMDMxMiAzNy40MDA5MzcgMTYuNzMwMzEyIDM3Ljk2MDkzOCAxNi41NzAzMTIgQyAzOC4yNDA5MzggMTYuNDkwMzEzIDM4LjQ3OTE0MSAxNi4yOTk1MzEgMzguNjE5MTQxIDE2LjAxOTUzMSBDIDM4Ljg5OTE0MSAxNS40ODk1MzEgMzguNjkwMzkxIDE0LjgzMDU0NyAzOC4xNTAzOTEgMTQuNTYwNTQ3IEMgMzcuNjIwMzkxIDE0LjI4MDU0NyAzNi45NTk0NTMgMTQuNDg5Mjk3IDM2LjY4OTQ1MyAxNS4wMjkyOTcgQyAzNi40MTk0NTMgMTUuNTQ5Mjk3IDM2LjA0OTkyMiAxNS45NTk4NDQgMzUuNjY5OTIyIDE2LjMzOTg0NCBDIDM1LjQ2OTkyMiAxNi41Mjk4NDQgMzUuMjcwNTQ3IDE2LjcxMDg1OSAzNS4wNjA1NDcgMTYuODgwODU5IEMgMzQuODcwNTQ3IDE3LjA4MDg1OSAzNC41NzAyMzQgMTcuMTQwMTU2IDM0LjI0MDIzNCAxNy4xNjAxNTYgQyAzMy44OTAyMzQgMTcuMTcwMTU2IDMzLjY2OTQ1MyAxNy4zMzA0NjkgMzMuNDM5NDUzIDE3LjQ4MDQ2OSBDIDMxLjUzMjU2NiAxNS41OTEzMzggMjguOTk3NTE1IDE0LjMzNzEyOSAyNi4xNzk2ODggMTQuMDYwNTQ3IEMgMjYuMTQ5Njg3IDEzLjc5MDU0NyAyNi4xMjk5MjIgMTMuNTIgMjUuOTE5OTIyIDEzLjI1IEMgMjUuNzE5OTIyIDEyLjk4IDI1LjU3OTM3NSAxMi43MDk0NTMgMjUuNjA5Mzc1IDEyLjQzOTQ1MyBDIDI1LjU5OTM3NSAxMi4xNjk0NTMgMjUuNjEwODU5IDExLjg5OTE0MSAyNS42MzA4NTkgMTEuNjE5MTQxIEMgMjUuNjkwODU5IDExLjA3OTE0MSAyNS43NyAxMC41NCAyNiAxMCBDIDI2LjExIDkuNzQgMjYuMTIgOS40MzA2MjUgMjYgOS4xNDA2MjUgQyAyNS44MiA4LjcyODEyNSAyNS40MTU0NjkgOC40ODM0Mzc1IDI0Ljk5MjE4OCA4LjQ4NDM3NSB6IE0gMjMuNTU4NTk0IDE2LjExNTIzNCBMIDIzLjUwOTc2NiAxNi41IEMgMjMuMzY5NzY2IDE3LjU4IDIzLjI2OTkyMiAxOC42NyAyMy4xNjk5MjIgMTkuNzUgQyAyMy4xMDk5MjIgMjAuMzIgMjMuMDU5NTMxIDIwLjkwMDcwMyAyMy4wMTk1MzEgMjEuNDcwNzAzIEMgMjIuNTI5NTMxIDIxLjEyMDcwMyAyMi4wMzk1MzEgMjAuNzQ5OTIyIDIxLjUxOTUzMSAyMC40MTk5MjIgQyAyMC42MTk1MzEgMTkuODA5OTIyIDE5LjcxOTA2MiAxOS4xOTkxNDEgMTguNzg5MDYyIDE4LjYxOTE0MSBMIDE4LjQ3NDYwOSAxOC40MjM4MjggQyAxOS44ODEwODQgMTcuMjExOTM1IDIxLjYyOTA0OSAxNi4zOTMwMzkgMjMuNTU4NTk0IDE2LjExNTIzNCB6IE0gMjYuNDQxNDA2IDE2LjExNTIzNCBDIDI4LjQ0OTk1MSAxNi40MDQ0MTMgMzAuMjU4Nzg4IDE3LjI4NCAzMS42OTMzNTkgMTguNTc4MTI1IEwgMzEuMzU5Mzc1IDE4Ljc4OTA2MiBDIDMwLjQzOTM3NSAxOS4zNzkwNjIgMjkuNTUwMzkxIDE5Ljk4OTYwOSAyOC42NTAzOTEgMjAuNTk5NjA5IEMgMjguMjkwMzkxIDIwLjgzOTYwOSAyNy45Mzk2MDkgMjEuMDg5ODQ0IDI3LjU5OTYwOSAyMS4zMzk4NDQgQyAyNy4zMjk2MDkgMjEuNTI5ODQ0IDI2Ljk1OTQ1MyAyMS4zNTkyOTcgMjYuOTM5NDUzIDIxLjAyOTI5NyBDIDI2LjkwOTQ1MyAyMC41OTkyOTcgMjYuODcwMDc4IDIwLjE4IDI2LjgzMDA3OCAxOS43NSBDIDI2LjczMDA3OCAxOC42NyAyNi42MzAyMzQgMTcuNTggMjYuNDkwMjM0IDE2LjUgTCAyNi40NDE0MDYgMTYuMTE1MjM0IHogTSAxNi41ODIwMzEgMjAuNjA3NDIyIEwgMTYuOTAwMzkxIDIwLjkzOTQ1MyBDIDE3LjY2MDM5MSAyMS43Mjk0NTMgMTguNDMwOTM3IDIyLjQ4OTc2NiAxOS4yMTA5MzggMjMuMjU5NzY2IEMgMTkuNTQwOTM3IDIzLjU4OTc2NiAxOS44NzA5MzcgMjMuOTAwOTM3IDIwLjIxMDkzOCAyNC4yMTA5MzggQyAyMC40NTA5MzcgMjQuNDMwOTM3IDIwLjM2MDc4MSAyNC44MjAxNTYgMjAuMDUwNzgxIDI0LjkxMDE1NiBDIDE5LjU2MDc4MSAyNS4wNjAxNTYgMTkuMDcwMDc4IDI1LjE5OTM3NSAxOC41ODAwNzggMjUuMzU5Mzc1IEMgMTcuNTUwMDc4IDI1LjY5OTM3NSAxNi41MTA0NjkgMjYuMDIwNjI1IDE1LjQ4MDQ2OSAyNi4zOTA2MjUgTCAxNS4wMjczNDQgMjYuNTQ4ODI4IEMgMTUuMDE3NDM5IDI2LjM2NTg1NSAxNSAyNi4xODU1MDQgMTUgMjYgQyAxNSAyNC4wMDk3MDcgMTUuNTg1MDkyIDIyLjE2MzIyNCAxNi41ODIwMzEgMjAuNjA3NDIyIHogTSAzMy41MzcxMDkgMjAuODA0Njg4IEMgMzQuNDU4OTU1IDIyLjMxOTE3OSAzNSAyNC4wOTI0IDM1IDI2IEMgMzUgMjYuMTY3MDMyIDM0Ljk4MjY1IDI2LjMyOTE1IDM0Ljk3NDYwOSAyNi40OTQxNDEgTCAzNC42MTkxNDEgMjYuMzgwODU5IEMgMzMuNTc5MTQxIDI2LjA0MDg1OSAzMi41NDAyMzQgMjUuNzQ5MjE5IDMxLjQ5MDIzNCAyNS40NDkyMTkgQyAzMC44MTAyMzQgMjUuMjQ5MjE5IDMwLjEyOTIxOSAyNS4wNzAzOTEgMjkuNDQ5MjE5IDI0LjkwMDM5MSBDIDI5Ljk1OTIxOSAyNC40MTAzOTEgMzAuNDkwNDY5IDIzLjkyOTY4NyAzMC45ODA0NjkgMjMuNDI5Njg4IEMgMzEuNzUwNDY5IDIyLjY1OTY4OCAzMi41MTk1MzEgMjEuODg5ODQ0IDMzLjI2OTUzMSAyMS4wODk4NDQgTCAzMy41MzcxMDkgMjAuODA0Njg4IHogTSAyNC4zODA4NTkgMjQgTCAyNS41OTk2MDkgMjQgQyAyNS43ODk2MDkgMjQgMjUuOTcwMzEzIDI0LjA5MDQ2OSAyNi4wNzAzMTIgMjQuMjMwNDY5IEwgMjYuODQ5NjA5IDI1LjIxMDkzOCBDIDI2Ljk1OTYwOSAyNS4zNDA5MzcgMjcuMDAwNzAzIDI1LjUyOTIxOSAyNi45NzA3MDMgMjUuNjk5MjE5IEwgMjYuNjg5NDUzIDI2LjkxMDE1NiBDIDI2LjY1OTQ1MyAyNy4xMDAxNTYgMjYuNTI5MTQxIDI3LjI0OTg0NCAyNi4zNjkxNDEgMjcuMzM5ODQ0IEwgMjUuMjUgMjcuODU5Mzc1IEMgMjUuMDkgMjcuOTQ5Mzc1IDI0Ljg5MDQ2OSAyNy45NDkzNzUgMjQuNzMwNDY5IDI3Ljg1OTM3NSBMIDIzLjYwOTM3NSAyNy4zMzk4NDQgQyAyMy40NDkzNzUgMjcuMjQ5ODQ0IDIzLjMwOTA2MiAyNy4xMDAxNTYgMjMuMjg5MDYyIDI2LjkxMDE1NiBMIDIzLjAwOTc2NiAyNS42OTkyMTkgQyAyMi45Nzk3NjYgMjUuNTI5MjE5IDIzLjAyMDg1OSAyNS4zNDA5MzggMjMuMTMwODU5IDI1LjIxMDkzOCBMIDIzLjkxMDE1NiAyNC4yMzA0NjkgQyAyNC4wMTAxNTYgMjQuMDkwNDY5IDI0LjE5MDg1OSAyNCAyNC4zODA4NTkgMjQgeiBNIDIwLjc2OTUzMSAyOC43Njk1MzEgQyAyMS4wNzk1MzEgMjguNzE5NTMxIDIxLjMzMDkzOCAyOS4wMzAzMTIgMjEuMjEwOTM4IDI5LjMyMDMxMiBDIDIxLjAyMDkzNyAyOS44MjAzMTIgMjAuODM5OTIyIDMwLjMxMDU0NyAyMC42Njk5MjIgMzAuODEwNTQ3IEMgMjAuMjk5OTIyIDMxLjg0MDU0NyAxOS45Mzk2MDkgMzIuODYwMzkxIDE5LjU5OTYwOSAzMy45MDAzOTEgTCAxOS40NjI4OTEgMzQuMzMwMDc4IEMgMTcuNjgzMDk1IDMzLjE0NjY0NyAxNi4zMTYxMiAzMS40MDUyNTQgMTUuNTg3ODkxIDI5LjM1NTQ2OSBMIDE2LjExOTE0MSAyOS4zMTA1NDcgQyAxNy4yMDkxNDEgMjkuMjEwNTQ3IDE4LjI3OTE0MSAyOS4wNzkyMTkgMTkuMzY5MTQxIDI4Ljk0OTIxOSBDIDE5LjgzOTE0MSAyOC44OTkyMTkgMjAuMjk5NTMxIDI4LjgyOTUzMSAyMC43Njk1MzEgMjguNzY5NTMxIHogTSAyOS40MTAxNTYgMjguOTEwMTU2IEMgMjkuODgwMTU2IDI4Ljk2MDE1NiAzMC4zNDA1NDcgMjkuMDEwNzgxIDMwLjgxMDU0NyAyOS4wNTA3ODEgQyAzMS45MDA1NDcgMjkuMTUwNzgxIDMyLjk4MDMxMiAyOS4yNTAzMTIgMzQuMDcwMzEyIDI5LjMyMDMxMiBMIDM0LjQxNzk2OSAyOS4zMzk4NDQgQyAzMy43MDI4NjIgMzEuMzYzNDk0IDMyLjM2NTkzIDMzLjA4ODQzNyAzMC42MjMwNDcgMzQuMjczNDM4IEwgMzAuNTA5NzY2IDMzLjkxMDE1NiBDIDMwLjE3OTc2NiAzMi44NzAxNTYgMjkuODIwNzAzIDMxLjg0MDMxMiAyOS40NzA3MDMgMzAuODIwMzEyIEMgMjkuMzEwNzAzIDMwLjM2MDMxMiAyOS4xNTA0NjkgMjkuOTEwOTM4IDI4Ljk4MDQ2OSAyOS40NjA5MzggQyAyOC44NzA0NjkgMjkuMTcwOTM4IDI5LjExMDE1NiAyOC44NzAxNTYgMjkuNDEwMTU2IDI4LjkxMDE1NiB6IE0gMjUuMDc0MjE5IDMwLjg4MjgxMiBDIDI1LjIxNjcxOSAzMC44ODI4MTIgMjUuMzU5NDUzIDMwLjk1NDYwOSAyNS40Mzk0NTMgMzEuMDk5NjA5IEMgMjUuNjU5NDUzIDMxLjUxOTYwOSAyNS44OTA4NTkgMzEuOTI5ODQ0IDI2LjEzMDg1OSAzMi4zMzk4NDQgQyAyNi42NzA4NTkgMzMuMjc5ODQ0IDI3LjIwOTA2MyAzNC4yMzAzOTEgMjcuNzg5MDYyIDM1LjE1MDM5MSBMIDI4LjAyNTM5MSAzNS41MzMyMDMgQyAyNy4wNzEyNTIgMzUuODM0NDMgMjYuMDU1NDcxIDM2IDI1IDM2IEMgMjMuOTc2MzEyIDM2IDIyLjk4OTU4MSAzNS44NDQ1NzIgMjIuMDYwNTQ3IDM1LjU2MDU0NyBMIDIyLjMxMDU0NyAzNS4xNjAxNTYgQyAyMi44OTA1NDcgMzQuMjQwMTU2IDIzLjQ0MDIzNCAzMy4yOTkzNzUgMjMuOTkwMjM0IDMyLjM1OTM3NSBDIDI0LjI0MDIzNCAzMS45NDkzNzUgMjQuNDgwOTM3IDMxLjUyOTYwOSAyNC43MTA5MzggMzEuMDk5NjA5IEMgMjQuNzkwOTM3IDMwLjk1NDYwOSAyNC45MzE3MTkgMzAuODgyODEyIDI1LjA3NDIxOSAzMC44ODI4MTIgeiI+PC9wYXRoPjwvc3ZnPg=="/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       Kubernetes
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -320,16 +320,16 @@ function Stack() {
         </div>
 
 
-        <div className="p-4 max-w-md bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-100 dark:border-gray-700">
+        <div className="p-4 max-w-md bg-blitblue-300 rounded-lg border-black shadow-md sm:p-8 dark:bg-gray-100 dark:border-gray-700">
           <div className="flex justify-between items-center mb-4">
-            <h5 className="text-l font-bold leading-none text-gray-900 dark:text-black">
+            <h5 className="text-l font-bold leading-none text-blittext-100 dark:text-black">
               Database
             </h5>
           </div>
           <div className="flow-root">
             <ul
               role="list"
-              className="divide-y divide-gray-200 dark:divide-gray-700"
+              className="divide-y divide-black dark:divide-gray-700"
             >
               <li className="py-3 sm:py-4">
                 <div className="flex items-center space-x-4">
@@ -337,13 +337,13 @@ function Stack() {
                     <img alt="svgImg" className="w-8 h-8 rounded-full" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMjUyZjNlIiBkPSJNMTMuNTI3LDIxLjUyOWMwLDAuNTk3LDAuMDY0LDEuMDgsMC4xNzYsMS40MzVjMC4xMjgsMC4zNTUsMC4yODcsMC43NDIsMC41MTEsMS4xNjEgYzAuMDgsMC4xMjksMC4xMTIsMC4yNTgsMC4xMTIsMC4zNzFjMCwwLjE2MS0wLjA5NiwwLjMyMi0wLjMwMywwLjQ4NGwtMS4wMDYsMC42NzdjLTAuMTQ0LDAuMDk3LTAuMjg3LDAuMTQ1LTAuNDE1LDAuMTQ1IGMtMC4xNiwwLTAuMzE5LTAuMDgxLTAuNDc5LTAuMjI2Yy0wLjIyNC0wLjI0Mi0wLjQxNS0wLjUtMC41NzUtMC43NThjLTAuMTYtMC4yNzQtMC4zMTktMC41OC0wLjQ5NS0wLjk1MSBjLTEuMjQ1LDEuNDgzLTIuODEsMi4yMjUtNC42OTQsMi4yMjVjLTEuMzQxLDAtMi40MTEtMC4zODctMy4xOTMtMS4xNjFzLTEuMTgxLTEuODA2LTEuMTgxLTMuMDk2YzAtMS4zNywwLjQ3OS0yLjQ4MywxLjQ1My0zLjMyMSBzMi4yNjctMS4yNTgsMy45MTEtMS4yNThjMC41NDMsMCwxLjEwMiwwLjA0OCwxLjY5MiwwLjEyOXMxLjE5NywwLjIxLDEuODM2LDAuMzU1di0xLjE3N2MwLTEuMjI1LTAuMjU1LTIuMDgtMC43NS0yLjU4IGMtMC41MTEtMC41LTEuMzczLTAuNzQyLTIuNjAyLTAuNzQyYy0wLjU1OSwwLTEuMTMzLDAuMDY0LTEuNzI0LDAuMjFjLTAuNTkxLDAuMTQ1LTEuMTY1LDAuMzIyLTEuNzI0LDAuNTQ4IGMtMC4yNTUsMC4xMTMtMC40NDcsMC4xNzctMC41NTksMC4yMWMtMC4xMTIsMC4wMzItMC4xOTIsMC4wNDgtMC4yNTUsMC4wNDhjLTAuMjI0LDAtMC4zMzUtMC4xNjEtMC4zMzUtMC41di0wLjc5IGMwLTAuMjU4LDAuMDMyLTAuNDUxLDAuMTEyLTAuNTY0YzAuMDgtMC4xMTMsMC4yMjQtMC4yMjYsMC40NDctMC4zMzljMC41NTktMC4yOSwxLjIyOS0wLjUzMiwyLjAxMi0wLjcyNiBjMC43ODItMC4yMSwxLjYxMi0wLjMwNiwyLjQ5LTAuMzA2YzEuOSwwLDMuMjg5LDAuNDM1LDQuMTgzLDEuMzA2YzAuODc4LDAuODcxLDEuMzI1LDIuMTkzLDEuMzI1LDMuOTY2djUuMjI0SDEzLjUyN3ogTTcuMDQ1LDIzLjk3OWMwLjUyNywwLDEuMDctMC4wOTcsMS42NDQtMC4yOWMwLjU3NS0wLjE5MywxLjA4Ni0wLjU0OCwxLjUxNy0xLjAzMmMwLjI1NS0wLjMwNiwwLjQ0Ny0wLjY0NSwwLjU0My0xLjAzMiBjMC4wOTYtMC4zODcsMC4xNi0wLjg1NSwwLjE2LTEuNDAzdi0wLjY3N2MtMC40NjMtMC4xMTMtMC45NTgtMC4yMS0xLjQ2OS0wLjI3NGMtMC41MTEtMC4wNjQtMS4wMDYtMC4wOTctMS41MDEtMC4wOTcgYy0xLjA3LDAtMS44NTIsMC4yMS0yLjM3OSwwLjY0NXMtMC43ODIsMS4wNDgtMC43ODIsMS44NTRjMCwwLjc1OCwwLjE5MiwxLjMyMiwwLjU5MSwxLjcwOSBDNS43NTIsMjMuNzg2LDYuMzExLDIzLjk3OSw3LjA0NSwyMy45Nzl6IE0xOS44NjUsMjUuNzIxYy0wLjI4NywwLTAuNDc5LTAuMDQ4LTAuNjA3LTAuMTYxYy0wLjEyOC0wLjA5Ny0wLjIzOS0wLjMyMi0wLjMzNS0wLjYyOSBsLTMuNzUyLTEyLjQ2M2MtMC4wOTYtMC4zMjItMC4xNDQtMC41MzItMC4xNDQtMC42NDVjMC0wLjI1OCwwLjEyOC0wLjQwMywwLjM4My0wLjQwM2gxLjU2NWMwLjMwMywwLDAuNTExLDAuMDQ4LDAuNjIzLDAuMTYxIGMwLjEyOCwwLjA5NywwLjIyMywwLjMyMiwwLjMxOSwwLjYyOWwyLjY4MiwxMC42NzRsMi40OS0xMC42NzRjMC4wOC0wLjMyMiwwLjE3Ni0wLjUzMiwwLjMwMy0wLjYyOSBjMC4xMjgtMC4wOTcsMC4zNTEtMC4xNjEsMC42MzktMC4xNjFoMS4yNzdjMC4zMDMsMCwwLjUxMSwwLjA0OCwwLjYzOSwwLjE2MWMwLjEyOCwwLjA5NywwLjIzOSwwLjMyMiwwLjMwMywwLjYyOWwyLjUyMiwxMC44MDMgbDIuNzYyLTEwLjgwM2MwLjA5Ni0wLjMyMiwwLjIwOC0wLjUzMiwwLjMxOS0wLjYyOWMwLjEyOC0wLjA5NywwLjMzNS0wLjE2MSwwLjYyMy0wLjE2MWgxLjQ4NWMwLjI1NSwwLDAuMzk5LDAuMTI5LDAuMzk5LDAuNDAzIGMwLDAuMDgxLTAuMDE2LDAuMTYxLTAuMDMyLDAuMjU4cy0wLjA0OCwwLjIyNi0wLjExMiwwLjQwM2wtMy44NDcsMTIuNDYzYy0wLjA5NiwwLjMyMi0wLjIwOCwwLjUzMi0wLjMzNSwwLjYyOSBzLTAuMzM1LDAuMTYxLTAuNjA3LDAuMTYxaC0xLjM3M2MtMC4zMDMsMC0wLjUxMS0wLjA0OC0wLjYzOS0wLjE2MWMtMC4xMjgtMC4xMTMtMC4yMzktMC4zMjItMC4zMDMtMC42NDVsLTIuNDc0LTEwLjQgTDIyLjE4LDI0LjkxNWMtMC4wOCwwLjMyMi0wLjE3NiwwLjUzMi0wLjMwMywwLjY0NWMtMC4xMjgsMC4xMTMtMC4zNTEsMC4xNjEtMC42MzksMC4xNjFIMTkuODY1eiBNNDAuMzc5LDI2LjE1NiBjLTAuODMsMC0xLjY2LTAuMDk3LTIuNDU4LTAuMjljLTAuNzk4LTAuMTkzLTEuNDIxLTAuNDAzLTEuODM2LTAuNjQ1Yy0wLjI1NS0wLjE0NS0wLjQzMS0wLjMwNi0wLjQ5NS0wLjQ1MSBjLTAuMDY0LTAuMTQ1LTAuMDk2LTAuMzA2LTAuMDk2LTAuNDUxdi0wLjgyMmMwLTAuMzM5LDAuMTI4LTAuNSwwLjM2Ny0wLjVjMC4wOTYsMCwwLjE5MiwwLjAxNiwwLjI4NywwLjA0OCBjMC4wOTYsMC4wMzIsMC4yMzksMC4wOTcsMC4zOTksMC4xNjFjMC41NDMsMC4yNDIsMS4xMzMsMC40MzUsMS43NTYsMC41NjRjMC42MzksMC4xMjksMS4yNjEsMC4xOTMsMS45LDAuMTkzIGMxLjAwNiwwLDEuNzg4LTAuMTc3LDIuMzMxLTAuNTMyYzAuNTQzLTAuMzU1LDAuODMtMC44NzEsMC44My0xLjUzMmMwLTAuNDUxLTAuMTQ0LTAuODIyLTAuNDMxLTEuMTI5IGMtMC4yODctMC4zMDYtMC44My0wLjU4LTEuNjEyLTAuODM4bC0yLjMxNS0wLjcyNmMtMS4xNjUtMC4zNzEtMi4wMjctMC45MTktMi41NTQtMS42NDVjLTAuNTI3LTAuNzA5LTAuNzk4LTEuNDk5LTAuNzk4LTIuMzM4IGMwLTAuNjc3LDAuMTQ0LTEuMjc0LDAuNDMxLTEuNzlzMC42NzEtMC45NjcsMS4xNDktMS4zMjJjMC40NzktMC4zNzEsMS4wMjItMC42NDUsMS42Ni0wLjgzOEMzOS41MzMsMTEuMDgxLDQwLjIwMywxMSw0MC45MDYsMTEgYzAuMzUxLDAsMC43MTgsMC4wMTYsMS4wNywwLjA2NGMwLjM2NywwLjA0OCwwLjcwMiwwLjExMywxLjAzOCwwLjE3N2MwLjMxOSwwLjA4MSwwLjYyMywwLjE2MSwwLjkxLDAuMjU4czAuNTExLDAuMTkzLDAuNjcxLDAuMjkgYzAuMjI0LDAuMTI5LDAuMzgzLDAuMjU4LDAuNDc5LDAuNDAzYzAuMDk2LDAuMTI5LDAuMTQ0LDAuMzA2LDAuMTQ0LDAuNTMydjAuNzU4YzAsMC4zMzktMC4xMjgsMC41MTYtMC4zNjcsMC41MTYgYy0wLjEyOCwwLTAuMzM1LTAuMDY0LTAuNjA3LTAuMTkzYy0wLjkxLTAuNDE5LTEuOTMyLTAuNjI5LTMuMDY1LTAuNjI5Yy0wLjkxLDAtMS42MjgsMC4xNDUtMi4xMjMsMC40NTEgYy0wLjQ5NSwwLjMwNi0wLjc1LDAuNzc0LTAuNzUsMS40MzVjMCwwLjQ1MSwwLjE2LDAuODM4LDAuNDc5LDEuMTQ1YzAuMzE5LDAuMzA2LDAuOTEsMC42MTMsMS43NTYsMC44ODdsMi4yNjcsMC43MjYgYzEuMTQ5LDAuMzcxLDEuOTgsMC44ODcsMi40NzQsMS41NDhzMC43MzQsMS40MTksMC43MzQsMi4yNTdjMCwwLjY5My0wLjE0NCwxLjMyMi0wLjQxNSwxLjg3IGMtMC4yODcsMC41NDgtMC42NzEsMS4wMzItMS4xNjUsMS40MTljLTAuNDk1LDAuNDAzLTEuMDg2LDAuNjkzLTEuNzcyLDAuOTAzQzQxLjk0MywyNi4wNDMsNDEuMTkzLDI2LjE1Niw0MC4zNzksMjYuMTU2eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmOTAiIGQ9Ik00My4zOTYsMzMuOTkyYy01LjI1MiwzLjkxOC0xMi44ODMsNS45OTgtMTkuNDQ1LDUuOTk4Yy05LjE5NSwwLTE3LjQ4MS0zLjQzNC0yMy43MzktOS4xNDIgYy0wLjQ5NS0wLjQ1MS0wLjA0OC0xLjA2NCwwLjU0My0wLjcwOWM2Ljc2OSwzLjk2NiwxNS4xMTgsNi4zNjksMjMuNzU1LDYuMzY5YzUuODI3LDAsMTIuMjI5LTEuMjI1LDE4LjExOS0zLjc0MSBDNDMuNTA4LDMyLjM2NCw0NC4yNTgsMzMuMzQ3LDQzLjM5NiwzMy45OTJ6IE00NS41ODMsMzEuNDc3Yy0wLjY3MS0wLjg3MS00LjQzOC0wLjQxOS02LjE0Ni0wLjIxIGMtMC41MTEsMC4wNjQtMC41OTEtMC4zODctMC4xMjgtMC43MjZjMy4wMDEtMi4xMjgsNy45MzQtMS41MTYsOC41MDktMC44MDZjMC41NzUsMC43MjYtMC4xNiw1LjcwOC0yLjk2OSw4LjA5NCBjLTAuNDMxLDAuMzcxLTAuODQ2LDAuMTc3LTAuNjU1LTAuMzA2QzQ0LjgzMywzNS45MjcsNDYuMjU0LDMyLjMzMSw0NS41ODMsMzEuNDc3eiI+PC9wYXRoPjwvc3ZnPg=="/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       SQL Server
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -354,13 +354,13 @@ function Stack() {
 
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       MySQL
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -371,13 +371,13 @@ function Stack() {
 
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       MongoDB
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -388,13 +388,13 @@ function Stack() {
                   <img className="w-8 h-8 rounded-full" src={dbpick}/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                      Dynamo
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -405,13 +405,13 @@ function Stack() {
 
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       Oracle
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -419,16 +419,16 @@ function Stack() {
           </div>
         </div>
 
-        <div className="p-4 max-w-md bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-100 dark:border-gray-700">
+        <div className="p-4 max-w-md bg-blitblue-300 rounded-lg border-black shadow-md sm:p-8 dark:bg-gray-100 dark:border-gray-700">
           <div className="flex justify-between items-center mb-4">
-            <h5 className="text-l font-bold leading-none text-gray-900 dark:text-black">
+            <h5 className="text-l font-bold leading-none text-blittext-100 dark:text-black">
               Mobile Development
             </h5>
           </div>
           <div className="flow-root">
             <ul
               role="list"
-              className="divide-y divide-gray-200 dark:divide-gray-700"
+              className="divide-y divide-black dark:divide-gray-700"
             >
               <li className="py-3 sm:py-4">
                 <div className="flex items-center space-x-4">
@@ -437,13 +437,13 @@ function Stack() {
 
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       IOS
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -454,13 +454,13 @@ function Stack() {
 
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       Android
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -471,13 +471,13 @@ function Stack() {
 
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       React Native
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -488,13 +488,13 @@ function Stack() {
 
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                      Flutter
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -505,13 +505,13 @@ function Stack() {
 
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       Xamarin
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -520,16 +520,16 @@ function Stack() {
         </div>
 
 
-        <div className="p-4 max-w-md bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-100 dark:border-gray-700">
+        <div className="p-4 max-w-md bg-blitblue-300 rounded-lg border-black shadow-md sm:p-8 dark:bg-gray-100 dark:border-gray-700">
           <div className="flex justify-between items-center mb-4">
-            <h5 className="text-l font-bold leading-none text-gray-900 dark:text-black">
+            <h5 className="text-l font-bold leading-none text-blittext-100 dark:text-black">
               Testing & Quality Assurance
             </h5>
           </div>
           <div className="flow-root">
             <ul
               role="list"
-              className="divide-y divide-gray-200 dark:divide-gray-700"
+              className="divide-y divide-black dark:divide-gray-700"
             >
               <li className="py-3 sm:py-4">
                 <div className="flex items-center space-x-4">
@@ -538,13 +538,13 @@ function Stack() {
 
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       Selenium
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -555,13 +555,13 @@ function Stack() {
 
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       Katalon Studio
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -572,13 +572,13 @@ function Stack() {
 
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       Postman
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -589,13 +589,13 @@ function Stack() {
                   <img className="w-8 h-8 rounded-full" src={dbpick}/>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                      Apache JMeter
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>
@@ -606,13 +606,13 @@ function Stack() {
 
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate dark:text-black">
+                    <p className="text-sm font-medium text-blittext-100 truncate dark:text-black">
                       Test Rail
                     </p>
                     <p className="text-sm text-gray-500 truncate dark:text-gray-400">
                     </p>
                   </div>
-                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                  <div className="inline-flex items-center text-base font-semibold text-blittext-100 dark:text-white">
                   </div>
                 </div>
               </li>

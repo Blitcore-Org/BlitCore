@@ -5,9 +5,10 @@ const Consult = () => {
   return (
       <div  className="flex flex-col min-h-screen overflow-hidden">
     <Header />
-    <div className="mt-10" style={{ height: "800px" }}>
+    <div className="mt-10 bg-blitblue-100" style={{ height: "800px" }}>
 
       <iframe
+      className="bg-blitblue-100"
         src="https://calendly.com/tamerjar/free-consultaion"
         width="100%"
         height="100%"

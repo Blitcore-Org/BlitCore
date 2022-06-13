@@ -42,22 +42,22 @@ function ContactView() {
   };
   return (
      
-    <section className="relative mt-20">
+    <section className="relative mt-20 ">
       <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-        <h1 className="h2 mt-20">Contact Us</h1>
+        <h1 className="h2 mt-20 text-blitblue-300">Contact Us</h1>
       </div>
       <form  onSubmit={handleOnSubmit}>
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 bg-blitblue-500 shadow-md rounded px-8 pt-6 pb-8 mb-4">
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
               <label
-                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                className="block uppercase tracking-wide text-blittext-100 text-xs font-bold mb-2"
                 for="grid-first-name"
               >
                 First Name
               </label>
               <input
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                className="appearance-none block w-full bg-blitblue-100 text-blittext-100 border-4 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-blitblue-100 focus:border:bg-black"
                 name="user_name"
                 id="grid-first-name"
                 type="text"
@@ -70,13 +70,13 @@ function ContactView() {
             </div>
             <div className="w-full md:w-1/2 px-3">
               <label
-                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                className="block uppercase tracking-wide text-blittext-100 text-xs font-bold mb-2"
                 for="grid-last-name"
               >
                 Last Name
               </label>
               <input
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                className="appearance-none block w-full bg-blitblue-100 text-blittext-100 border-4 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-blitblue-100 focus:border:bg-black"
                 id="grid-last-name"
                 type="text"
                 placeholder="Doe"
@@ -87,19 +87,19 @@ function ContactView() {
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
               <label
-                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                className="block uppercase tracking-wide text-blittext-100 text-xs font-bold mb-2"
                 for="grid-password"
               >
                 E-mail
               </label>
               <input
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                className="appearance-none block w-full bg-blitblue-100 text-blittext-100 border-4 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-blitblue-100 focus:border:bg-black"
                 name="user_email"
                 id="email"
                 type="email"
                 required="required"
               />
-              <p className="text-gray-600 text-xs italic">
+              <p className="text-blittext-100 text-xs italic">
                 Some tips - as long as needed
               </p>
             </div>
@@ -107,13 +107,13 @@ function ContactView() {
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
               <label
-                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                className="block uppercase tracking-wide text-blittext-100 text-xs font-bold mb-2"
                 for="grid-password"
               >
                 Message
               </label>
               <textarea
-                className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                className=" no-resize appearance-none block w-full bg-blitblue-100 text-blittext-100 border-4 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-blitblue-100 focus:border:bg-black h-48 resize-none"
                 name="user_message"
                 id="message"
                 required="required"
@@ -128,7 +128,7 @@ function ContactView() {
 
           <div  className="md:w-1/3">
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" required/>
-            <label for="default-checkbox" class="text-sm ml-3 font-medium text-gray-900">I agree to the <a href="#" class="text-blue-600 hover:underline">terms and conditions</a></label>
+            <label for="default-checkbox" class="text-sm ml-3 font-medium text-blittext-100">I agree to the <a href="#" class="text-blue-600 hover:underline">terms and conditions</a></label>
         </div>
           </div>
           <div className="md:flex md:items-center">

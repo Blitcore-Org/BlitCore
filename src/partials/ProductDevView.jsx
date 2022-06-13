@@ -12,20 +12,19 @@ function CSDView() {
     <section className="relative">
       {/* Section background (needs .relative className on parent and next sibling elements) */}
       <div
-        className="absolute inset-0 bg-gray-100 pointer-events-none mb-16"
+        className="absolute inset-0  bg-blitblue-100 pointer-events-none mb-16"
         aria-hidden="true"
       ></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
           {/* Section One */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mt-12">Product Development</h1>
+            <h1 className="h2 mt-12 text-blitblue-300">UI/UX Design</h1>
           </div>
 
           <div>
-            <p className="text-xl mt-6 text-gray-600 text-center">
+            <p className="text-xl mt-6 text-blittext-100 text-center">
               Changing Dreams Into Reality
             </p>
           </div>
@@ -68,11 +67,11 @@ function CSDView() {
 
                 <div className="relative inline-flex flex-col">
                   <div className="font-bold leading-snug tracking-tight text-left mb-1">
-                    <h1 className="font-bold text-2xl">Turn Your Dream to Reality</h1>
+                    <h1 className="font-bold text-2xl text-blitblue-300">Turn Your Dream to Reality</h1>
                   </div>
                   <br></br>
                   <div className="relative inline-flex flex-col text-left">
-                    <p className="text-gray-600 leading-relaxed">
+                    <p className="text-blittext-100 leading-relaxed">
 
                   Give your business visionalife, turn it intoareality. BlitCore offers an intuitive and design-led software
                   product development services to accelerate software product innovation, deliverasuperior customer
@@ -93,13 +92,13 @@ function CSDView() {
 
         {/* Section Two */}
         <div>
-          <p className="text-xl mt-20 text-gray-600 text-center">
+          <p className="text-xl mt-20 text-blittext-100 text-center">
             World Class Team In Creating Customized Software
           </p>
         </div>
 
         <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
-          <h1 className="h4 mt-6 mb-4">
+          <h1 className="h4 mt-6 mb-4 text-blittext-100">
             Beauty of Custom Software Development
           </h1>
         </div>
@@ -115,22 +114,22 @@ function CSDView() {
             <div className="mb-8 md:mb-0">
               <div>
                 <div className="font-bold leading-snug tracking-tight text-left mb-1">
-                  <h1 className="font-bold text-2xl">What We Offer</h1>
+                  <h1 className="font-bold text-2xl text-blitblue-300">What We Offer</h1>
                 </div>
-                <p className="text-gray-600 mt-5 leading-relaxed">
+                <p className="text-blittext-100 mt-5 leading-relaxed">
                 To convert your vision into reality, we assist you from software product ideation to design, development, release, and maintenance.
                 Every successful product is unique in its market and with its uniqueness, it brings risk and uncertainties during the software product
                 development process. 
                 </p>
 
-                <p className="text-gray-600 mt-5 leading-relaxed">
+                <p className="text-blittext-100 mt-5 leading-relaxed">
                 We asaleading software product development company conceptualize and strategize the entire roadmap to
                 reduce the risk, keep time and development cost under control and provide high-quality stable product. With highly collaborative
                 approach, we understand the scope, business scenarios and potential user types to create a product with good UX, cloud, data and
                 security as their prime focus.
                 </p>
 
-                <ul className="text-gray-600 mt-5 leading-relaxed list-disc">
+                <ul className="text-blittext-100 mt-5 leading-relaxed list-disc">
                   <li>Prototyping and MVP Development</li>
                   <li>UI/UX Design Service</li>
                   <li>Product Testing</li>
@@ -173,18 +172,18 @@ function CSDView() {
         <div className="mt-20 "></div>
 
         <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
-          <h1 className="h4 mt-6 mb-4">
+          <h1 className="h4 mt-6 mb-4 text-blitblue-300">
           Why choose Product Development with us?
           </h1>
         </div>
 
         <div className="max-w-sm mx-auto grid gap-6  lg:grid-cols-3 items-start lg:max-w-none flex" >
-          <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -234,10 +233,10 @@ function CSDView() {
                 src={goals}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-gray-900 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
               Business Goals & Insights
               </h5>
-              <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
+              <p className="text-sm text-blittext-100 dark:text-gray-400 text-center">
               We dive deeper into short-term
               and long-term vision of the project
               and after getting acquainted with
@@ -247,12 +246,12 @@ function CSDView() {
           </div>
 
 
-          <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -302,10 +301,10 @@ function CSDView() {
                 src={db}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-gray-900 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
               Database Decision Making
               </h5>
-              <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
+              <p className="text-sm text-blittext-100 dark:text-gray-400 text-center">
               We haveaknack of business
               knowledge and can convert your
               business objectives into reality with
@@ -316,12 +315,12 @@ function CSDView() {
           </div>
 
 
-          <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
+          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -371,10 +370,10 @@ function CSDView() {
                 src={faster}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-gray-900 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
               Faster Onboarding
               </h5>
-              <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
+              <p className="text-sm text-blittext-100 dark:text-gray-400 text-center">
               We hold an upper hand in
               diversified projects of any
               technology or industry or size of the

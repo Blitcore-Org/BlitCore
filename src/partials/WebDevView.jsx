@@ -16,26 +16,25 @@ function WebDevView() {
     <section className="relative">
       {/* Section background (needs .relative className on parent and next sibling elements) */}
       <div
-        className="absolute inset-0 bg-gray-100 pointer-events-none mb-16"
+        className="absolute inset-0 bg-blitblue-100 pointer-events-none mb-16"
         aria-hidden="true"
       ></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 ">
         <div className="pt-12 md:pt-20">
           {/* Section One */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 ">
-            <h1 className="h2 mt-12">Web Development</h1>
+            <h1 className="h2 mt-12 text-blitblue-300">Web Development</h1>
           </div>
 
           <div>
-            <p className="text-xl mt-6 text-gray-600 text-center">
+            <p className="text-xl mt-6 text-blittext-100 text-center">
               Changing Dreams Into Reality
             </p>
           </div>
 
           <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h4 mt-6 mb-4">
+            <h1 className="h4 mt-6 mb-4 text-blittext-100">
               Beauty of Custom Software Development
             </h1>
           </div>
@@ -73,11 +72,11 @@ function WebDevView() {
 
                 <div className="relative inline-flex flex-col">
                   <div className="font-bold leading-snug tracking-tight text-left mb-1">
-                    <h1 className="font-bold text-2xl">Great Apps Always Gets Noticed</h1>
+                    <h1 className="font-bold text-2xl text-blitblue-300">Great Apps Always Gets Noticed</h1>
                   </div>
                   <br></br>
                   <div className="relative inline-flex flex-col text-left">
-                    <p className="text-gray-600 leading-relaxed">
+                    <p className="text-blittext-100 leading-relaxed">
                       Design and deploy web applications to bring impactful
                       changes within your web development projects. We assist
                       clients from analyzing disruptive web development
@@ -85,7 +84,7 @@ function WebDevView() {
                       and powerful web based solution.
 
                     </p>
-                    <p className="text-gray-600 mt-5 leading-relaxed">
+                    <p className="text-blittext-100 mt-5 leading-relaxed">
                     Our web development service ensures that the Content Management System enables every website. In addition, web development develops progressive web applications, e-commerce portals, custom business applications and SAAS applications.  
                     The web development service offers a helping hand for some of the most popular and well-recognized brands along with the digital landscape.
                     The web solutions developed here have prominent features that have effective functioning.
@@ -104,13 +103,13 @@ function WebDevView() {
 
         {/* Section Two */}
         <div className="mt-20">
-          <p className="text-xl mt-20 text-gray-600 text-center">
+          <p className="text-xl mt-20 text-blittext-100 text-center">
             World Class Team In Creating Custom Web Designs
           </p>
         </div>
 
         <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
-          <h1 className="h4 mt-6 mb-4">
+          <h1 className="h4 mt-6 mb-4 text-blittext-100 ">
             Beauty of Creating Web Development 
           </h1>
         </div>
@@ -126,9 +125,9 @@ function WebDevView() {
             <div className="mb-8 md:mb-0">
               <div>
                 <div className="font-bold leading-snug tracking-tight text-left mb-1">
-                  <h1 className="font-bold text-2xl">What we Offer</h1>
+                  <h1 className="font-bold text-2xl text-blitblue-300">What we Offer</h1>
                 </div>
-                <p className="text-gray-600 mt-5 leading-relaxed">
+                <p className="text-blittext-100 mt-5 leading-relaxed">
                   We specialize in turning your unique business ideas into
                   cutting-edge next-generation web applications. BlitCore meets
                   client objectives at scale and provides high-quality web
@@ -143,7 +142,7 @@ function WebDevView() {
                 </p>
 
 
-                <ul className="text-gray-600 mt-5 leading-relaxed list-disc ">
+                <ul className="text-blittext-100 mt-5 leading-relaxed list-disc ">
                   <li>Front-End Development</li>
                   <li>Back-End Development</li>
                   <li>Progressive Web Applications</li>
@@ -186,18 +185,18 @@ function WebDevView() {
         <div className="mt-20 "></div>
 
         <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
-          <h1 className="h4 mt-6 mb-4">
+          <h1 className="h4 mt-6 mb-4 text-blitblue-300">
            Why choose web development with us?
           </h1>
         </div>
 
         <div className="max-w-sm mx-auto grid gap-6  lg:grid-cols-3 items-start lg:max-w-none flex" >
-          <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -211,13 +210,13 @@ function WebDevView() {
               </button>
               <div
                 id="dropdown"
-                className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                className="hidden z-10 w-44 text-base list-none bg-blitblue-300 rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
               >
                 <ul className="py-1" aria-labelledby="dropdownButton">
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
                     >
                       Edit
                     </a>
@@ -225,7 +224,7 @@ function WebDevView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
                     >
                       Export Data
                     </a>
@@ -233,7 +232,7 @@ function WebDevView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
                     >
                       Delete
                     </a>
@@ -247,10 +246,10 @@ function WebDevView() {
                 src={flexible}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-gray-900 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
               Flexible Engagement Model
               </h5>
-              <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
+              <p className="text-sm text-blittext-100 dark:text-gray-400 text-center">
               We provide flexible engagement
               models using our skills for all types
               of web app development projects
@@ -261,12 +260,12 @@ function WebDevView() {
           </div>
 
 
-          <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -280,13 +279,13 @@ function WebDevView() {
               </button>
               <div
                 id="dropdown"
-                className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                className="hidden z-10 w-44 text-base list-none bg-blitblue-300 rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
               >
                 <ul className="py-1" aria-labelledby="dropdownButton">
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
                     >
                       Edit
                     </a>
@@ -294,7 +293,7 @@ function WebDevView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
                     >
                       Export Data
                     </a>
@@ -302,7 +301,7 @@ function WebDevView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
                     >
                       Delete
                     </a>
@@ -316,10 +315,10 @@ function WebDevView() {
                 src={demand}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-gray-900 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
               On-Scale Demand
               </h5>
-              <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
+              <p className="text-sm text-blittext-100 dark:text-gray-400 text-center">
               We employ web developers into
               different projects and assignments
               as per the need. Let your unique
@@ -330,12 +329,12 @@ function WebDevView() {
           </div>
 
 
-          <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
+          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -349,13 +348,13 @@ function WebDevView() {
               </button>
               <div
                 id="dropdown"
-                className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                className="hidden z-10 w-44 text-base list-none bg-blitblue-300 rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
               >
                 <ul className="py-1" aria-labelledby="dropdownButton">
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
                     >
                       Edit
                     </a>
@@ -363,7 +362,7 @@ function WebDevView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
                     >
                       Export Data
                     </a>
@@ -371,7 +370,7 @@ function WebDevView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
                     >
                       Delete
                     </a>
@@ -385,10 +384,10 @@ function WebDevView() {
                 src={delivey}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-gray-900 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
               Consistent Delivery
               </h5>
-              <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
+              <p className="text-sm text-blittext-100 dark:text-gray-400 text-center">
               We combine our efforts with an
               agile and iterative approach to
               ensure timely deliveries despite

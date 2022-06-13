@@ -6,7 +6,7 @@ function AboutUs() {
     <section className="relative">
       {/* Section background (needs .relative className on parent and next sibling elements) */}
       <div
-        className="absolute inset-0 bg-gray-100 pointer-events-none mb-16"
+        className="absolute inset-0  bg-blitblue-100 pointer-events-none mb-16"
         aria-hidden="true"
       ></div>
 
@@ -14,15 +14,15 @@ function AboutUs() {
         <div className="pt-12 md:pt-20">
           {/* Section One */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mt-12">A Little Bit About Us</h1>
+            <h1 className="h2 mt-12 text-blitblue-300">A Little Bit About Us</h1>
           </div>
 
           <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h4 mt-6 mb-4">In a Nutshell</h1>
+            <h1 className="h4 mt-6 mb-4 text-blitblue-300">In a Nutshell</h1>
           </div>
 
           <div className="relative inline-flex flex-col text-left">
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-blittext-100 leading-relaxed">
               We are a Consummate Custom Software Development company delivering
               splendid business IT Solutions and related services to customers
               across the globe. Our development services are led by our
@@ -33,7 +33,7 @@ function AboutUs() {
               createabetter experience for our customers.
             </p>
 
-            <p className="text-gray-600 leading-relaxed mt-5">
+            <p className="text-blittext-100 leading-relaxed mt-5">
               {" "}
               We have emerged and marked our presence in different continents by
               providing Bespoke software development services to all major
@@ -42,7 +42,7 @@ function AboutUs() {
               have grown alongside the success of the company.
             </p>
 
-            <p className="text-gray-600 leading-relaxed mt-5">
+            <p className="text-blittext-100 leading-relaxed mt-5">
               At present we areaRobust Team having diverse skills with more.
               than 18+ years of Technology experience engaging with customers at
               Deeper level to provide cutting edge solutions and innovations.
@@ -58,25 +58,25 @@ function AboutUs() {
         </div>
 
         <div>
-          <p className="text-xl mt-20 text-gray-600 text-center">
+          <p className="text-xl mt-20 text-blittext-100 text-center">
             World Class Team In Creating Customized Software
           </p>
         </div>
 
         <div className="relative max-w-screen-xl mt-20 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="pricing-box max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
-            <div className="bg-white dark:bg-gray-800 px-6 py-8 lg:flex-shrink-1 lg:p-12">
-              <h3 className="text-2xl leading-8 font-extrabold text-gray-900 sm:text-3xl sm:leading-9 dark:text-white">
+            <div className="bg-blitblue-300 px-6 py-8 lg:flex-shrink-1 lg:p-12">
+              <h3 className="text-2xl leading-8 font-extrabold text-blittext-100 sm:text-3xl sm:leading-9 dark:text-white">
                 Our Achievements
               </h3>
-              <p className="mt-6 text-base leading-6 text-gray-500 dark:text-gray-200">
+              <p className="mt-6 text-base leading-6 text-blittext-100">
                 Our company works with a team of high ranking developers, we are
                 proud to have worked and offered our services with both
                 corporate and commercial companies worldwide.
               </p>
               <div className="mt-8">
                 <div className="flex items-center">
-                  <h4 className="flex-shrink-0 pr-4 bg-white dark:bg-gray-800 text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">
+                  <h4 className="flex-shrink-0 pr-4 bg-blitblue-300 text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">
                     Know a little more about us
                   </h4>
                   <div className="flex-1 border-t-2 border-gray-200"></div>
@@ -96,7 +96,7 @@ function AboutUs() {
                         <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
                       </svg>
                     </div>
-                    <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                    <p className="ml-3 text-sm leading-5 text-blittext-100">
                       We were founded in 2022.
                     </p>
                   </li>
@@ -114,7 +114,7 @@ function AboutUs() {
                         <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
                       </svg>
                     </div>
-                    <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                    <p className="ml-3 text-sm leading-5 text-blittext-100">
                       Over 1000+ completed projects
                     </p>
                   </li>
@@ -132,7 +132,7 @@ function AboutUs() {
                         <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
                       </svg>
                     </div>
-                    <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                    <p className="ml-3 text-sm leading-5 text-blittext-100">
                       97 Percent Customer Retention Rate
                     </p>
                   </li>
@@ -150,7 +150,7 @@ function AboutUs() {
                         <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
                       </svg>
                     </div>
-                    <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                    <p className="ml-3 text-sm leading-5 text-blittext-100">
                       More than 35 Countries served worldwide
                     </p>
                   </li>
