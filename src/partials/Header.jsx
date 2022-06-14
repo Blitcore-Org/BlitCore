@@ -19,7 +19,7 @@ function Header() {
                 />
               </div>
               <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-24">
+                <div className="ml-10 flex items-baseline space-x-24 mx-auto">
                   <Link
                     to="/"
                     className="hover:bg-gray-700 text-blittext-100 block px-3 py-2 rounded-md text-base font-medium"

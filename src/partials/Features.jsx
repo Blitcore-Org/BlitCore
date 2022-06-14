@@ -37,7 +37,7 @@ function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 ">
-            <h1 className="bg-clip-text text-transparent bg-blitblue-200 h2 mb-4">Explore the solutions</h1>
+          <h1 className="text-4xl md:text-4xl font-extrabold leading-tighter tracking-tighter lg:text-4xl mb-4" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-blitblue-400">Explore Our Services</span></h1>
             <p className="text-xl text-blittext-100">We offer a wide variety of solutions for our clients worldwide. Below you could find the list of solutions we offer for your business</p>
           </div>
 
@@ -47,14 +47,14 @@ function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6 " data-aos="fade-right">
               <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 ">
-                <h3 className="bg-clip-text text-transparent bg-blitblue-200 h3 mb-3 lg:text-left md:text-left">Powerful suite of tools</h3>
+                <h3 className="bg-clip-text text-transparent bg-blitblue-400 h3 mb-3 lg:text-left md:text-left">Powerful suite of tools</h3>
                 <p className="text-xl text-blittext-100 lg:text-left md:text-left">We develop custom software development and use the latest technolgies in the market</p>
               </div>
 
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-blitblue-300 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-400 border-transparent'}`}
+                  className={`flex items-center text-lg p-5 rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
@@ -69,7 +69,7 @@ function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-blitblue-300 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-400 border-transparent'}`}
+                  className={`flex items-center text-lg p-5 rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
@@ -84,13 +84,13 @@ function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-blitblue-300 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-400 border-transparent'}`}
+                  className={`flex items-center text-lg p-5  rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
                     <Link to="productdev" className="font-bold leading-snug tracking-tight mb-1 hover:text-blue-600">UI/UX Design</Link>
-                    <div className="text-blittext-100">We comprehend clients business ideas and develop innovative software soultions with next gen design</div>
+                    <div className="text-blittext-100">We comprehend clients business ideas and develop innovative software soultions with next the latest technologies</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -100,7 +100,7 @@ function Features() {
                 </a>
 
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 4 ? 'bg-blitblue-300 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-400 border-transparent'}`}
+                  className={`flex items-center text-lg p-5  rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 4 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(4); }}
                 >

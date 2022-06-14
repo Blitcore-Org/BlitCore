@@ -23,10 +23,10 @@ module.exports = {
         blitblue: 
         {
           100: '#0D182E',
-          200: '#4186EC',
-          300: '#348FF3',
-          400: '#2C5AA0',
-          500: '#112140',
+          200: '#15294A',
+          300: '#2C5AA0',
+          400: '#2A9DF3',
+          500: '#0CB9FB',
         },
         blue: {
           100: '#E6F0FD',
@@ -82,7 +82,7 @@ module.exports = {
         xl: '1.25rem',
         '2xl': '1.5rem',
         '3xl': '2rem',
-        '4xl': '2.625rem',
+        '4xl': '3.0rem',
         '5xl': '5.25rem',
         '6xl': '11.25rem',
       },
@@ -140,6 +140,21 @@ module.exports = {
 
       left:{
         '50' : '500px',
+      },
+
+      width: {
+        '300': '30000000rem',
+      },
+
+      borderRadius: {
+        'none': '0',
+        'sm': '0.125rem',
+        DEFAULT: '0.25rem',
+        DEFAULT: '4px',
+        'md': '0.375rem',
+        'lg': '0.5rem',
+        'full': '9999px',
+        'large': '20px',
       }
 
     },

@@ -12,16 +12,12 @@ function AboutUs() {
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 ">
         <div className="pt-12 md:pt-20">
+        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+            <h1 className="text-5xl font-bold mt-12 text-blitblue-400 pb-10">About Us</h1>
+          </div>
           {/* Section One */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mt-12 text-blitblue-300">A Little Bit About Us</h1>
-          </div>
-
-          <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h4 mt-6 mb-4 text-blitblue-300">In a Nutshell</h1>
-          </div>
-
-          <div className="relative inline-flex flex-col text-left">
+          <div className="relative inline-flex flex-col text-center ">
+          <h1 className="h2 mt-12 text-blitblue-400">Who We Are</h1>
             <p className="text-blittext-100 leading-relaxed">
               We are a Consummate Custom Software Development company delivering
               splendid business IT Solutions and related services to customers
@@ -33,8 +29,8 @@ function AboutUs() {
               createabetter experience for our customers.
             </p>
 
+            <h1 className="h2 mt-12 text-blitblue-400">What We Do</h1>
             <p className="text-blittext-100 leading-relaxed mt-5">
-              {" "}
               We have emerged and marked our presence in different continents by
               providing Bespoke software development services to all major
               Industry Domains. We have successfully served for more than 1800
@@ -42,12 +38,14 @@ function AboutUs() {
               have grown alongside the success of the company.
             </p>
 
+            <h1 className="h2 mt-12 text-blitblue-400">What Makes Us Different</h1>
             <p className="text-blittext-100 leading-relaxed mt-5">
               At present we areaRobust Team having diverse skills with more.
               than 18+ years of Technology experience engaging with customers at
               Deeper level to provide cutting edge solutions and innovations.
             </p>
           </div>
+
 
           <div className="md:grid md:grid-cols-12 md:gap-6">
             <div
@@ -57,15 +55,10 @@ function AboutUs() {
           </div>
         </div>
 
-        <div>
-          <p className="text-xl mt-20 text-blittext-100 text-center">
-            World Class Team In Creating Customized Software
-          </p>
-        </div>
 
         <div className="relative max-w-screen-xl mt-20 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="pricing-box max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
-            <div className="bg-blitblue-300 px-6 py-8 lg:flex-shrink-1 lg:p-12">
+            <div className="bg-blitblue-400 px-6 py-8 lg:flex-shrink-1 lg:p-12">
               <h3 className="text-2xl leading-8 font-extrabold text-blittext-100 sm:text-3xl sm:leading-9 dark:text-white">
                 Our Achievements
               </h3>
@@ -76,7 +69,7 @@ function AboutUs() {
               </p>
               <div className="mt-8">
                 <div className="flex items-center">
-                  <h4 className="flex-shrink-0 pr-4 bg-blitblue-300 text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">
+                  <h4 className="flex-shrink-0 pr-4 bg-blitblue-400 text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">
                     Know a little more about us
                   </h4>
                   <div className="flex-1 border-t-2 border-gray-200"></div>

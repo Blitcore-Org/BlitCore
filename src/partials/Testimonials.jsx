@@ -13,7 +13,7 @@ function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="text-blitblue-300 h2 mb-4">Trusted by over 50+ companies all over the world</h2>
+            <h2 className="text-blitblue-400 h2 mb-4">Trusted by over 50+ companies all over the world</h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out"></p>
           </div>
 

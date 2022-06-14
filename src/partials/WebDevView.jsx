@@ -24,7 +24,7 @@ function WebDevView() {
         <div className="pt-12 md:pt-20">
           {/* Section One */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 ">
-            <h1 className="h2 mt-12 text-blitblue-300">Web Development</h1>
+            <h1 className="h2 mt-12 text-blitblue-400">Web Development</h1>
           </div>
 
           <div>
@@ -72,7 +72,7 @@ function WebDevView() {
 
                 <div className="relative inline-flex flex-col">
                   <div className="font-bold leading-snug tracking-tight text-left mb-1">
-                    <h1 className="font-bold text-2xl text-blitblue-300">Great Apps Always Gets Noticed</h1>
+                    <h1 className="font-bold text-2xl text-blitblue-400">Great Apps Always Gets Noticed</h1>
                   </div>
                   <br></br>
                   <div className="relative inline-flex flex-col text-left">
@@ -125,7 +125,7 @@ function WebDevView() {
             <div className="mb-8 md:mb-0">
               <div>
                 <div className="font-bold leading-snug tracking-tight text-left mb-1">
-                  <h1 className="font-bold text-2xl text-blitblue-300">What we Offer</h1>
+                  <h1 className="font-bold text-2xl text-blitblue-400">What we Offer</h1>
                 </div>
                 <p className="text-blittext-100 mt-5 leading-relaxed">
                   We specialize in turning your unique business ideas into
@@ -185,13 +185,13 @@ function WebDevView() {
         <div className="mt-20 "></div>
 
         <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
-          <h1 className="h4 mt-6 mb-4 text-blitblue-300">
+          <h1 className="h4 mt-6 mb-4 text-blitblue-400">
            Why choose web development with us?
           </h1>
         </div>
 
         <div className="max-w-sm mx-auto grid gap-6  lg:grid-cols-3 items-start lg:max-w-none flex" >
-          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
@@ -210,7 +210,7 @@ function WebDevView() {
               </button>
               <div
                 id="dropdown"
-                className="hidden z-10 w-44 text-base list-none bg-blitblue-300 rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                className="hidden z-10 w-44 text-base list-none bg-blitblue-400 rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
               >
                 <ul className="py-1" aria-labelledby="dropdownButton">
                   <li>
@@ -260,7 +260,7 @@ function WebDevView() {
           </div>
 
 
-          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
@@ -279,7 +279,7 @@ function WebDevView() {
               </button>
               <div
                 id="dropdown"
-                className="hidden z-10 w-44 text-base list-none bg-blitblue-300 rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                className="hidden z-10 w-44 text-base list-none bg-blitblue-400 rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
               >
                 <ul className="py-1" aria-labelledby="dropdownButton">
                   <li>
@@ -329,7 +329,7 @@ function WebDevView() {
           </div>
 
 
-          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
@@ -348,7 +348,7 @@ function WebDevView() {
               </button>
               <div
                 id="dropdown"
-                className="hidden z-10 w-44 text-base list-none bg-blitblue-300 rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                className="hidden z-10 w-44 text-base list-none bg-blitblue-400 rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
               >
                 <ul className="py-1" aria-labelledby="dropdownButton">
                   <li>

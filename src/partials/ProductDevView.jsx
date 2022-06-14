@@ -20,7 +20,7 @@ function CSDView() {
         <div className="pt-12 md:pt-20">
           {/* Section One */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mt-12 text-blitblue-300">UI/UX Design</h1>
+            <h1 className="h2 mt-12 text-blitblue-400">UI/UX Design</h1>
           </div>
 
           <div>
@@ -67,7 +67,7 @@ function CSDView() {
 
                 <div className="relative inline-flex flex-col">
                   <div className="font-bold leading-snug tracking-tight text-left mb-1">
-                    <h1 className="font-bold text-2xl text-blitblue-300">Turn Your Dream to Reality</h1>
+                    <h1 className="font-bold text-2xl text-blitblue-400">Turn Your Dream to Reality</h1>
                   </div>
                   <br></br>
                   <div className="relative inline-flex flex-col text-left">
@@ -114,7 +114,7 @@ function CSDView() {
             <div className="mb-8 md:mb-0">
               <div>
                 <div className="font-bold leading-snug tracking-tight text-left mb-1">
-                  <h1 className="font-bold text-2xl text-blitblue-300">What We Offer</h1>
+                  <h1 className="font-bold text-2xl text-blitblue-400">What We Offer</h1>
                 </div>
                 <p className="text-blittext-100 mt-5 leading-relaxed">
                 To convert your vision into reality, we assist you from software product ideation to design, development, release, and maintenance.
@@ -172,13 +172,13 @@ function CSDView() {
         <div className="mt-20 "></div>
 
         <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
-          <h1 className="h4 mt-6 mb-4 text-blitblue-300">
+          <h1 className="h4 mt-6 mb-4 text-blitblue-400">
           Why choose Product Development with us?
           </h1>
         </div>
 
         <div className="max-w-sm mx-auto grid gap-6  lg:grid-cols-3 items-start lg:max-w-none flex" >
-          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
@@ -246,7 +246,7 @@ function CSDView() {
           </div>
 
 
-          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
@@ -315,7 +315,7 @@ function CSDView() {
           </div>
 
 
-          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"

@@ -5,11 +5,11 @@ export default function FAQ(){
   <div class="container px-4 mx-auto">
     <div class="mb-20 text-center">
       <span class="text-lg font-bold text-blue-500 mt-5"></span>
-      <h2 class="text-blitblue-300 mt-8 text-7xl font-bold font-heading">FAQ&apos;s</h2>
+      <h2 class="text-blitblue-400 mt-8 text-7xl font-bold font-heading">FAQ&apos;s</h2>
     </div>
     <div class="max-w-4xl mx-auto">
       <ul>
-        <li class="mb-4 px-4 lg:px-12 py-8 bg-blitblue-300 rounded-2xl">
+        <li class="mb-4 px-4 lg:px-12 py-8 bg-blitblue-400 rounded-2xl">
           <button class="flex w-full text-left">
             <div class="w-auto mr-8">
               <span class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-blue-100 rounded-full">1</span>
@@ -37,7 +37,7 @@ export default function FAQ(){
             </div>
           </button>
         </li>
-        <li class="mb-4 px-4 lg:px-12 py-8 bg-blitblue-300 rounded-2xl">
+        <li class="mb-4 px-4 lg:px-12 py-8 bg-blitblue-400 rounded-2xl">
           <button class="flex w-full text-left">
             <div class="w-auto mr-8">
               <span class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-blue-100 rounded-full">2</span>
@@ -57,7 +57,7 @@ export default function FAQ(){
             </div>
           </button>
         </li>
-        <li class="mb-4 px-4 lg:px-12 py-8 bg-blitblue-300 rounded-2xl">
+        <li class="mb-4 px-4 lg:px-12 py-8 bg-blitblue-400 rounded-2xl">
           <button class="flex w-full text-left">
             <div class="w-auto mr-8">
               <span class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-blue-100 rounded-full">3</span>
@@ -77,7 +77,7 @@ export default function FAQ(){
             </div>
           </button>
         </li>
-        <li class="mb-4 px-4 lg:px-12 py-8 bg-blitblue-300 rounded-2xl">
+        <li class="mb-4 px-4 lg:px-12 py-8 bg-blitblue-400 rounded-2xl">
           <button class="flex w-full text-left">
             <div class="w-auto mr-8">
               <span class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-blue-100 rounded-full">4</span>

@@ -44,10 +44,10 @@ function ContactView() {
      
     <section className="relative mt-20 ">
       <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-        <h1 className="h2 mt-20 text-blitblue-300">Contact Us</h1>
+        <h1 className="h2 mt-20 text-blitblue-400">Contact Us</h1>
       </div>
       <form  onSubmit={handleOnSubmit}>
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 bg-blitblue-500 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 bg-blitblue-200 shadow-md rounded px-8 pt-6 pb-8 mb-4">
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
               <label

@@ -18,13 +18,13 @@ function Us() {
       {/* Illustration behind content */}
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 mt-20">
       <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
-          <h1 className="text-blitblue-200 h2 mt-6 mb-4">
+          <h1 className="text-blitblue-400 h2 mt-6 mb-4">
            Why choose BlitCore?
           </h1>
         </div>
 
         <div className="grid lg:grid-cols-3 space-x-8">
-          <div class="rounded overflow-hidden shadow-lg bg-blitblue-300 bg-blitblue-300">
+          <div class="rounded overflow-hidden shadow-lg bg-blitblue-400 bg-blitblue-400">
             <img
               class="mx-auto w-32 h-32 p-6 w-32 h-32 p-6"
               src={data}
@@ -38,7 +38,7 @@ function Us() {
             </div>
           </div>
 
-          <div class="rounded overflow-hidden shadow-lg bg-blitblue-300 ">
+          <div class="rounded overflow-hidden shadow-lg bg-blitblue-400 ">
             <img
               class="mx-auto w-32 h-32 p-6"
               src={exp}
@@ -52,7 +52,7 @@ function Us() {
             </div>
           </div>
 
-          <div class="rounded overflow-hidden shadow-lg bg-blitblue-300 ">
+          <div class="rounded overflow-hidden shadow-lg bg-blitblue-400 ">
             <img
               class="mx-auto w-32 h-32 p-6"
               src={support}
@@ -71,7 +71,7 @@ function Us() {
   {/* Col-2 */}
 
         <div className="grid lg:grid-cols-3 mt-20 space-x-8">
-          <div class="rounded overflow-hidden shadow-lg bg-blitblue-300 ">
+          <div class="rounded overflow-hidden shadow-lg bg-blitblue-400 ">
             <img
               class="mx-auto w-32 h-32 p-6"
               src={rate}
@@ -85,7 +85,7 @@ function Us() {
             </div>
           </div>
 
-          <div class="rounded overflow-hidden shadow-lg bg-blitblue-300 ">
+          <div class="rounded overflow-hidden shadow-lg bg-blitblue-400 ">
             <img
               class="mx-auto w-32 h-32 p-6"
               src={project}
@@ -99,7 +99,7 @@ function Us() {
             </div>
           </div>
 
-          <div class="rounded overflow-hidden shadow-lg bg-blitblue-300 ">
+          <div class="rounded overflow-hidden shadow-lg bg-blitblue-400 ">
             <img
               class="mx-auto w-32 h-32 p-6"
               src={man}

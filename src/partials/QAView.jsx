@@ -22,7 +22,7 @@ function CSDView() {
         <div className="pt-12 md:pt-20">
           {/* Section One */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mt-12 text-blitblue-300">Quality Assurance and Testing</h1>
+            <h1 className="h2 mt-12 text-blitblue-400">Quality Assurance and Testing</h1>
           </div>
 
           <div>
@@ -124,7 +124,7 @@ function CSDView() {
             <div className="mb-8 md:mb-0">
               <div>
                 <div className="font-bold leading-snug tracking-tight text-left mb-1">
-                  <h1 className="font-bold text-2xl text-blitblue-300">What We Offer</h1>
+                  <h1 className="font-bold text-2xl text-blitblue-400">What We Offer</h1>
                 </div>
                 <p className="text-blittext-100 mt-5 leading-relaxed">
                 Empower your business for Next-Gen applications by implementing the best software testing methodologies and tools.Our innovative
@@ -180,7 +180,7 @@ function CSDView() {
 
         <div className="relative max-w-screen-xl mt-20 mx-auto px-4 sm:px-6 lg:px-8">
     <div className="pricing-box max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
-        <div className="bg-blitblue-300 px-6 py-8 lg:flex-shrink-1 lg:p-12">
+        <div className="bg-blitblue-400 px-6 py-8 lg:flex-shrink-1 lg:p-12">
             <h3 className="text-2xl leading-8 font-extrabold text-blittext-100 sm:text-3xl sm:leading-9 dark:text-white">
                 Our QA Automation Process
             </h3>
@@ -192,7 +192,7 @@ function CSDView() {
             </p>
             <div className="mt-8">
                 <div className="flex items-center">
-                    <h4 className="flex-shrink-0 pr-4 bg-blitblue-300 text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">
+                    <h4 className="flex-shrink-0 pr-4 bg-blitblue-400 text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">
                         Our Testing Process
                     </h4>
                     <div className="flex-1 border-t-2 border-gray-200">
@@ -291,7 +291,7 @@ function CSDView() {
             </div>
 
         </div>
-        <div className="py-8 px-6 text-center bg-blitblue-300 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
+        <div className="py-8 px-6 text-center bg-blitblue-400 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
             <div className="mt-4 flex items-center justify-center text-5xl leading-none font-extrabold text-blittext-100 dark:text-white">
                 <span>
                     Flexible
@@ -317,14 +317,14 @@ function CSDView() {
         <div className="mt-20 "></div>
 
         <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
-          <h1 className="h4 mt-6 mb-4 text-blitblue-300">
+          <h1 className="h4 mt-6 mb-4 text-blitblue-400">
           Why choose Quality Assurance and Testing with Us?
           </h1>
         </div>
 
 
         <div className="max-w-sm mx-auto grid gap-6  lg:grid-cols-3 items-start lg:max-w-none flex" >
-          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
@@ -393,7 +393,7 @@ function CSDView() {
           </div>
 
 
-          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
@@ -462,7 +462,7 @@ function CSDView() {
           </div>
 
 
-          <div className="max-w-sm bg-blitblue-300 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"

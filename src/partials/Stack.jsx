@@ -11,7 +11,7 @@ function Stack() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
 
           <div className="max-w-1xl mx-auto mt-20 text-center pb-12 md:pb-16">
-          <h1 className="h4 mt-20 mb-4 text-blitblue-300">Our Technology Stack</h1>
+          <h1 className="h2 mt-20 mb-4 text-blitblue-400">Our Technology Stack</h1>
         </div>
 
         {/* Section content */}

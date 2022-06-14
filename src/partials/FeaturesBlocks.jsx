@@ -12,7 +12,7 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="text-blitblue-200 h2 mb-4">How BlitCore Works</h2>
+            <h2 className="text-blitblue-400 h2 mb-4">How BlitCore Works</h2>
             <p className="text-xl text-blittext-100">We Apply Design Thinking and Practical Creativity.</p>
           </div>
 
@@ -20,7 +20,7 @@ function FeaturesBlocks() {
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none ">
 
             {/* 1st item */}
-            <div className="relative flex flex-col items-center p-6 bg-blitblue-300 rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blitblue-400" width="64" height="64" rx="32" />
@@ -37,7 +37,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-6 bg-blitblue-300 rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blitblue-400" width="64" height="64" rx="32" />
@@ -53,7 +53,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col items-center p-6 bg-blitblue-300 rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blitblue-400" width="64" height="64" rx="32" />
@@ -68,7 +68,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 4th item */}
-            <div className="relative flex flex-col items-center p-6 bg-blitblue-300 rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blitblue-400" width="64" height="64" rx="32" />
@@ -85,7 +85,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 5th item */}
-            <div className="relative flex flex-col items-center p-6 bg-blitblue-300 rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blitblue-400" width="64" height="64" rx="32" />
@@ -100,7 +100,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 6th item */}
-            <div className="relative flex flex-col items-center p-6 bg-blitblue-300 rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blitblue-400" width="64" height="64" rx="32" />
