@@ -5,21 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        purple: {
-          100: '#332576',
-        },
-        gray: {
-          100: '#FBFBFB',
-          200: '#EAEAEA',
-          300: '#DFDFDF',
-          400: '#999999',
-          500: '#7F7F7F',
-          600: '#666666',
-          700: '#4C4C4C',
-          800: '#333333',
-          900: '#191919',
-        }, 
+      colors: {     
         blitblue: 
         {
           100: '#0D182E',
@@ -27,31 +13,6 @@ module.exports = {
           300: '#2C5AA0',
           400: '#2A9DF3',
           500: '#0CB9FB',
-        },
-        blue: {
-          100: '#E6F0FD',
-          200: '#CCE2FC',
-          300: '#99C5FA',
-          400: '#66A9F7',
-          500: '#338CF5',
-          600: '#0070F4',
-          700: '#0064DA',
-          800: '#0059C2',
-          900: '#004391',
-        },
-        teal: {
-          100: '#E6FFFA',
-          200: '#B2F5EA',
-          300: '#81E6D9',
-          400: '#4FD1C5',
-          500: '#3ABAB4',
-          600: '#319795',
-          700: '#2C7A7B',
-          800: '#285E61',
-          900: '#234E52',
-        },
-        blittext:{
-          100: '#FFFFFF',
         },
       },
       boxShadow: {
@@ -72,18 +33,19 @@ module.exports = {
         '1/1': '100%',
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif']
+        // inter: ['Inter', 'sans-serif'],
+        arial: ['Arial', 'sans-serif']
       },
       fontSize: {
         xs: '0.75rem',
         sm: '0.875rem',
         base: '1rem',
-        lg: '1.125rem',
-        xl: '1.25rem',
+        lg: '1.5rem',
+        xl: '2.5rem',
         '2xl': '1.5rem',
         '3xl': '2rem',
         '4xl': '3.0rem',
-        '5xl': '5.25rem',
+        '5xl': '8.25rem',
         '6xl': '11.25rem',
       },
       inset: {

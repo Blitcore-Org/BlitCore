@@ -11,10 +11,10 @@ export default function Services() {
           <div class="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
             <div class="bg-blitblue-400 rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
               <div class="mb-12 space-y-4">
-                <h3 class="text-2xl font-semibold text-blittext-100">
+                <h3 class="text-2xl font-semibold text-white">
                 Encrypted Data
                 </h3>
-                <p class="mb-6 text-blittext-100">
+                <p class="mb-6 text-white">
                 Our advanced information protocals comply with various international security standards
                 </p>
               </div>
@@ -29,10 +29,10 @@ export default function Services() {
             </div>
             <div class="bg-blitblue-400 rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
               <div class="mb-12 space-y-4">
-                <h3 class="text-2xl font-semibold text-blittext-100">
+                <h3 class="text-2xl font-semibold text-white">
                 24/7 Support
                 </h3>
-                <p class="mb-6 text-blittext-100">
+                <p class="mb-6 text-white">
                 We are open 24/7 so is our support team. No matter what time you or your customers call us, we will pick up the call within 3 rings.
                 </p>
               </div>
@@ -47,10 +47,10 @@ export default function Services() {
             </div>
             <div class="bg-blitblue-400 rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
               <div class="mb-12 space-y-4">
-                <h3 class="text-2xl font-semibold text-blittext-100">
+                <h3 class="text-2xl font-semibold text-white">
                 Efficient Project Management
                 </h3>
-                <p class="mb-6 text-blittext-100">
+                <p class="mb-6 text-white">
                 We endeavour in project risk
                 minimization and take full
                 responsibility for scope, schedule,

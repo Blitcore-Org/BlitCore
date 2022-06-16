@@ -38,7 +38,7 @@ function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 ">
           <h1 className="text-4xl md:text-4xl font-extrabold leading-tighter tracking-tighter lg:text-4xl mb-4" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-blitblue-400">Explore Our Services</span></h1>
-            <p className="text-xl text-blittext-100">We offer a wide variety of solutions for our clients worldwide. Below you could find the list of solutions we offer for your business</p>
+            <p className="text-base text-white">We offer a wide variety of solutions for our clients worldwide. Below you could find the list of solutions we offer for your business</p>
           </div>
 
           {/* Section content */}
@@ -48,19 +48,19 @@ function Features() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6 " data-aos="fade-right">
               <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 ">
                 <h3 className="bg-clip-text text-transparent bg-blitblue-400 h3 mb-3 lg:text-left md:text-left">Powerful suite of tools</h3>
-                <p className="text-xl text-blittext-100 lg:text-left md:text-left">We develop custom software development and use the latest technolgies in the market</p>
+                <p className="text-base text-white lg:text-left md:text-left">We develop custom software development and use the latest technolgies in the market</p>
               </div>
 
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
-                  className={`flex items-center text-lg p-5 rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
+                  className={`flex items-center text-base p-5 rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <Link to="customsoftwaredev" className="font-bold leading-snug tracking-tight mb-1 hover:text-blue-600">Custom Software Development</Link>
-                    <div className="text-blittext-100">We translate unique client requirements into custom software soultions with premium quality and advanced technologies</div>
+                    <Link to="customsoftwaredev" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blue-600">Custom Software Development</Link>
+                    <div className="text-white">We translate unique client requirements into custom software soultions with premium quality and advanced technologies</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -69,13 +69,13 @@ function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
+                  className={`flex items-center text-base p-5 rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <Link to="webdev" className="font-bold leading-snug tracking-tight mb-1 hover:text-blue-600">Web Development</Link>
-                    <div className="text-blittext-100">We revolutionize your business ideas using web development services for innovative and next gen  web applications</div>
+                    <Link to="webdev" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blue-600">Web Development</Link>
+                    <div className="text-white">We revolutionize your business ideas using web development services for innovative and next gen  web applications</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -84,13 +84,13 @@ function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5  rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
+                  className={`flex items-center p-5  rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <Link to="productdev" className="font-bold leading-snug tracking-tight mb-1 hover:text-blue-600">UI/UX Design</Link>
-                    <div className="text-blittext-100">We comprehend clients business ideas and develop innovative software soultions with next the latest technologies</div>
+                    <Link to="productdev" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-600">UI/UX Design</Link>
+                    <div className="text-white">We comprehend clients business ideas and develop innovative software soultions with next the latest technologies</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -100,13 +100,13 @@ function Features() {
                 </a>
 
                 <a
-                  className={`flex items-center text-lg p-5  rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 4 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
+                  className={`flex items-center p-5  rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 4 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(4); }}
                 >
                   <div>
-                    <Link to="qa" className="font-bold leading-snug tracking-tight mb-1 hover:text-blue-600">Testing and Quality Assurance</Link>
-                    <div className="text-blittext-100">We maintain quality assurance by rectifying errors and debugging applications for a high performing application</div>
+                    <Link to="qa" className="text-lg font-bold leading-snug tracking-tight mb-1">Testing and Quality Assurance</Link>
+                    <div className="text-white">We maintain quality assurance by rectifying errors and debugging applications for a high performing application</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -135,9 +135,9 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                   <img src={csd1} class="max-w-full h-auto rounded-full transform animate-float "/>
                     <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
-                      <h1 className="text-blittext-100 font-bold text-2xl">Custom Software Development</h1>
+                      <h1 className="text-white font-bold text-lg">Custom Software Development</h1>
                     </div>
-                    <div className="text-blittext-100 relative inline-flex flex-col text-left">
+                    <div className="text-white relative inline-flex flex-col text-left">
                     The custom software development process encompasses designing, developing, 
                     deploying, and maintaining custom software solutions and services. 
                     As a leading custom software development company, our domain experts explicate 
@@ -174,9 +174,9 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                   <img src={webdev}  class="max-w-full h-auto rounded-full transform animate-float "/>
                     <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
-                      <h1 className="text-blittext-100 font-bold text-2xl">Web Development</h1>
+                      <h1 className="text-white font-bold text-2xl">Web Development</h1>
                     </div>
-                    <div className="text-blittext-100 relative inline-flex flex-col text-left">
+                    <div className="text-white relative inline-flex flex-col text-left">
                     <p>We bring revolution to reality. Transforming your custom business ideas into an innovative next-gen web app is our forte. With proven
                     results and promising qualitative deliverables across multiple tech markets.</p>
                     <br/>
@@ -211,9 +211,9 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                   <img src={productdev}  class="max-w-full h-auto rounded-full transform animate-float "/>
                     <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
-                      <h1 className="text-blittext-100 font-bold text-2xl">Product Development</h1>
+                      <h1 className="text-white font-bold text-2xl">Product Development</h1>
                     </div>
-                    <div className="text-blittext-100 relative inline-flex flex-col text-left">
+                    <div className="text-white relative inline-flex flex-col text-left">
                    <p> To convert your vision into reality, we assist you from software product ideation to design, development, release, and maintenance.
                     Every successful product is unique in its market and with its uniqueness, it brings risk and uncertainties during the software product
                     development process.</p>
@@ -235,9 +235,8 @@ function Features() {
                   </div>
                   </div>
                 </Transition>
-
-                                {/* Item 4 */}
-                                <Transition
+                {/* Item 4 */}
+                <Transition
                   show={tab === 4}
                   appear={true}
                   className="w-full"
@@ -251,9 +250,9 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                   <img src={qatesting}  class="max-w-full h-auto rounded-full transform animate-float "/>
                     <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
-                      <h1 className="text-blittext-100 font-bold text-2xl">Quality Assurance</h1>
+                      <h1 className="text-white font-bold text-2xl">Quality Assurance</h1>
                     </div>
-                    <div className="text-blittext-100 relative inline-flex flex-col text-left">
+                    <div className="text-white relative inline-flex flex-col text-left">
                     <p>Empower your business for Next-Gen applications by implementing the best software testing methodologies and tools. Our innovative
                     and forward-thinking approach eliminates errors, reduces overall cycle time and minimizes bugs. Keeping clients' customized
                     requirements at the center</p>
