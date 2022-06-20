@@ -7,6 +7,7 @@ import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Stack from '../partials/Stack';
 import Us from '../partials/Us';
+import Services from '../partials/Services';
 
 function About() {
   return (
@@ -20,7 +21,7 @@ function About() {
 
         {/*  Page sections */}
         <AboutUs />
-        <Us/>
+        <Services/>
         <Stack/>
 
         <Testimonials/>

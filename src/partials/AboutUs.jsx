@@ -13,7 +13,7 @@ function AboutUs() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 ">
         <div className="pt-12 md:pt-20">
         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="text-5xl font-bold mt-12 text-blitblue-400 pb-10">About Us</h1>
+            <h1 className="text-Axl lg:text-5xl font-bold mt-12 text-blitblue-400 pb-10">About Us</h1>
           </div>
           {/* Section One */}
           <div className="relative inline-flex flex-col text-center ">

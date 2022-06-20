@@ -292,7 +292,7 @@ function CSDView() {
 
         </div>
         <div className="py-8 px-6 text-center bg-blitblue-400 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
-            <div className="mt-4 flex items-center justify-center text-5xl leading-none font-extrabold text-blittext-100">
+            <div className="mt-4 flex items-center justify-center text-Axl lg:text-5xl leading-none font-extrabold text-blittext-100">
                 <span>
                     Flexible
                 </span>
