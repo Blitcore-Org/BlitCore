@@ -14,6 +14,10 @@ module.exports = {
           400: '#2A9DF3',
           500: '#0CB9FB',
         },
+        blittext:{
+          100: '#FFFFFF',
+
+        },
       },
       boxShadow: {
         xs: '0 0 0 1px rgba(0, 0, 0, 0.16)',

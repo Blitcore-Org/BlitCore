@@ -178,12 +178,12 @@ function CSDView() {
         </div>
 
         <div className="max-w-sm mx-auto grid gap-6  lg:grid-cols-3 items-start lg:max-w-none flex" >
-          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-blittext-100 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 hover:bg-gray-100 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -197,13 +197,13 @@ function CSDView() {
               </button>
               <div
                 id="dropdown"
-                className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow"
               >
                 <ul className="py-1" aria-labelledby="dropdownButton">
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Edit
                     </a>
@@ -211,7 +211,7 @@ function CSDView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Export Data
                     </a>
@@ -219,7 +219,7 @@ function CSDView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100"
                     >
                       Delete
                     </a>
@@ -233,10 +233,10 @@ function CSDView() {
                 src={goals}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100">
               Business Goals & Insights
               </h5>
-              <p className="text-sm text-blittext-100 dark:text-gray-400 text-center">
+              <p className="text-sm text-blittext-100 text-center">
               We dive deeper into short-term
               and long-term vision of the project
               and after getting acquainted with
@@ -246,12 +246,12 @@ function CSDView() {
           </div>
 
 
-          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-blittext-100 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 hover:bg-gray-100 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -265,13 +265,13 @@ function CSDView() {
               </button>
               <div
                 id="dropdown"
-                className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow"
               >
                 <ul className="py-1" aria-labelledby="dropdownButton">
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Edit
                     </a>
@@ -279,7 +279,7 @@ function CSDView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Export Data
                     </a>
@@ -287,7 +287,7 @@ function CSDView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100"
                     >
                       Delete
                     </a>
@@ -301,10 +301,10 @@ function CSDView() {
                 src={db}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100">
               Database Decision Making
               </h5>
-              <p className="text-sm text-blittext-100 dark:text-gray-400 text-center">
+              <p className="text-sm text-blittext-100 text-center">
               We haveaknack of business
               knowledge and can convert your
               business objectives into reality with
@@ -315,12 +315,12 @@ function CSDView() {
           </div>
 
 
-          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md ">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-blittext-100 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 hover:bg-gray-100 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -334,13 +334,13 @@ function CSDView() {
               </button>
               <div
                 id="dropdown"
-                className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow"
               >
                 <ul className="py-1" aria-labelledby="dropdownButton">
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Edit
                     </a>
@@ -348,7 +348,7 @@ function CSDView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Export Data
                     </a>
@@ -356,7 +356,7 @@ function CSDView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100"
                     >
                       Delete
                     </a>
@@ -370,10 +370,10 @@ function CSDView() {
                 src={faster}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100">
               Faster Onboarding
               </h5>
-              <p className="text-sm text-blittext-100 dark:text-gray-400 text-center">
+              <p className="text-sm text-blittext-100 text-center">
               We hold an upper hand in
               diversified projects of any
               technology or industry or size of the

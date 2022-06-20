@@ -32,7 +32,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Initial Contact</h4>
+              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1">Initial Contact</h4>
               <p className="text-blittext-100 text-center">We would first assign you to our product manager to help understand the service you are looking for with all the details of your certain project or idea. We call this translations of requirements.</p>
             </div>
 
@@ -48,7 +48,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Discovery Session</h4>
+              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1">Discovery Session</h4>
               <p className="text-blittext-100 text-center">We would analyze the requirements and return a feedback to you about the process. If you are satisfied and would love to work with us we will move on to the next stage.</p>
             </div>
 
@@ -63,7 +63,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Contracting</h4>
+              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1">Contracting</h4>
               <p className="text-blittext-100 text-center">We would send you our proposal in which you can view the services based on the requirements you provided. Once you have signed it we will start the development on our end.</p>
             </div>
 
@@ -80,7 +80,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>              
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 ">Fast Prototyping</h4>
+              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1 ">Fast Prototyping</h4>
               <p className="text-blittext-100 text-center">Depending on the service offered, we would prototype your requirements and arrange a meeting with the client.</p>
             </div>
 
@@ -95,7 +95,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Design Phase</h4>
+              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1">Design Phase</h4>
               <p className="text-blittext-100  text-center">Shortly after the ended session of prototyping we would start designing the requirements.</p>
             </div>
 
@@ -112,7 +112,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Develop & Launch</h4>
+              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1">Develop & Launch</h4>
               <p className="text-blittext-100  text-center">Finally developments starts and once completed and confirmed by the client we launch the product.</p>
             </div>
 

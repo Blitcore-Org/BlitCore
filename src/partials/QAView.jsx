@@ -181,7 +181,7 @@ function CSDView() {
         <div className="relative max-w-screen-xl mt-20 mx-auto px-4 sm:px-6 lg:px-8">
     <div className="pricing-box max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
         <div className="bg-blitblue-400 px-6 py-8 lg:flex-shrink-1 lg:p-12">
-            <h3 className="text-2xl leading-8 font-extrabold text-blittext-100 sm:text-3xl sm:leading-9 dark:text-white">
+            <h3 className="text-2xl leading-8 font-extrabold text-blittext-100 sm:text-3xl sm:leading-9">
                 Our QA Automation Process
             </h3>
             <p className="mt-6 text-base leading-6 text-blittext-100">
@@ -292,7 +292,7 @@ function CSDView() {
 
         </div>
         <div className="py-8 px-6 text-center bg-blitblue-400 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
-            <div className="mt-4 flex items-center justify-center text-5xl leading-none font-extrabold text-blittext-100 dark:text-white">
+            <div className="mt-4 flex items-center justify-center text-5xl leading-none font-extrabold text-blittext-100">
                 <span>
                     Flexible
                 </span>
@@ -324,12 +324,12 @@ function CSDView() {
 
 
         <div className="max-w-sm mx-auto grid gap-6  lg:grid-cols-3 items-start lg:max-w-none flex" >
-          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-blittext-100 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 hover:bg-gray-100 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -343,13 +343,13 @@ function CSDView() {
               </button>
               <div
                 id="dropdown"
-                className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow"
               >
                 <ul className="py-1" aria-labelledby="dropdownButton">
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Edit
                     </a>
@@ -357,7 +357,7 @@ function CSDView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Export Data
                     </a>
@@ -365,7 +365,7 @@ function CSDView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100"
                     >
                       Delete
                     </a>
@@ -379,7 +379,7 @@ function CSDView() {
                 src={time}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100">
               Accelerated Deliverables
               </h5>
               <p className="text-sm text-blittext-100 text-center p-2">
@@ -393,12 +393,12 @@ function CSDView() {
           </div>
 
 
-          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-blittext-100 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 hover:bg-gray-100 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -412,13 +412,13 @@ function CSDView() {
               </button>
               <div
                 id="dropdown"
-                className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow"
               >
                 <ul className="py-1" aria-labelledby="dropdownButton">
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Edit
                     </a>
@@ -426,7 +426,7 @@ function CSDView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Export Data
                     </a>
@@ -434,7 +434,7 @@ function CSDView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100"
                     >
                       Delete
                     </a>
@@ -448,7 +448,7 @@ function CSDView() {
                 src={cost}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100">
               Cost Effectiveness
               </h5>
               <p className="text-sm text-blittext-100 text-center p-2">
@@ -462,12 +462,12 @@ function CSDView() {
           </div>
 
 
-          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md ">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-blittext-100 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 hover:bg-gray-100 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -481,13 +481,13 @@ function CSDView() {
               </button>
               <div
                 id="dropdown"
-                className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow"
               >
                 <ul className="py-1" aria-labelledby="dropdownButton">
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Edit
                     </a>
@@ -495,7 +495,7 @@ function CSDView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Export Data
                     </a>
@@ -503,7 +503,7 @@ function CSDView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100"
                     >
                       Delete
                     </a>
@@ -517,7 +517,7 @@ function CSDView() {
                 src={quality}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100">
               Enhanced Quality
               </h5>
               <p className="text-sm text-blittext-100 text-center p-2">

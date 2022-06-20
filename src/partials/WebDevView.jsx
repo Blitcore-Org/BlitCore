@@ -191,12 +191,12 @@ function WebDevView() {
         </div>
 
         <div className="max-w-sm mx-auto grid gap-6  lg:grid-cols-3 items-start lg:max-w-none flex" >
-          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-blittext-100 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 hover:bg-gray-100 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -210,13 +210,13 @@ function WebDevView() {
               </button>
               <div
                 id="dropdown"
-                className="hidden z-10 w-44 text-base list-none bg-blitblue-400 rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                className="hidden z-10 w-44 text-base list-none bg-blitblue-400 rounded divide-y divide-gray-100 shadow"
               >
                 <ul className="py-1" aria-labelledby="dropdownButton">
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Edit
                     </a>
@@ -224,7 +224,7 @@ function WebDevView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Export Data
                     </a>
@@ -232,7 +232,7 @@ function WebDevView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100"
                     >
                       Delete
                     </a>
@@ -246,10 +246,10 @@ function WebDevView() {
                 src={flexible}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100">
               Flexible Engagement Model
               </h5>
-              <p className="text-sm text-blittext-100 dark:text-gray-400 text-center">
+              <p className="text-sm text-blittext-100 text-center">
               We provide flexible engagement
               models using our skills for all types
               of web app development projects
@@ -260,12 +260,12 @@ function WebDevView() {
           </div>
 
 
-          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-blittext-100 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 hover:bg-gray-100 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -279,13 +279,13 @@ function WebDevView() {
               </button>
               <div
                 id="dropdown"
-                className="hidden z-10 w-44 text-base list-none bg-blitblue-400 rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                className="hidden z-10 w-44 text-base list-none bg-blitblue-400 rounded divide-y divide-gray-100 shadow"
               >
                 <ul className="py-1" aria-labelledby="dropdownButton">
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Edit
                     </a>
@@ -293,7 +293,7 @@ function WebDevView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Export Data
                     </a>
@@ -301,7 +301,7 @@ function WebDevView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100"
                     >
                       Delete
                     </a>
@@ -315,10 +315,10 @@ function WebDevView() {
                 src={demand}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100">
               On-Scale Demand
               </h5>
-              <p className="text-sm text-blittext-100 dark:text-gray-400 text-center">
+              <p className="text-sm text-blittext-100 text-center">
               We employ web developers into
               different projects and assignments
               as per the need. Let your unique
@@ -329,12 +329,12 @@ function WebDevView() {
           </div>
 
 
-          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
+          <div className="max-w-sm bg-blitblue-400 rounded-lg border-gray-200 shadow-md ">
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
-                className="hidden sm:inline-block text-blittext-100 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+                className="hidden sm:inline-block text-blittext-100 hover:bg-gray-100 rounded-lg text-sm p-1.5"
                 type="button"
               >
                 <svg
@@ -348,13 +348,13 @@ function WebDevView() {
               </button>
               <div
                 id="dropdown"
-                className="hidden z-10 w-44 text-base list-none bg-blitblue-400 rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                className="hidden z-10 w-44 text-base list-none bg-blitblue-400 rounded divide-y divide-gray-100 shadow"
               >
                 <ul className="py-1" aria-labelledby="dropdownButton">
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Edit
                     </a>
@@ -362,7 +362,7 @@ function WebDevView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Export Data
                     </a>
@@ -370,7 +370,7 @@ function WebDevView() {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-blittext-100 dark:text-gray-200 dark:hover:text-white"
+                      className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100"
                     >
                       Delete
                     </a>
@@ -384,10 +384,10 @@ function WebDevView() {
                 src={delivey}
                 alt="Bonnie image"
               />
-              <h5 className="mb-1 text-l font-medium text-blittext-100 dark:text-white">
+              <h5 className="mb-1 text-l font-medium text-blittext-100">
               Consistent Delivery
               </h5>
-              <p className="text-sm text-blittext-100 dark:text-gray-400 text-center">
+              <p className="text-sm text-blittext-100 text-center">
               We combine our efforts with an
               agile and iterative approach to
               ensure timely deliveries despite

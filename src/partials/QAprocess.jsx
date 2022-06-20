@@ -14,11 +14,11 @@ function QAProcess() {
 
 <div className="relative max-w-screen-xl mt-5 mx-auto px-4 sm:px-6 lg:px-8">
     <div className="pricing-box max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
-        <div className="bg-white dark:bg-gray-800 px-6 py-8 lg:flex-shrink-1 lg:p-12">
-            <h3 className="text-2xl leading-8 font-extrabold text-gray-900 sm:text-3xl sm:leading-9 dark:text-white">
+        <div className="bg-white px-6 py-8 lg:flex-shrink-1 lg:p-12">
+            <h3 className="text-2xl leading-8 font-extrabold text-gray-900 sm:text-3xl sm:leading-9">
                 Our QA Automation Process
             </h3>
-            <p className="mt-6 text-base leading-6 text-gray-500 dark:text-gray-200">
+            <p className="mt-6 text-base leading-6 text-gray-500">
             Our Automation Testing experts strategizearoadmap for your organizational needs and recommend
 technology solutions to cut cost, accelerate time to market and dramatically improve end-product
   quality. Our diversified experience in using multiple test automation tools that can assist your
@@ -26,7 +26,7 @@ technology solutions to cut cost, accelerate time to market and dramatically imp
             </p>
             <div className="mt-8">
                 <div className="flex items-center">
-                    <h4 className="flex-shrink-0 pr-4 bg-white dark:bg-gray-800 text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">
+                    <h4 className="flex-shrink-0 pr-4 bg-white text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">
                         What&#x27;s included
                     </h4>
                     <div className="flex-1 border-t-2 border-gray-200">
@@ -40,7 +40,7 @@ technology solutions to cut cost, accelerate time to market and dramatically imp
                                 </path>
                             </svg>
                         </div>
-                        <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                        <p className="ml-3 text-sm leading-5 text-gray-700">
                         Evaluate automation
                         needs and expandability 
                         </p>
@@ -52,7 +52,7 @@ technology solutions to cut cost, accelerate time to market and dramatically imp
                                 </path>
                             </svg>
                         </div>
-                        <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                        <p className="ml-3 text-sm leading-5 text-gray-700">
                         Define the automation
                         scope and level to
                             employ
@@ -65,7 +65,7 @@ technology solutions to cut cost, accelerate time to market and dramatically imp
                                 </path>
                             </svg>
                         </div>
-                        <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                        <p className="ml-3 text-sm leading-5 text-gray-700">
                         Tools selection and
                         Automation architecture
                             design
@@ -78,7 +78,7 @@ technology solutions to cut cost, accelerate time to market and dramatically imp
                                 </path>
                             </svg>
                         </div>
-                        <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                        <p className="ml-3 text-sm leading-5 text-gray-700">
                         Automated test script
                         and test data creation
                         </p>
@@ -90,7 +90,7 @@ technology solutions to cut cost, accelerate time to market and dramatically imp
                                 </path>
                             </svg>
                         </div>
-                        <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                        <p className="ml-3 text-sm leading-5 text-gray-700">
                         Appropriate Test
                         environment setup and
                         configuration
@@ -103,7 +103,7 @@ technology solutions to cut cost, accelerate time to market and dramatically imp
                                 </path>
                             </svg>
                         </div>
-                        <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                        <p className="ml-3 text-sm leading-5 text-gray-700">
                         Executing test
                         automation script and
                         data validation
@@ -116,7 +116,7 @@ technology solutions to cut cost, accelerate time to market and dramatically imp
                                 </path>
                             </svg>
                         </div>
-                        <p className="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                        <p className="ml-3 text-sm leading-5 text-gray-700">
                         Automated performance
                         test for scalable backend
                         </p>
@@ -125,14 +125,14 @@ technology solutions to cut cost, accelerate time to market and dramatically imp
             </div>
 
         </div>
-        <div className="py-8 px-6 text-center bg-gray-50 dark:bg-gray-700 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
-            <div className="mt-4 flex items-center justify-center text-5xl leading-none font-extrabold text-gray-900 dark:text-white">
+        <div className="py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
+            <div className="mt-4 flex items-center justify-center text-5xl leading-none font-extrabold text-gray-900">
                 <span>
                     Flexible
                 </span>
             </div>
             <p className="mt-4 text-sm leading-5">
-                <span className="block font-medium text-gray-500 dark:text-gray-400">
+                <span className="block font-medium text-gray-500">
                     Business Models
                 </span>
             </p>

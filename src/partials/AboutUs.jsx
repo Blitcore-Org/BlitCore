@@ -59,7 +59,7 @@ function AboutUs() {
         <div className="relative max-w-screen-xl mt-20 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="pricing-box max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
             <div className="bg-blitblue-400 px-6 py-8 lg:flex-shrink-1 lg:p-12">
-              <h3 className="text-2xl leading-8 font-extrabold text-blittext-100 sm:text-3xl sm:leading-9 dark:text-white">
+              <h3 className="text-2xl leading-8 font-extrabold text-blittext-100 sm:text-3xl sm:leading-9">
                 Our Achievements
               </h3>
               <p className="mt-6 text-base leading-6 text-blittext-100">
