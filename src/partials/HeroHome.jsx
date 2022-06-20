@@ -2,12 +2,18 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 // import image1 from '../images/blitcore1.png';
 // import image2 from '../images/blitcore2.png';
+import blitcoreDiagram from '../images/Diagrams/blitcore_diagram.svg';
 
 function HeroHome() {
 
 
   return (
     <section className="relative bg-blitblue-100">
+
+
+      <div className="md:absolute left-10 transform -bottom-0 pointer-events-none" aria-hidden="true">
+        <img src={blitcoreDiagram} /> 
+      </div>
 
       {/* <div className="md:absolute right-20 transform top-10 pointer-events-none" aria-hidden="true">
         <img src={image1} /> 

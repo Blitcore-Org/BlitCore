@@ -2,12 +2,10 @@ import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 import { Link } from 'react-router-dom';
 
-import FeaturesBg from '../images/50.png';
-import FeaturesElement from '../images/50.png';;
 import csd1 from '../images/CSD/csd.png'
 import qatesting from '../images/QA/qatesting.jpg';
-import webdev from '../images/Web/webdiagram.png';
-import productdev from '../images/Product/productdev.png'
+import webdev from '../images/Diagrams/webDevDiagram.svg';
+import productdev from '../images/Product/productdev.png';
 
 function Features() {
 
