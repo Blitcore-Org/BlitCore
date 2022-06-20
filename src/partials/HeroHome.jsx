@@ -32,7 +32,7 @@ function HeroHome() {
                   <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
                 </div> */}
                 <div>
-                  <Link className="rounded-large btn text-black font-bold bg-blitblue-400 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" to="contact">Lets Begin</Link>
+                  <Link className="rounded-large btn text-black font-bold bg-blitblue-400 hover:bg-blitblue-500 hover:text-blitblue-100 w-full sm:w-auto sm:ml-4" to="contact">Lets Begin</Link>
                 </div>
               </div>
             </div>
