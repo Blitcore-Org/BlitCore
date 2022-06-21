@@ -11,6 +11,8 @@ import Us from '../partials/Us';
 import AboutUs from '../partials/AboutUs';
 import FAQ from '../partials/FAQ';
 import Services from '../partials/Services';
+import Team from '../partials/Team';
+
 
 function Home() {
   return (
@@ -27,6 +29,7 @@ function Home() {
         <FeaturesHome />
         <FeaturesBlocks />
         <Services/>
+        <Team/>
         <FAQ/>
         <Testimonials />
 
