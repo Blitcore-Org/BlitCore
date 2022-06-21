@@ -2,12 +2,18 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 // import image1 from '../images/blitcore1.png';
 // import image2 from '../images/blitcore2.png';
+import blitcoreDiagram from '../images/Diagrams/blitcore_diagram.svg';
 
 function HeroHome() {
 
 
   return (
     <section className="relative bg-blitblue-100">
+
+
+      <div className="md:absolute left-10 transform -bottom-0 pointer-events-none" aria-hidden="true">
+        <img src={blitcoreDiagram} /> 
+      </div>
 
       {/* <div className="md:absolute right-20 transform top-10 pointer-events-none" aria-hidden="true">
         <img src={image1} /> 
@@ -32,7 +38,7 @@ function HeroHome() {
                   <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
                 </div> */}
                 <div>
-                  <Link className="rounded-large btn text-black font-bold bg-blitblue-400 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" to="contact">Lets Begin</Link>
+                  <Link className="rounded-large btn text-black font-bold bg-blitblue-400 hover:bg-blitblue-500 hover:text-blitblue-100 w-full sm:w-auto sm:ml-4" to="contact">Lets Begin</Link>
                 </div>
               </div>
             </div>

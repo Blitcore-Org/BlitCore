@@ -51,7 +51,7 @@ function Header() {
               </Link> */}
                   <Link
                     to="/book"
-                    className="text-blitblue-100 bg-blitblue-500 block px-3 py-2 rounded-md text-base font-medium flex hover:text-blitblue-100 hover:bg-blitblue-400"
+                    className="text-blitblue-100 bg-blitblue-400 block px-3 py-2 rounded-md text-base font-medium flex hover:text-blitblue-100 hover:bg-blitblue-500"
                   >
                     <span>Free Consultaion</span>
                     <svg

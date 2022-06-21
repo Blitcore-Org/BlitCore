@@ -2,12 +2,10 @@ import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 import { Link } from 'react-router-dom';
 
-import FeaturesBg from '../images/50.png';
-import FeaturesElement from '../images/50.png';;
 import csd1 from '../images/CSD/csd.png'
 import qatesting from '../images/QA/qatesting.jpg';
-import webdev from '../images/Web/webdiagram.png';
-import productdev from '../images/Product/productdev.png'
+import webdev from '../images/Diagrams/webDevDiagram.svg';
+import productdev from '../images/Product/productdev.png';
 
 function Features() {
 
@@ -54,12 +52,12 @@ function Features() {
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
-                  className={`flex items-center text-base p-5 rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
+                  className={`flex items-center text-base p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-blitblue-400 shadow-md border-blitblue-100' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <Link to="customsoftwaredev" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blue-600">Custom Software Development</Link>
+                    <Link to="customsoftwaredev" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Custom Software Development</Link>
                     <div className="text-white">We translate unique client requirements into custom software soultions with premium quality and advanced technologies</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -69,12 +67,12 @@ function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-base p-5 rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
+                  className={`flex items-center text-base p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <Link to="webdev" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blue-600">Web Development</Link>
+                    <Link to="webdev" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Web Development</Link>
                     <div className="text-white">We revolutionize your business ideas using web development services for innovative and next gen  web applications</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -84,12 +82,12 @@ function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex items-center p-5  rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
+                  className={`flex items-center p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <Link to="productdev" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-600">UI/UX Design</Link>
+                    <Link to="productdev" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">UI/UX Design</Link>
                     <div className="text-white">We comprehend clients business ideas and develop innovative software soultions with next the latest technologies</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -100,12 +98,12 @@ function Features() {
                 </a>
 
                 <a
-                  className={`flex items-center p-5  rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 4 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
+                  className={`flex items-center text-base p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-3 ${tab !== 4 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(4); }}
                 >
                   <div>
-                    <Link to="qa" className="text-lg font-bold leading-snug tracking-tight mb-1">Testing and Quality Assurance</Link>
+                    <Link to="qa" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Testing and Quality Assurance</Link>
                     <div className="text-white">We maintain quality assurance by rectifying errors and debugging applications for a high performing application</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -133,7 +131,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                  <img src={csd1} class="max-w-full h-auto rounded-full transform animate-float "/>
+                  <img src={csd1} class="max-w-full h-auto transform animate-float "/>
                     <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
                       <h1 className="text-white font-bold text-lg">Custom Software Development</h1>
                     </div>
@@ -148,7 +146,7 @@ function Features() {
                     <br></br>
 
                     <div className="text-center">
-                        <Link to="customsoftwaredev" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
+                        <Link to="customsoftwaredev" class="text-blitblue-100 hover:text-blitblue-100 bg-gradient-to-r from-blitblue-500 to-blitblue-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
                     </div>
 
                     <div className="relative inline-flex flex-col">
@@ -172,7 +170,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                  <img src={webdev}  class="max-w-full h-auto rounded-full transform animate-float "/>
+                  <img src={webdev}  class="max-w-full h-auto transform animate-float "/>
                     <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
                       <h1 className="text-white font-bold text-2xl">Web Development</h1>
                     </div>
@@ -190,7 +188,7 @@ function Features() {
                     <br></br>
 
                     <div className="text-center">
-                        <Link to="webdev" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
+                      <Link to="customsoftwaredev" class="text-blitblue-100 hover:text-blitblue-100 bg-gradient-to-r from-blitblue-500 to-blitblue-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
                     </div>
                     <div className="relative inline-flex flex-col">
                   </div>
@@ -209,7 +207,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                  <img src={productdev}  class="max-w-full h-auto rounded-full transform animate-float "/>
+                  <img src={productdev}  class="max-w-full h-auto transform animate-float "/>
                     <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
                       <h1 className="text-white font-bold text-2xl">Product Development</h1>
                     </div>
@@ -229,7 +227,7 @@ function Features() {
                     <br></br>
 
                     <div className="text-center">
-                        <Link to="productdev" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
+                      <Link to="customsoftwaredev" class="text-blitblue-100 hover:text-blitblue-100 bg-gradient-to-r from-blitblue-500 to-blitblue-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
                     </div>
                     <div className="relative inline-flex flex-col">
                   </div>
@@ -248,7 +246,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                  <img src={qatesting}  class="max-w-full h-auto rounded-full transform animate-float "/>
+                  <img src={qatesting}  class="max-w-full h-auto transform animate-float "/>
                     <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
                       <h1 className="text-white font-bold text-2xl">Quality Assurance</h1>
                     </div>
@@ -266,7 +264,7 @@ function Features() {
                     <br></br>
 
                     <div className="text-center">
-                        <Link to="qa" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
+                      <Link to="customsoftwaredev" class="text-blitblue-100 hover:text-blitblue-100 bg-gradient-to-r from-blitblue-500 to-blitblue-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
                     </div> 
                     <div className="relative inline-flex flex-col">
                   </div>
