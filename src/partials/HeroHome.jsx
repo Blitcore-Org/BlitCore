@@ -11,17 +11,9 @@ function HeroHome() {
     <section className="relative bg-blitblue-100">
 
 
-      <div className="md:absolute left-10 transform -bottom-0 pointer-events-none" aria-hidden="true">
-        <img src={blitcoreDiagram} /> 
+      <div className="flex items-center justify-center" aria-hidden="true">
+        <img className="absolute top-10" src={blitcoreDiagram} /> 
       </div>
-
-      {/* <div className="md:absolute right-20 transform top-10 pointer-events-none" aria-hidden="true">
-        <img src={image1} /> 
-      </div>
-
-      <div className="md:absolute left-20 transform -bottom-0 pointer-events-none" aria-hidden="true">
-        <img src={image2} /> 
-      </div> */}
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 ">
 
