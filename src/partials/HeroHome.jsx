@@ -11,8 +11,8 @@ function HeroHome() {
     <section className="relative bg-blitblue-100">
 
 
-      <div className="flex items-center justify-center" aria-hidden="true">
-        <img className="absolute top-10" src={blitcoreDiagram} /> 
+      <div className="flex items-center justify-center sm:relative" aria-hidden="true">
+        <img className="absolute top-1 w-max" src={blitcoreDiagram} /> 
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 ">

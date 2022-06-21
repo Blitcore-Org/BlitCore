@@ -113,6 +113,10 @@ module.exports = {
         '300': '30000000rem',
       },
 
+      top: {
+        '100': '300rem',
+      },
+
       borderRadius: {
         'none': '0',
         'sm': '0.125rem',
