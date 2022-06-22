@@ -12,6 +12,7 @@ import AboutUs from '../partials/AboutUs';
 import FAQ from '../partials/FAQ';
 import Services from '../partials/Services';
 import Team from '../partials/Team';
+// import Portfolio from '../partials/Portfolio';
 
 
 function Home() {
@@ -34,6 +35,7 @@ function Home() {
         <Testimonials />
 
         <Newsletter/>
+        {/* <Portfolio/> */}
 
       </main>
 

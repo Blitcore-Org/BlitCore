@@ -54,7 +54,7 @@ function App() {
         <Route exact path="softwaredev" element={<SoftwareDevPage />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="book" element={<Consult/>} />
+        <Route path="https://www.blitcore.com/book" element={<Consult/>} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/terms" element={<Term />} />
