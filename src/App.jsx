@@ -46,18 +46,18 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route exact path="/about" element={<About />} />
         <Route exact path="customsoftwaredev" element={<CSD />} />
         <Route exact path="webdev" element={<WebDev />} />
         <Route exact path="productdev" element={<ProductDev />} />
         <Route exact path="qa" element={<QA />} />
         <Route exact path="softwaredev" element={<SoftwareDevPage />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="https://www.blitcore.com/book" element={<Consult/>} />
-        <Route path="/reset-password" element={<ResetPassword />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/terms" element={<Term />} />
+        <Route exact path="/signin" element={<SignIn />} />
+        <Route exact path="/signup" element={<SignUp />} />
+        <Route exact path="/book" element={<Consult/>} />
+        <Route exact path="/reset-password" element={<ResetPassword />} />
+        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/terms" element={<Term />} />
       </Routes>
     </>
   );
