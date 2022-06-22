@@ -21,7 +21,7 @@ export default function Team() {
                 </div>
                 <div class="mt-3 space-y-2 text-center">
                     <div class="space-y-1 text-lg font-medium leading-6 text-blittext-100">
-                        <h3>Abass Jamml</h3>
+                        <h3>Abass Jammal</h3>
                         <p class="text-blitblue-500">Co-Founder</p>
                     </div>
                     <div class="relative flex items-center justify-center space-x-3">
@@ -63,7 +63,7 @@ export default function Team() {
                 </div>
                 <div class="mt-3 space-y-2 text-center">
                     <div class="space-y-1 text-lg font-medium leading-6 text-blittext-100">
-                        <h3>Anas Anas</h3>
+                        <h3>Anas Zouhir</h3>
                         <p class="text-blitblue-500">Lead Developer</p>
                     </div>
                     <div class="relative flex items-center justify-center space-x-3">
