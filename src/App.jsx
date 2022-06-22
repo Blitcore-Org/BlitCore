@@ -1,9 +1,11 @@
 import React, { useEffect } from 'react';
 import {
+  BrowserRouter as Router,
   Routes,
   Route,
   useLocation
 } from 'react-router-dom';
+
 
 import './css/style.scss';
 
@@ -44,7 +46,7 @@ function App() {
 
   return (
     <>
-      <Routes>
+      <Router>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="customsoftwaredev" element={<CSD />} />
@@ -58,7 +60,7 @@ function App() {
         <Route exact path="/reset-password" element={<ResetPassword />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/terms" element={<Term />} />
-      </Routes>
+      </Router>
     </>
   );
 }
