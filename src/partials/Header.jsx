@@ -30,12 +30,12 @@ function Header() {
                   >
                     About Us
                   </Link>
-                  <Link
+                  {/* <Link
                     to="#0"
                     className="transition ease-in-out delay-150 text-white hover:scale-100 hover:underline underline-offset-8 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Pricing
-                  </Link>
+                  </Link> */}
                   <Link
                     to="/contact"
                     className="transition ease-in-out delay-150 text-white hover:scale-100 hover:underline underline-offset-8 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
@@ -139,12 +139,12 @@ function Header() {
                 >
                   About Us
                 </Link>
-                <Link
+                {/* <Link
                   to="#0"
                   className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Pricing
-                </Link>
+                </Link> */}
                 <Link
                   to="/contact"
                   className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"

@@ -12,25 +12,25 @@ export default function FAQ(){
         <div class="w-full px-6 py-6 mx-auto mt-10 bg-blitblue-400 border border-blitblue-400 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-black sm:text-xl md:text-2xl">How does it work?</h3>
             <p class="mt-2 text-base text-blittext-100 sm:text-lg md:text-normal">
-                Our platform works with your content to provides insights and metrics on how you can grow your business and scale your infastructure.
+                Our process is Simple. Book a free consultation with us to discuss about your requirements and decide weather you'd like to work with us.
             </p>
         </div>
         <div class="w-full px-6 py-6 mx-auto mt-10 bg-blitblue-400 border border-blitblue-400 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
-            <h3 class="text-lg font-bold text-black sm:text-xl md:text-2xl">Do you offer team pricing?</h3>
+            <h3 class="text-lg font-bold text-black sm:text-xl md:text-2xl">What are your Pricing</h3>
             <p class="mt-2 text-base text-blittext-100 sm:text-lg md:text-normal">
-                Yes, we do! Team pricing is available for any plan. You can take advantage of 30% off for signing up for team pricing of 10 users or more.
+                Our pricing varies depending on your project specifications, at the end of our consultation we will offer you a price depedning on the service and requirements provided.
             </p>
         </div>
         <div class="w-full px-6 py-6 mx-auto mt-10 bg-blitblue-400 border border-blitblue-400 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
-            <h3 class="text-lg font-bold text-black sm:text-xl md:text-2xl">How do I make changes and configure my site?</h3>
+            <h3 class="text-lg font-bold text-black sm:text-xl md:text-2xl">How long do the projects take to be completed?</h3>
             <p class="mt-2 text-base text-blittext-100 sm:text-lg md:text-normal">
-                You can easily change your site settings inside of your site dashboard by clicking the top right menu and clicking the settings button.
+                This depends on the structure and complexity of your project, typically we give a due date to the project at the end of the consultation.
             </p>
         </div>
         <div class="w-full px-6 py-6 mx-auto mt-10 bg-blitblue-400 border border-blitblue-400 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
-            <h3 class="text-lg font-bold text-black sm:text-xl md:text-2xl">How do I add a custom domain?</h3>
+            <h3 class="text-lg font-bold text-black sm:text-xl md:text-2xl">How do i pay for a service?</h3>
             <p class="mt-2 text-base text-blittext-100 sm:text-lg md:text-normal">
-                You can easily change your site settings inside of your site dashboard by clicking the top right menu and clicking the settings button.
+                If you've decided to work with us, we send an invoice with the account details, payements can be made through paypal, stripe or a bank transfer!
             </p>
         </div>
     </div>

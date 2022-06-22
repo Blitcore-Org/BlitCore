@@ -13,10 +13,10 @@ export default function Team() {
     <div class="relative px-16 mx-auto max-w-7xl">
         <p class="font-medium tracking-wide text-blue-500 uppercase">OUR TEAM</p>
         <h2 class="text-blitblue-400 relative max-w-lg mt-5 mb-10 text-xl font-semibold leading-tight lg:text-xl">An incredible team of amazing individuals</h2>
-        <div class="grid w-full grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-4">
+        <div class="grid w-full grid-cols-1 gap-10 sm:grid-cols-3 lg:grid-cols-3">
             <div class="flex flex-col items-center justify-center col-span-1">
                 <div class="relative p-5">
-                    <div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-blue-50"></div>
+                    <div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-blitblue-400"></div>
                     <img class="relative z-20 w-full rounded-full" src={abass}/>
                 </div>
                 <div class="mt-3 space-y-2 text-center">
@@ -37,7 +37,7 @@ export default function Team() {
 
             <div class="flex flex-col items-center justify-center col-span-1">
                 <div class="relative p-5">
-                    <div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
+                    <div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-blitblue-400"></div>
                     <img class="relative z-20 w-full rounded-full" src={tamer}/>
                 </div>
                 <div class="mt-3 space-y-2 text-center">
@@ -58,7 +58,7 @@ export default function Team() {
 
             <div class="flex flex-col items-center justify-center col-span-1">
                 <div class="relative p-5">
-                    <div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
+                    <div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-blitblue-400"></div>
                     <img class="relative z-20 w-full rounded-full" src="https://cdn.devdojo.com/images/june2021/avt-09.jpg"/>
                 </div>
                 <div class="mt-3 space-y-2 text-center">

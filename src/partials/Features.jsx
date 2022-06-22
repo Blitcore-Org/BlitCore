@@ -103,7 +103,7 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(4); }}
                 >
                   <div>
-                    <Link to="qa" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Testing and Quality Assurance</Link>
+                    <Link to="qa" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Search Engine Optimization</Link>
                     <div className="text-white">We maintain quality assurance by rectifying errors and debugging applications for a high performing application</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -248,18 +248,12 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                   <img src={qatesting}  class="max-w-full h-auto transform animate-float "/>
                     <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
-                      <h1 className="text-white font-bold text-2xl">Quality Assurance</h1>
+                      <h1 className="text-white font-bold text-2xl">Search Engine Optimization</h1>
                     </div>
                     <div className="text-white relative inline-flex flex-col text-left">
-                    <p>Empower your business for Next-Gen applications by implementing the best software testing methodologies and tools. Our innovative
-                    and forward-thinking approach eliminates errors, reduces overall cycle time and minimizes bugs. Keeping clients' customized
-                    requirements at the center</p>
+                    <p>Our cutting-edge, targeted solutions help you attract the right customers, convert leads and grow your business.</p>
                     <br/>
-                    <p>We offeracomprehensive set of manual and automated testing services adhering to standard quality
-                    assurance for best practices and processes. .</p>
-                    <br/>
-                    <p>Our dedicated team of resourceful QA engineers perform high-quality QA testing to provide
-                    reliable, scalable and robust software solutions</p>
+                    <p>We offer the full range of SEO services and have a proven track record of success with local, national and enterprise SEO campaigns.</p>
                     </div>
                     <br></br>
 
