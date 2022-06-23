@@ -36,7 +36,7 @@ function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 ">
           <h1 className="text-4xl md:text-4xl font-extrabold leading-tighter tracking-tighter lg:text-4xl mb-4" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-blitblue-400">Explore Our Services</span></h1>
-            <p className="text-base text-white">We offer a wide variety of solutions for our clients worldwide. Below you could find the list of solutions we offer for your business</p>
+            <p className="text-base text-white">We offer a wide variety of solutions for our clients worldwide. Below you could find the list of solutions we offer for you</p>
           </div>
 
           {/* Section content */}
@@ -44,10 +44,10 @@ function Features() {
 
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6 " data-aos="fade-right">
-              <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 ">
+              {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 ">
                 <h3 className="bg-clip-text text-transparent bg-blitblue-400 h3 mb-3 lg:text-left md:text-left">Powerful suite of tools</h3>
                 <p className="text-base text-white lg:text-left md:text-left">We develop custom software development and use the latest technolgies in the market</p>
-              </div>
+              </div> */}
 
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
