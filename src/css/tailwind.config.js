@@ -16,6 +16,7 @@ module.exports = {
         },
         blittext:{
           100: '#FFFFFF',
+          200: '#F4F4F4'
         },
       },
       boxShadow: {
