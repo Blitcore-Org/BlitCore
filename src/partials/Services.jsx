@@ -1,15 +1,19 @@
+import support from "../images/Diagrams/support_diagram.svg";
+import efficiency from "../images/Diagrams/efficiency_diagram.svg";
+
+
 export default function Services() {
   return (
     <section className="relative">
       <div class="relative max-w-6xl mx-auto px-4 sm:px-6 mt-20">
       <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
           <h1 className="text-blitblue-400 h2 mt-6 mb-4">
-           Why choose BlitCore?
+            Why choose BlitCore?
           </h1>
         </div>
         <div class="container m-auto px-6 text-gray-500 md:px-12 xl:px-0">
-          <div class="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
-            <div class="bg-blitblue-400 rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+          <div class="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-2">
+            {/* <div class="bg-blitblue-400 rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
               <div class="mb-12 space-y-4">
                 <h3 class="text-2xl font-semibold text-white">
                 Encrypted Data
@@ -26,10 +30,10 @@ export default function Services() {
                 width="900"
                 height="600"
               />
-            </div>
-            <div class="bg-blitblue-400 rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+            </div> */}
+            <div class="bg-blitblue-200 rounded-2xl drop-shadow-2xl px-8 py-12 sm:px-12 lg:px-8">
               <div class="mb-12 space-y-4">
-                <h3 class="text-2xl font-semibold text-white">
+                <h3 class="text-2xl font-semibold text-blitblue-500">
                 24/7 Support
                 </h3>
                 <p class="mb-6 text-white">
@@ -37,7 +41,7 @@ export default function Services() {
                 </p>
               </div>
               <img
-                src="https://tailus.io/sources/blocks/end-image/preview/images/ui-design.svg"
+                src={support}
                 class="w-2/3 ml-auto"
                 alt="illustration"
                 loading="lazy"
@@ -45,9 +49,9 @@ export default function Services() {
                 height="600"
               />
             </div>
-            <div class="bg-blitblue-400 rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+            <div class="bg-blitblue-200 rounded-2xl drop-shadow-2xl px-8 py-12 sm:px-12 lg:px-8">
               <div class="mb-12 space-y-4">
-                <h3 class="text-2xl font-semibold text-white">
+                <h3 class="text-2xl font-semibold text-blitblue-500">
                 Efficient Project Management
                 </h3>
                 <p class="mb-6 text-white">
@@ -59,7 +63,7 @@ export default function Services() {
                 </p>
               </div>
               <img
-                src="https://tailus.io/sources/blocks/end-image/preview/images/ux-design.svg"
+                src={efficiency}
                 class="w-2/3 ml-auto "
                 alt="illustration"
                 loading="lazy"

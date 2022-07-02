@@ -6,7 +6,6 @@ import FeaturesElement from "../images/image123.jpg";
 
 import data from "../images/data.png";
 import exp from "../images/exp.png";
-import support from "../images/support.png";
 import rate from "../images/rate.png";
 import project from "../images/project.png";
 import man from "../images/man.png";
@@ -19,7 +18,7 @@ function Us() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 mt-20">
       <div className="max-w-1xl mx-auto text-center pb-12 md:pb-16">
           <h1 className="text-blitblue-400 h2 mt-6 mb-4">
-           Why choose BlitCore?
+            Why choose BlitCore?
           </h1>
         </div>
 
