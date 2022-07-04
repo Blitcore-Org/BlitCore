@@ -15,11 +15,11 @@ function Newsletter() {
       (result) => {
         console.log(result.text);
         Swal.fire({
-         icon: 'success',
-         title: 'Thank you for Subscribing!',
-         text: 'You will now recieve our latest news and promotions!',
-         showConfirmButton: true,
-         confirmButtonColor: '#348FF3',
+          icon: 'success',
+          title: 'Thank you for Subscribing!',
+          text: 'You will now recieve our latest news and promotions!',
+          showConfirmButton: true,
+          confirmButtonColor: '#348FF3',
         });
       },
       (error) => {
@@ -39,7 +39,7 @@ function Newsletter() {
         <div className="pb-12 md:pb-20">
 
           {/* CTA box */}
-          <div className="relative bg-blitblue-100 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden mt-10" data-aos="zoom-y-out">
+          <div className="relative bg-blitblue-100 rounded py-10 px-8 md:py-16 md:px-12 overflow-hidden mt-24" data-aos="zoom-y-out">
 
             {/* Background illustration */}
 

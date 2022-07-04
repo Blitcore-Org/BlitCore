@@ -24,7 +24,6 @@ function About() {
         <Services/>
         <Stack/>
 
-        <Testimonials/>
         <Newsletter/>
 
 

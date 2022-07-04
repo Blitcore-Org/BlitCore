@@ -17,7 +17,7 @@ function AboutUs() {
           </div>
 
           <div className="max-w-3xl mx-auto h-96 all text-center pb-12 md:pb-16">
-              <div id="stack1" class="card-container px-auto sm:left-32 md:left-32 lg:left-32 h-96 relative w-96 start">
+              <div id="stack1" class="card-container px-auto left-[15%] sm:left-32 md:left-32 lg:left-32 h-96 relative w-96 start">
                 <div id="card1" class="card relative flex flex-col items-center p-6 bg-blitblue-500 rounded-large shadow-xl border-2 border-blitblue-400 card1">
                   <h1 className="text-lg font-extrabold text-blitblue-100">Who we are</h1>
 
