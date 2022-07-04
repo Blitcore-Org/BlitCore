@@ -32,7 +32,6 @@ function Home() {
         <Services/>
         <Team/>
         <FAQ/>
-        <Testimonials />
 
         <Newsletter/>
         {/* <Portfolio/> */}

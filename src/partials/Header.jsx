@@ -20,25 +20,25 @@ function Header() {
                 <div className="ml-10 flex items-baseline space-x-14 mx-auto">
                   <Link
                     to="/"
-                    className="transition ease-in-out delay-150 text-white hover:scale-100 hover:underline underline-offset-8 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className="navbar_links transition ease-in-out delay-150 text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Home
                   </Link>
                   <Link
                     to="/about"
-                    className="transition ease-in-out delay-150 text-white hover:scale-100 hover:underline underline-offset-8 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className="navbar_links transition ease-in-out delay-150 text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     About Us
                   </Link>
                   {/* <Link
                     to="#0"
-                    className="transition ease-in-out delay-150 text-white hover:scale-100 hover:underline underline-offset-8 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className="transition ease-in-out delay-150 text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Pricing
                   </Link> */}
                   <Link
                     to="/contact"
-                    className="transition ease-in-out delay-150 text-white hover:scale-100 hover:underline underline-offset-8 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className="navbar_links transition ease-in-out delay-150 text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Contact Us
                   </Link>
@@ -72,7 +72,7 @@ function Header() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                className="bg-blitblue-400 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-blitblue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -83,7 +83,7 @@ function Header() {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke="currentColor"
+                    stroke="#0D182E"
                     aria-hidden="true"
                   >
                     <path
@@ -99,7 +99,7 @@ function Header() {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke="currentColor"
+                    stroke="#0D182E"
                     aria-hidden="true"
                   >
                     <path
@@ -126,16 +126,16 @@ function Header() {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <div ref={ref} className="text-center justify-center pt-8 pb-3 space-y-6 sm:px-3">
                 <Link
                   to="/"
-                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-lg font-medium"
                 >
                   Home
                 </Link>
                 <Link
                   to="/about"
-                  className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-lg font-medium"
                 >
                   About Us
                 </Link>
@@ -147,7 +147,7 @@ function Header() {
                 </Link> */}
                 <Link
                   to="/contact"
-                  className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-lg font-medium"
                 >
                   Contact Us
                 </Link>
@@ -162,11 +162,11 @@ function Header() {
 
                 <Link
                   to="/book"
-                  className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium flex"
+                  className="text-white justify-center bg-blitblue-400 hover:text-white block px-3 py-2 rounded-md w-64 text-lg font-medium flex mr-auto ml-auto"
                 >
                   <span>Free Consultaion</span>
                   <svg
-                    className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1 mt-1.5"
+                    className="w-4 h-4 fill-current text-white flex-shrink-0 ml-2 -mr-1 mt-3"
                     viewBox="0 0 12 12"
                     xmlns="http://www.w3.org/2000/svg"
                   >
