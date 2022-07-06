@@ -63,7 +63,7 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <Link to="customsoftwaredev" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Custom Software Development</Link>
+                    <Link to="#" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Custom Software Development</Link>
                     <div className="text-white">We translate unique client requirements into custom software soultions with premium quality and advanced technologies</div>
                   </div>
                     <img src={csdIcon}  class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
@@ -74,7 +74,7 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <Link to="webdev" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Web Development</Link>
+                    <Link to="#" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Web Development</Link>
                     <div className="text-white">We revolutionize your business ideas using web development services for innovative and next gen  web applications</div>
                   </div>
                   <img src={webdevIcon}  class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
@@ -85,7 +85,7 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <Link to="productdev" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">UI/UX Design</Link>
+                    <Link to="#" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">UI/UX Design</Link>
                     <div className="text-white">We comprehend clients business ideas and develop innovative software soultions with next the latest technologies</div>
                   </div>
                   <img src={uiIcon}  class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
@@ -97,7 +97,7 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(4); }}
                 >
                   <div>
-                    <Link to="qa" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Search Engine Optimization</Link>
+                    <Link to="#" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Search Engine Optimization</Link>
                     <div className="text-white">We maintain quality assurance by rectifying errors and debugging applications for a high performing application</div>
                   </div>
                   <img src={seoIcon}  class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>

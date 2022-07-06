@@ -21,19 +21,34 @@ function AboutUs() {
                 <div id="card1" class="card relative flex flex-col items-center p-6 bg-blitblue-500 rounded-large shadow-xl border-2 border-blitblue-400 card1">
                   <h1 className="text-lg font-extrabold text-blitblue-100">Who we are</h1>
 
-                  <p className="text-white">This was the first period where evidence of dinosaurs is present, though they were not there at the very beginning. It began right after the Permian mass extinction which wiped out 90% of all life and marks the beginning of the Mesozoic Era.</p>
+                  <p className="text-white">
+                  We are a Consummate Custom Software Development company delivering
+              splendid business IT Solutions and related services to customers
+              across the globe..Our proficiency in understanding
+              business challenges and professional competence allows us to
+              createabetter experience for our customers.
+                  </p>
                 </div>
 
                 <div id="card2" class="card relative flex flex-col items-center p-6 bg-blitblue-500 rounded-large shadow-xl border-2 border-blitblue-400 card2">
                   <h1 className="text-lg font-extrabold text-blitblue-100">What we do</h1>
 
-                  <p className="text-white">This was the first period where evidence of dinosaurs is present, though they were not there at the very beginning. It began right after the Permian mass extinction which wiped out 90% of all life and marks the beginning of the Mesozoic Era.</p>
+                  <p className="text-white">
+                  We specialize in Software development for small and large businesses.
+                  We have successfully served for more than 50+
+                  success stories ranging from Enterprise level to Start-ups,who
+                  have grown alongside the success of the company.
+                  </p>
                 </div>
 
                 <div id="card3" class="card relative flex flex-col items-center p-6 bg-blitblue-500 rounded-large shadow-xl border-2 border-blitblue-400 card3">
                   <h1 className="text-lg font-extrabold text-blitblue-100">Why we differ</h1>
 
-                  <p className="text-white">This was the first period where evidence of dinosaurs is present, though they were not there at the very beginning. It began right after the Permian mass extinction which wiped out 90% of all life and marks the beginning of the Mesozoic Era.</p>
+                  <p className="text-white">
+                  At present we are a Robust Team having diverse skills with more.
+                  than 10+ years of Technology experience engaging with customers at
+                  Deeper level to provide cutting edge solutions and innovations.
+                  </p>
                 </div>
               </div>
           </div>
