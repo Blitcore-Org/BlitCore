@@ -46,7 +46,7 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
+        <Route exact path="about" element={<About />} />
         <Route exact path="customsoftwaredev" element={<CSD />} />
         <Route exact path="webdev" element={<WebDev />} />
         <Route exact path="productdev" element={<ProductDev />} />
@@ -56,7 +56,7 @@ function App() {
         <Route exact path="/signup" element={<SignUp />} />
         <Route exact path="/book" element={<Consult/>} />
         <Route exact path="/reset-password" element={<ResetPassword />} />
-        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="contact" element={<Contact />} />
         <Route exact path="/terms" element={<Term />} />
       </Routes>
     </>

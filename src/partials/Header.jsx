@@ -1,10 +1,18 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { Transition } from "@headlessui/react";
 import logo from "../images/bc_logo.png";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
+  const [activeLink, setActiveLink] = useState('');
+
+  const onUpdateActiveLink = (value) => 
+  {
+    setActiveLink(value);
+  }
+
   return (
     <div>
       <nav className="bg-blitblue-100">
@@ -18,30 +26,30 @@ function Header() {
             <div className="flex items-center">
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-14 mx-auto">
-                  <Link
+                  <NavLink
                     to="/"
-                    className="navbar_links transition ease-in-out delay-150 text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className={activeLink === 'home' ? 'active navbar_links' : 'navbar_links'} onClick={() => onUpdateActiveLink('home')}
                   >
                     Home
-                  </Link>
-                  <Link
+                  </NavLink>
+                  <NavLink
                     to="/about"
-                    className="navbar_links transition ease-in-out delay-150 text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className={activeLink === 'about' ? 'active navbar_links' : 'navbar_links'} onClick={() => onUpdateActiveLink('about')}
                   >
                     About Us
-                  </Link>
+                  </NavLink>
                   {/* <Link
                     to="#0"
                     className="transition ease-in-out delay-150 text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Pricing
                   </Link> */}
-                  <Link
+                  <NavLink
                     to="/contact"
-                    className="navbar_links transition ease-in-out delay-150 text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className={activeLink === 'contact' ? 'active navbar_links' : 'navbar_links'} onClick={() => onUpdateActiveLink('contact')}
                   >
                     Contact Us
-                  </Link>
+                  </NavLink>
                   {/* <li>
               <Link to="/signup" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
                 <span>Contact Us</span>

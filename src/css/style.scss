@@ -108,9 +108,24 @@ $aos-distance: 10px;
 {
     height: 100%;
     position: relative;
+    color: white;
 }
 
-.navbar_links:after
+.navbar_links.active::after
+{
+    content: '';
+    position: absolute;
+    border-radius: 20%;
+    width: 80%;
+    transform: scaleX(50%);
+    height: 5px;
+    top: 90%;
+    left: 6px;
+    right: 0;
+    background-color: #0CB9FB;
+}
+
+.navbar_links::after
 {
     content: '';
     position: absolute;
