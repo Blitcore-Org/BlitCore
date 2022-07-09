@@ -1,6 +1,7 @@
 
 import abass from '../images/abass.jpg';
 import tamer from '../images/tamer.jpg';
+import anas from '../images/anas.jpg';
 
 import { Link } from "react-router-dom";
 export default function Team() {
@@ -61,7 +62,7 @@ export default function Team() {
             <div class="flex flex-col items-center justify-center col-span-1">
                 <div class="relative p-3">
                     <div class="absolute z-10 w-full h-full -mt-3 -ml-3 blur animate-pulse rounded-full bg-gradient-to-t from-blitblue-500 to-blitblue-300"></div>
-                    <img class="relative z-20 w-full rounded-full" src="https://cdn.devdojo.com/images/june2021/avt-09.jpg"/>
+                    <img class="relative z-20 w-full rounded-full" src={anas}/>
                 </div>
                 <div class="mt-3 space-y-2 text-center">
                     <div class="space-y-1 text-lg font-medium leading-6 text-blittext-100">
