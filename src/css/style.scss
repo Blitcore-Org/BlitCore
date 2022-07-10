@@ -30,18 +30,41 @@ $aos-distance: 10px;
 
 .card1 {
     z-index:10;
-    left: -50%;
+    position: absolute; 
+    left: -40%; 
+    right: 0; 
+    top: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius:2em;
+    width:28em;
+    max-width:28em;
     transition: all 0.2s ease-out 0.05s;
 }
 .card2 {
     z-index:9;
-    top: 10%;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    top: 40%;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius:2em;
+    width:28em;
+    max-width:28em;
     transition: all 0.2s ease-out 0.05s;
 }
 .card3 {
     z-index:8;
-    left: 60%;
-    top: 20%;
+    position: absolute; 
+    left: 40%; 
+    right: 0; 
+    top: 80%;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius:2em;
+    width:28em;
+    max-width:28em;
     transition: all 0.2s ease-out 0.05s;
 }
 
@@ -50,14 +73,6 @@ $aos-distance: 10px;
     transform: rotateZ(0deg);
     -webkit-transform: rotateZ(0deg);
     -moz-transform: rotateZ(0deg);
-}
-
-.card {
-    position:absolute;
-    border-radius:2em;
-    width:28em;
-    max-width:28em;
-    -webkit-backface-visibility: hidden;
 }
 
 .card a {
@@ -150,16 +165,23 @@ $aos-distance: 10px;
 
 @media (max-width: 425px) {
     .card {
-        max-width: 20em;
+        max-width: 22em;
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 28em;
     }
     .card1 {
         left: 0;
     }
     .card2 {
-        top: 20%;
+        top: 40%;
     }
     .card3 {
-        top: 40%;
+        top: 80%;
         left: 0;
     }
 }

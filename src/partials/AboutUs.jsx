@@ -17,21 +17,21 @@ function AboutUs() {
             <h1 className="text-Axl lg:text-5xl font-bold mt-12 text-blitblue-400 pb-10">About Us</h1>
           </div>
 
-          <div className="max-w-3xl mx-auto h-96 all text-center pb-12 md:pb-16">
-              <div id="stack1" class="card-container px-auto left-[15%] sm:left-32 md:left-32 lg:left-32 h-96 relative w-96 start">
-                <div id="card1" class="card relative flex flex-col items-center p-6 bg-blitblue-500 rounded-large shadow-xl border-2 border-blitblue-400 card1">
+          <div className="max-w-3xl mx-auto h-full all text-center pb-12 md:pb-16">
+              <div id="stack1" class="card-container relative h-80 w-full start">
+                <div id="card1" class="card h-72 items-center p-6 bg-blitblue-500 rounded-large shadow-xl border-2 border-blitblue-400 card1">
                   <h1 className="text-lg font-extrabold text-blitblue-100">Who we are</h1>
 
                   <p className="text-white">
                   We are a Consummate Custom Software Development company delivering
-              splendid business IT Solutions and related services to customers
-              across the globe..Our proficiency in understanding
-              business challenges and professional competence allows us to
-              createabetter experience for our customers.
+                  splendid business IT Solutions and related services to customers
+                  across the globe..Our proficiency in understanding
+                  business challenges and professional competence allows us to
+                  createabetter experience for our customers.
                   </p>
                 </div>
 
-                <div id="card2" class="card relative flex flex-col items-center p-6 bg-blitblue-500 rounded-large shadow-xl border-2 border-blitblue-400 card2">
+                <div id="card2" class="card h-72 items-center p-6 bg-blitblue-500 rounded-large shadow-xl border-2 border-blitblue-400 card2">
                   <h1 className="text-lg font-extrabold text-blitblue-100">What we do</h1>
 
                   <p className="text-white">
@@ -42,7 +42,7 @@ function AboutUs() {
                   </p>
                 </div>
 
-                <div id="card3" class="card relative flex flex-col items-center p-6 bg-blitblue-500 rounded-large shadow-xl border-2 border-blitblue-400 card3">
+                <div id="card3" class="card h-72 items-center p-6 bg-blitblue-500 rounded-large shadow-xl border-2 border-blitblue-400 card3">
                   <h1 className="text-lg font-extrabold text-blitblue-100">Why we differ</h1>
 
                   <p className="text-white">
@@ -92,7 +92,7 @@ function AboutUs() {
 
           <div className="md:grid md:grid-cols-12 md:gap-6">
             <div
-              className="max-w-xl mt-32 md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-24"
+              className="max-w-xl mt-56 md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-36"
               data-aos="fade-right"
             ></div>
           </div>
