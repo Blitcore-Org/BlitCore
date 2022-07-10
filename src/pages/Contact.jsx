@@ -19,11 +19,9 @@ function Contact() {
 
       {/*  Page content */}
       <main className="flex-grow mt-20">
-        <Join/>
 
         {/*  Page sections */}
         <ContactView />
-        <Testimonials/>
         <Newsletter/>
 
 
