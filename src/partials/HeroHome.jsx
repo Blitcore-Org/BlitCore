@@ -3,16 +3,19 @@ import { Link } from 'react-router-dom';
 // import image1 from '../images/blitcore1.png';
 // import image2 from '../images/blitcore2.png';
 import blitcoreDiagram from '../images/Diagrams/blitcore_diagram.svg';
+import blitcoreMobile from '../images/Diagrams/blitcore_mobile.svg';
+
 
 function HeroHome() {
 
 
   return (
-    <section className="relative bg-blitblue-100">
+    <section className="relative h-[480px] sm:h-auto md:h-auto lg:h-auto bg-blitblue-100">
 
 
       <div className="flex items-center justify-center sm:relative" aria-hidden="true">
         <img className="invisible sm:visible absolute top-12 w-max" src={blitcoreDiagram} /> 
+        <img className="visible sm:invisible md:invisible lg:invisible absolute top-2 w-max" src={blitcoreMobile} /> 
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 ">
