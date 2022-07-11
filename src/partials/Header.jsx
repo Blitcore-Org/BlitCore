@@ -28,13 +28,13 @@ function Header() {
                 <div className="ml-10 flex items-baseline space-x-14 mx-auto">
                   <NavLink
                     to="/"
-                    className={activeLink === 'home' ? 'active navbar_links' : 'navbar_links'} onClick={() => onUpdateActiveLink('home')}
+                    className={activeLink === 'home' ? 'active navbar_links' : 'navbar_links hover:text-white'} onClick={() => onUpdateActiveLink('home')}
                   >
                     Home
                   </NavLink>
                   <NavLink
                     to="/about"
-                    className={activeLink === 'about' ? 'active navbar_links' : 'navbar_links'} onClick={() => onUpdateActiveLink('about')}
+                    className={activeLink === 'about' ? 'active navbar_links' : 'navbar_links hover:text-white'} onClick={() => onUpdateActiveLink('about')}
                   >
                     About Us
                   </NavLink>
@@ -46,7 +46,7 @@ function Header() {
                   </Link> */}
                   <NavLink
                     to="/contact"
-                    className={activeLink === 'contact' ? 'active navbar_links' : 'navbar_links'} onClick={() => onUpdateActiveLink('contact')}
+                    className={activeLink === 'contact' ? 'active navbar_links' : 'navbar_links hover:text-white'} onClick={() => onUpdateActiveLink('contact')}
                   >
                     Contact Us
                   </NavLink>
