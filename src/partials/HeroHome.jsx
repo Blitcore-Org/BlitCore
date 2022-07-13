@@ -15,7 +15,7 @@ function HeroHome() {
 
       <div className="flex items-center justify-center sm:relative" aria-hidden="true">
         <img className="invisible sm:visible absolute top-12 w-max" src={blitcoreDiagram} /> 
-        <img className="visible sm:invisible md:invisible lg:invisible absolute top-2 w-max" src={blitcoreMobile} /> 
+        <img className="visible z-0 sm:invisible md:invisible lg:invisible absolute top-2 w-max" src={blitcoreMobile} /> 
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 ">
@@ -24,7 +24,7 @@ function HeroHome() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-16">
+          <div className="text-center pb-12 md:pb-16 z-10">
             <h1 className="text-Bxl lg:text-5xl font-extrabold leading-tighter tracking-tighter lg:text-5xl mb-4 text-center" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-gradient-to-r from-blitblue-500 to-blitblue-400">BlitCore</span></h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-base text-white mb-8" data-aos="zoom-y-out" data-aos-delay="150">We design, build and Scale Software</p>
