@@ -3,10 +3,8 @@ import React from 'react';
 import Header from '../partials/Header';
 import AboutUs from '../partials/AboutUs';
 import Footer from '../partials/Footer';
-import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Stack from '../partials/Stack';
-import Us from '../partials/Us';
 import Services from '../partials/Services';
 
 function About() {
@@ -23,10 +21,7 @@ function About() {
         <AboutUs />
         <Services/>
         <Stack/>
-
         <Newsletter/>
-
-
 
       </main>
 

@@ -1,14 +1,9 @@
-
-
 import React from 'react';
 
 import Header from '../partials/Header';
 import ContactView from '../partials/ContactView';
 import Footer from '../partials/Footer';
-import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
-import Stack from '../partials/Stack';
-import Join from '../partials/Join';
 
 function Contact() {
   return (
@@ -23,8 +18,6 @@ function Contact() {
         {/*  Page sections */}
         <ContactView />
         <Newsletter/>
-
-
 
       </main>
 

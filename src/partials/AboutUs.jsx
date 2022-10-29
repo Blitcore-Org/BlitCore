@@ -54,42 +54,6 @@ function AboutUs() {
               </div>
           </div>
 
-
-
-
-
-          {/* Section One */}
-          {/* <div className="relative inline-flex flex-col text-center ">
-          <h1 className="h2 mt-12 text-blitblue-400">Who We Are</h1>
-            <p className="text-blittext-100 leading-relaxed">
-              We are a Consummate Custom Software Development company delivering
-              splendid business IT Solutions and related services to customers
-              across the globe. Our development services are led by our
-              dedicated and passionate team to provide best industry practices
-              combined with technology expertise and business domain knowledge
-              to drive digital transformation.Our proficiency in understanding
-              business challenges and professional competence allows us to
-              createabetter experience for our customers.
-            </p>
-
-            <h1 className="h2 mt-12 text-blitblue-400">What We Do</h1>
-            <p className="text-blittext-100 leading-relaxed mt-5">
-              We have emerged and marked our presence in different continents by
-              providing Bespoke software development services to all major
-              Industry Domains. We have successfully served for more than 1800
-              success stories ranging from Enterprise level to Start-ups,who
-              have grown alongside the success of the company.
-            </p>
-
-            <h1 className="h2 mt-12 text-blitblue-400">What Makes Us Different</h1>
-            <p className="text-blittext-100 leading-relaxed mt-5">
-              At present we areaRobust Team having diverse skills with more.
-              than 18+ years of Technology experience engaging with customers at
-              Deeper level to provide cutting edge solutions and innovations.
-            </p>
-          </div> */}
-
-
           <div className="md:grid md:grid-cols-12 md:gap-6">
             <div
               className="max-w-xl mt-64 md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-36"

@@ -23,8 +23,6 @@ function CSD() {
         <Testimonials/>
         <Newsletter/>
 
-
-
       </main>
 
       {/*  Site footer */}

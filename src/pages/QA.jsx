@@ -6,7 +6,6 @@ import Footer from '../partials/Footer';
 import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Stack from '../partials/Stack';
-import QAProcess from '../partials/QAprocess';
 
 function QA() {
   return (
@@ -23,8 +22,6 @@ function QA() {
         <Stack/>
         <Testimonials/>
         <Newsletter/>
-
-
 
       </main>
 

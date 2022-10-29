@@ -38,25 +38,14 @@ function Header() {
                   >
                     About Us
                   </NavLink>
-                  {/* <Link
-                    to="#0"
-                    className="transition ease-in-out delay-150 text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                  >
-                    Pricing
-                  </Link> */}
+
                   <NavLink
                     to="/contact"
                     className={activeLink === 'contact' ? 'active navbar_links' : 'navbar_links hover:text-white'} onClick={() => onUpdateActiveLink('contact')}
                   >
                     Contact Us
                   </NavLink>
-                  {/* <li>
-              <Link to="/signup" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
-                <span>Contact Us</span>
-                <svg className="w-3 h-3 fill-current text-gray-400 flex-shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />
-                </svg>                  
-              </Link> */}
+                  
                   <Link
                     to="/book"
                     className="text-blitblue-100 bg-blitblue-400 block px-3 py-2 rounded-md text-base font-medium flex hover:text-blitblue-100 hover:bg-blitblue-500"
