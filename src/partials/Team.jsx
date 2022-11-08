@@ -1,7 +1,7 @@
 
 import abass from '../images/abass.jpg';
 import tamer from '../images/tamer.jpg';
-import anas from '../images/anas.jpg';
+import masi from '../images/masi.png';
 
 import { Link } from "react-router-dom";
 export default function Team() {
@@ -62,12 +62,12 @@ export default function Team() {
             <div class="flex flex-col items-center justify-center col-span-1">
                 <div class="relative p-3">
                     <div class="absolute z-10 w-full h-full -mt-3 -ml-3 blur animate-pulse rounded-full bg-gradient-to-t from-blitblue-500 to-blitblue-300"></div>
-                    <img class="relative z-20 w-full rounded-full" src={anas}/>
+                    <img class="relative z-20 w-full rounded-full" src={masi}/>
                 </div>
                 <div class="mt-3 space-y-2 text-center">
                     <div class="space-y-1 text-lg font-medium leading-6 text-blittext-100">
-                        <h3>Anas Zouhir</h3>
-                        <p class="text-blitblue-500">Lead Developer</p>
+                        <h3>Osomasi (Masi) Emil-Inyang</h3>
+                        <p class="text-blitblue-500">Lead Front-End Developer</p>
                     </div>
                     <div class="relative flex items-center justify-center space-x-3">
                         <a href="#_" class="text-gray-300 hover:text-gray-400">
