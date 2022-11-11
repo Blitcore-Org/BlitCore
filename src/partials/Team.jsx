@@ -20,7 +20,7 @@ export default function Team() {
             <div class="flex flex-col items-center justify-center col-span-1">
                 <div class="relative p-3">
                     <div class="absolute z-10 w-full h-full -mt-3 -ml-3 blur animate-pulse rounded-full bg-gradient-to-t from-blitblue-500 to-blitblue-300"></div>
-                    <img class="relative z-20 w-full rounded-full" src={abass}/>
+                    <img class="relative z-20 w-full rounded-full" src={abass} alt="Image of Abass Jammal the Co-Founder"/>
                 </div>
                 <div class="mt-3 space-y-2 text-center">
                     <div class="space-y-1 text-lg font-medium leading-6 text-blittext-100">
@@ -41,7 +41,7 @@ export default function Team() {
             <div class="flex flex-col items-center justify-center col-span-1">
                 <div class="relative p-3">
                     <div class="absolute z-10 w-full h-full -mt-3 -ml-3 blur animate-pulse rounded-full bg-gradient-to-t from-blitblue-500 to-blitblue-300"></div>
-                    <img class="relative z-20 w-full rounded-full" src={tamer}/>
+                    <img class="relative z-20 w-full rounded-full" src={tamer} alt="Image of Tamer Algarmakany the Co-Founder"/>
                 </div>
                 <div class="mt-3 space-y-2 text-center">
                     <div class="space-y-1 text-lg font-medium leading-6 text-blittext-100">
@@ -62,7 +62,7 @@ export default function Team() {
             <div class="flex flex-col items-center justify-center col-span-1">
                 <div class="relative p-3">
                     <div class="absolute z-10 w-full h-full -mt-3 -ml-3 blur animate-pulse rounded-full bg-gradient-to-t from-blitblue-500 to-blitblue-300"></div>
-                    <img class="relative z-20 w-full rounded-full" src={masi}/>
+                    <img class="relative z-20 w-full rounded-full" src={masi} alt="Image of Osomasi (Masi) Emil-Inyang the Front-End Developer"/>
                 </div>
                 <div class="mt-3 space-y-2 text-center">
                     <div class="space-y-1 text-lg font-medium leading-6 text-blittext-100">
