@@ -1,8 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
-import Header from '../partials/Header';
-import FeaturesElement from "../images/image123.jpg";
 
 import data from "../images/data.png";
 import exp from "../images/exp.png";

@@ -16,11 +16,10 @@ export default function Services() {
             <div class="bg-blitblue-200 rounded-2xl drop-shadow-2xl px-8 py-12 sm:px-12 lg:px-8">
               <div class="mb-12 space-y-4">
                 <h3 class="text-2xl font-semibold text-blitblue-500">
-                Personalized Approach
+                  Where Technology Meets Creativity
                 </h3>
                 <p class="mb-6 text-white">
-                Your requirements are one-of-a-kind, so why settle for generic software? 
-                Our team will craft a solution tailored to your requirements, taking the time to truly understand your needs and vision.
+                  At Blitcore, we believe that even in this age of artificial intelligence, a human touch is what sets everything apart. That's why we put our all into delivering solutions that not only work flawlessly, but also have that extra special something that only a human can bring. No robots allowed (unless they're working for us, of course!.
                 </p>
               </div>
               <img

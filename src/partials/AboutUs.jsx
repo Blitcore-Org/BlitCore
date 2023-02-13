@@ -20,11 +20,7 @@ function AboutUs() {
                   <h1 className="text-lg font-extrabold text-blitblue-500">Who we are</h1>
 
                   <p className="text-white">
-                  We are a Consummate Custom Software Development company delivering
-                  splendid business IT Solutions and related services to customers
-                  across the globe..Our proficiency in understanding
-                  business challenges and professional competence allows us to
-                  createabetter experience for our customers.
+                  We're a group of tech enthusiasts, design fanatics, and problem solvers who just happen to love making beautiful software. We believe that technology should enhance the human experience, not take over it.
                   </p>
                 </div>
 
@@ -32,10 +28,7 @@ function AboutUs() {
                   <h1 className="text-lg font-extrabold text-blitblue-500">What we do</h1>
 
                   <p className="text-white">
-                  We specialize in Software development for small and large businesses.
-                  We have successfully served for more than 50+
-                  success stories ranging from Enterprise level to Start-ups,who
-                  have grown alongside the success of the company.
+                  We turn ideas into stunning software that is not only functional but also aesthetically pleasing. We're a full-service software development company, meaning we can handle all your needs from concept to launch.
                   </p>
                 </div>
 
@@ -43,9 +36,7 @@ function AboutUs() {
                   <h1 className="text-lg font-extrabold text-blitblue-500">Why we differ</h1>
 
                   <p className="text-white">
-                  At present we are a Robust Team having diverse skills with more.
-                  than 10+ years of Technology experience engaging with customers at
-                  Deeper level to provide cutting edge solutions and innovations.
+                  Just like a custom designer outfit, your software should fit you like a glove. We believe in creating software solutions that are as unique as you. Our team ensures that the solution we deliver is tailored just for you. The end result? A solution that not only solves the problem, but looks good doing it.
                   </p>
                 </div>
               </div>

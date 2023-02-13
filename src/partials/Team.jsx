@@ -68,7 +68,7 @@ export default function Team() {
                 <div class="mt-3 space-y-2 text-center">
                     <div class="space-y-1 text-lg font-medium leading-6 text-blittext-100">
                         <h3>Anas Zouhir</h3>
-                        <p class="text-blitblue-500">Lead Front-End Developer</p>
+                        <p class="text-blitblue-500">Lead Back-End Developer</p>
                     </div>
                     <div class="relative flex items-center justify-center space-x-3">
                         <a href="#_" class="text-gray-300 hover:text-gray-400">
@@ -90,7 +90,7 @@ export default function Team() {
                 <div class="mt-3 space-y-2 text-center">
                     <div class="space-y-1 text-lg font-medium leading-6 text-blittext-100">
                         <h3>Osomasi (Masi) Emil-Inyang</h3>
-                        <p class="text-blitblue-500">Lead Back-end Developer</p>
+                        <p class="text-blitblue-500">Lead Front-end Developer</p>
                     </div>
                     <div class="relative flex items-center justify-center space-x-3">
                         <a href="#_" class="text-gray-300 hover:text-gray-400">
