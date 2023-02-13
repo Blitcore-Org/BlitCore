@@ -24,11 +24,11 @@ export default function FAQ(){
         <div class="w-full px-6 py-6 mx-auto mt-10 bg-blitblue-400 border border-blitblue-400 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-black sm:text-xl md:text-2xl">How long do the projects take to be completed?</h3>
             <p class="mt-2 text-base text-blittext-100 sm:text-lg md:text-normal">
-                This depends on the structure and complexity of your project, typically we give a due date to the project at the end of the consultation.
+                This depends on the structure and complexity of your project, typically we give a due date for the project with the proposal.
             </p>
         </div>
         <div class="w-full px-6 py-6 mx-auto mt-10 bg-blitblue-400 border border-blitblue-400 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
-            <h3 class="text-lg font-bold text-black sm:text-xl md:text-2xl">How do i pay for a service?</h3>
+            <h3 class="text-lg font-bold text-black sm:text-xl md:text-2xl">How do I pay for a service?</h3>
             <p class="mt-2 text-base text-blittext-100 sm:text-lg md:text-normal">
                 If you've decided to work with us, we send an invoice with the account details, payements can be made through paypal, stripe or a bank transfer!
             </p>

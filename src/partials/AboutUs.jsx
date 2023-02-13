@@ -1,13 +1,10 @@
-import React, { useState, useRef, useEffect } from "react";
-import Transition from "../utils/Transition";
-
 function AboutUs() {
 
   return (
     <section className="relative">
       {/* Section background (needs .relative className on parent and next sibling elements) */}
       <div
-        className="absolute inset-0  bg-blitblue-100 pointer-events-none mb-16"
+        className="absolute inset-0 bg-blitblue-100 pointer-events-none mb-16"
         aria-hidden="true"
       ></div>
 
@@ -19,7 +16,7 @@ function AboutUs() {
 
           <div className="max-w-3xl mx-auto h-full all text-center pb-12 md:pb-16">
               <div id="stack1" class="card-container relative h-80 w-full start">
-                <div id="card1" class="card h-72 items-center p-6 bg-gradient-to-tl from-blitblue-200 via-blitblue-200 to-blitblue-300 rounded-large drop-shadow-2xl card1">
+                <div id="card1" class="card h-72 items-center p-6 bg-gradient-to-tl from-blitblue-100 via-blitblue-100 to-blitblue-300 rounded-large drop-shadow-2xl card1">
                   <h1 className="text-lg font-extrabold text-blitblue-500">Who we are</h1>
 
                   <p className="text-white">
@@ -31,7 +28,7 @@ function AboutUs() {
                   </p>
                 </div>
 
-                <div id="card2" class="card h-72 items-center p-6 bg-gradient-to-bl from-blitblue-200 via-blitblue-200 to-blitblue-300 rounded-large drop-shadow-2xl card2">
+                <div id="card2" class="card h-72 items-center p-6 bg-gradient-to-tl from-blitblue-100 via-blitblue-100 to-blitblue-300 rounded-large drop-shadow-2xl card2">
                   <h1 className="text-lg font-extrabold text-blitblue-500">What we do</h1>
 
                   <p className="text-white">
@@ -42,7 +39,7 @@ function AboutUs() {
                   </p>
                 </div>
 
-                <div id="card3" class="card h-72 items-center p-6 bg-gradient-to-tr from-blitblue-200 via-blitblue-200 to-blitblue-300 rounded-large drop-shadow-2xl card3">
+                <div id="card3" class="card h-72 items-center p-6 bg-gradient-to-tl from-blitblue-100 via-blitblue-100 to-blitblue-300 rounded-large drop-shadow-2xl card3">
                   <h1 className="text-lg font-extrabold text-blitblue-500">Why we differ</h1>
 
                   <p className="text-white">
@@ -152,7 +149,7 @@ function AboutUs() {
                       </svg>
                     </div>
                     <p className="ml-3 text-sm leading-5 text-blittext-100">
-                      More than 35 Countries served worldwide
+                      More than 4 Countries served worldwide
                     </p>
                   </li>
                 </ul>

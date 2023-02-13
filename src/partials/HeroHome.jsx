@@ -27,7 +27,7 @@ function HeroHome() {
               <p className="heroContent text-base text-white mb-8" data-aos="zoom-y-out" data-aos-delay="150">We design, build and Scale Software</p>
               <div className="heroContent max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <Link className="rounded-large btn text-black font-bold bg-blitblue-400 hover:bg-blitblue-500 hover:text-blitblue-100 w-full sm:w-auto sm:ml-4" to="contact">Lets Begin</Link>
+                  <Link className="rounded-full btn text-white font-bold bg-blitblue-400 hover:bg-blitblue-500 hover:text-blitblue-100 w-full sm:w-auto sm:ml-4" to="contact">Lets Begin</Link>
                 </div>
               </div>
             </div>

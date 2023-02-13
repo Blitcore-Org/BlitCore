@@ -50,10 +50,6 @@ function Features() {
 
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
-              {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 ">
-                <h3 className="bg-clip-text text-transparent bg-blitblue-400 h3 mb-3 lg:text-left md:text-left">Powerful suite of tools</h3>
-                <p className="text-base text-white lg:text-left md:text-left">We develop custom software development and use the latest technolgies in the market</p>
-              </div> */}
 
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -64,7 +60,7 @@ function Features() {
                 >
                   <div>
                     <Link to="#" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Custom Software Development</Link>
-                    <div className="text-white">We translate unique client requirements into custom software soultions with premium quality and advanced technologies</div>
+                    <div className="text-white">Design and build custom software solutions that meet your unique business needs and provide a seamless user experience</div>
                   </div>
                     <img src={csdIcon}  class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
                 </a>
@@ -75,7 +71,7 @@ function Features() {
                 >
                   <div>
                     <Link to="#" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Web Development</Link>
-                    <div className="text-white">We revolutionize your business ideas using web development services for innovative and next gen  web applications</div>
+                    <div className="text-white">Establish a strong online presence with visually appealing and user-friendly websites.</div>
                   </div>
                   <img src={webdevIcon}  class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
                 </a>
@@ -86,7 +82,7 @@ function Features() {
                 >
                   <div>
                     <Link to="#" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">UI/UX Design</Link>
-                    <div className="text-white">We comprehend clients business ideas and develop innovative software soultions with next the latest technologies</div>
+                    <div className="text-white">Create an amazing user experience with visually appealing and user-friendly interfaces.</div>
                   </div>
                   <img src={uiIcon}  class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
                 </a>
@@ -98,7 +94,7 @@ function Features() {
                 >
                   <div>
                     <Link to="#" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Search Engine Optimization</Link>
-                    <div className="text-white">We maintain quality assurance by rectifying errors and debugging applications for a high performing application</div>
+                    <div className="text-white">Improve your website's visibility and ranking on search engines with our expert optimization services."</div>
                   </div>
                   <img src={seoIcon}  class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
                 </a>
@@ -126,17 +122,14 @@ function Features() {
                       <h1 className="text-white font-bold text-lg">Custom Software Development</h1>
                     </div>
                     <div className="text-white relative inline-flex flex-col text-left">
-                    The custom software development process encompasses designing, developing, 
-                    deploying, and maintaining custom software solutions and services. 
-                    As a leading custom software development company, our domain experts explicate 
-                    the client's views and accordingly draft astrategic approach to optimize each process 
-                    of the Software development life cycle. 
+                    We design and build custom software solutions that meet your unique business needs and provide a seamless user experience. 
+                    Our team has extensive experience in developing software tailored to your requirements, and we focus heavily on design and user experience.
                     </div>
 
                     <br></br>
 
                     <div className="text-center">
-                        <Link to="customsoftwaredev" class="text-blitblue-100 hover:text-blitblue-100 bg-gradient-to-r from-blitblue-500 to-blitblue-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
+                        <Link to="customsoftwaredev" class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
                     </div>
 
                     <div className="relative inline-flex flex-col">
@@ -165,14 +158,15 @@ function Features() {
                       <h1 className="text-white font-bold text-2xl">Web Development</h1>
                     </div>
                     <div className="text-white relative inline-flex flex-col text-left">
-                    <p>We bring revolution to reality. Transforming your custom business ideas into an innovative next-gen web app is our forte. With proven
-                    results and promising qualitative deliverables across multiple tech markets.</p>
+                    <p>We help establish your online presence with visually appealing and user-friendly websites. 
+                    Our team focuses on both functionality and design to create websites that engage and delight your users. 
+                    Whether you need a simple brochure-style website or a complex web application, we bring your vision to life.</p>
                     <br/>
                     </div>
                     <br></br>
 
                     <div className="text-center">
-                      <Link to="customsoftwaredev" class="text-blitblue-100 hover:text-blitblue-100 bg-gradient-to-r from-blitblue-500 to-blitblue-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
+                        <Link to="customsoftwaredev" class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
                     </div>
                     <div className="relative inline-flex flex-col">
                   </div>
@@ -196,15 +190,15 @@ function Features() {
                       <h1 className="text-white font-bold text-2xl">UI/UX Development</h1>
                     </div>
                     <div className="text-white relative inline-flex flex-col text-left">
-                   <p> To convert your vision into reality, we assist you from software product ideation to design, development, release, and maintenance.
-                    Every successful product is unique in its market and with its uniqueness, it brings risk and uncertainties during the software product
-                    development process.</p>
+                      <p> We prioritize user engagement by creating visually appealing and user-friendly interfaces with a streamlined development process. 
+                      Our designers use user research and analytics to inform their designs and ensure easy user engagement. 
+                      Our goal is to provide an amazing user experience.</p>
                     <br/>
                     </div>
                     <br></br>
 
                     <div className="text-center">
-                      <Link to="customsoftwaredev" class="text-blitblue-100 hover:text-blitblue-100 bg-gradient-to-r from-blitblue-500 to-blitblue-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
+                      <Link to="customsoftwaredev" class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
                     </div>
                     <div className="relative inline-flex flex-col">
                   </div>
@@ -228,14 +222,13 @@ function Features() {
                       <h1 className="text-white font-bold text-2xl">Search Engine Optimization</h1>
                     </div>
                     <div className="text-white relative inline-flex flex-col text-left">
-                    <p>Our cutting-edge, targeted solutions help you attract the right customers, convert leads and grow your business.</p>
-                    <br/>
-                    <p>We offer the full range of SEO services and have a proven track record of success with local, national and enterprise SEO campaigns.</p>
+                    <p>Our team of experts optimizes your website for search engines using the latest best practices and algorithms. 
+                    We offer free consultation to help boost your website's SEO and drive traffic. Our goal is to increase your online visibility and help you achieve your business objectives.</p>
                     </div>
                     <br></br>
 
                     <div className="text-center">
-                      <Link to="customsoftwaredev" class="text-blitblue-100 hover:text-blitblue-100 bg-gradient-to-r from-blitblue-500 to-blitblue-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
+                        <Link to="customsoftwaredev" class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
                     </div> 
                     <div className="relative inline-flex flex-col">
                   </div>

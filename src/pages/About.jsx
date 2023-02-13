@@ -5,7 +5,6 @@ import AboutUs from '../partials/AboutUs';
 import Footer from '../partials/Footer';
 import Newsletter from '../partials/Newsletter';
 import Stack from '../partials/Stack';
-import Services from '../partials/Services';
 
 function About() {
   return (
@@ -19,7 +18,6 @@ function About() {
 
         {/*  Page sections */}
         <AboutUs />
-        <Services/>
         <Stack/>
         <Newsletter/>
 

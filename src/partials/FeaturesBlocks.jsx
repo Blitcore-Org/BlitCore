@@ -20,7 +20,7 @@ function FeaturesBlocks() {
           <div className="max-w-sm mx-auto grid gap-10 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none ">
 
             {/* 1st item */}
-            <div className="relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
+            <div className=" h-72 relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blitblue-400" width="64" height="64" rx="32" />
@@ -32,12 +32,12 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1">Initial Contact</h4>
-              <p className="text-blittext-100 text-center">We would first assign you to our product manager to help understand the service you are looking for with all the details of your certain project or idea. We call this translations of requirements.</p>
+              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1">Define the Job</h4>
+              <p className="text-blittext-100 text-center">We believe that understanding the problem is the key to finding the right solution. Our team will work closely with you to gain a deep understanding of your business goals and what you hope to achieve.</p>
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
+            <div className="h-72 relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blitblue-400" width="64" height="64" rx="32" />
@@ -48,12 +48,12 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1">Discovery Session</h4>
-              <p className="text-blittext-100 text-center">We would analyze the requirements and return a feedback to you about the process. If you are satisfied and would love to work with us we will move on to the next stage.</p>
+              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1">Craft the Vision</h4>
+              <p className="text-blittext-100 text-center">Our focus is always on delivering a user-centric solution that meets your needs and exceeds your expectations. In this step, we will work with you to craft a vision for the solution that not only solves the problem but also enhances the user experience.</p>
             </div>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
+            <div className="h-72 relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blitblue-400" width="64" height="64" rx="32" />
@@ -63,12 +63,12 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1">Contracting</h4>
-              <p className="text-blittext-100 text-center">We would send you our proposal in which you can view the services based on the requirements you provided. Once you have signed it we will start the development on our end.</p>
+              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1">Build with Care</h4>
+              <p className="text-blittext-100 text-center">We take pride in our work, and our team is dedicated to building high-quality software that is both functional and beautiful. In this step, we will work tirelessly to turn your vision into a reality.</p>
             </div>
 
             {/* 4th item */}
-            <div className="relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
+            <div className="h-72 relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blitblue-400" width="64" height="64" rx="32" />
@@ -80,12 +80,12 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>              
-              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1 ">Fast Prototyping</h4>
-              <p className="text-blittext-100 text-center">Depending on the service offered, we would prototype your requirements and arrange a meeting with the client.</p>
+              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1 ">Refine and Perfect</h4>
+              <p className="text-blittext-100 text-center">Our focus is always on delivering the best possible solution. In this step, we work with you to refine and make any necessary changes to ensure the solution is not only functional, but also meets your standards and exceeds your expectations.</p>
             </div>
 
             {/* 5th item */}
-            <div className="relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
+            <div className="h-72 relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blitblue-400" width="64" height="64" rx="32" />
@@ -95,12 +95,12 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1">Design Phase</h4>
-              <p className="text-blittext-100  text-center">Shortly after the ended session of prototyping we would start designing the requirements.</p>
+              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1">Launch with Confidence</h4>
+              <p className="text-blittext-100  text-center">When the solution is ready, we will deploy it to a production environment with confidence. Our focus is always on making sure the launch is seamless and successful, so you can start benefiting from the solution right away.</p>
             </div>
 
             {/* 6th item */}
-            <div className="relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
+            <div className="h-72 relative flex flex-col items-center p-6 bg-blitblue-400 rounded-large shadow-xl">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blitblue-400" width="64" height="64" rx="32" />
@@ -112,8 +112,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1">Develop & Launch</h4>
-              <p className="text-blittext-100  text-center">Finally developments starts and once completed and confirmed by the client we launch the product.</p>
+              <h4 className="text-lg font-bold leading-snug tracking-tight mb-1">Continuously Enhance</h4>
+              <p className="text-blittext-100  text-center">We don't believe that the software development process ends with the launch. We will provide ongoing support and maintenance to ensure that the solution continues to meet your needs and evolve over time.</p>
             </div>
 
           </div>

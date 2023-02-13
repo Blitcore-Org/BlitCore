@@ -45,14 +45,14 @@ function Newsletter() {
 
 
               {/* CTA content */}
-                <h3 className="h3 text-white mb-2 text-center text-blitblue-400">Powering your business</h3>
-                <p className="text-gray-300 text-lg mb-6 text-center">Subscribe to our news letter to recieve updates and promotions on our services</p>
+                <h3 className="h3 text-white mb-2 text-center text-blitblue-400">The Exclusive Club</h3>
+                <p className="text-gray-300 text-lg mb-6 text-center">Join the exclusive club! Join our email list and be the first to know about our latest offerings.</p>
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto"  onSubmit={handleOnSubmit}>
                   <div className="flex flex-row mx-10 sm:flex-row justify-center sm:max-w-xs sm:mx-auto sm:max-w-md">
                     <input required type="email" name="user_email" className="placeholder:text-gray-500 w-300 rounded-lg form-input appearance-none bg-blitblue-200 border-none focus:border-gray-600 px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-blittext-100" placeholder="Your email…" aria-label="Your email…" />
-                    <button type="submit" className="rounded-full btn text-white bg-blitblue-400 hover:bg-blitblue-500 shadow" href="#0">Subscribe</button>
+                    <button type="submit" className="rounded-full btn text-white bg-blitblue-400 hover:bg-blitblue-500 hover:text-blitblue-100 shadow" href="#0">Subscribe</button>
                   </div>
                   {/* Success message */}
                   {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
