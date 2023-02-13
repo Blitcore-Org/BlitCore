@@ -17,7 +17,7 @@ export default function Team() {
             <p class="font-medium tracking-wide text-white">An incredible team of amazing and talented individuals</p>
         </div>
         <div class="grid w-full grid-cols-1 gap-20 sm:grid-cols-3 lg:grid-cols-3">
-            <div class="flex flex-col items-center justify-center col-span-1">
+            <div class="flex flex-col items-center justify-center col-span-3">
                 <div class="relative p-3">
                     <div class="absolute z-10 w-full h-full -mt-3 -ml-3 blur animate-pulse rounded-full bg-gradient-to-t from-blitblue-500 to-blitblue-300"></div>
                     <img class="relative z-20 w-64 rounded-full" src={abass} alt="Image of Abass Jammal the Co-Founder"/>
@@ -38,7 +38,7 @@ export default function Team() {
                 </div>
             </div>
 
-            <div class="flex flex-col items-center justify-center col-span-1">
+            <div class="flex flex-col items-center justify-center col-span-3">
                 <div class="relative p-3">
                     <div class="absolute z-10 w-full h-full -mt-3 -ml-3 blur animate-pulse rounded-full bg-gradient-to-t from-blitblue-500 to-blitblue-300"></div>
                     <img class="relative z-20 w-64 rounded-full" src={tamer} alt="Image of Tamer Algarmakany the Co-Founder"/>
@@ -59,7 +59,7 @@ export default function Team() {
                 </div>
             </div>
 
-            <div class="flex flex-col items-center justify-center col-span-1">
+            <div class="flex flex-col items-center justify-center col-span-3">
                 <div class="relative p-3">
                     <div class="absolute z-10 w-full h-full -mt-3 -ml-3 blur animate-pulse rounded-full bg-gradient-to-t from-blitblue-500 to-blitblue-300"></div>
                     <img class="relative z-20 w-64 rounded-full" src={anas} alt="Image of Osomasi (Masi) Emil-Inyang the Front-End Developer"/>
