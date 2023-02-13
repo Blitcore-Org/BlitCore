@@ -16,8 +16,9 @@ export default function Team() {
             <h1 class="text-blitblue-400 h2 mt-6 mb-4">Our Team</h1>
             <p class="font-medium tracking-wide text-white">An incredible team of amazing and talented individuals</p>
         </div>
-        <div class="grid w-full grid-cols-1 gap-20 sm:grid-cols-3 lg:grid-cols-3">
-            <div class="flex flex-col items-center justify-center col-span-3">
+        <div class="grid w-full grid-cols-1 gap-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3">
+        
+            <div class="flex flex-col items-center justify-center col-span-3 sm:col-span-1 xl:col-span-1 2xl:col-span-1">
                 <div class="relative p-3">
                     <div class="absolute z-10 w-full h-full -mt-3 -ml-3 blur animate-pulse rounded-full bg-gradient-to-t from-blitblue-500 to-blitblue-300"></div>
                     <img class="relative z-20 w-64 rounded-full" src={abass} alt="Image of Abass Jammal the Co-Founder"/>
@@ -38,7 +39,7 @@ export default function Team() {
                 </div>
             </div>
 
-            <div class="flex flex-col items-center justify-center col-span-3">
+            <div class="flex flex-col items-center justify-center col-span-3 sm:col-span-1 xl:col-span-1 2xl:col-span-1">
                 <div class="relative p-3">
                     <div class="absolute z-10 w-full h-full -mt-3 -ml-3 blur animate-pulse rounded-full bg-gradient-to-t from-blitblue-500 to-blitblue-300"></div>
                     <img class="relative z-20 w-64 rounded-full" src={tamer} alt="Image of Tamer Algarmakany the Co-Founder"/>
@@ -59,7 +60,7 @@ export default function Team() {
                 </div>
             </div>
 
-            <div class="flex flex-col items-center justify-center col-span-3">
+            <div class="flex flex-col items-center justify-center col-span-3 sm:col-span-1 xl:col-span-1 2xl:col-span-1">
                 <div class="relative p-3">
                     <div class="absolute z-10 w-full h-full -mt-3 -ml-3 blur animate-pulse rounded-full bg-gradient-to-t from-blitblue-500 to-blitblue-300"></div>
                     <img class="relative z-20 w-64 rounded-full" src={anas} alt="Image of Osomasi (Masi) Emil-Inyang the Front-End Developer"/>
@@ -81,7 +82,7 @@ export default function Team() {
             </div>
 
 
-            <div class="flex flex-col items-center justify-center col-span-3">
+            <div class="flex flex-col items-center justify-center col-span-3 sm:col-span-1 xl:col-span-3 2xl:col-span-3">
                 <div class="relative p-3">
                     <div class="absolute z-10 w-full h-full -mt-3 -ml-3 blur animate-pulse rounded-full bg-gradient-to-t from-blitblue-500 to-blitblue-300"></div>
                     <img class="relative z-20 w-64 rounded-full" src={masi} alt="Image of Osomasi (Masi) Emil-Inyang the Front-End Developer"/>
