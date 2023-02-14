@@ -106,7 +106,7 @@ function ContactView() {
                 required="required"
               />
               <span class="bar"></span>
-              <p className="text-blittext-100 text-xs italic">
+              <p className="text-blittext-100 text-xs mt-2 italic">
                 Some tips - as long as needed
               </p>
             </div>
