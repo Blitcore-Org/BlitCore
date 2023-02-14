@@ -7,7 +7,7 @@ import Newsletter from '../partials/Newsletter';
 
 function Contact() {
   return (
-    <div  className="flex flex-col min-h-screen overflow-hidden bg-blitblue-100">
+    <div  className="flex flex-col min-h-screen overflow-hidden bg-gradient-to-t from-blitblue-100 via-blitblue-200 to-transparent">
 
       {/*  Site header */}
       <Header />

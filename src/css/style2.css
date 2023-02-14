@@ -1,3 +1,13 @@
+
+body
+{
+    background-image: url('../images/Background.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;    
+
+}
+
 .input {
     font-size: 16px;
     padding: 10px 10px 10px 5px;
@@ -18,19 +28,6 @@
     -webkit-box-shadow: none;
 }
 
-label {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: normal;
-    position: absolute;
-    pointer-events: none;
-    left: 5px;
-    top: 10px;
-    transition: 0.2s ease all;
-    -moz-transition: 0.2s ease all;
-    -webkit-transition: 0.2s ease all;
-}
-
 .input:focus ~ label, .input:valid ~ label {
     top: -20px;
     font-size: 14px;
@@ -49,7 +46,7 @@ label {
     width: 0;
     bottom: 1px;
     position: absolute;
-    background: #0CB9FB;
+    background: #fff;
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
@@ -63,6 +60,62 @@ label {
     right: 50%;
 }
 
+.message {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #0CB9FB;
+    background: transparent;
+}
+
+.message:focus {
+    outline: none;
+    border-width: 0px;
+    outline:0;
+    -webkit-appearance:none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.message:focus ~ label, .message:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #0CB9FB;
+}
+
+.messageBar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.messageBar:before, .messageBar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #fff;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.messageBar:before {
+    left: 50%;
+}
+
+.messageBar:after {
+    right: 50%;
+}
+
 .input:focus ~ .bar:before, .input:focus ~ .bar:after {
+    width: 50%;
+}
+
+.message:focus ~ .messageBar:before, .message:focus ~ .messageBar:after {
     width: 50%;
 }

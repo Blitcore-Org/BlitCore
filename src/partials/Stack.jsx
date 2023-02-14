@@ -22,7 +22,7 @@ function Stack() {
 
 
     <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none flex">
-        <div className="p-4 max-w-md bg-blitblue-200 rounded-2xl border-black shadow-md sm:p-8">
+        <div className="p-4 max-w-md contactBg rounded-3xl border-black shadow-md sm:p-8">
           <div className="flex justify-between items-center mb-4">
             <h5 className="text-l font-bold leading-none text-blittext-100">
               Back End Development
@@ -127,7 +127,7 @@ function Stack() {
 
 
 
-        <div className="p-4 max-w-md bg-blitblue-200 rounded-2xl border-black shadow-md sm:p-8">
+        <div className="p-4 max-w-md contactBg rounded-3xl border-black shadow-md sm:p-8">
           <div className="flex justify-between items-center mb-4">
             <h5 className="text-l font-bold leading-none text-blittext-100">
               Front End Developmenet
@@ -224,7 +224,7 @@ function Stack() {
 
 
 
-        <div className="p-4 max-w-md bg-blitblue-200 rounded-2xl border-black shadow-md sm:p-8">
+        <div className="p-4 max-w-md contactBg rounded-3xl border-black shadow-md sm:p-8">
           <div className="flex justify-between items-center mb-4">
             <h5 className="text-l font-bold leading-none text-blittext-100">
               Cloud and DevOps
@@ -320,7 +320,7 @@ function Stack() {
         </div>
 
 
-        <div className="p-4 max-w-md bg-blitblue-200 rounded-2xl border-black shadow-md sm:p-8">
+        <div className="p-4 max-w-md contactBg rounded-3xl border-black shadow-md sm:p-8">
           <div className="flex justify-between items-center mb-4">
             <h5 className="text-l font-bold leading-none text-blittext-100">
               Database
@@ -419,7 +419,7 @@ function Stack() {
           </div>
         </div>
 
-        <div className="p-4 max-w-md bg-blitblue-200 rounded-2xl border-black shadow-md sm:p-8">
+        <div className="p-4 max-w-md contactBg rounded-3xl border-black shadow-md sm:p-8">
           <div className="flex justify-between items-center mb-4">
             <h5 className="text-l font-bold leading-none text-blittext-100">
               Mobile Development
@@ -520,7 +520,7 @@ function Stack() {
         </div>
 
 
-        <div className="p-4 max-w-md bg-blitblue-200 rounded-2xl border-black shadow-md sm:p-8">
+        <div className="p-4 max-w-md contactBg rounded-3xl border-black shadow-md sm:p-8">
           <div className="flex justify-between items-center mb-4">
             <h5 className="text-l font-bold leading-none text-blittext-100">
               Testing & Quality Assurance

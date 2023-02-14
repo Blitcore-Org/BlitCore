@@ -34,7 +34,7 @@ function Features() {
     <section className="relative">
 
       {/* Section background (needs .relative className on parent and next sibling elements) */}
-      <div className="absolute inset-0 bg-blitblue-100 pointer-events-none mb-16" aria-hidden="true"></div>
+      <div className="absolute inset-0 pointer-events-none mb-16" aria-hidden="true"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 ">
         <div className="pt-24 md:pt-20">

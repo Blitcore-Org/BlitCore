@@ -200,3 +200,14 @@ $aos-distance: 10px;
 {
     z-index: 3;
 }
+
+.contactBg 
+{   
+    background-color: rgba(22,32,42,.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+}
