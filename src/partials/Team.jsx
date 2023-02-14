@@ -1,12 +1,12 @@
 
-import abass from '../images/abass.jpg';
-import tamer from '../images/tamer.jpg';
+import abass from '../images/abass.png';
+import tamer from '../images/tamer.png';
 import masi from '../images/masi.png';
-import anas from '../images/anas.jpg';
+import anas from '../images/anas.png';
 
 export default function Team() {
     return (
-<section class="relative py-20 overflow-hidden bg-blitblue-100">
+<section class="relative py-20 overflow-hidden bg-gradient-to-t from-transparent via-blitblue-100 to-transparent">
 
 
     <span class="absolute bottom-0 left-0"> </span>

@@ -39,7 +39,7 @@ function Newsletter() {
         <div className="pb-12 md:pb-20">
 
           {/* CTA box */}
-          <div className="relative bg-blitblue-100 rounded py-10 px-8 md:py-16 md:px-12 overflow-hidden mt-24" data-aos="zoom-y-out">
+          <div className="relative contactBg rounded-3xl py-10 px-8 md:py-16 md:px-12 overflow-hidden mt-24" data-aos="zoom-y-out">
 
             {/* Background illustration */}
 

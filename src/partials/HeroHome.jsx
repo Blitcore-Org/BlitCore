@@ -8,7 +8,7 @@ function HeroHome() {
 
 
   return (
-    <section className="z-10 relative h-[480px] sm:h-auto md:h-auto lg:h-auto bg-blitblue-100">
+    <section className="z-10 relative h-[480px] sm:h-auto md:h-auto lg:h-auto">
 
       <div className="flex items-center justify-center sm:relative" aria-hidden="true">
         <img className="blitDiag invisible sm:visible absolute top-12 w-max" src={blitcoreDiagram} /> 
