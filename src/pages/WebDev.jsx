@@ -3,13 +3,12 @@ import React from 'react';
 import Header from '../partials/Header';
 import WebDevView from '../partials/WebDevView';
 import Footer from '../partials/Footer';
-import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Stack from '../partials/Stack';
 
 function WebDev() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden bg-blitblue-100">
+    <div className="flex flex-col min-h-screen overflow-hidden">
 
       {/*  Site header */}
       <Header />
@@ -21,7 +20,6 @@ function WebDev() {
         <WebDevView />
 
         <Stack/>
-        <Testimonials/>
         <Newsletter/>
 
 
