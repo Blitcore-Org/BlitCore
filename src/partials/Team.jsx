@@ -1,8 +1,8 @@
 
-import abass from '../images/abass.png';
-import tamer from '../images/tamer.png';
-import masi from '../images/masi.png';
-import anas from '../images/anas.png';
+import abass from '../images/Team/abass.png';
+import tamer from '../images/Team/tamer.png';
+import masi from '../images/Team/masi.png';
+import anas from '../images/Team/anas.png';
 
 export default function Team() {
     return (

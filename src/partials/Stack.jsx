@@ -1,6 +1,6 @@
 import React from 'react';
-import dbpick from "../images/db.png";
-import testrail from "../images/test.svg";
+import dbpick from "../images/Stack/db.png";
+import testrail from "../images/Stack/test.svg";
 
 
 function Stack() {

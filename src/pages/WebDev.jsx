@@ -6,7 +6,6 @@ import Footer from '../partials/Footer';
 import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Stack from '../partials/Stack';
-import Us from '../partials/Us';
 
 function WebDev() {
   return (

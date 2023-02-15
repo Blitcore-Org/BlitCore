@@ -12,14 +12,9 @@ import './css/style2.css';
 import AOS from 'aos';
 
 import Home from './pages/Home';
-import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
-import ResetPassword from './pages/ResetPassword';
 import About from './pages/About';
 import CSD from './pages/CSD';
 import WebDev from './pages/WebDev';
-import ProductDev from './pages/ProductDev';
-import QA from './pages/QA';
 import Consult from './pages/Consultation';
 import Contact from './pages/Contact';
 import SoftwareDevPage from './pages/sub_pages/SoftwareDevPage';
@@ -51,13 +46,8 @@ function App() {
         <Route exact path="about" element={<About />} />
         <Route exact path="customsoftwaredev" element={<CSD />} />
         <Route exact path="webdev" element={<WebDev />} />
-        <Route exact path="productdev" element={<ProductDev />} />
-        <Route exact path="qa" element={<QA />} />
         <Route exact path="softwaredev" element={<SoftwareDevPage />} />
-        <Route exact path="/signin" element={<SignIn />} />
-        <Route exact path="/signup" element={<SignUp />} />
         <Route exact path="/book" element={<Consult/>} />
-        <Route exact path="/reset-password" element={<ResetPassword />} />
         <Route exact path="contact" element={<Contact />} />
         <Route exact path="/terms" element={<Term />} />
       </Routes>

@@ -2,13 +2,13 @@ import React from 'react';
 
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
-import FeaturesHome from '../partials/Features';
-import FeaturesBlocks from '../partials/FeaturesBlocks';
+import Services from '../partials/Services';
+import HowItWorks from '../partials/HowItWorks';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
 import FAQ from '../partials/FAQ';
-import Services from '../partials/Services';
 import Team from '../partials/Team';
+import WhyBlit from '../partials/WhyBlit';
 
 
 function Home() {
@@ -23,9 +23,9 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <FeaturesHome />
-        <FeaturesBlocks />
-        <Services/>
+        <Services />
+        <HowItWorks />
+        <WhyBlit/>
         <Team/>
         <FAQ/>
 

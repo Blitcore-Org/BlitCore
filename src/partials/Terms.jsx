@@ -1,6 +1,3 @@
-import React, { useState, useRef, useEffect } from "react";
-
-
 function Terms() {
 
 

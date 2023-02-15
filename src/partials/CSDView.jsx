@@ -1,21 +1,11 @@
-import React, { useState, useRef, useEffect } from "react";
-import Transition from "../utils/Transition";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { NavLink, Link } from "react-router-dom";
-import FeaturesBg from "../images/50.png";
-import FeaturesElement from "../images/image123.jpg";
-import management from "../images/CSD/management.png";
-import progress from "../images/CSD/progress.png";
-import flexible from "../images/CSD/flexible.png";
-import csd from "../images/CSD/csdi.png";
-import csdtop from "../images/CSD/csd12.png";
-
-
+import { Link } from "react-router-dom";
 
 function CSDView() {
   return (
-    <section class="w-full bg-blitblue-100 pt-7 pb-7 md:pt-20 md:pb-24">
-
+    <section class="relative w-full pt-7 pb-7 md:pt-20 md:pb-24">
+      <div className="max-w-3xl mx-auto text-center">
+            <h1 className="text-4xl lg:text-4xl font-bold mt-12 text-blitblue-400"><span className="bg-clip-text text-transparent bg-gradient-to-r from-blitblue-500 to-blitblue-400">Custom Software Development</span></h1>
+        </div>
       <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
       <div class="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
       <svg

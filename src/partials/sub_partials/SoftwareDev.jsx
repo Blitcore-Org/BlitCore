@@ -1,9 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../../utils/Transition';
 
-
-import FeaturesElement from '../../images/50.png';;
-
 function SoftwareDev() {
 
   const [tab, setTab] = useState(1);

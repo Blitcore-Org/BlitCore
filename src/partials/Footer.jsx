@@ -36,12 +36,12 @@ function Footer() {
               <li className="mb-2">
                 <Link to="webdev" className="text-blittext-100 hover:text-blitblue-500 transition duration-150 ease-in-out">Web Development</Link>
               </li>
-              <li className="mb-2">
+              {/* <li className="mb-2">
                 <Link to="#" className="text-blittext-100 hover:text-blitblue-500 transition duration-150 ease-in-out">E-commerce Development</Link>
-              </li>
-              <li className="mb-2">
+              </li> */}
+              {/* <li className="mb-2">
                 <Link to="qa" className="text-blittext-100 hover:text-blitblue-500 transition duration-150 ease-in-out">Software Testing and QA</Link>
-              </li>
+              </li> */}
               <li className="mb-2">
                 <Link to="#" className="text-blittext-100 hover:text-blitblue-500 transition duration-150 ease-in-out">UI/UX Design</Link>
               </li>                            
@@ -50,14 +50,14 @@ function Footer() {
 
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-6 lg:col-span-2">
-            <h6 className="text-blitblue-400 font-medium mb-2">Software Outsourcing</h6>
+            <h6 className="text-blitblue-400 font-medium mb-2">Company</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link to="#" className="text-blittext-100 hover:text-blitblue-500 transition duration-150 ease-in-out">Why BlitCore?</Link>
               </li>
-              <li className="mb-2">
+              {/* <li className="mb-2">
                 <Link to="#" className="text-blittext-100 hover:text-blitblue-500 transition duration-150 ease-in-out">Offshore Outsourcing</Link>
-              </li>
+              </li> */}
               <li className="mb-2">
                 <Link to="#" className="text-blittext-100 hover:text-blitblue-500 transition duration-150 ease-in-out">Partners</Link>
               </li>
@@ -66,7 +66,7 @@ function Footer() {
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-blitblue-400 font-medium mb-2">Company</h6>
+            <h6 className="text-blitblue-400 font-medium mb-2">Pages</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link to="#" className="text-blittext-100 hover:text-blitblue-500 transition duration-150 ease-in-out">Home</Link>
@@ -74,9 +74,9 @@ function Footer() {
               <li className="mb-2">
                 <Link to="#" className="text-blittext-100 hover:text-blitblue-500 transition duration-150 ease-in-out">About us</Link>
               </li>
-              <li className="mb-2">
+              {/* <li className="mb-2">
                 <Link to="#" className="text-blittext-100 hover:text-blitblue-500 transition duration-150 ease-in-out">Company values</Link>
-              </li>
+              </li> */}
               <li className="mb-2">
                 <Link to="#" className="text-blittext-100 hover:text-blitblue-500 transition duration-150 ease-in-out">Pricing</Link>
               </li>
