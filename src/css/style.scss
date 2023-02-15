@@ -211,3 +211,12 @@ $aos-distance: 10px;
     border-right-width: 0px;
     border-bottom-width: 0px;
 }
+
+
+@media (max-width: 768px) {
+    .contactBg 
+    {   
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+    }
+}

@@ -166,7 +166,7 @@ function Services() {
                     <br></br>
 
                     <div className="text-center">
-                        <Link to="customsoftwaredev" class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
+                        {/* <Link to="customsoftwaredev" class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link> */}
                     </div>
                     <div className="relative inline-flex flex-col">
                   </div>
@@ -198,7 +198,7 @@ function Services() {
                     <br></br>
 
                     <div className="text-center">
-                      <Link to="customsoftwaredev" class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
+                      {/* <Link to="customsoftwaredev" class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link> */}
                     </div>
                     <div className="relative inline-flex flex-col">
                   </div>
@@ -228,7 +228,7 @@ function Services() {
                     <br></br>
 
                     <div className="text-center">
-                        <Link to="customsoftwaredev" class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
+                        {/* <Link to="customsoftwaredev" class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link> */}
                     </div> 
                     <div className="relative inline-flex flex-col">
                   </div>
