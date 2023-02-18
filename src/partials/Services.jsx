@@ -31,7 +31,7 @@ function Services() {
   }, [tab])
 
   return (
-    <section className="relative mt-44">
+    <section className="relative mt-44 bg-gradient-to-t from-transparent to-transparent">
 
       {/* Section background (needs .relative className on parent and next sibling elements) */}
       <div className="absolute inset-0 pointer-events-none mb-16" aria-hidden="true"></div>
@@ -54,18 +54,18 @@ function Services() {
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <div
-                  className={`h-40 flex items-center text-base p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-10 ${tab !== 1 ? 'bg-blitblue-400 shadow-md border-blitblue-100' : 'bg-blitblue-300 border-transparent'}`}
+                  className={`h-46 flex items-center text-base p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-10 ${tab !== 1 ? 'bg-blitblue-400 shadow-md border-blitblue-100' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
                     <Link to="customsoftwaredev" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Custom Software Development</Link>
-                    <div className="text-white">Design and build custom software solutions that meet your unique business needs and provide a seamless user experience</div>
+                    <div className="text-white">Design and build custom software solutions that meet your unique needs and provide a seamless user experience</div>
                   </div>
                     <img src={csdIcon} class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
                 </div>
                 <div
-                  className={`h-40 flex items-center text-base p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-10 ${tab !== 2 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
+                  className={`h-46 min-h-64 flex items-center text-base p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-10 ${tab !== 2 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
@@ -76,7 +76,7 @@ function Services() {
                   <img src={webdevIcon}  class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
                 </div>
                 <div
-                  className={` h-40 flex items-center p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-10 ${tab !== 3 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
+                  className={`h-46 flex items-center p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-10 ${tab !== 3 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
@@ -88,7 +88,7 @@ function Services() {
                 </div>
 
                 <div
-                  className={`h-40 flex items-center text-base p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-10 ${tab !== 4 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
+                  className={`h-46 flex items-center text-base p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-10 ${tab !== 4 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(4); }}
                 >

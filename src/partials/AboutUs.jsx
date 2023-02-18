@@ -15,7 +15,7 @@ function AboutUs() {
           </div>
 
           <div className="max-w-3xl mx-auto h-full all text-center pb-12 md:pb-16">
-              <div id="stack1" class="card-container relative h-80 w-full start">
+              <div id="stack1" class="card-container relative h-80 w-full start mb-72 lg:mb-24">
                 <div id="card1" class="card h-72 items-center p-6 bg-gradient-to-tl from-blitblue-100 via-blitblue-200 to-transparent rounded-large drop-shadow-2xl card1">
                   <h1 className="text-lg font-extrabold text-blitblue-500">Who we are</h1>
 
