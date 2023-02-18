@@ -44,7 +44,7 @@ function AboutUs() {
 
           <div className="md:grid md:grid-cols-12 md:gap-6">
             <div
-              className="max-w-xl mt-64 md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-36"
+              className="max-w-xl mt-80 md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-36"
               data-aos="fade-right"
             ></div>
           </div>

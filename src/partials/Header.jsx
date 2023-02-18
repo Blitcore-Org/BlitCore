@@ -126,37 +126,22 @@ function Header() {
               <div ref={ref} className="text-center justify-center pt-8 pb-3 space-y-6 sm:px-3">
                 <Link
                   to="/"
-                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-lg font-medium"
+                  className="text-white mx-auto w-1/2 hover:bg-blitblue-500 hover:text-black block px-3 py-2 rounded-full text-lg font-medium"
                 >
                   Home
                 </Link>
                 <Link
                   to="/about"
-                  className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-lg font-medium"
+                  className="text-white mx-auto w-1/2 hover:bg-blitblue-500 hover:text-black block px-3 py-2 rounded-full text-lg font-medium"
                 >
                   About Us
                 </Link>
-                {/* <Link
-                  to="#0"
-                  className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Pricing
-                </Link> */}
                 <Link
                   to="/contact"
-                  className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-lg font-medium"
+                  className="text-white mx-auto w-1/2 hover:bg-blitblue-500 hover:text-black block px-3 py-2 rounded-full text-lg font-medium"
                 >
                   Contact Us
                 </Link>
-
-                {/* <li>
-              <Link to="/signup" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
-                <span>Contact Us</span>
-                <svg className="w-3 h-3 fill-current text-gray-400 flex-shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />
-                </svg>
-              </Link> */}
-
                 <Link
                   to="/book"
                   className="text-white justify-center bg-blitblue-400 hover:text-white block px-3 py-2 rounded-md w-64 text-lg font-medium flex mr-auto ml-auto"

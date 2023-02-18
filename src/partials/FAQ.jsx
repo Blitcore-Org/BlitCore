@@ -9,6 +9,8 @@ export default function FAQ(){
         <h1 className="text-blitblue-400 h2 mt-6 mb-4 text-center mt-20">
         Frequently Asked Questions
         </h1>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="pb-12 md:pb-20">
         <div class="w-full px-6 py-6 mx-auto mt-10 bg-blitblue-400 border border-blitblue-400 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
             <h3 class="text-lg font-bold text-black sm:text-xl md:text-2xl">How does it work?</h3>
             <p class="mt-2 text-base text-blittext-100 sm:text-lg md:text-normal">
@@ -33,6 +35,8 @@ export default function FAQ(){
                 If you've decided to work with us, we send an invoice with the account details, payements can be made through paypal, stripe or a bank transfer!
             </p>
         </div>
+    </div>
+    </div>
     </div>
 </section>
     )

@@ -53,7 +53,7 @@ function Services() {
 
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
-                <a
+                <div
                   className={`flex items-center text-base p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-10 ${tab !== 1 ? 'bg-blitblue-400 shadow-md border-blitblue-100' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
@@ -62,9 +62,9 @@ function Services() {
                     <Link to="#" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Custom Software Development</Link>
                     <div className="text-white">Design and build custom software solutions that meet your unique business needs and provide a seamless user experience</div>
                   </div>
-                    <img src={csdIcon}  class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
-                </a>
-                <a
+                    <img src={csdIcon} suppressHydrationWarning class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
+                </div>
+                <div
                   className={`flex items-center text-base p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-10 ${tab !== 2 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
@@ -73,9 +73,9 @@ function Services() {
                     <Link to="#" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Web Development</Link>
                     <div className="text-white">Establish a strong online presence with visually appealing and user-friendly websites.</div>
                   </div>
-                  <img src={webdevIcon}  class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
-                </a>
-                <a
+                  <img src={webdevIcon} suppressHydrationWarning  class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
+                </div>
+                <div
                   className={`flex items-center p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-10 ${tab !== 3 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
@@ -84,10 +84,10 @@ function Services() {
                     <Link to="#" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">UI/UX Design</Link>
                     <div className="text-white">Create an amazing user experience with visually appealing and user-friendly interfaces.</div>
                   </div>
-                  <img src={uiIcon}  class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
-                </a>
+                  <img src={uiIcon} suppressHydrationWarning class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
+                </div>
 
-                <a
+                <div
                   className={`flex items-center text-base p-5 hover:text-blitblue-100 rounded-large border transition duration-300 ease-in-out mb-10 ${tab !== 4 ? 'bg-blitblue-400 shadow-md border-blitblue-100 hover:shadow-lg' : 'bg-blitblue-300 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(4); }}
@@ -96,8 +96,8 @@ function Services() {
                     <Link to="#" className="text-lg font-bold leading-snug tracking-tight mb-1 hover:text-blitblue-500">Search Engine Optimization</Link>
                     <div className="text-white">Improve your website's visibility and ranking on search engines with our expert optimization services."</div>
                   </div>
-                  <img src={seoIcon}  class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
-                </a>
+                  <img src={seoIcon} suppressHydrationWarning class="flex justify-center w-8 h-8 items-center rounded-full flex-shrink-0 ml-3"/>
+                </div>
               </div>
             </div>
 
@@ -117,7 +117,7 @@ function Services() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                  <img src={csd} class="max-w-full h-auto transform animate-float "/>
+                  <img src={csd} suppressHydrationWarning class="max-w-full h-auto transform animate-float "/>
                     <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
                       <h1 className="text-white font-bold text-lg">Custom Software Development</h1>
                     </div>
@@ -129,7 +129,7 @@ function Services() {
                     <br></br>
 
                     <div className="text-center">
-                        <Link to="customsoftwaredev" class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
+                        <Link to="customsoftwaredev" suppressHydrationWarning class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
                     </div>
 
                     <div className="relative inline-flex flex-col">
@@ -153,7 +153,7 @@ function Services() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                  <img src={webdev}  class="max-w-full h-auto transform animate-float "/>
+                  <img src={webdev} suppressHydrationWarning  class="max-w-full h-auto transform animate-float "/>
                     <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
                       <h1 className="text-white font-bold text-2xl">Web Development</h1>
                     </div>
@@ -166,7 +166,7 @@ function Services() {
                     <br></br>
 
                     <div className="text-center">
-                        <Link to="webdev" class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
+                        <Link to="webdev" suppressHydrationWarning class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link>
                     </div>
                     <div className="relative inline-flex flex-col">
                   </div>
@@ -185,7 +185,7 @@ function Services() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                  <img src={uidiag}  class="max-w-full h-auto transform animate-float "/>
+                  <img src={uidiag} suppressHydrationWarning class="max-w-full h-auto transform animate-float "/>
                     <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
                       <h1 className="text-white font-bold text-2xl">UI/UX Development</h1>
                     </div>
@@ -197,9 +197,6 @@ function Services() {
                     </div>
                     <br></br>
 
-                    <div className="text-center">
-                      {/* <Link to="customsoftwaredev" class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link> */}
-                    </div>
                     <div className="relative inline-flex flex-col">
                   </div>
                   </div>
@@ -217,7 +214,7 @@ function Services() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                  <img src={seodiag}  class="max-w-full h-auto transform animate-float "/>
+                  <img src={seodiag} suppressHydrationWarning class="max-w-full h-auto transform animate-float "/>
                     <div className="font-bold leading-snug tracking-tight text-left mb-1 mt-10">
                       <h1 className="text-white font-bold text-2xl">Search Engine Optimization</h1>
                     </div>
@@ -227,9 +224,6 @@ function Services() {
                     </div>
                     <br></br>
 
-                    <div className="text-center">
-                        {/* <Link to="customsoftwaredev" class="text-white hover:bg-blitblue-500 hover:text-blitblue-100 bg-blitblue-400 focus:ring-4 focus:outline-none font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2"> Read More </Link> */}
-                    </div> 
                     <div className="relative inline-flex flex-col">
                   </div>
                   </div>
