@@ -31,7 +31,7 @@ function Services() {
   }, [tab])
 
   return (
-    <section className="relative mt-44 bg-gradient-to-t from-transparent to-transparent">
+    <section className="relative mt-44">
 
       {/* Section background (needs .relative className on parent and next sibling elements) */}
       <div className="absolute inset-0 pointer-events-none mb-16" aria-hidden="true"></div>
