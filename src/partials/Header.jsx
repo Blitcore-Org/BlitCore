@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { Transition } from "@headlessui/react";
 import logo from "../images/bc_logo.png";
@@ -40,6 +40,13 @@ function Header() {
                   </NavLink>
 
                   <NavLink
+                    to="/portfolio"
+                    className={activeLink === 'portfolio' ? 'active navbar_links' : 'navbar_links hover:text-white'} onClick={() => onUpdateActiveLink('portfolio')}
+                  >
+                    Portfolio
+                  </NavLink>
+
+                  <NavLink
                     to="/contact"
                     className={activeLink === 'contact' ? 'active navbar_links' : 'navbar_links hover:text-white'} onClick={() => onUpdateActiveLink('contact')}
                   >
@@ -62,9 +69,11 @@ function Header() {
                       />
                     </svg>
                   </Link>
+
                 </div>
               </div>
             </div>
+
             <div className="-mr-2 flex md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
@@ -130,18 +139,28 @@ function Header() {
                 >
                   Home
                 </Link>
+
                 <Link
                   to="/about"
                   className="text-white mx-auto w-1/2 hover:bg-blitblue-500 hover:text-black block px-3 py-2 rounded-full text-lg font-medium"
                 >
                   About Us
                 </Link>
+
                 <Link
                   to="/contact"
                   className="text-white mx-auto w-1/2 hover:bg-blitblue-500 hover:text-black block px-3 py-2 rounded-full text-lg font-medium"
                 >
                   Contact Us
                 </Link>
+                
+                <Link
+                  to="/portfolio"
+                  className="text-white mx-auto w-1/2 hover:bg-blitblue-500 hover:text-black block px-3 py-2 rounded-full text-lg font-medium"
+                >
+                  Portfolio
+                </Link>
+
                 <Link
                   to="/book"
                   className="text-white justify-center bg-blitblue-400 hover:text-white block px-3 py-2 rounded-md w-64 text-lg font-medium flex mr-auto ml-auto"

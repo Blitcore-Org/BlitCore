@@ -13,6 +13,7 @@ import AOS from 'aos';
 
 import Home from './pages/Home';
 import About from './pages/About';
+import Portfolio from './pages/PortfolioPage';
 import CSD from './pages/CSD';
 import WebDev from './pages/WebDev';
 import Consult from './pages/Consultation';
@@ -44,11 +45,12 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="about" element={<About />} />
+        <Route exact path="portfolio" element={<Portfolio />} />
+        <Route exact path="contact" element={<Contact />} />
         <Route exact path="customsoftwaredev" element={<CSD />} />
         <Route exact path="webdev" element={<WebDev />} />
         <Route exact path="softwaredev" element={<SoftwareDevPage />} />
         <Route exact path="/book" element={<Consult/>} />
-        <Route exact path="contact" element={<Contact />} />
         <Route exact path="/terms" element={<Term />} />
       </Routes>
     </>
