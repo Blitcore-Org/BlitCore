@@ -46,31 +46,64 @@ function Portfolio() {
               </span>
             </h1>
 
-            <div className="options flex flex-col md:flex-row">
+            <div className="options mt-10 flex flex-col md:flex-row">
               {/* Repeat this structure for each option, updating the styles and content as needed */}
-              {Array(4)
-                .fill()
-                .map((_, i) => (
+              {[
+                {
+                  name: "Option 1",
+                  label: "Label 1",
+                  icon: "fas fa-walking",
+                  backgroundImage:
+                    "url('src/images/Portfolio/WhatsappAutoDesign/cover.png'",
+                },
+                {
+                  name: "Option 2",
+                  label: "Label 2",
+                  icon: "fas fa-biking",
+                  backgroundImage:
+                    "url('src/images/Portfolio/RiadMDesign/cover.png')",
+                },
+                {
+                  name: "Option 3",
+                  label: "Label 3",
+                  icon: "fas fa-car",
+                  backgroundImage:
+                    "url('src/images/Portfolio/PersonalWebDesign/cover.png')",
+                },
+                {
+                  name: "Option 4",
+                  label: "Label 4",
+                  icon: "fas fa-plane",
+                  backgroundImage:
+                    "url('src/images/Portfolio/ArthurRazorDesign/cover.png')",
+                },
+              ].map((option, i) => (
+                <div
+                  className={`option ${i === 0 ? "active" : ""}`}
+                  ref={optionRefs[i]}
+                  key={i}
+                  // style={{ backgroundImage: option.backgroundImage }}
+                >
                   <div
-                    className={`option ${i === 0 ? "active" : ""}`}
-                    // style={{
-                    //   "--optionBackground": `url(https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg)`,
-                    // }}
-                    ref={optionRefs[i]}
-                    key={i}
-                  >
-                    {/* <div className="shadow"></div> */}
-                    <div className="label">
+                    className="cover-image mx-4 mt-4 "
+                    style={{ backgroundImage: option.backgroundImage }}
+                    alt="cover"
+                  ></div>
+                  {/* <div className="shadow"></div> */}
+                  <div className="label flex items-center justify-between">
+                    <div className="flex items-center">
                       <div className="icon">
-                        <i className="fas fa-walking"></i>
+                        <i className={option.icon}></i>
                       </div>
                       <div className="info">
-                        <div className="main">Blonkisoaz</div>
-                        <div className="sub">Omuke trughte a otufta</div>
+                        <div className="main">{option.name}</div>
+                        <div className="sub">{option.label}</div>
                       </div>
                     </div>
+                    <button className="view-button w-16 rounded-full bg-blitblue-500 mr-20">View</button>
                   </div>
-                ))}
+                </div>
+              ))}
             </div>
 
             <div className="arrow-buttons">
@@ -102,7 +135,6 @@ function Portfolio() {
                 &gt;
               </span>
             </div>
-
           </div>
         </div>
       </div>

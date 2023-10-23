@@ -16,6 +16,7 @@
     "@headlessui/react": "^1.6.2",
     "@tailwindcss/forms": "^0.4.0",
     "aos": "^3.0.0-beta.6",
+    "colorthief": "^2.4.0",
     "dotenv": "^16.0.1",
     "emailjs-com": "^3.2.0",
     "expo-linear-gradient": "^11.3.0",

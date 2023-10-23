@@ -210,7 +210,7 @@ $aos-distance: 10px;
 
 // Portfolio Section
 
-$optionDefaultColours: #1E5AB6, #0B3D91, #0B3D91, #0B3D91;
+$optionDefaultColours: #1e5ab6, #0b3d91, #0b3d91, #0b3d91;
 
 .credit {
   position: absolute;
@@ -223,7 +223,7 @@ $optionDefaultColours: #1E5AB6, #0B3D91, #0B3D91, #0B3D91;
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  overflow: hidden;
+  // overflow: hidden;
 
   min-width: 700px;
   max-width: 900px;
@@ -243,13 +243,10 @@ $optionDefaultColours: #1E5AB6, #0B3D91, #0B3D91, #0B3D91;
   .option {
     position: relative;
     overflow: hidden;
-
     min-width: 60px;
     margin: 10px;
 
-    // background: var(--optionBackground, var(--defaultBackground, #e6e9ed));
-    // background-size: auto 120%;
-    // background-position: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 
     cursor: pointer;
 
@@ -268,14 +265,21 @@ $optionDefaultColours: #1E5AB6, #0B3D91, #0B3D91, #0B3D91;
       margin: 0px;
       border-radius: 40px;
 
-      // opacity: 0.6;
-      background-color: rgba(22, 32, 42, 0.5);
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+      background-size: cover;
+      background-repeat: no-repeat;
+
       backdrop-filter: blur(2px);
       -webkit-backdrop-filter: blur(2px);
       border: 1px solid rgba(255, 255, 255, 0.3);
       border-right-width: 0px;
       border-bottom-width: 0px;
+
+      .cover-image {
+        border-radius: 40px;
+        height: 75%;
+        background-size: cover;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+      }
 
       .label {
         bottom: 20px;
@@ -290,15 +294,22 @@ $optionDefaultColours: #1E5AB6, #0B3D91, #0B3D91, #0B3D91;
       flex-grow: 1;
 
       border-radius: 30px;
-    
-      background-color: rgba(22, 32, 42, 0.5);
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+
       backdrop-filter: blur(2px);
       -webkit-backdrop-filter: blur(2px);
       border: 1px solid rgba(255, 255, 255, 0.3);
       border-right-width: 0px;
       border-bottom-width: 0px;
-      
+
+      .cover-image {
+        border-radius: 30px;
+        height: 100%;
+        background-size: cover;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+        margin: 15%;
+        height: 90%;
+      } 
+
       .label {
         bottom: 10px;
         left: 10px;
@@ -309,7 +320,6 @@ $optionDefaultColours: #1E5AB6, #0B3D91, #0B3D91, #0B3D91;
       }
     }
     .label {
-      display: flex;
       position: absolute;
       right: 0px;
 
@@ -327,7 +337,7 @@ $optionDefaultColours: #1E5AB6, #0B3D91, #0B3D91, #0B3D91;
         border-radius: 100%;
 
         background-color: white;
-        color: #FFFFFF;
+        color: #ffffff;
       }
       .info {
         display: flex;
@@ -336,7 +346,7 @@ $optionDefaultColours: #1E5AB6, #0B3D91, #0B3D91, #0B3D91;
 
         margin-left: 10px;
 
-        color: #FFFFFF;
+        color: #0cb9fb;
 
         white-space: pre;
         > div {
@@ -354,6 +364,7 @@ $optionDefaultColours: #1E5AB6, #0B3D91, #0B3D91, #0B3D91;
         }
       }
     }
+    mix-blend-mode: multiply; // add this line to blend the background with the parent div
   }
 }
 
@@ -367,7 +378,7 @@ $optionDefaultColours: #1E5AB6, #0B3D91, #0B3D91, #0B3D91;
     cursor: pointer;
     margin: 40px 40px;
     font-size: 1.4rem;
-    color: #FFFFFF;
+    color: #ffffff;
 
     background-color: rgba(22, 32, 42, 0.5);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
@@ -376,7 +387,6 @@ $optionDefaultColours: #1E5AB6, #0B3D91, #0B3D91, #0B3D91;
     border: 0.5px solid rgba(255, 255, 255, 0.3);
     border-right-width: 0px;
     border-bottom-width: 0px;
-
 
     transition: color 0.3s ease;
     border-radius: 50%;
@@ -387,7 +397,7 @@ $optionDefaultColours: #1E5AB6, #0B3D91, #0B3D91, #0B3D91;
     align-items: center;
 
     &:hover {
-      color: #0CB9FB;
+      color: #0cb9fb;
       // background-color: #FFFFFF;
       background-color: rgba(22, 32, 42, 1);
     }
@@ -401,7 +411,7 @@ $optionDefaultColours: #1E5AB6, #0B3D91, #0B3D91, #0B3D91;
     padding: 0;
 
     .dot {
-      background: #FFFFFF;
+      background: #ffffff;
       border-radius: 50%;
       width: 3px;
       height: 3px;
@@ -410,11 +420,11 @@ $optionDefaultColours: #1E5AB6, #0B3D91, #0B3D91, #0B3D91;
       transition: background-color 0.3s ease;
 
       &.active {
-        background: #0CB9FB;
+        background: #0cb9fb;
       }
 
       &:hover {
-          background: #0CB9FB;
+        background: #0cb9fb;
       }
     }
   }
