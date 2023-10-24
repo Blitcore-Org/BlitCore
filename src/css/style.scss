@@ -308,7 +308,7 @@ $optionDefaultColours: #1e5ab6, #0b3d91, #0b3d91, #0b3d91;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
         margin: 15%;
         height: 90%;
-      } 
+      }
 
       .label {
         bottom: 10px;
@@ -365,6 +365,23 @@ $optionDefaultColours: #1e5ab6, #0b3d91, #0b3d91, #0b3d91;
       }
     }
     mix-blend-mode: multiply; // add this line to blend the background with the parent div
+  }
+  .option-line {
+    height: 80%; /* Adjusted height */
+    width: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 40px 3px;
+  }
+
+  .first-line {
+    height: 80%; /* Longer height */
+    margin-top: 40px; /* Adjust margin to center it vertically */
+  }
+
+  .second-line {
+    height: 70%; /* Shorter height */
+    margin-top: 60px; /* Adjust margin to center it vertically */
   }
 }
 
