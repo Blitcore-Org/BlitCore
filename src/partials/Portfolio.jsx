@@ -55,6 +55,13 @@ function Portfolio() {
       backgroundImage:
         "url('src/images/Portfolio/ArthurRazorDesign/cover.png')",
     },
+    {
+      name: "Option 7",
+      label: "Label 7",
+      icon: "fas fa-plane",
+      backgroundImage:
+        "url('src/images/Portfolio/ArthurRazorDesign/cover.png')",
+    },
   ]);
 
   // useEffect hook to run once component mounts.
