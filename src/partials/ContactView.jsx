@@ -5,17 +5,15 @@ import Swal from 'sweetalert2';
 import 'sweetalert2/dist/sweetalert2.min.css';
 // require('dotenv').config()
 
-const SERVICE_ID = "service_cx4sjvu";
+// TODO : Remove constants and use env variables
+
+const SERVICE_ID = "service_fob28c7";
 const TEMPLATE_ID = "template_0x7p9pi";
 const USER_ID = "W_2SHf331gtm6yJqv";
 
 
-// console.log(process.env.REACT_APP_WEBSITE_NAME);
-
-
 
 function ContactView() {
-
   const handleOnSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm(SERVICE_ID,TEMPLATE_ID, e.target, USER_ID).then(

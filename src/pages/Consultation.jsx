@@ -9,7 +9,7 @@ const Consult = () => {
 
       <iframe
       className="bg-blitblue-100"
-        src="https://calendly.com/tamerjar/free-consultaion"
+        src="https://calendly.com/blitcore/30min"
         width="100%"
         height="100%"
         frameborder="0"
