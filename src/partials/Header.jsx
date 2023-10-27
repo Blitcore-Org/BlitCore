@@ -40,12 +40,12 @@ function Header() {
                   </NavLink>
 
                   {/* PORTFOLIO IN PROGRESS */}
-                  {/* <NavLink
+                  <NavLink
                     to="/portfolio"
                     className={activeLink === 'portfolio' ? 'active navbar_links' : 'navbar_links hover:text-white'} onClick={() => onUpdateActiveLink('portfolio')}
                   >
                     Portfolio
-                  </NavLink> */}
+                  </NavLink> 
 
                   <NavLink
                     to="/contact"
@@ -156,12 +156,12 @@ function Header() {
                 </Link>
                 
                 {/* PORTFOLIO IN PROGRESS */}
-                {/* <Link
+                <Link
                   to="/portfolio"
                   className="text-white mx-auto w-1/2 hover:bg-blitblue-500 hover:text-black block px-3 py-2 rounded-full text-lg font-medium"
                 >
                   Portfolio
-                </Link> */}
+                </Link>
 
                 <Link
                   to="/book"
