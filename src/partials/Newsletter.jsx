@@ -51,9 +51,9 @@ function Newsletter() {
                 {/* CTA form */}
                 <form className="w-full lg:w-auto"  onSubmit={handleOnSubmit}>
                   <div className="flex flex-col mx-10 lg:flex-row xl:flex-row 2xl:flex-row justify-center sm:max-w-xs sm:mx-auto sm:max-w-md">
-                    <div class="mx-auto">
-                      <input required type="email" name="user_email" class="input text-white" placeholder="Your email…" aria-label="Your email…"/>
-                      <span class="bar"></span>
+                    <div className="mx-auto">
+                      <input required type="email" name="user_email" className="input text-white" placeholder="Your email…" aria-label="Your email…"/>
+                      <span className="bar"></span>
                     </div>
                     <button type="submit" className="rounded-full btn max-w-[10rem] text-white bg-blitblue-400 hover:bg-blitblue-500 hover:text-blitblue-100 shadow mx-auto mt-4 lg:mt-0 xl:mt-0 2xl:mt-0" href="#0">Subscribe</button>
                   </div>

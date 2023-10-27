@@ -1,59 +1,144 @@
-import React, { useEffect, useRef } from "react";
-import $ from 'jquery'; // Ensure you've installed jQuery in your project
+import React, { useState, useEffect } from "react";
+import { HiChevronRight, HiChevronLeft } from "react-icons/hi";
+import {
+  BsWhatsapp,
+  BsFillHousesFill,
+  BsScissors,
+  BsPersonVideo,
+} from "react-icons/bs";
+import { HiChevronUp, HiChevronDown } from "react-icons/hi";
 
-function Portfolio() {
-  
-  // Create a reference for each option
-  const optionRefs = Array(6).fill().map(() => useRef());
+const isMobile = window.innerWidth <= 768; // You can adjust the breakpoint if needed
 
-  // On component mount, add event listeners
+const CARDS = 10;
+const MAX_VISIBILITY = 3;
+
+const Card = ({ name, label, icon, backgroundImage }) => (
+  <div className="car-card">
+    <div
+      className="cover-image flex h-full w-full"
+      style={{ backgroundImage }}
+    ></div>
+    <div className="icon-container mt-5 md:mt-8 flex flex-row">
+      <div className="icon my-1 h-8 w-8 md:h-14 md:w-14 text-sm md:text-lg">
+        {icon}
+      </div>
+      <div className="info-containter md:my-2">
+        <h2 className="text-md font-bold md:text-lg">{name}</h2>
+        <p className="text-sm md:text-md">{label}</p>
+      </div>
+    </div>
+  </div>
+);
+
+const Carousel = ({ children }) => {
+  const [active, setActive] = useState(2);
+  const count = React.Children.count(children);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
   useEffect(() => {
-    optionRefs.forEach((ref) => {
-      $(ref.current).click(function() {
-        $(".option").removeClass("active");
-        $(this).addClass("active");
-      });
-    });
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   return (
+    <div className="carousel">
+      {active > 0 && (
+        <button className="nav left" onClick={() => setActive((i) => i - 1)}>
+          {isMobile ? <HiChevronUp /> : <HiChevronLeft />}
+        </button>
+      )}
+      {React.Children.map(children, (child, i) => (
+        <div
+          className="car-card-container"
+          style={{
+            "--active": i === active ? 1 : 0,
+            "--offset": (active - i) / 3,
+            "--direction": Math.sign(active - i),
+            "--abs-offset": Math.abs(active - i) / 2,
+            "--vertical-direction": isMobile ? "1" : "0",
+            pointerEvents: active === i ? "auto" : "none",
+            opacity: Math.abs(active - i) >= MAX_VISIBILITY ? "0" : "1",
+            display: Math.abs(active - i) > MAX_VISIBILITY ? "none" : "block",
+          }}
+        >
+          {child}
+        </div>
+      ))}
+      {active < count - 1 && (
+        <button className="nav right" onClick={() => setActive((i) => i + 1)}>
+          {isMobile ? <HiChevronDown /> : <HiChevronRight />}
+        </button>
+      )}
+    </div>
+  );
+};
+
+function Portfolio() {
+  // Options data state.
+  const [options] = useState([
+    {
+      name: "Whatsapp Automation",
+      label: "Application Design",
+      icon: <BsWhatsapp />,
+      backgroundImage:
+        "url('src/images/Portfolio/WhatsappAutoDesign/cover.png')",
+    },
+
+    {
+      name: "Marrakesh Rentals",
+      label: "Website Design",
+      icon: <BsFillHousesFill />,
+      backgroundImage: "url('src/images/Portfolio/RiadMDesign/cover.png')",
+    },
+
+    {
+      name: "Personal Website",
+      label: "Web Development",
+      icon: <BsPersonVideo />,
+      backgroundImage:
+        "url('src/images/Portfolio/PersonalWebDesign/cover.png')",
+    },
+
+    {
+      name: "Arthur Razor",
+      label: "Website Design",
+      icon: <BsScissors />,
+      backgroundImage:
+        "url('src/images/Portfolio/ArthurRazorDesign/cover.png')",
+    },
+  ]);
+
+  return (
     <section className="relative">
-      <div
-        className="absolute inset-0 pointer-events-none mb-16"
-        aria-hidden="true"
-      ></div>
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="text-Axl lg:text-5xl font-bold mt-12 text-blitblue-400 pb-10">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blitblue-500 to-blitblue-400">Portfolio</span>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blitblue-500 to-blitblue-400">
+                Portfolio
+              </span>
             </h1>
-            {/* Add your HTML code here */}
-            <div className="options">
-              {/* Repeat this structure for each option, updating the styles and content as needed */}
-              {Array(6).fill().map((_, i) => (
-                <div 
-                  className={`option ${i === 0 ? 'active' : ''}`}
-                  style={{
-                    '--optionBackground': `url(https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg)`
-                  }}
-                  ref={optionRefs[i]}
-                  key={i}
-                >
-                  <div className="shadow"></div>
-                  <div className="label">
-                    <div className="icon">
-                      <i className="fas fa-walking"></i>
-                    </div>
-                    <div className="info">
-                      <div className="main">Blonkisoaz</div>
-                      <div className="sub">Omuke trughte a otufta</div>
-                    </div>
-                  </div>
-                </div>
-              ))}
+            <div className="justify-center mt-10 flex">
+              <Carousel>
+                {options.map((option, i) => (
+                  <Card
+                    key={i}
+                    name={option.name}
+                    label={option.label}
+                    icon={option.icon}
+                    backgroundImage={option.backgroundImage}
+                  />
+                ))}
+              </Carousel>
             </div>
-            <a href="http://victorofvalencia-blog.tumblr.com" target="_blank" rel="noreferrer" className="credit">Photos from Victor of Valencia on tumblr</a>
           </div>
         </div>
       </div>
