@@ -89,14 +89,14 @@ function Portfolio() {
       label: "Application Design",
       icon: <BsWhatsapp />,
       backgroundImage:
-        "url('src/images/Portfolio/WhatsappAutoDesign/cover.png')",
+        "url('https://github.com/Blitcore-Org/BlitCore/blob/master/src/images/Portfolio/WhatsappAutoDesign/cover.png?raw=true')",
     },
 
     {
       name: "Marrakesh Rentals",
       label: "Website Design",
       icon: <BsFillHousesFill />,
-      backgroundImage: "url('src/images/Portfolio/RiadMDesign/cover.png')",
+      backgroundImage: "url('https://github.com/Blitcore-Org/BlitCore/blob/8e1fe0c7f03fd740e95118d52c1a36d20c0dad70/src/images/Portfolio/RiadMDesign/cover.png?raw=true')",
     },
 
     {
@@ -104,7 +104,7 @@ function Portfolio() {
       label: "Web Development",
       icon: <BsPersonVideo />,
       backgroundImage:
-        "url('src/images/Portfolio/PersonalWebDesign/cover.png')",
+        "url('https://github.com/Blitcore-Org/BlitCore/blob/8e1fe0c7f03fd740e95118d52c1a36d20c0dad70/src/images/Portfolio/PersonalWebDesign/cover.png?raw=true')",
     },
 
     {
@@ -112,7 +112,7 @@ function Portfolio() {
       label: "Website Design",
       icon: <BsScissors />,
       backgroundImage:
-        "url('src/images/Portfolio/ArthurRazorDesign/cover.png')",
+        "url('https://github.com/Blitcore-Org/BlitCore/blob/8e1fe0c7f03fd740e95118d52c1a36d20c0dad70/src/images/Portfolio/ArthurRazorDesign/cover.png?raw=true')",
     },
   ]);
 
